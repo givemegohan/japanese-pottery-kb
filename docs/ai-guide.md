@@ -9,7 +9,9 @@
 ## ファイル構成
 
 - `index.html` — 公開サイト本体（GitHub Pages）。項目データはページ内に埋め込まれています。
-- `data/jomon-records.json` — 項目レコードの機械可読エクスポート（正本の構造化レコードからの自動生成）。
+- `wares.html` — 産地・窯の一覧ページ。
+- `data/jomon-records.json` — 縄文文様の項目レコードの機械可読エクスポート（正本の構造化レコードからの自動生成）。
+- `data/wares-records.json` — 産地・窯レコードの機械可読エクスポート。レコードの形式は縄文文様と同じです。
 - `docs/ai-guide.md` — この文書。
 
 ## レコードの読み方
