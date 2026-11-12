@@ -197,7 +197,7 @@ function qaSelect(question,max){
   INDEX.forEach(e=>{
     let m=0;bg.forEach(b=>{if(e.text.indexOf(b)>=0)m++;});
     const tt=norm(e.title);const th=tt.length>=2&&nq.indexOf(tt)>=0;
-    const s=m+(th?6:0);
+    const segs=tt.split(/[・（/]/).filter(x=>x.length>=2);const sh=segs.some(x=>nq.indexOf(x)>=0);const s=m+(th?6:(sh?4:0));
     if(th||m>=3)scored.push({e:e,s:s});
   });
   if(!scored.length)return [];
