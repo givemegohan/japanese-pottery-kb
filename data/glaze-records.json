@@ -4,7 +4,7 @@
  "stats": {
   "records": 100,
   "claims": 443,
-  "sources": 196
+  "sources": 183
  },
  "sources": {
   "maruni-kisoyu": {
@@ -18,10 +18,6 @@
   "maruni-dentou": {
    "label": "丸二陶料株式会社「伝統産地釉薬」（メーカー公式）",
    "url": "http://02-maruni.sun.bindcloud.jp/cn2/dentousanchiyu.html"
-  },
-  "maruni-mingei": {
-   "label": "丸二陶料株式会社「民芸釉薬」（メーカー公式）",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn2/mingeiyu.html"
   },
   "maruni-apg": {
    "label": "丸二陶料株式会社「天然灰調合釉薬 APG71〜83」（メーカー公式）",
@@ -42,10 +38,6 @@
   "aichi-tokoname": {
    "label": "あいち産業科学技術総合センター「有色せっ器素地用釉薬の開発」（研究報告）",
    "url": "https://www.aichi-inst.jp/tokoname/research/report/9T2.pdf"
-  },
-  "ibaraki-feldspar": {
-   "label": "茨城県工業技術センター「長石の種類による釉性状の変化」（研究報告）",
-   "url": "https://www.itic.pref.ibaraki.jp/publication/doc/research/h11/N28P063.pdf"
   },
   "mie-bidoro": {
    "label": "三重県窯業研究室伊賀分室「伊賀焼ビードロ釉の開発」（研究報告）",
@@ -147,10 +139,6 @@
    "label": "Wikipedia「かいらぎ」",
    "url": "https://ja.wikipedia.org/wiki/かいらぎ"
   },
-  "kogei-guide": {
-   "label": "日本工芸会「陶芸ガイド Ceramics」（釉薬・技法・用語の解説）",
-   "url": "https://www.nihonkogeikai.or.jp/en/ceramics"
-  },
   "okinawa-tsuboya-glaze": {
    "label": "沖縄県工業技術センター研究報告『壺屋焼の釉薬』（2018）",
    "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/003/272/2018_p016_web.pdf"
@@ -207,10 +195,6 @@
    "label": "陶路『瀬戸黒の技法』",
    "url": "https://touroji.com/technique/setoguronogihou.html"
   },
-  "maruni-dentou-batch": {
-   "label": "丸二陶料 公式サイト『伝統産地釉薬』",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn2/dentousanchiyu.html"
-  },
   "maruni-mingei-batch": {
    "label": "丸二陶料 公式サイト『民芸釉薬』",
    "url": "http://02-maruni.sun.bindcloud.jp/cn2/mingeiyu.html"
@@ -218,10 +202,6 @@
   "maruni-kotouji": {
    "label": "丸二陶料 公式サイト『古陶磁釉薬』",
    "url": "http://02-maruni.sun.bindcloud.jp/cn2/kotoujiyu.html"
-  },
-  "maruni-apg-batch": {
-   "label": "丸二陶料 公式サイト『天然灰調合釉薬 APGシリーズ』",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn2/apg71-83.html"
   },
   "maruni-hpg": {
    "label": "丸二陶料 公式サイト『HPG・新世紀釉シリーズ』",
@@ -231,10 +211,6 @@
    "label": "陶芸.com『液体釉薬』カテゴリ",
    "url": "https://www.tougei.com/shop/c/c71K001_sg_p2"
   },
-  "maruni-dentou-batchx": {
-   "label": "丸二陶料株式会社「伝統産地釉薬」（メーカー公式カタログ、CCG織部釉・MG紅志野釉ほか）",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn2/dentousanchiyu.html"
-  },
   "maruni-gendai": {
    "label": "丸二陶料株式会社「現代陶磁釉薬」（メーカー公式カタログ、BCG青銅釉・トルコ青釉、BNGトルコ青結晶釉ほか）",
    "url": "http://02-maruni.sun.bindcloud.jp/cn2/gendaitoujiyu.html"
@@ -242,10 +218,6 @@
   "maruni-hpg-batch": {
    "label": "丸二陶料株式会社「HPGシリーズ釉薬② HPG11-20」（メーカー公式カタログ、青銅釉・トルコ青釉・辰砂釉・白マット釉）",
    "url": "http://02-maruni.sun.bindcloud.jp/cn2/hpg11-20.html"
-  },
-  "maruni-kiso": {
-   "label": "丸二陶料株式会社「基礎釉」（メーカー公式カタログ、粉末基礎釉X-1〜X-6）",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn2/kisoyu.html"
   },
   "maruni-shiromatto": {
    "label": "丸二陶料株式会社「白艶消釉薬・マット釉」（メーカー公式カタログ、FR・MG白マット系列）",
@@ -427,10 +399,6 @@
    "label": "陶芸百貨店 by 彩里陶材「釉薬用原料」",
    "url": "https://www.tougeisairi.com/category/1268675.html"
   },
-  "tokoname-genryo": {
-   "label": "常滑焼関連サイト「釉薬の原料」",
-   "url": "http://www.tokoname.or.jp/glaze/genryo.htm"
-  },
   "tokoname-nephelin": {
    "label": "常滑焼関連サイト「霞石閃長岩（ネフェリン・サイヤナイト）」",
    "url": "http://tokoname.or.jp/glaze/nephelin.htm"
@@ -562,10 +530,6 @@
   "tokoname-zno": {
    "label": "常滑（tokoname.or.jp）「亜鉛結晶釉について」",
    "url": "http://www.tokoname.or.jp/glaze/znosio2.htm"
-  },
-  "tokoname-shinsha": {
-   "label": "常滑（tokoname.or.jp）「辰砂釉・均窯釉」",
-   "url": "http://www.tokoname.or.jp/glaze/shinsha.htm"
   },
   "tokoname-hanbai": {
    "label": "常滑（tokoname.or.jp）「釉薬及び原料の販売」",
@@ -715,14 +679,6 @@
    "label": "太平窯業薬品株式会社（太平化学産業）窯業薬品・販売製品一覧",
    "url": "https://www.taihei-chem.co.jp/taihei-ceramics"
   },
-  "maruni-genryo-batch": {
-   "label": "丸二陶料株式会社 釉薬原料（メーカー公式カタログ）",
-   "url": "http://02-maruni.sun.bindcloud.jp/cn8/yuuyakugenryou.html"
-  },
-  "tougei-dept-genryo6-batch": {
-   "label": "陶芸百貨店 by 彩里陶材 釉薬用原料・乳濁鉱化系材料",
-   "url": "https://www.tougei-dept.com/yuyaku-genryo6"
-  },
   "tougei-dept-genryo10": {
    "label": "陶芸百貨店 by 彩里陶材 釉薬用原料・中低温度熔解材料",
    "url": "https://www.tougei-dept.com/yuyaku-genryo10"
@@ -730,10 +686,6 @@
   "tougei-dept-genryo4": {
    "label": "陶芸百貨店 by 彩里陶材 釉薬用原料・石粉、粘土質（含鉄）系材料",
    "url": "https://www.tougei-dept.com/yuyaku-genryo4"
-  },
-  "tougeisairi-category": {
-   "label": "陶芸百貨店（彩里陶材）釉薬用原料一覧ページ",
-   "url": "https://www.tougeisairi.com/category/1268675.html"
   },
   "tougei-com-genryo-batch": {
    "label": "陶芸.com 釉薬原料カテゴリ",
@@ -786,10 +738,6 @@
   "kasamashiko-ashinuma": {
    "label": "日本遺産 笠間・益子「芦沼石採石場（Ashinuma Stone Quarry）」",
    "url": "https://kasamashiko.style/en/point/detail/38/"
-  },
-  "aikobo-genryo-batch": {
-   "label": "あい工房株式会社 釉薬原料リスト",
-   "url": "http://aikb.xsrv.jp/wp-content/uploads/2017/04/gennryo.pdf"
   }
  },
  "records": [
@@ -1017,7 +965,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ibaraki-feldspar"
+      "ibaraki-h11"
      ]
     }
    ],
@@ -1262,7 +1210,7 @@
      ]
     },
     {
-     "text": "日陶産業の天然灰釉薬は、天然土灰・ワラ灰・柞灰等を主原料として調合し湿式細磨した乾粉で、SK8〜SK10・1250〜1300度焼成を標準とする",
+     "text": "日陶産業の天然灰釉薬は、天然土灰・ワラ灰・柞灰等を主原料として調合し湿式細磨した乾粉で、SK8〜SK10・1250〜1300℃焼成を標準とする",
      "level": "E1",
      "status": "established",
      "sources": [
@@ -1458,7 +1406,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-mingei"
+      "maruni-mingei-batch"
      ]
     }
    ],
@@ -1466,7 +1414,7 @@
    "market": {
     "text": "液体が中心で、丸二陶料 DV-1 うのふ釉は1L 5,830円と高価格帯、陶芸シンリュウの自社製造液体うのふ釉は1L 2,860円（公称の焼成温度 1230〜1250℃）。粉末では成和陶材のうのふ釉1kg 2,310円（公称の焼成温度 1220〜1250℃）がある（2026年11月時点）",
     "sources": [
-     "maruni-mingei",
+     "maruni-mingei-batch",
      "shinryu-unofu",
      "seiwa-unofu"
     ]
@@ -1525,7 +1473,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-mingei",
+      "maruni-mingei-batch",
       "maruni-apg"
      ]
     }
@@ -1534,7 +1482,7 @@
    "market": {
     "text": "液体（丸二陶料 DV-3 ビードロ釉 1L 2,530円）と粉末（丸二陶料 APG-73 松灰ビードロ釉 1kg 3,410円）の両形態で流通する（2026年11月時点）",
     "sources": [
-     "maruni-mingei",
+     "maruni-mingei-batch",
      "maruni-apg"
     ]
    },
@@ -1808,16 +1756,16 @@
      ]
     },
     {
-     "text": "透明釉に鉄またはマンガンを5〜10％加えて酸化で焼くと褐色の飴釉となり、鉄やマンガンの量が多すぎると天目あるいはマット調の鉄砂になる",
+     "text": "透明釉に鉄またはマンガンを5〜10%加えて酸化で焼くと褐色の飴釉となり、鉄やマンガンの量が多すぎると天目あるいはマット調の鉄砂になる",
      "level": "E4",
      "status": "established",
      "sources": [
       "tokoname-glaze-ame"
      ],
-     "note": "常滑焼の実務資料による調合の目安。同資料には酸化鉄5〜7％の調合例と1200〜1250℃の焼成帯が併記される"
+     "note": "常滑焼の実務資料による調合の目安。同資料には酸化鉄5〜7%の調合例と1200〜1250℃の焼成帯が併記される"
     },
     {
-     "text": "笠間焼の配合試験では、含鉄土石と合成土灰の系で土灰が30〜40％程度の範囲に、飴釉と呼べる茶色の光沢釉が得られた（焼成は最高1230〜1250℃）",
+     "text": "笠間焼の配合試験では、含鉄土石と合成土灰の系で土灰が30〜40%程度の範囲に、飴釉と呼べる茶色の光沢釉が得られた（焼成は最高1230〜1250℃）",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -1839,7 +1787,7 @@
    "market": {
     "text": "丸二陶料の伝統産地釉薬にCFG-7 一号飴釉（液体1L 2,090円・税込、目安温度1230〜1250℃、酸化・還元とも最適と公称）と、CNG-16 四号飴釉（液体1L 1,980円・税込、目安温度1200〜1280℃）がある（2026年11月時点）。",
     "sources": [
-     "maruni-dentou-batch"
+     "maruni-dentou"
     ]
    },
    "unknowns": [
@@ -1863,11 +1811,11 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "kogei-guide"
+      "kogei-guide-batch"
      ]
     },
     {
-     "text": "笠間焼の配合試験では、含鉄土石が50％以上で合成土灰が10〜20％の比較的広い範囲に、酸化焼成でも光沢のある黒釉が得られ、含鉄土石の割合が減ると茶色味を増した",
+     "text": "笠間焼の配合試験では、含鉄土石が50%以上で合成土灰が10〜20%の比較的広い範囲に、酸化焼成でも光沢のある黒釉が得られ、含鉄土石の割合が減ると茶色味を増した",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -1930,7 +1878,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "kogei-guide"
+      "kogei-guide-batch"
      ]
     },
     {
@@ -1972,7 +1920,7 @@
    "market": {
     "text": "丸二陶料の伝統産地釉薬にCFG-2 柚子肌黒天目釉（液体1L 2,860円・税込、目安温度1240〜1260℃、酸化・還元とも最適と公称）があり、古陶磁釉薬・民芸釉薬にも黒天目系の種別が複数収載される（2026年11月時点）。",
     "sources": [
-     "maruni-dentou-batch",
+     "maruni-dentou",
      "maruni-kotouji",
      "maruni-mingei-batch"
     ]
@@ -2055,11 +2003,11 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "kogei-guide"
+      "kogei-guide-batch"
      ]
     },
     {
-     "text": "笠間焼の配合試験では、還元焼成（含鉄土石50％以上・合成土灰0〜20％の範囲）で、柿釉と呼べる渋味のある茶褐色のマット調の釉薬が得られた",
+     "text": "笠間焼の配合試験では、還元焼成（含鉄土石50%以上・合成土灰0〜20%の範囲）で、柿釉と呼べる渋味のある茶褐色のマット調の釉薬が得られた",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -2112,7 +2060,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "kogei-guide"
+      "kogei-guide-batch"
      ]
     },
     {
@@ -2124,7 +2072,7 @@
      ]
     },
     {
-     "text": "笠間焼の配合試験では、含鉄土石と合成土灰の系で土灰が50％以上になると、うぐいす色〜渋い黄色で伊羅保釉や条痕釉に分類できる釉薬が得られた",
+     "text": "笠間焼の配合試験では、含鉄土石と合成土灰の系で土灰が50%以上になると、うぐいす色〜渋い黄色で伊羅保釉や条痕釉に分類できる釉薬が得られた",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -2188,7 +2136,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-dentou-batch"
+      "maruni-dentou"
      ]
     },
     {
@@ -2206,11 +2154,11 @@
    "market": {
     "text": "丸二陶料の伝統産地釉薬CFG-40 瀬戸黒釉（液体1L 3,740円・税込、10L・18Lの大容量品もある）が代表的な市販品である（2026年11月時点）。",
     "sources": [
-     "maruni-dentou-batch"
+     "maruni-dentou"
     ]
    },
    "unknowns": [
-    "瀬戸黒釉の鉄分量については約10％との推察が流通するが、公的出典で確認できる数値としては未確認であり、数値としては採用しない"
+    "瀬戸黒釉の鉄分量については約10%との推察が流通するが、公的出典で確認できる数値としては未確認であり、数値としては採用しない"
    ],
    "updated": "2026-11-12"
   },
@@ -2263,7 +2211,7 @@
    "market": {
     "text": "丸二陶料の伝統産地釉薬CV-9 唐津釉（液体1L 2,200円・税込、目安温度1220〜1240℃、酸化・還元とも最適と公称、「素地色に留意」の注意書きつき）があり、陶芸.comでも唐津釉の液体2L品が販売される（2026年11月時点）。",
     "sources": [
-     "maruni-dentou-batch",
+     "maruni-dentou",
      "tougei-com-liquid"
     ]
    },
@@ -2349,7 +2297,7 @@
      ]
     },
     {
-     "text": "青磁釉の性状試験では着色剤として酸化第一鉄を1％添加した系が用いられ、珪石分が増加すると青味の増す傾向、アルミナが増加すると緑味が顕れる傾向が報告された",
+     "text": "青磁釉の性状試験では着色剤として酸化第一鉄を1%添加した系が用いられ、珪石分が増加すると青味の増す傾向、アルミナが増加すると緑味が顕れる傾向が報告された",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -2357,7 +2305,7 @@
      ]
     },
     {
-     "text": "実務的な焼成試験に用いられた青磁釉の調合例では、長石79・石灰石11・カオリン8・珪石3の基礎釉に、酸化第二鉄1.2％（外割）と珪酸鉄2％が加えられている",
+     "text": "実務的な焼成試験に用いられた青磁釉の調合例では、長石79・石灰石11・カオリン8・珪石3の基礎釉に、酸化第二鉄1.2%（外割）と珪酸鉄2%が加えられている",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -2369,7 +2317,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-apg-batch"
+      "maruni-apg"
      ]
     }
    ],
@@ -2379,13 +2327,13 @@
    "market": {
     "text": "丸二陶料の天然灰調合粉末APG-72 透明絹青磁釉（粉末1kg 4,070円・税込、目安温度1250℃、還元が最適と公称）、陶芸.comの天竜寺青磁釉（液体2L 2,640円・税込）や青磁釉（液体2L）など、粉末・液体の両形態で販売される（2026年11月時点）。",
     "sources": [
-     "maruni-apg-batch",
+     "maruni-apg",
      "tougei-com-liquid"
     ]
    },
    "unknowns": [
     "藩窯（鍋島など）の青磁釉の調合に関する公開資料は未確認",
-    "青磁釉の鉄分の上限（何％までを青磁と呼ぶか）の統一的な基準は未確認"
+    "青磁釉の鉄分の上限（何%までを青磁と呼ぶか）の統一的な基準は未確認"
    ],
    "updated": "2026-11-12"
   },
@@ -2429,7 +2377,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-dentou-batchx"
+      "maruni-dentou"
      ]
     },
     {
@@ -2447,7 +2395,7 @@
    "market": {
     "text": "丸二陶料の伝統産地釉薬シリーズ（液体釉）CCG-1〜5「織部釉1〜5号」が代表系列で、1L 1,870〜4,290円（税込、製品により異なる）。陶芸ショップ.コム・楽天市場でも織部釉の粉末・液体が取り扱われる。いずれも2026年11月時点。",
     "sources": [
-     "maruni-dentou-batchx"
+     "maruni-dentou"
     ]
    },
    "unknowns": [
@@ -2606,7 +2554,7 @@
      ]
     },
     {
-     "text": "透明な基礎釉に銅分を1〜2％加えて還元焼成すると血のような赤色の辰砂釉ができ、発色の補助として酸化錫を2〜3％加える",
+     "text": "透明な基礎釉に銅分を1〜2%加えて還元焼成すると血のような赤色の辰砂釉ができ、発色の補助として酸化錫を2〜3%加える",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -2897,7 +2845,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-dentou-batchx",
+      "maruni-dentou",
       "tougei-liquid"
      ]
     }
@@ -2908,7 +2856,7 @@
    "market": {
     "text": "丸二陶料MG-1紅志野釉は液体1L 1,870円（税込）。陶芸.comでは志野釉2L 2,464円、灰志野釉2L 2,816円、志野貫入釉2L 2,640円（いずれも液体・税込）。陶芸ショップ.コムには粉末のそば志野釉（Yシリーズ）がある。いずれも2026年11月時点。",
     "sources": [
-     "maruni-dentou-batchx",
+     "maruni-dentou",
      "tougei-liquid"
     ]
    },
@@ -3012,7 +2960,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-kiso"
+      "maruni-kisoyu"
      ]
     },
     {
@@ -3039,7 +2987,7 @@
    "market": {
     "text": "丸二陶料では粉末基礎釉X-6白マット釉 1kg 990円、液体HPG-17白マット釉 1L 3,190円（いずれも税込）。陶芸シンリュウでも日本陶料の粉末白マット釉が取り扱われる。いずれも2026年11月時点。",
     "sources": [
-     "maruni-kiso",
+     "maruni-kisoyu",
      "maruni-hpg-batch",
      "shinryu-powder"
     ]
@@ -3207,7 +3155,7 @@
      "note": "愛知県瀬戸窯業技術センターの研究条件（中火度・リサイクル素地用の一例）"
     },
     {
-     "text": "調合の一例として、石灰立ての透明釉に亜鉛華を外割15〜20％前後加える方法が紹介されている",
+     "text": "調合の一例として、石灰立ての透明釉に亜鉛華を外割15〜20%前後加える方法が紹介されている",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -3256,7 +3204,7 @@
    "summary": "酸化チタンを結晶剤とする結晶釉。市販品ではアイボリー色の地に黄色い結晶が現れるものが知られ、釉の厚さと温度で結晶の出方が変わる。流れやすい釉とされる。",
    "claims": [
     {
-     "text": "チタン結晶釉は酸化チタンを用いた結晶釉で、酸化チタン外割5〜10％前後の添加が紹介されている",
+     "text": "チタン結晶釉は酸化チタンを用いた結晶釉で、酸化チタン外割5〜10%前後の添加が紹介されている",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -3462,7 +3410,7 @@
      ]
     },
     {
-     "text": "陶磁器製の器具・容器包装には食品衛生法の規格基準（告示第370号）で鉛の溶出限度が定められ、4％酢酸を満たして常温・暗所に24時間放置する溶出試験による。陶磁器の鉛の限度は、容量1.1L未満のもので2µg/mL、1.1L以上3L未満で1µg/mL、3L以上で0.5µg/mL、液体を満たせないもの又は深さ2.5cm未満のもので8µg/cm²である",
+     "text": "陶磁器製の器具・容器包装には食品衛生法の規格基準（告示第370号）で鉛の溶出限度が定められ、4%酢酸を満たして常温・暗所に24時間放置する溶出試験による。陶磁器の鉛の限度は、容量1.1L未満のもので2µg/mL、1.1L以上3L未満で1µg/mL、3L以上で0.5µg/mL、液体を満たせないもの又は深さ2.5cm未満のもので8µg/cm²である",
      "level": "E1",
      "status": "established",
      "sources": [
@@ -3937,7 +3885,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-genryo"
+      "tokoname-genryo-batch"
      ]
     },
     {
@@ -3945,7 +3893,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-genryo"
+      "tokoname-genryo-batch"
      ]
     },
     {
@@ -3969,7 +3917,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-genryo"
+      "tokoname-genryo-batch"
      ]
     }
    ],
@@ -4010,7 +3958,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-genryo"
+      "tokoname-genryo-batch"
      ]
     },
     {
@@ -4068,7 +4016,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-genryo"
+      "tokoname-genryo-batch"
      ]
     },
     {
@@ -5627,7 +5575,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-shinsha"
+      "tokoname-glaze"
      ]
     },
     {
@@ -5951,7 +5899,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "tokoname-shinsha"
+      "tokoname-glaze"
      ]
     },
     {
@@ -6117,11 +6065,11 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougei-dept-genryo6-batch"
+      "tougei-dept-genryo6"
      ]
     },
     {
-     "text": "骨灰の主成分はリン酸三カルシウム（ハイドロキシアパタイト）で、分析例ではCaO約55.8％、P2O5約42.4％とされる",
+     "text": "骨灰の主成分はリン酸三カルシウム（ハイドロキシアパタイト）で、分析例ではCaO約55.8%、P2O5約42.4%とされる",
      "level": "E3",
      "status": "established",
      "sources": [
@@ -6129,7 +6077,7 @@
      ]
     },
     {
-     "text": "メーカー（太平窯業薬品）は太平骨灰の使用量の目安として、ボーンチャイナ30％、釉薬10％を示している",
+     "text": "メーカー（太平窯業薬品）は太平骨灰の使用量の目安として、ボーンチャイナ30%、釉薬10%を示している",
      "level": "E1",
      "status": "established",
      "sources": [
@@ -6137,7 +6085,7 @@
      ]
     },
     {
-     "text": "ボーンチャイナはリン酸カルシウムを含む磁器で、日本工業規格（JIS）ではリン酸カルシウムの含有率30％以上と定められている",
+     "text": "ボーンチャイナはリン酸カルシウムを含む磁器で、日本工業規格（JIS）ではリン酸カルシウムの含有率30%以上と定められている",
      "level": "E3",
      "status": "established",
      "sources": [
@@ -6149,7 +6097,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougei-dept-genryo6-batch"
+      "tougei-dept-genryo6"
      ]
     }
    ],
@@ -6157,7 +6105,7 @@
    "market": {
     "text": "骨灰（太平製）1kg 税込1,540円（陶芸百貨店）、天然骨灰1kg 880円（陶芸.com）。合成骨灰にあたる第二燐酸カルシウムは1kg 1,265円（陶芸百貨店）・1,815円（陶芸シンリュウ）。2026年11月時点",
     "sources": [
-     "tougei-dept-genryo6-batch",
+     "tougei-dept-genryo6",
      "tougei-com-kotsubai",
      "shinryu-kotsubai"
     ]
@@ -6199,7 +6147,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougei-dept-genryo6-batch"
+      "tougei-dept-genryo6"
      ]
     },
     {
@@ -6207,7 +6155,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-genryo-batch"
+      "maruni-genryo"
      ]
     }
    ],
@@ -6215,8 +6163,8 @@
    "market": {
     "text": "蛍石粉1kg 税込935円（陶芸百貨店）。丸二陶料のホタル石は1kg 1,430円・20kg 25,630円。2026年11月時点",
     "sources": [
-     "tougei-dept-genryo6-batch",
-     "maruni-genryo-batch"
+     "tougei-dept-genryo6",
+     "maruni-genryo"
     ]
    },
    "unknowns": [
@@ -6373,7 +6321,7 @@
      ]
     },
     {
-     "text": "陶磁器製の器具・容器包装には食品衛生法に基づく規格基準で鉛の溶出限度が定められており（陶磁器製で容量1.1L未満の区分は2μg/ml等）、溶出試験は4％酢酸を満たして24時間放置する方法で行われる",
+     "text": "陶磁器製の器具・容器包装には食品衛生法に基づく規格基準で鉛の溶出限度が定められており（陶磁器製で容量1.1L未満の区分は2μg/ml等）、溶出試験は4%酢酸を満たして24時間放置する方法で行われる",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -6489,7 +6437,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-genryo-batch"
+      "maruni-genryo"
      ]
     },
     {
@@ -6543,7 +6491,7 @@
      "note": "伝承としての記録"
     },
     {
-     "text": "鉄分14〜15％と鉄を多く含有し、アルカリ分も含有しているので低温で溶けやすい性質があり、楽釉の主要原料として使用すると販売店は説明する",
+     "text": "鉄分14〜15%と鉄を多く含有し、アルカリ分も含有しているので低温で溶けやすい性質があり、楽釉の主要原料として使用すると販売店は説明する",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6555,7 +6503,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-genryo-batch"
+      "maruni-genryo"
      ]
     }
    ],
@@ -6563,7 +6511,7 @@
    "market": {
     "text": "丸二陶料では「在庫限りで販売終了」と表示（1kg 税込3,410円、25kgは販売終了）。陶芸百貨店では「賀茂川石粉」1kg 税込1,892円だが品切表示。2026年11月時点",
     "sources": [
-     "maruni-genryo-batch",
+     "maruni-genryo",
      "tougei-dept-genryo4"
     ]
    },
@@ -6581,7 +6529,7 @@
    "type": "material",
    "kind": "石粉・含鉄素材",
    "layer": "core",
-   "summary": "島根県松江市の来待石を粉末にした含鉄素材。来待石は中新世の大森層に属する砂岩系の石材で、粉末は鉄分5〜7％を含み鉄釉の原料として販売される。来待釉薬は石州瓦や石見焼の釉薬にも利用されてきた。",
+   "summary": "島根県松江市の来待石を粉末にした含鉄素材。来待石は中新世の大森層に属する砂岩系の石材で、粉末は鉄分5〜7%を含み鉄釉の原料として販売される。来待釉薬は石州瓦や石見焼の釉薬にも利用されてきた。",
    "claims": [
     {
      "text": "来待石は島根県松江市宍道町来待一帯で採石される石材で、新生代新第三紀中期中新世の大森層に属し、安山岩質な砕屑物を主体とする塊状砂岩である",
@@ -6608,7 +6556,7 @@
      ]
     },
     {
-     "text": "陶芸原料としては鉄分5〜7％を含み、鉄釉の原料として使用すると販売店は説明する",
+     "text": "陶芸原料としては鉄分5〜7%を含み、鉄釉の原料として使用すると販売店は説明する",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6621,7 +6569,7 @@
     "text": "来待石粉1kg 税込561円（陶芸百貨店）。丸二陶料では1kg 550円・25kg 9,350円。2026年11月時点",
     "sources": [
      "tougei-dept-genryo4",
-     "maruni-genryo-batch"
+     "maruni-genryo"
     ]
    },
    "unknowns": [
@@ -6657,7 +6605,7 @@
      ]
     },
     {
-     "text": "益子赤粉〈芦沼石粉〉は珪酸分を多く含有するうえに酸化鉄も含有する原料で、鉄分6〜7％、柿釉や黒釉の原料として使用すると販売店は説明する",
+     "text": "益子赤粉〈芦沼石粉〉は珪酸分を多く含有するうえに酸化鉄も含有する原料で、鉄分6〜7%、柿釉や黒釉の原料として使用すると販売店は説明する",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6679,7 +6627,7 @@
     "sources": [
      "tougei-dept-genryo4",
      "tougei-com-genryo-batch",
-     "maruni-genryo-batch"
+     "maruni-genryo"
     ]
    },
    "unknowns": [
@@ -6707,7 +6655,7 @@
      ]
     },
     {
-     "text": "瀬戸黄土の鉄分は15〜17％とされる",
+     "text": "瀬戸黄土の鉄分は15〜17%とされる",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6753,7 +6701,7 @@
    "type": "material",
    "kind": "石粉・含鉄素材",
    "layer": "core",
-   "summary": "美濃地方で産出される褐鉄鉱を主成分とする含鉄原料の粉末（鬼板粉）。鉄分25〜27％と高く、下絵具の茶や黒のほか鉄釉系の材料として扱われる。",
+   "summary": "美濃地方で産出される褐鉄鉱を主成分とする含鉄原料の粉末（鬼板粉）。鉄分25〜27%と高く、下絵具の茶や黒のほか鉄釉系の材料として扱われる。",
    "claims": [
     {
      "text": "鬼板粉Bは美濃地方で産出される褐鉄鉱を主成分とする原料である",
@@ -6764,7 +6712,7 @@
      ]
     },
     {
-     "text": "鬼板粉の鉄分は25〜27％とされる",
+     "text": "鬼板粉の鉄分は25〜27%とされる",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6792,7 +6740,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "maruni-genryo-batch"
+      "maruni-genryo"
      ]
     }
    ],
@@ -6801,7 +6749,7 @@
     "text": "鬼板粉A 1kg 税込2,530円・鬼板粉B 1kg 税込2,585円（陶芸百貨店）、極上鬼板粉1kg 2,200円（丸二陶料）。2026年11月時点",
     "sources": [
      "tougei-dept-genryo4",
-     "maruni-genryo-batch"
+     "maruni-genryo"
     ]
    },
    "unknowns": [
@@ -6829,7 +6777,7 @@
      ]
     },
     {
-     "text": "塩化マグネシウム粉末は釉薬沈殿防止剤として、釉薬乾粉重量に対し0.5％くらい添加すると説明される",
+     "text": "塩化マグネシウム粉末は釉薬沈殿防止剤として、釉薬乾粉重量に対し0.5%くらい添加すると説明される",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -6841,11 +6789,11 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "aikobo-genryo-batch"
+      "aikobo-genryo"
      ]
     },
     {
-     "text": "メーカー（太平化学産業）は窯業用の解膠剤（ディーフ等）を販売し、使用量0.2％を示している",
+     "text": "メーカー（太平化学産業）は窯業用の解膠剤（ディーフ等）を販売し、使用量0.2%を示している",
      "level": "E1",
      "status": "established",
      "sources": [
@@ -6866,7 +6814,7 @@
     "text": "塩化マグネシウム粉末500g 2,612円（陶芸.com）など、機能別に小容量で販売される。丸二陶料の原料サイトにも「釉薬調整剤」「釉薬熔融調整剤」のカテゴリがある。2026年11月時点",
     "sources": [
      "tougei-com-genryo-batch",
-     "maruni-genryo-batch"
+     "maruni-genryo"
     ]
    },
    "unknowns": [
@@ -6890,7 +6838,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougeisairi-category"
+      "tougei-dept-genryo"
      ]
     },
     {
@@ -6898,7 +6846,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougeisairi-category"
+      "tougei-dept-genryo"
      ]
     },
     {
@@ -6906,7 +6854,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougei-dept-genryo6-batch"
+      "tougei-dept-genryo6"
      ]
     },
     {
@@ -6914,7 +6862,7 @@
      "level": "E4",
      "status": "established",
      "sources": [
-      "tougeisairi-category"
+      "tougei-dept-genryo"
      ]
     }
    ],
@@ -6922,7 +6870,7 @@
    "market": {
     "text": "三酸化モリブデン100g 税込6,600円、三酸化タングステン100g 税込5,060円（いずれも陶芸百貨店／彩里陶材、在庫僅少の表示あり）。2026年11月時点",
     "sources": [
-     "tougeisairi-category"
+     "tougei-dept-genryo"
     ]
    },
    "unknowns": [

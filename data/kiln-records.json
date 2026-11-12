@@ -4,7 +4,7 @@
  "stats": {
   "records": 41,
   "claims": 186,
-  "sources": 69
+  "sources": 63
  },
  "sources": {
   "nidec-catalog": {
@@ -46,10 +46,6 @@
   "shinryu-gas-manual": {
    "label": "シンリュウ株式会社「プロパンガス窯（強制燃焼式）取扱説明書」（公式PDF）",
    "url": "https://shinryu.co.jp/pdf/propane-gas_forced.pdf"
-  },
-  "ceramics-assoc": {
-   "label": "日本セラミックス協会「日本のやきもの／日本の窯」（セラミックス博物館）",
-   "url": "https://www.ceramic.or.jp/museum/yakimono/contents/yakimononokama.html"
   },
   "maruni": {
    "label": "丸二陶料株式会社（公式サイト）",
@@ -107,11 +103,6 @@
    "url": "https://www.tokoname-tounomori.jp/wp-content/uploads/2021/06/minzokusiryoukan_kenkyukiyou03.pdf",
    "level": "E2"
   },
-  "tfd-co": {
-   "label": "東京消防庁「住宅で起きる一酸化炭素中毒事故に注意！」",
-   "url": "https://www.tfd.metro.tokyo.lg.jp/lfe/nichijo/co.html",
-   "level": "E2"
-  },
   "nihonmono-kamahachi": {
    "label": "NIHONMONO「陶房窯八／山梨県北杜市」（2024-10-29）",
    "url": "https://nihonmono.jp/article/50028/",
@@ -135,11 +126,6 @@
   "nitto-manual": {
    "label": "日陶産業株式会社「手回しろくろ」（BWシリーズの公式仕様表）",
    "url": "https://www.nitto-nsk.co.jp/product/hobby/manual-potters-wheel.html",
-   "level": "E1"
-  },
-  "nidec-catalog-batch": {
-   "label": "ニデックドライブテクノロジー株式会社 公式製品検索「陶芸機器」",
-   "url": "https://www.nidec.com/jp/nidec-drivetechnology/product/search/category/B110/M101/",
    "level": "E1"
   },
   "nidec-rk3e": {
@@ -216,10 +202,6 @@
    "label": "陶芸ショップ.コム「オルトンコーン」カテゴリ",
    "url": "https://www.tougeishop.com/products/list.php?category_id=53"
   },
-  "nitto-small-kiln": {
-   "label": "日陶産業株式会社 公式「小型電気窯・灯油窯」（DMT-01／DUA-01／KTB-70・90 仕様表）",
-   "url": "https://www.nitto-nsk.co.jp/product/hobby/small-electric-kiln.html"
-  },
   "toki-kamadougu": {
    "label": "土岐市文化振興事業団 展示資料「窯道具の使い方」",
    "url": "http://www.toki-bunka.or.jp/tokibunka/wp-content/uploads/2023/12/99c957ef66a115943fd437f4fbc11535.pdf"
@@ -260,17 +242,9 @@
    "label": "ニデックドライブテクノロジー 陶芸総合カタログ（公式PDF）",
    "url": "https://www.nidec.com/files/user/www-nidec-com/nidec-drivetechnology/product/download/catalogs_pdf/tougei/TougeiSougou_77550AK.pdf"
   },
-  "shinryu-batch": {
-   "label": "シンリュウ株式会社 公式サイト（ガス窯の種類）",
-   "url": "https://www.shinryu.co.jp/"
-  },
   "hse-kilns": {
    "label": "英国HSE「Kilns in schools and craft studios」",
    "url": "https://www.hse.gov.uk/non-metallic-minerals/kilns-in-schools.htm"
-  },
-  "hse-cr5": {
-   "label": "英国HSE COSHH essentials CR5「Spraying glazes and colours」（2019）",
-   "url": "https://www.hse.gov.uk/pubnS/guidance/cr5.pdf"
   },
   "wct-ventilation": {
    "label": "Ventilation for Pottery Kilns（学校安全資料、pswctup.org）",
@@ -325,11 +299,11 @@
      ]
     },
     {
-     "text": "日本セラミックス協会の窯の分類では電気窯は変遷の最終段階に置かれ、1920年代後半に軽量で断熱性の高い耐火物の利用によって作られるようになり、摂氏1300度に耐える発熱線材が安価に作られたことで一般用の電気窯も作られるようになったとされる。",
+     "text": "日本セラミックス協会の窯の分類では電気窯は変遷の最終段階に置かれ、1920年代後半に軽量で断熱性の高い耐火物の利用によって作られるようになり、摂氏1300℃に耐える発熱線材が安価に作られたことで一般用の電気窯も作られるようになったとされる。",
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -713,7 +687,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -721,7 +695,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1075,7 +1049,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1083,7 +1057,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1226,7 +1200,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1234,7 +1208,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1242,7 +1216,7 @@
      "level": "E2",
      "status": "inferred",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ],
      "note": "出典自体が「推察し間違いなかろう」とする類推"
     },
@@ -1251,7 +1225,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ],
      "note": "伝来の有無が未解明であること自体を記録"
     },
@@ -1260,7 +1234,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     }
    ],
@@ -1302,7 +1276,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1310,7 +1284,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1318,7 +1292,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1326,7 +1300,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     },
     {
@@ -1334,7 +1308,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "ceramics-assoc"
+      "ceramics-assoc-batch"
      ]
     }
    ],
@@ -1894,7 +1868,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nidec-catalog-batch"
+      "nidec-catalog"
      ]
     },
     {
@@ -2030,7 +2004,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nidec-catalog-batch",
+      "nidec-catalog",
       "shinryu"
      ]
     },
@@ -2387,7 +2361,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ]
     },
     {
@@ -2444,7 +2418,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ]
     },
     {
@@ -2452,7 +2426,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ]
     },
     {
@@ -2530,7 +2504,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ],
      "note": "母集団調査時に日陶産業の窯仕様表で付属品として確認"
     },
@@ -2547,7 +2521,7 @@
     "text": "ハマ・トチン・サイコロや目土用の材料は陶芸材料ECの「焼成関連用具」に含まれ、窯の付属品としてサイコロが添付される機種もある（2026年11月時点）。",
     "sources": [
      "tougei-yosei",
-     "nitto-small-kiln"
+     "nitto-small"
     ]
    },
    "relations": [
@@ -2754,7 +2728,7 @@
      ]
     },
     {
-     "text": "S型熱電対は白金・白金ロジウム（正極は白金90％・ロジウム10％）で0〜1480℃まで使用でき、高温での長時間保持でもドリフトしにくいが高価である",
+     "text": "S型熱電対は白金・白金ロジウム（正極は白金90%・ロジウム10%）で0〜1480℃まで使用でき、高温での長時間保持でもドリフトしにくいが高価である",
      "level": "E1",
      "status": "established",
      "sources": [
@@ -2841,7 +2815,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ]
     },
     {
@@ -2892,7 +2866,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "nitto-small-kiln"
+      "nitto-small"
      ]
     },
     {
@@ -2900,7 +2874,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "shinryu-batch"
+      "shinryu"
      ],
      "note": "母集団調査時にメーカー公式サイトで確認"
     },
@@ -2925,7 +2899,7 @@
    "market": {
     "text": "バーナー単体の一般向け販売は限られ、窯本体とのセット供給と、燃焼装置用付属品（燃料タンク・ホース等）としての供給が中心。電気窯の還元用バーナーセットのようなオプション供給もある（2026年11月時点）。",
     "sources": [
-     "nitto-small-kiln",
+     "nitto-small",
      "nidec-catalog-batchx"
     ]
    },

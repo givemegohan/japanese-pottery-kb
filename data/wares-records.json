@@ -174,11 +174,6 @@
    "url": "https://tabi.jtb.or.jp/res/210051-",
    "level": "E3"
   },
-  "mlit-tagengo-mino": {
-   "label": "国土交通省 地域観光資源多言語解説文データベース「多治見市美濃焼ミュージアム」",
-   "url": "https://www.mlit.go.jp/tagengo-db/R3-00630.html",
-   "level": "E2"
-  },
   "aichi-tokoname": {
    "label": "愛知県「常滑焼について」",
    "url": "https://www.pref.aichi.jp/sangyoshinko/jibasangyo/industry/tokonameyaki.html",
@@ -193,16 +188,6 @@
    "label": "日本セラミックス協会「日本のやきもの/常滑焼」",
    "url": "https://www.ceramic.or.jp/museum/yakimono/contents/tokoname/sanchi_tokoname.html",
    "level": "E3"
-  },
-  "kotobank-tokoname": {
-   "label": "コトバンク「常滑焼」",
-   "url": "https://kotobank.jp/word/%E5%B8%B8%E6%BB%91%E7%84%BC-105025",
-   "level": "E3"
-  },
-  "mlit-tagengo-tokoname": {
-   "label": "国土交通省 地域観光資源多言語解説文データベース「常滑焼」",
-   "url": "https://www.mlit.go.jp/tagengo-db/R5-00620.html",
-   "level": "E2"
   },
   "aichi-column-rokukoyo": {
    "label": "愛知県「『日本六古窯』の瀬戸・常滑」",
@@ -233,16 +218,6 @@
    "label": "コトバンク「瀬戸焼」(日本大百科全書ほか)",
    "url": "https://kotobank.jp/word/%E7%80%AC%E6%88%B8%E7%84%BC-87481",
    "level": "E3"
-  },
-  "ndl-seto": {
-   "label": "国立国会図書館 典拠データ「瀬戸焼」",
-   "url": "https://id.ndl.go.jp/auth/ndlsh/00570841",
-   "level": "E2"
-  },
-  "aichi-akazu": {
-   "label": "愛知県「赤津焼について」",
-   "url": "https://www.pref.aichi.jp/sangyoshinko/jibasangyo/industry/akatsuyaki.html",
-   "level": "E2"
   },
   "aichi-seto-sometsuke": {
    "label": "愛知県「瀬戸染付焼」",
@@ -303,11 +278,6 @@
    "label": "日本セラミックス協会「日本のやきもの／四日市萬古焼」",
    "url": "https://www.ceramic.or.jp/museum/yakimono/contents/yokkaichi/sanchi_yokkaichi.html",
    "level": "E3"
-  },
-  "jpo-banko": {
-   "label": "特許庁 地域団体商標「四日市萬古焼（よっかいちばんこやき）」",
-   "url": "https://www.jpo.go.jp/system/trademark/gaiyo/chidan/shoukai/ichiran/5204107.html",
-   "level": "E2"
   },
   "yokkaichi-city": {
    "label": "四日市市観光資料（萬古焼・土鍋の生産高）",
@@ -404,11 +374,6 @@
    "url": "https://web.pref.hyogo.lg.jp/sr09/jibasan/tanbatatikuiyaki.html",
    "level": "E2"
   },
-  "sasayama-city": {
-   "label": "丹波篠山市「丹波立杭焼（作窯技法）」国指定無形文化財資料",
-   "url": "https://www.city.tambasasayama.lg.jp/material/files/group/36/0127.pdf",
-   "level": "E2"
-  },
   "hyogo-izushi": {
    "label": "兵庫県「出石焼」（地場産業紹介）",
    "url": "https://web.pref.hyogo.lg.jp/sr09/jibasan/28.html",
@@ -459,11 +424,6 @@
    "url": "https://kougeihin.jp/craft/0418/",
    "level": "E2"
   },
-  "kogeijapan-bizen": {
-   "label": "KOGEI JAPAN（伝統的工芸品産業振興協会）「備前焼」",
-   "url": "https://kogeijapan.com/locale/ja_JP/bizenyaki/",
-   "level": "E2"
-  },
   "hagi-kyodokumiai": {
    "label": "萩焼協同組合 公式サイト「萩焼について」",
    "url": "https://hagi-yaki.jp/about/",
@@ -493,11 +453,6 @@
    "label": "中小企業診断協会徳島県支部「伝統的工芸品に指定された大谷焼産地の活性化に関する調査研究」（平成16年度報告書）",
    "url": "https://www.jf-cmca.jp/attach/kenkyu/shibu/h16/tokushima.pdf",
    "level": "E3"
-  },
-  "jpo-otani": {
-   "label": "特許庁 地域団体商標「大谷焼（おおたにやき）」登録第6334147号",
-   "url": "https://www.jpo.go.jp/system/trademark/gaiyo/chidan/shoukai/ichiran/6334147.html",
-   "level": "E2"
   },
   "tobe-town": {
    "label": "砥部町公式ホームページ「砥部焼の歴史」",
@@ -644,16 +599,6 @@
    "url": "https://www.pref.kagoshima.jp/ab10/kyoiku-bunka/bunka/shinko/documents/81039_20200421145240-1.pdf",
    "level": "E2"
   },
-  "kogei-japan-list": {
-   "label": "KOGEI JAPAN 陶磁器一覧（読みの確認）",
-   "url": "https://kogeijapan.com/locale/ja_JP/list/?category=4",
-   "level": "E3"
-  },
-  "kogei-japan-tsuboya": {
-   "label": "KOGEI JAPAN「壺屋焼（つぼややき）の特徴や歴史」",
-   "url": "https://kogeijapan.com/locale/ja_JP/tsuboyayaki/",
-   "level": "E3"
-  },
   "kumamoto-kougeikan-shodai": {
    "label": "熊本県伝統工芸館「陶磁器 小代焼」",
    "url": "https://kumamoto-kougeikan.jp/archive/syoudai-c/",
@@ -664,19 +609,9 @@
    "url": "https://kumamoto-kougeikan.jp/archive/amakusa-c",
    "level": "E2"
   },
-  "kumamoto-pref": {
-   "label": "熊本県「伝統的工芸品」（平成15年3月の国指定）",
-   "url": "https://www.pref.kumamoto.jp/uploaded/attachment/51099.pdf",
-   "level": "E2"
-  },
   "kumamoto-pref-vol2": {
    "label": "熊本県資料（小代焼の始まり：寛永9年）",
    "url": "https://www.pref.kumamoto.jp/uploaded/attachment/146981.pdf",
-   "level": "E2"
-  },
-  "shodai-kumiai": {
-   "label": "小代焼窯元の会 公式サイト",
-   "url": "https://shodaiyaki.com/",
    "level": "E2"
   },
   "tamana-city": {
@@ -904,11 +839,6 @@
    "url": "https://na-utsuwa.jp/maker/u0000124",
    "level": "E5"
   },
-  "taiwa_nanatsumori": {
-   "label": "大和町公式 百窯の里（台ヶ森焼）七ツ森陶芸体験館",
-   "url": "https://www.town.taiwa.miyagi.jp/soshiki/shokokanko/shokokanko/122.html",
-   "level": "E2"
-  },
   "akita_naraoka": {
    "label": "秋田県 手しごと秋田 楢岡焼の詳細情報",
    "url": "https://common3.pref.akita.lg.jp/tesigoto/craft/detail.php?id=1663295366352",
@@ -954,16 +884,6 @@
    "url": "https://www.jtco.or.jp/japanese-crafts/?act=detail&id=343&p=5&c=2",
    "level": "E3"
   },
-  "yamagatakanko_seiryu": {
-   "label": "やまがたへの旅（山形県公式観光サイト）平清水焼 青龍窯（読み「ひらしみずやき」確認）",
-   "url": "https://yamagatakanko.com/attractions/detail_13793.html",
-   "level": "E3"
-  },
-  "hirashimizu_en": {
-   "label": "やまがたの工芸品ポータル（山形県）Hirashimizu-yaki Seiryugama 企業概要（英語名確認）",
-   "url": "https://craft.yamagata-export.jp/wp-content/uploads/2024/04/01-4Hirashimizu-yaki-Seiryugama.pdf",
-   "level": "E3"
-  },
   "yamagata_museum_kilns": {
    "label": "山形県立博物館研究報告第3号（山形県近世窯一覧ほか）",
    "url": "https://www.yamagata-museum.jp/wp-content/uploads/2025/02/%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A%E7%AC%AC%EF%BC%93%E5%8F%B7.pdf",
@@ -984,11 +904,6 @@
    "url": "https://ja.wikipedia.org/wiki/%E6%88%90%E5%B3%B6%E7%84%BC",
    "level": "E5"
   },
-  "narushima_en": {
-   "label": "Visual Arts Centre (Singapore) KOGEI展 成島焼紹介（英語名 Narushima Yaki、山形県協力）",
-   "url": "https://visualartscentre.sg/event/exhibitions/dream-of-singapore-2019-japanese-conventional-ceramics-technique-kogei-show/",
-   "level": "E3"
-  },
   "shinjo_city": {
    "label": "新庄市公式 新庄東山焼（しんじょうひがしやまやき）",
    "url": "https://www.city.shinjo.yamagata.jp/k001/020/040/030/20150224190303.html",
@@ -1002,11 +917,6 @@
   "furusato_shinjo": {
    "label": "山形県ふるさと工芸品 新庄東山焼｜陶磁器｜新庄市",
    "url": "https://yamagata-furusato-kougei.jp/detail/03-02.html",
-   "level": "E3"
-  },
-  "furusato_shinjo_en": {
-   "label": "YAMAGATA TRADITIONAL CRAFT Shinjo Higashiyama-yaki Pottery（英語名確認）",
-   "url": "https://yamagata-furusato-kougei.jp/en/detail/03-02.html",
    "level": "E3"
   },
   "mlit_kaminohata_ja": {
@@ -1024,16 +934,6 @@
    "url": "https://www.city.obanazawa.yamagata.jp/kanko/taiken-koryu/1391",
    "level": "E2"
   },
-  "obanazawa_city_ginzan": {
-   "label": "尾花沢市公式 銀山温泉（上の畑焼陶芸センター紹介）",
-   "url": "https://www.city.obanazawa.yamagata.jp/kanko/kankochi/1346",
-   "level": "E2"
-  },
-  "kaminohata_official": {
-   "label": "銀山上の畑焼陶芸センター公式（店舗情報・住所）",
-   "url": "https://ginzan-kaminohatayaki.jp/",
-   "level": "E3"
-  },
   "miyama_official": {
    "label": "深山焼 深山工房つち団子 公式Webサイト（白鷹町の伝統工芸・住所）",
    "url": "https://dango-miyama.sakura.ne.jp/",
@@ -1048,11 +948,6 @@
    "label": "山形県公式 やまがた子育て応援サイト 深山焼 深山工房つち団子（深山焼窯は19世紀前葉操業とされる）",
    "url": "https://kosodate.pref.yamagata.jp/odekake/miyamayaki",
    "level": "E2"
-  },
-  "shirataka_kanko": {
-   "label": "（一社）白鷹町観光協会公式 観光・体験一覧（深山工房つち団子の住所と座標を掲載）",
-   "url": "https://kanko-shirataka.jp/sightseeing-play/",
-   "level": "E3"
   },
   "arcadia_miyama": {
    "label": "やまがたアルカディア観光局 ろくろ体験（深山焼：成島焼の流れ・薪窯・登り窯）",
@@ -1144,20 +1039,10 @@
    "url": "https://aizue.net/meisanhin/hongouyaki.html",
    "level": "E5"
   },
-  "meti_densan_list": {
-   "label": "経済産業省 伝統的工芸品指定品目一覧（福島県の国指定は5品目）",
-   "url": "https://www.meti.go.jp/press/2024/10/20241017001/20241017001-b.pdf",
-   "level": "E2"
-  },
   "nakagawa-town-shoso": {
    "label": "那珂川町「小砂焼」",
    "url": "http://www.town.tochigi-nakagawa.lg.jp/0095/info-0000000560-0.html",
    "level": "E2"
-  },
-  "wiki-shoso": {
-   "label": "Wikipedia「小砂焼」",
-   "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%A0%82%E7%84%BC",
-   "level": "E5"
   },
   "tochigiji-touyukan": {
    "label": "とちぎ旅ネット「小砂焼体験センター陶遊館」",
@@ -1204,16 +1089,6 @@
    "url": "https://online.bunka.go.jp/heritages/detail/447420",
    "level": "E2"
   },
-  "jishoji-kiln": {
-   "label": "自性寺焼 里秋窯 公式サイト「コンセプト」",
-   "url": "https://jishojiyaki.jp/concept.html",
-   "level": "E3"
-  },
-  "annaka-city-jishoji": {
-   "label": "安中市観光サイト「自性寺焼 里秋窯」",
-   "url": "https://www.city.annaka.lg.jp/site/kankou/30632.html",
-   "level": "E2"
-  },
   "tsukiyono-kiln-about": {
    "label": "月夜野焼・祐太郎窯 公式サイト「月夜野焼について」",
    "url": "http://www.tsukiyono-yaki.jp/about.html",
@@ -1238,11 +1113,6 @@
    "label": "京都芸術大学 報告「飯能焼」",
    "url": "https://g.kyoto-art.ac.jp/reports/2347/",
    "level": "E3"
-  },
-  "hanno-city-museum": {
-   "label": "飯能市「飯能市立博物館 施設・利用案内」",
-   "url": "https://www.city.hanno.lg.jp/kanko_bunka_sports/museum/shisetsu_riyoannai/4954.html",
-   "level": "E2"
   },
   "chiba-pref-otaki": {
    "label": "千葉県「その他の伝統的工芸品（大多喜焼）」",
@@ -1274,11 +1144,6 @@
    "url": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%88%B8%E7%84%BC",
    "level": "E5"
   },
-  "wiki-imado-jinja": {
-   "label": "Wikipedia「今戸神社」",
-   "url": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%88%B8%E7%A5%9E%E7%A4%BE",
-   "level": "E5"
-  },
   "niigata-pref-anchi": {
    "label": "新潟県「庵地焼旗野窯」",
    "url": "https://www.pref.niigata.lg.jp/sec/chiikishinko/kenden7.html",
@@ -1304,11 +1169,6 @@
    "url": "https://nbz.or.jp/publication/PotteryNiigata.pdf",
    "level": "E3"
   },
-  "gosen-city-museum": {
-   "label": "五泉市「郷土資料館・民具資料館」",
-   "url": "https://www.city.gosen.lg.jp/organization/21/3/828.html",
-   "level": "E2"
-  },
   "toyama-pref-etchuseto": {
    "label": "富山県「越中瀬戸焼」",
    "url": "https://www.pref.toyama.jp/130002/miryokukankou/bunka/geijutsu/kj00018425.html",
@@ -1324,11 +1184,6 @@
    "url": "https://www.town.tateyama.toyama.jp/soshikikarasagasu/shokokankoka/kankokoryugakari/1/1532.html",
    "level": "E2"
   },
-  "toyama-tkc-tounoukan": {
-   "label": "富山県施設データベース「越中陶の里 陶農館」",
-   "url": "https://www.tkc.pref.toyama.jp/search/stdydtl.aspx?stdycd=00060272",
-   "level": "E2"
-  },
   "wiki-kosugi": {
    "label": "Wikipedia「小杉焼」",
    "url": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%9D%89%E7%84%BC",
@@ -1342,11 +1197,6 @@
   "bunka-kosugi": {
    "label": "文化遺産オンライン「小杉焼 緑釉水指」",
    "url": "https://online.bunka.go.jp/heritages/detail/186084",
-   "level": "E2"
-  },
-  "toyama-tkc-kosugi-tenji": {
-   "label": "富山県施設データベース「射水市小杉展示館」",
-   "url": "https://www.tkc.pref.toyama.jp/search/stdydtl.aspx?stdycd=C0000907",
    "level": "E2"
   },
   "tonami-city-sansuke": {
@@ -1394,11 +1244,6 @@
    "url": "http://www.ohimuseum.com/museum/history_chozaemon.html",
    "level": "E3"
   },
-  "wiki-ohi-museum": {
-   "label": "Wikipedia「大樋美術館」",
-   "url": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%A8%8B%E7%BE%8E%E8%A1%93%E9%A4%A8",
-   "level": "E5"
-  },
   "bunka-suzu": {
    "label": "文化遺産オンライン「珠洲陶器窯跡」",
    "url": "https://online.bunka.go.jp/heritages/detail/212230",
@@ -1419,11 +1264,6 @@
    "url": "https://ja.wikipedia.org/wiki/%E7%8F%A0%E6%B4%B2%E7%84%BC",
    "level": "E5"
   },
-  "suzu-city-museum": {
-   "label": "珠洲市「珠洲焼資料館」",
-   "url": "https://www.city.suzu.lg.jp/site/suzuware-museum/",
-   "level": "E2"
-  },
   "echizen-town-oda-tenji": {
    "label": "越前町織田文化歴史館「展示のご案内」",
    "url": "https://www.town.echizen.fukui.jp/otabunreki/about/tenzi.html",
@@ -1437,11 +1277,6 @@
   "fukui-kenshi-oda": {
    "label": "福井県史「織田焼」",
    "url": "https://www.library-archives.pref.fukui.lg.jp/fukui/07/kenshi/T4/T4-3-01-02-05-09.htm",
-   "level": "E2"
-  },
-  "echizen-town-museum-info": {
-   "label": "越前町「織田文化歴史館」",
-   "url": "http://www.town.echizen.fukui.jp/shisetsu/06/p002957.html",
    "level": "E2"
   },
   "fukui7samurai-hisaka": {
@@ -1464,21 +1299,6 @@
    "url": "https://www.pref.nagano.lg.jp/kamichi/kamichi-somu/documents/besshi_takatoyakigaiyo.pdf",
    "level": "E2"
   },
-  "ina-city-takato": {
-   "label": "伊那市 市長コラム「高遠焼」",
-   "url": "https://www.inacity.jp/shichoshitsu/shichocolumn/takibi135.html",
-   "level": "E2"
-  },
-  "nagano-pref-takato-kobo": {
-   "label": "長野県「体験工房 高遠焼白山登窯」",
-   "url": "https://www.pref.nagano.lg.jp/mono/sangyo/shokogyo/gijutsu/taikenkobo/kobo/91.html",
-   "level": "E2"
-  },
-  "wiki-takato": {
-   "label": "Wikipedia「高遠焼」",
-   "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E9%81%A0%E7%84%BC",
-   "level": "E5"
-  },
   "nagano-blog-matsushiro": {
    "label": "長野県公式ブログ「松代焼」",
    "url": "https://blog.nagano-ken.jp/nagachi/other/50708.html",
@@ -1498,11 +1318,6 @@
    "label": "Wikipedia「松代焼」",
    "url": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BB%A3%E7%84%BC",
    "level": "E5"
-  },
-  "matsushiro-touen": {
-   "label": "松代陶苑 公式サイト「概要」",
-   "url": "https://matsushiro-touen.com/gaiyou/gaiyou.html",
-   "level": "E3"
   },
   "iida-city-obayashi": {
    "label": "飯田市「文化財一覧（尾林古窯の狛犬）」",
@@ -1548,11 +1363,6 @@
    "label": "岐阜県「岐阜県郷土工芸品一覧」",
    "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/462614.pdf",
    "level": "E2"
-  },
-  "wikipedia-shibukusa": {
-   "label": "Wikipedia「渋草焼」",
-   "url": "https://ja.wikipedia.org/wiki/%E6%B8%8B%E8%8D%89%E7%84%BC",
-   "level": "E5"
   },
   "takayama-koito": {
    "label": "高山市「小糸焼」",
@@ -1653,11 +1463,6 @@
    "label": "三重県「三重県指定伝統工芸品（中南勢地域）」",
    "url": "https://www.pref.mie.lg.jp/CHISHI/HP/72495045138.htm",
    "level": "E2"
-  },
-  "nipponkichi-akogi": {
-   "label": "日本吉「阿漕焼」",
-   "url": "https://nippon-kichi.jp/article_list.do?p=5952&ml_lang=jp",
-   "level": "E5"
   },
   "seesaa-mihama": {
    "label": "三重の地元資料ブログ「御浜窯（御浜焼）」",
@@ -1794,11 +1599,6 @@
    "url": "https://www.city.ako.lg.jp/kensetsu/shoukou/ako_zibasangyou.html",
    "level": "E2"
   },
-  "unkagama-about": {
-   "label": "赤穂瀬戸内窯 公式ショップ「赤穂雲火焼とは」",
-   "url": "https://unkayaki.buyshop.jp/about",
-   "level": "E3"
-  },
   "hyogo-ojiyama": {
    "label": "兵庫県「王地山焼」",
    "url": "https://web.pref.hyogo.lg.jp/sr09/ie07_000000043.html",
@@ -1934,11 +1734,6 @@
    "url": "https://kotobank.jp/word/%E5%B8%83%E5%BF%97%E5%90%8D%E7%84%BC-618080",
    "level": "E5"
   },
-  "kankou-shimane-yumachi": {
-   "label": "しまね観光ナビ（島根県公式観光情報）湯町窯",
-   "url": "https://www.kankou-shimane.com/destination/20380",
-   "level": "E2"
-  },
   "shimane-shussai": {
    "label": "島根県 しまねの伝統工芸 出西焼",
    "url": "https://www.pref.shimane.lg.jp/industry/syoko/sangyo/dentou_kougei/kougei/kougei_11.html",
@@ -1947,11 +1742,6 @@
   "shussai-official": {
    "label": "出西窯公式サイト 略歴・アクセス",
    "url": "https://www.shussai.jp/history/biography",
-   "level": "E3"
-  },
-  "shussai-official-access": {
-   "label": "出西窯公式サイト アクセス（Google Mapリンクに座標あり）",
-   "url": "https://www.shussai.jp/access/",
    "level": "E3"
   },
   "shimane-sodeshi": {
@@ -2069,11 +1859,6 @@
    "url": "https://www.kankou-shimane.com/destination/21684",
    "level": "E2"
   },
-  "yunotsu-sato-official": {
-   "label": "温泉津やきものの里・やきもの館 公式サイト（大田市の施設）",
-   "url": "https://yakimono.yunotsu.org/",
-   "level": "E3"
-  },
   "wikipedia-ware-list": {
    "label": "Wikipedia 日本の陶磁器産地一覧",
    "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E9%99%B6%E7%A3%81%E5%99%A8%E7%94%A3%E5%9C%B0%E4%B8%80%E8%A6%A7",
@@ -2087,11 +1872,6 @@
   "histgeo-iwami-kilns": {
    "label": "近世〜近代に生産された石見地方の窯業製品の分布から見た諸相（歴史地理学系学術論文PDF）",
    "url": "http://hist-geo.jp/img/archive/291_036.pdf",
-   "level": "E3"
-  },
-  "gotsu-jibasan-official": {
-   "label": "江津市地場産業振興センター 概要・アクセス",
-   "url": "https://shimane-jibasan.com/access/index.html",
    "level": "E3"
   },
   "setouchi-city-mushiage": {
@@ -2114,11 +1894,6 @@
    "url": "https://www.okayama-kanko.jp/setouchi/gourmet/detail_11161.html",
    "level": "E3"
   },
-  "mushiage-kamamoto-official": {
-   "label": "株式会社虫明焼窯元 公式サイト 窯元のご案内",
-   "url": "https://www.musi.co.jp/guide-for-kamamoto",
-   "level": "E3"
-  },
   "kurashiki-tabi-sakazu-history": {
    "label": "倉敷観光WEB 酒津焼（来歴）",
    "url": "https://www.kurashiki-tabi.jp/rm_shop/rm-shop37/",
@@ -2127,11 +1902,6 @@
   "kurashiki-tabi-sakazu": {
    "label": "倉敷観光WEB 酒津焼（窯元紹介）",
    "url": "https://www.kurashiki-tabi.jp/rm_buy/rm-buy82/",
-   "level": "E3"
-  },
-  "sakazu-kamamoto-official": {
-   "label": "酒津焼窯元 公式ホームページ",
-   "url": "http://sakazuyaki.jp/",
    "level": "E3"
   },
   "kurashiki-mingeikan-hajima": {
@@ -2464,11 +2234,6 @@
    "url": "http://www.pref.saga.lg.jp/kiji00325394/index.html",
    "level": "E2"
   },
-  "saga_pref_industry_pdf": {
-   "label": "佐賀県 商工業資料 伝統産業（白石焼陶器組合の現況）",
-   "url": "https://www.pref.saga.lg.jp/kiji00352120/3_52120_137494_up_ibxi2v5v.pdf",
-   "level": "E2"
-  },
   "asobo_shiroishi": {
    "label": "佐賀県観光連盟 あそぼーさが 白石焼",
    "url": "https://www.asobo-saga.jp/spots/detail/d6e3d44b-eb62-43b7-b89d-940f8f603c92",
@@ -2482,11 +2247,6 @@
   "yoshidayaki_about": {
    "label": "肥前吉田焼窯元協同組合『肥前吉田焼とは』",
    "url": "https://yoshidayaki.jp/about",
-   "level": "E3"
-  },
-  "yoshidayaki_center": {
-   "label": "肥前吉田焼窯元協同組合『肥前吉田焼窯元会館』",
-   "url": "https://yoshidayaki.jp/kamamotocenter/",
    "level": "E3"
   },
   "asobo_yoshida_hall": {
@@ -2538,11 +2298,6 @@
    "label": "武雄市観光協会 やきもの",
    "url": "https://www.takeo-kk.net/porcelain/",
    "level": "E3"
-  },
-  "wiki_sanchi": {
-   "label": "Wikipedia 日本の陶磁器産地一覧",
-   "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E9%99%B6%E7%A3%81%E5%99%A8%E7%94%A3%E5%9C%B0%E4%B8%80%E8%A6%A7",
-   "level": "E5"
   },
   "ureshino_city_shidayaki": {
    "label": "嬉野市公式 志田焼の里博物館",
@@ -2613,11 +2368,6 @@
    "label": "小鹿田焼の里｜ANA Japan Travel Planner",
    "url": "https://www.ana.co.jp/ja/jp/japan-travel-planner/oita/0000037.html",
    "level": "E3"
-  },
-  "navitime_onta": {
-   "label": "小鹿田焼の里（小鹿田焼陶芸館）｜NAVITIME（緯度経度を明示）",
-   "url": "https://www.navitime.co.jp/poi?spot=02301-13800131",
-   "level": "E5"
   },
   "miyakonojo_city_pr": {
    "label": "みやこんじょの伝統的工芸品｜都城市公式",
@@ -2776,6 +2526,7 @@
     "basis": "浪江町が案内する産地拠点施設（大堀相馬焼物産会館）",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -2863,6 +2614,7 @@
     "basis": "町内窯元の作品を展示販売する組合共販所で、産地の中心施設",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -2955,6 +2707,7 @@
     "basis": "茨城県立の陶芸専門美術館で笠間焼の中心施設であり、座標は同住所のNAVITIME地点情報に掲載された緯度経度による。",
     "source": "https://www.navitime.co.jp/poi?spot=00011-020988242"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3046,6 +2799,7 @@
     "basis": "益子町立の陶芸美術館（町立複合施設「陶芸メッセ・益子」の中核）であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E7%9B%8A%E5%AD%90%E9%99%B6%E8%8A%B8%E7%BE%8E%E8%A1%93%E9%A4%A8"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3139,6 +2893,7 @@
     "basis": "無名異焼と裂織の体験・展示を行う佐渡市の施設で、窯元集団「無名異の里」に隣接する",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3235,6 +2990,7 @@
     "basis": "加賀市立の日本で唯一の九谷焼専門美術館であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E7%9C%8C%E4%B9%9D%E8%B0%B7%E7%84%BC%E7%BE%8E%E8%A1%93%E9%A4%A8"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3330,6 +3086,7 @@
     "basis": "多治見市立の美濃焼専門博物館であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E5%A4%9A%E6%B2%BB%E8%A6%8B%E5%B8%82%E7%BE%8E%E6%BF%83%E7%84%BC%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A0"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3413,6 +3170,7 @@
     "basis": "常滑市立の常滑焼資料館（とこなめ陶の森の中核施設）であり、座標はWikipedia記事「とこなめ陶の森」の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%93%E3%81%AA%E3%82%81%E9%99%B6%E3%81%AE%E6%A3%AE"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -3485,7 +3243,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "aichi-akazu",
+      "aichi-akazu-jiba",
       "aichi-seto-sometsuke"
      ]
     }
@@ -3519,6 +3277,7 @@
     "basis": "瀬戸市内にある愛知県立の陶磁専門美術館であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E6%84%9B%E7%9F%A5%E7%9C%8C%E9%99%B6%E7%A3%81%E7%BE%8E%E8%A1%93%E9%A4%A8"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -3591,6 +3350,7 @@
     "赤津焼の産地会館だった赤津焼会館（瀬戸市赤津町）は閉館していることを確認したため採用せず、代替として赤津焼工業協同組合事務所（愛知県瀬戸市赤津町43、愛知県の組合一覧で確認）を候補としたが、緯度経度を掲載する公開出典が見当たらなかったためピンなしとした。",
     "赤津焼工業協同組合の地図掲載（Googleマップ）は瀬戸市赤津町94-4で、県の組合一覧の赤津町43と異なるため、ピンの設置は見送った"
    ],
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3676,6 +3436,7 @@
     "basis": "瀬戸染付を専門とする瀬戸市の公的施設（瀬戸市文化振興財団運営）であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E7%80%AC%E6%88%B8%E6%9F%93%E4%BB%98%E5%B7%A5%E8%8A%B8%E9%A4%A8"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3766,6 +3527,7 @@
     "basis": "三州瓦の中心地・高浜市にある市立の瓦専門美術館・図書館であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%B5%9C%E5%B8%82%E3%82%84%E3%81%8D%E3%82%82%E3%81%AE%E3%81%AE%E9%87%8C%E3%81%8B%E3%82%8F%E3%82%89%E7%BE%8E%E8%A1%93%E9%A4%A8%E3%83%BB%E5%9B%B3%E6%9B%B8%E9%A4%A8"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3847,6 +3609,7 @@
     "basis": "四日市萬古焼の展示・体験の拠点である産地会館であり、座標は三重県公式の文化情報データベースに掲載された緯度経度による。",
     "source": "https://www.bunka.pref.mie.lg.jp/Miebunka/detail?cls=mica_col07&pkey=0000000027"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -3935,6 +3698,7 @@
     "basis": "伊賀市条例に基づく市の施設で、窯元集落・丸柱にある",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4024,6 +3788,7 @@
     "basis": "越前陶芸村の中核である福井県立の陶芸館であり、座標は福井県公式オープンデータ（公共施設情報）に掲載された緯度経度による。",
     "source": "https://www.pref.fukui.lg.jp/doc/dx-suishin/opendata/list_8_d/fil/shisetsu.csv"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -4117,6 +3882,7 @@
     "basis": "信楽焼の情報発信と産業振興を目的とする滋賀県立の陶芸公園（陶芸館と信楽産業展示館を擁する）であり、座標はWikipedia記事の位置情報による。",
     "source": "https://ja.wikipedia.org/wiki/%E6%BB%8B%E8%B3%80%E7%9C%8C%E7%AB%8B%E9%99%B6%E8%8A%B8%E3%81%AE%E6%A3%AE"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -4205,6 +3971,7 @@
     "basis": "京都陶磁器協会の会館で、京焼・清水焼の歴史的中心地である五条坂にある",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4283,6 +4050,7 @@
     "basis": "現在の生産集積地である清水焼団地の協同組合会館",
     "source": "Googleマップの施設掲載で座標を確認（2026-11-12）"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4362,6 +4130,7 @@
     "basis": "兵庫県立の陶芸専門美術館で、丹波立杭焼の窯業集落（今田町立杭）の中に立つ産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/node/9041219672"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -4452,6 +4221,7 @@
     "basis": "2000年まで出石焼を生産した旧・小嶋製陶所の窯場跡を出石焼陶芸館として公開する施設で、豊岡市観光公式サイトに出石焼のスポットとして掲載されているため（座標は公式住所の変換結果で、逆引きでも同建物名が確認できた）。",
     "source": "https://www.geocoding.jp/?q=%E5%85%B5%E5%BA%AB%E7%9C%8C%E8%B1%8A%E5%B2%A1%E5%B8%82%E5%87%BA%E7%9F%B3%E7%94%BA%E5%B0%8F%E4%BA%BA135-1"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4526,6 +4296,7 @@
     "basis": "江津市の公的施設で、1階に石見焼の常設展示・販売があり、石見焼の関連展示施設として公的資料にも挙げられているため。",
     "source": "https://www.openstreetmap.org/way/660065589"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4569,7 +4340,7 @@
      ]
     },
     {
-     "text": "陶器であり、絵付けや施釉をせず、1,200度以上の高温で約2週間かけて焼き締めるため強度が高く、胡麻・桟切・緋襷・牡丹餅などの窯変の景色が特徴である。",
+     "text": "陶器であり、絵付けや施釉をせず、1,200℃以上の高温で約2週間かけて焼き締めるため強度が高く、胡麻・桟切・緋襷・牡丹餅などの窯変の景色が特徴である。",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -4608,6 +4379,7 @@
     "basis": "備前焼の中心地・伊部にある市立美術館で、旧・備前焼ミュージアムと同一敷地に2025年開館した産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/node/1423610946"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 1
   },
@@ -4686,6 +4458,7 @@
     "basis": "山口県立美術館で、萩焼発祥の地である萩に陶芸館を併設し萩焼を展示する産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/way/561533123"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4769,6 +4542,7 @@
     "basis": "大谷焼に専属の公的博物館がなく、国登録有形文化財の登窯を持つ現役窯元・元山窯が田村陶芸展示館を併設して産地を代表するため（座標は窯元公式サイト掲載住所の変換結果）。",
     "source": "https://www.geocoding.jp/?q=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E9%B3%B4%E9%96%80%E5%B8%82%E5%A4%A7%E9%BA%BB%E7%94%BA%E5%A4%A7%E8%B0%B7%E5%AD%97%E4%B8%AD%E9%80%9A%E3%82%8A3-1"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4847,6 +4621,7 @@
     "basis": "砥部町の伝統産業会館（町立の砥部焼の展示施設）で、産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/way/354721357"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -4938,6 +4713,7 @@
     "basis": "東峰村の伝統産業会館で、小石原焼の歴史展示と全窯元の代表作展示を担う産地の拠点施設であるため。",
     "source": "https://www.crossroadfukuoka.jp/spot/12789"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5026,6 +4802,7 @@
     "basis": "上野焼協同組合の公式案内にある産地の陶芸館で、上野焼の展示・販売と窯元巡りの拠点になっているため（座標は公式住所の変換結果）。",
     "source": "https://www.geocoding.jp/?q=%E7%A6%8F%E5%B2%A1%E7%9C%8C%E7%94%B0%E5%B7%9D%E9%83%A1%E7%A6%8F%E6%99%BA%E7%94%BA%E4%B8%8A%E9%87%8E2811"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5114,6 +4891,7 @@
     "basis": "有田町にある佐賀県立の陶磁専門博物館で、有田焼の歴史と作品を常設展示する産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/node/1423799812"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5193,6 +4971,7 @@
     "basis": "伊万里駅ビル2階にある市運営のギャラリーで、伊万里焼・鍋島焼を展示する産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/node/1423798549"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5282,6 +5061,7 @@
     "basis": "唐津市のふるさと会館で、2階に唐津焼協同組合の唐津焼総合展示場がある産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/way/267311552"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5356,6 +5136,7 @@
     "basis": "佐世保市の伝統産業会館内の三川内焼専門の美術館で、産地の代表施設であるため（座標は公式住所の変換結果で、長崎県公式観光サイトの地図座標とも約3m差で一致）。",
     "source": "https://www.geocoding.jp/?q=%E9%95%B7%E5%B4%8E%E7%9C%8C%E4%BD%90%E4%B8%96%E4%BF%9D%E5%B8%82%E4%B8%89%E5%B7%9D%E5%86%85%E6%9C%AC%E7%94%BA343"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5426,6 +5207,7 @@
     "basis": "波佐見町の施設で、2階が波佐見焼資料展示室になっている産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/way/1388176456"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5506,6 +5288,7 @@
     "basis": "荒尾市の地域産業交流支援館で、小代焼の陶芸教室・体験が行われる産地の公的施設であるため（座標は市公式ページ掲載住所の変換結果）。",
     "source": "https://www.geocoding.jp/?q=%E7%86%8A%E6%9C%AC%E7%9C%8C%E8%8D%92%E5%B0%BE%E5%B8%82%E9%87%8E%E5%8E%9F1523"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5561,7 +5344,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "kumamoto-pref"
+      "kumamoto_pref_densan"
      ]
     }
    ],
@@ -5579,6 +5362,7 @@
     "basis": "天草に陶磁器専属の公的博物館がなく、天草陶磁器のルーツとされる高浜焼の窯元が古高浜焼を展示する上田資料館を併設して産地を代表するため。",
     "source": "https://www.openstreetmap.org/node/5281201336"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5657,6 +5441,7 @@
     "basis": "日置市が管理する施設で、薩摩焼の里・美山の中心で薩摩焼の体験・展示を行う産地の代表施設であるため。",
     "source": "https://www.openstreetmap.org/way/1017297275"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5731,6 +5516,7 @@
     "basis": "那覇市立の壺屋焼専門博物館で、壺屋やちむん通りに立つ産地の代表施設であるため（座標は NAVITIME スポット詳細ページの緯度経度）。",
     "source": "https://www.navitime.co.jp/poi?spot=02301-1300666"
    },
+   "updated": "2026-11-12",
    "layer": "core",
    "tier": 2
   },
@@ -5805,6 +5591,7 @@
     "窯元集積の始期に揺れがある。旭川観光コンベンション協会は「昭和40年頃から集積」、旭川市資料は「1970年から自然発生的に工房が構えられた」とし、厳密な起点年は未確定",
     "英語名は公的出典で確認できず未設定。単一産地としての制度指定（道・市）は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -5881,6 +5668,7 @@
     "開窯年の西暦換算に資料間の不一致がある。明治32年は1899年に当たるが、窯元公式を含む複数資料が「明治32年（1900年）」と併記する",
     "旧所在地表記にも揺れがある（入船町／入船5丁目等）。英語名は公的出典で確認できず未設定"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -5948,6 +5736,7 @@
    "unknowns": [
     "読み・英語名は、公的出典での明示を確認できなかったため未設定（窯元公式ドメイン等は手がかりに留めた）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6025,6 +5814,7 @@
     "明治期の起源説（1899年頃の蝦夷陶器合資会社等、小村察雄による創始説など）はWikipedia／古美術サイト間で記述が分かれ、公的出典で裏付けられなかったため主張に含めていない",
     "英語名は公的出典で確認できず未設定"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6100,6 +5890,7 @@
     "途絶の年次に資料間の揺れがある。弘前市は「大正末期頃に廃絶」、青森県観光公式は「大正9年に途絶えた」とする",
     "昭和11年再興の担い手・経緯の詳細は、今回確認した公的出典には明記がなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6171,6 +5962,7 @@
     "江戸末期の旧窯の正確な開窯年は公的出典に記載がなく未確認",
     "Placesの住所表記は「大字上野平33-6」、青森県ページの表記は「上野字上野平33-6」で、同一地点だが字名表記に揺れがある"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6250,6 +6042,7 @@
     "英語名は公的出典で確認できなかったため en は null とした（岩手県大事典英語版の見出しは Kokuji burning）",
     "aliases の久慈焼・天田内焼は久慈市資料に「呼ばれていた」とある旧称で、現在の通用名ではない"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6318,6 +6111,7 @@
     "制度指定（国・県）の有無は公的出典で確認できなかった",
     "英語名は出典で確認できなかったため en は null とした"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6394,6 +6188,7 @@
     "「糖青磁釉」と呼ばれる薄緑が特徴とする説明はWikipedia経由（E5）でのみ確認し、花巻市資料の米糠由来の青緑の釉薬との同一性は未確認のため主張に含めなかった",
     "制度指定（国・県）の有無は公的出典で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6465,6 +6260,7 @@
     "本間伸一氏の現在の作陶継続状況は、2013年初出・2025年更新の記事以降の公的確認が取れていない",
     "2026-11-12にGoogleマップでも藤沢焼粉香木窯の掲載を確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6540,6 +6336,7 @@
     "英語名は公的出典で確認できず en は null とした",
     "別名「杉山焼」は日本遺産ポータル等の紹介に基づく（当初名が後に堤焼と呼ばれるようになったとする説明）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6614,6 +6411,7 @@
     "読みは県公式表記「きりごめやき」を採用した。レコードIDのスラッグ kirikomi と公的読み kirigome は異なる点に注意",
     "英語名は公的出典で確認できず en は null とした。復活の具体的な年次は一般サイトのみが伝えるため主張には含めなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6687,6 +6485,7 @@
     "英語名は公的出典で確認できず en は null とした",
     "開始年は1970年ごろ／1972年／1974年と資料により異なり、県公式は「昭和後期」とだけ述べるため年次は contested とした"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6760,6 +6559,7 @@
     "英語名は公的出典で確認できず en は null とした",
     "創始期の指導者については寺内焼の陶工とする説も一般資料・Wikipediaに見られるが、秋田県公式は相馬焼の職人とするため、県公式の記述を established とし他説は採用しなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6836,6 +6636,7 @@
     "英語名は公的出典で確認できず en は null とした",
     "国指定・県指定の伝統的工芸品としての指定区分は、今回確認した公的ページ（手しごと秋田掲載）からは特定できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6912,6 +6713,7 @@
     "経済産業大臣指定の伝統的工芸品であるかは直接出典で未確認（確認できたのは山形県指定の表記のみ）",
     "現存窯元数（2軒／3軒／6窯場とする紹介もあり）は出典間で一致しない"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -6990,6 +6792,7 @@
     "一部観光サイトは開窯年を「1981年」「1891年」と誤記しており（1781年の誤記とみられる）、採用していない",
     "国（経済産業大臣）指定の伝統的工芸品であるかは未確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7065,6 +6868,7 @@
     "国（経済産業大臣）指定の伝統的工芸品であるかは未確認（確認できたのは新庄市指定有形民俗文化財と山形県ふるさと工芸品への収載）",
     "現在の当主の代数表記（6代目／7代目）は出典により異なる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7143,6 +6947,7 @@
     "陶芸センターの番地は尾花沢市公式の銀山温泉ページのみ「162-2」とし、公式サイト・観光庁DB・Placesはいずれも「162-1」で、162-1を採用した",
     "復興年は観光庁DBが1980年、窯元公式の英語紹介には1988年から5年の実験といった記述もあり、年次には幅がある"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7214,6 +7019,7 @@
     "古窯の正確な開窯年は未特定で、「19世紀前葉の操業と言われる」までが公的出典の範囲",
     "現工房が紅花の灰を釉薬に使う点は雑誌等の紹介（E5）でのみ確認し、主張には含めなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7286,6 +7092,7 @@
     "英語名は公的出典で未確認のため未収載",
     "創業年（昭和59年）の一次・公的裏付けが未取得"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7338,7 +7145,7 @@
      "status": "established",
      "sources": [
       "keizan_aizukanko",
-      "meti_densan_list"
+      "meti_dentou_list"
      ]
     },
     {
@@ -7364,6 +7171,7 @@
     "県伝統的工芸品の指定年月日が未確定（contested参照）",
     "英語名は公的出典で未確認のため未収載"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7437,6 +7245,7 @@
     "一部の観光情報サイトには「今も作られている」旨の古い記述が残るが、市公式の「現在、製作は行っておりません」を優先した",
     "2026-11-12にGoogleマップでも田代駒焼登窯の掲載を確認できなかった（近隣の旧店舗とは別地点のため代用しない）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7498,7 +7307,7 @@
      "sources": [
       "nihon_kotobank",
       "nihon_pref",
-      "meti_densan_list"
+      "meti_dentou_list"
      ],
      "note": "「県の伝統的工芸品に指定」はコトバンク（E5）と県広報の「福島県指定伝統的工芸品」表記で確認。指定年月日は未確認"
     }
@@ -7516,6 +7325,7 @@
     "県指定の年月日は未確認",
     "英語名は公的出典で未確認のため未収載"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7578,7 +7388,7 @@
      "status": "established",
      "sources": [
       "tajima_fukushima_craft_list",
-      "meti_densan_list"
+      "meti_dentou_list"
      ]
     }
    ],
@@ -7597,6 +7407,7 @@
     "読み「たじまばんこやき」はWikipedia等の一般出典でのみ確認（公的出典に読み仮名なし）",
     "英語名は公的出典で未確認のため未収載"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7660,6 +7471,7 @@
     "読み「こいさごやき」は Wikipedia の表示による確認のみで、公的出典での表示は未確認",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7728,6 +7540,7 @@
     "小楢窯の住所は県一覧・商工会では岩舟町静2147、観光サイトでは静2232-2と表記が分かれる（ピンは県一覧の住所を採用）",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7789,6 +7602,7 @@
     "県の伝統的工芸品指定の有無は確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7861,6 +7675,7 @@
    "unknowns": [
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7934,6 +7749,7 @@
     "県の伝統的工芸品指定の有無は確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -7998,6 +7814,7 @@
     "再興後の現在の生産体制（窯元の所在・軒数）は公的資料で確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8071,6 +7888,7 @@
     "指定時期の表記（令和2年度／2021年）の厳密な対応は未確認",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8143,6 +7961,7 @@
     "現存する一軒の窯元（今戸焼白井）の所在地は一般サイトでのみ確認でき、公的出典が得られなかったためピンは碑を採用した",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8222,6 +8041,7 @@
     "旗野窯の住所は県・市・組合では保田148-3、窯元公式サイトでは保田4464-5と表記が分かれる（ピンは県・市の住所を採用）",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8295,6 +8115,7 @@
     "郷土資料館における村松焼の常設展示の有無は、市公式ページの記述からは特定できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8368,6 +8189,7 @@
     "読み「えっちゅうせとやき」は Wikipedia の表示による確認のみ",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8445,6 +8267,7 @@
     "射水市の公式Q&Aページ（小杉焼の解説）が Wikipedia の脚注に示されるが、今回URLを取得できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8512,6 +8335,7 @@
     "県の伝統的工芸品指定の有無は確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8569,6 +8393,7 @@
     "読みは公的資料で確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8634,6 +8459,7 @@
     "県の伝統的工芸品指定の有無は今回の調査では確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8675,7 +8501,7 @@
      ]
     },
     {
-     "text": "無釉・穴窯還元焼成で、鉄分の多い土を1200度で焼き自然釉がかかる黒灰色の炻器である",
+     "text": "無釉・穴窯還元焼成で、鉄分の多い土を1200℃で焼き自然釉がかかる黒灰色の炻器である",
      "level": "E3",
      "status": "established",
      "sources": [
@@ -8707,6 +8533,7 @@
     "珠洲焼資料館は2024年1月1日の能登半島地震の影響で臨時休館中（市ページ）とされる",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8777,6 +8604,7 @@
     "読みは公的資料で確認できなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8837,6 +8665,7 @@
     "氷坂町内に産地を代表する公的施設・現存窯元・碑の所在を確認できなかったため、ピンは付けなかった",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8897,6 +8726,7 @@
     "一般サイトでは現在の窯が閉業と表示される旨の記述があり、現在の生産状況は未確認",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -8968,6 +8798,7 @@
     "起源年は伊那市長コラムでは土管製造を文化11年（1814年）とする記述もあり、県指定資料の文化9年（1812年）を正とした",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9043,6 +8874,7 @@
     "開窯の詳細（寛政初めに唐津で修行した嘉平次が開窯、文化13年（1816年）に藩窯化）は Wikipedia の記述による部分が大きい",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9110,6 +8942,7 @@
     "読み「おばやしやき」は一般サイトと市の文化財データのカナ表記による",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9178,6 +9011,7 @@
     "自治体公式の裏付けは市の文化財一覧の記載にとどまり、沿革の詳細は一般サイト典拠（E5）が中心",
     "英語名は公的資料で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9249,6 +9083,7 @@
     "岐阜県郷土工芸品の指定日（1992年3月30日）はWikipediaのみで確認し、県の公的原文では未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9320,6 +9155,7 @@
     "開窯時の陶工名（竹屋源十郎）はWikipediaのみで、公的資料では「京の陶工」としか確認できなかった",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9387,6 +9223,7 @@
     "読み・岐阜県郷土工芸品の指定日（1992年3月30日）はいずれもWikipediaのみで確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9460,6 +9297,7 @@
     "読みは島田市博物館の「しとろやき」を正規形とし、日本伝統文化振興機構は「しどろやき」とするため別表記として併記した",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9531,6 +9369,7 @@
     "窯元名「晴山陶房／清山陶房」の表記ゆれがあり、正式表記の確認が必要",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9597,6 +9436,7 @@
     "英語名は確認できなかった（静岡市一覧に Shizuhata-Yaki のローマ字表記はあるが英語名としては未確認）",
     "2026-11-12にGoogleマップでも秋果陶房の掲載を確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9656,6 +9496,7 @@
     "狭義（名古屋城内窯の製品）と広義（様式名としての御深井焼）のどちらを産地レコードの範囲とするかは未決定",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9712,6 +9553,7 @@
     "愛知県指定郷土工芸品とする紹介はあるが、正式な指定区分・指定年は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9779,6 +9621,7 @@
     "開窯年は嘉永年間説（県陶磁美術館）と文政年間説（一般解説）が対立する",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9844,6 +9687,7 @@
     "県市指定等の制度指定の有無は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9910,6 +9754,7 @@
     "英語名は確認できなかった",
     "2026-11-12にGoogleマップでも福森阿漕の掲載を確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -9979,6 +9824,7 @@
     "陶器／磁器／炻器の区分、県指定等の制度指定の有無、神木地区の窯跡・碑の現存は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10039,6 +9885,7 @@
     "県市指定等の制度指定の有無は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10095,6 +9942,7 @@
     "県指定伝統工芸品等の制度指定の有無は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10163,6 +10011,7 @@
     "県伝統的工芸品の指定年（1998年・第6次指定とする説）はWikipediaのみで確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10228,6 +10077,7 @@
     "県指定解除の理由・経緯は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10301,6 +10151,7 @@
     "窯跡の現況と公開可否は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10376,6 +10227,7 @@
     "京都府・京都市の伝統的工芸品指定としての楽焼の指定有無は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10448,6 +10300,7 @@
     "創始年・創始者名の一次史料上の確定度は未確認（辞典は「とされる」表現）",
     "英語名は英語版Wikipediaの記事名による"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10514,6 +10367,7 @@
     "大阪府レベルの制度指定の有無は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10591,6 +10445,7 @@
     "府・市指定文化財としての古曽部窯跡の指定種別は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10655,6 +10510,7 @@
     "起点は「元和年間・古明石」（専門資料）と「江戸中頃開始」（Wikipedia）で記述が分かれ、両者の連続性の評価は未確認",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10729,6 +10585,7 @@
     "桃井ミュージアムの開館年は1999年5月説と2011年説が併存する",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10800,6 +10657,7 @@
     "開窯年は「文政元年（1818年）」と「文政年間（1818〜30年）」の幅のある表記が併存する",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10866,6 +10724,7 @@
     "ピン地点は産地の八鹿地区ではなく関宮地区の展示施設である",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -10942,6 +10801,7 @@
     "ピン地点は窯跡（北阿万伊賀野）とは別地区（松帆）である",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11014,6 +10874,7 @@
     "起点の与九郎招致は公的資料でも伝承表現であり、実証年代は未確定",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11084,6 +10945,7 @@
     "唯一の現行窯元は瑞芝堂（和歌山市善明寺461）とされるが、典拠は一般観光情報のみ",
     "英語名は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11156,6 +11018,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "起点年は1764-1772年説と1688年以前説が併存し、単一年に確定できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11227,6 +11090,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "開窯年は天保年間（1830-1844年）の範囲までで、特定年は出典により確定できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11300,6 +11164,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "江戸期の正確な開始年は県公式では「江戸末期」とのみされ、1855年説は一般サイト典拠にとどまる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11375,6 +11240,7 @@
     "陶器／磁器の素材区分を明示する公的出典は確認できなかった",
     "読みは鳥取県公式の「かずわやき」を採用した。一般サイトには「かづわやき」表記も見られる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11450,6 +11316,7 @@
     "陶器／磁器の素材区分を明示する公的出典は確認できなかった",
     "江戸期の窯の詳細（会見焼期の窯数・時期）は公的出典では「伝えられている」段階にとどまる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11526,6 +11393,7 @@
     "開窯年は江戸中期・1750年頃説を公的出典で確認したが、1658年創始説など諸説があり確定していない",
     "別名「若山焼」は一般サイト典拠のみで、公的出典では確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11589,6 +11457,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "座標は窯元公式サイトのGoogle Mapリンク（出西窯プレイス）から取得したもので、Placesのplace_idは本調査では取得できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11653,6 +11522,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "住所表記に揺れがある：島根県・観光公式情報では「松江市袖師町3-21」、Placesレコードおよび島根県物産関係の会員名簿では「松江市幸町803-13」とされ、同一窯元・同一電話番号（0852-21-3974）であることは確認できたが、両表記の関係は出典上明示されていない。ピンの住所・座標はPlacesレコードに統一した"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11714,6 +11584,7 @@
     "ピンを付けられない理由：閉窯済みであり、窯元の正確な所在地について出典間で豊岡地区とするものと東母里とするものがあり特定できず、Placesのplace_idも取得できなかったため、出典のない座標は記載しない",
     "素材区分を「陶器」とする典拠は一般サイトのみで、県・市の公式ページでは確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11784,6 +11655,7 @@
     "英語名は公的出典で確認できなかったため省略した",
     "創業年について、県公式ページは「延宝年間」と幅を持たせ、観光公式情報は1677年と特定しており、初代の開窯地そのものにも未確定とする資料がある"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11855,6 +11727,7 @@
    "unknowns": [
     "英語名は公的出典で確認できなかったため省略した（石川県小松市の九谷焼・錦山窯とは別産地である）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -11930,6 +11803,7 @@
     "創業の担い手（富田八幡宮神官・竹矢豊前と広瀬藩士・熊谷由武とする説）は一般サイトのみの典拠で、松江市の公式資料では確認できなかった",
     "県伝統工芸品指定の指定年・現況は公的出典で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12000,6 +11874,7 @@
     "英語名（en）は公的出典で確認できなかったため省略した",
     "素材区分は「黄釉系軟陶」から民芸風陶器への転換という記述までで、陶器／磁器の区分を明記した公的出典は未確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12074,6 +11949,7 @@
     "英語名（en）は公的出典で確認できなかったため省略した",
     "読みは県公式の「みじろやき」を採用したが、地名としての「みしろ」読みも資料中に見られ、表記ゆれがある"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12147,6 +12023,7 @@
     "英語名（en）は公的出典で確認できなかったため省略した",
     "温泉津焼単独での国・県の伝統的工芸品指定は確認できなかった（県ページでは石見焼の文脈でも扱われる）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12224,6 +12101,7 @@
      "note": "現在の公的資料では石見焼として扱われることが多く、1903年の石見焼陶器製造業組合の発足以前の旧称の一つとされる"
     }
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12294,6 +12172,7 @@
     "英語名（en）は公的出典で確認できなかったため省略した",
     "素材区分は陶器が中心だが白磁染付も含むため、単一区分（陶器のみ）とは出典上言い切れない"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12365,6 +12244,7 @@
     "国・県の伝統的工芸品指定の有無は、確認した公的・観光公式出典では言及がなく未確認",
     "素材区分（陶器）の明記は観光公式の記述（土・釉薬・肉厚な作り）からの読み取りであり、「陶器」と明記した県公式ページは未確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12437,6 +12317,7 @@
     "英語名は公的出典で確認できなかった",
     "岡山県指定伝統的工芸品等の制度指定の有無は確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12512,6 +12393,7 @@
     "英語名は公的出典で確認できなかった",
     "起源の細部（天明・寛政期とする伝承、文化年間の祭礼用土器など）は資料により時期の述べ方が異なり、本レコードでは県の表現する「江戸時代から」に留めた"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12585,6 +12467,7 @@
     "生産期間の細部（陶器1660年代〜・磁器1670年頃〜1685年前後、約20年間）は Wikipedia 等の二次資料に基づくため主張には含めなかった",
     "英語名は公的出典で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12658,6 +12541,7 @@
     "山口県指定伝統的工芸品等の制度指定の有無は公的出典で確認できなかった（経済産業大臣指定の山口県の陶磁器は萩焼のみ）",
     "英語名は公的出典で確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12723,6 +12607,7 @@
     "英語名は公的出典で確認できなかった（英語版産地一覧には Sueda-yaki とあるのみ）",
     "2026-11-12にGoogleマップでも末田の窯業生産工房及び登窯の掲載を確認できなかった（同名の別事業所とは別地点のため代用しない）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12775,6 +12660,7 @@
     "都道府県・市町村の公式サイト、観光協会、博物館等の公的出典（E2／E3）では星里焼に言及する資料が見つからず、確認できたのは産地一覧への名称の収載のみである",
     "ピン候補となる施設・窯元・碑を特定できなかったため pin は null とした"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12846,6 +12732,7 @@
     "開窯年次の公的出典での特定（1647年は民間窯元紹介サイトのみで確認）",
     "2026-11-12にGoogleマップでも理平焼窯元の掲載を確認できなかった"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12920,6 +12807,7 @@
     "創始者・開窯経緯の公的出典での特定（祖舜・秋光・香悦らの経緯は一般サイトのみ）",
     "現存窯数（神懸焼窯元と神懸窯の2窯とする一般サイト記述）の公的確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -12990,6 +12878,7 @@
     "英語名の公的出典での確認",
     "1300年頃伝来説の一次・学術出典での裏付け"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13062,6 +12951,7 @@
     "英語名の公的出典での確認",
     "県・市指定等の制度指定の有無（松山市の特産品一覧への掲載は確認、指定制度の明示は未確認）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13126,6 +13016,7 @@
     "英語名の公的出典での確認（英語版Wikipediaの表題のみ確認）",
     "県・市指定等の制度指定の有無"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13201,6 +13092,7 @@
     "陽和工房登窯の文化財指定・登録の種別はデータベース抜粋だけでは未確定",
     "現在の窯元数が4軒のままかは最新時点の再確認が必要"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13273,6 +13165,7 @@
     "英語名の県・市公式ページでの確定表記",
     "『尾戸（おど）』は『小津（おづ）』の転訛とする説はWikipediaのみで確認（E5）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13345,6 +13238,7 @@
     "尾戸焼と能茶山焼を別項目とするか併称とするかは、高知市が『尾戸焼・能茶山焼』と一体で扱う点と要整合",
     "2026-11-12にGoogleマップでも能茶山山上窯跡の掲載を確認できなかった（能茶山公園とは別の地点のため代用しない）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13422,6 +13316,7 @@
     "開窯年1600年説と1602年説の決着（県と市・観光連盟で表記が割れる）",
     "古高取の範囲（内ヶ磯窯までか白旗山窯以前か）の学術的確定"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13501,6 +13396,7 @@
     "みやま市瀬高町の彦三郎窯は蒲池焼の名を継ぐが技法的には陶器で別系統とされ（一般サイト、E5）、現行窯の総数は未確定",
     "県指定等の制度上の指定の有無（今回の公的出典では確認できず）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13580,6 +13476,7 @@
     "別称『朝田焼』はWikipediaのみの情報（E5）で未検証",
     "開窯年を慶長10年（1605年）頃とする記述は一般サイトのみ（E5）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13655,6 +13552,7 @@
     "元文2年（1737年）に久留米藩の御用窯として認可を受けたとする展示館の記述と、正徳年間開始とする県立美術館の記述の関係は未整理",
     "再興年は展示館・市資料が昭和44年（1969年）開窯とし、一部報道は移住を1968年とする"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13718,6 +13616,7 @@
     "現在も作陶が継続しているかは公的出典で確認できなかった（廃絶と断定する公的出典も未確認）",
     "読みは『ふたがわ』（福岡県立美術館）と『ふだがわやき』（一般サイト、E5）で対立する"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13778,7 +13677,7 @@
      "status": "established",
      "sources": [
       "saga_pref_crafts",
-      "saga_pref_industry_pdf",
+      "saga-pref-doc",
       "miyaki_kankou"
      ]
     }
@@ -13789,6 +13688,7 @@
     "素材区分は出典で表現が異なり、現行品の陶器・磁器の厳密な区分は未確認",
     "臼井走波の名の表記は出典により『走波』（佐賀県）と『走破』（みやき町観光協会）で異なる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13865,6 +13765,7 @@
     "窯元の総数は出典により表現が異なり、産地全体の総数は未確定",
     "英語表記は産地組合サイトの表記のみで確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13938,8 +13839,9 @@
    "unknowns": [
     "英語名は公的出典で確認できず",
     "伝統的工芸品等の制度指定の有無は公的出典で確認できず",
-    "焼成温度が約800度と低く脆いため江戸期の現存品は極めて少ないとされる点はWikipediaのみで確認（E5）"
+    "焼成温度が約800℃と低く脆いため江戸期の現存品は極めて少ないとされる点はWikipediaのみで確認（E5）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -13965,7 +13867,7 @@
      "status": "established",
      "sources": [
       "takeo_city_kenbunroku",
-      "wiki_sanchi"
+      "wikipedia-ware-list"
      ]
     },
     {
@@ -14008,6 +13910,7 @@
     "『武雄古唐津焼』の読み・英語名は公的出典で確認できず",
     "候補の丸田宣政窯は、武雄市・観光協会の案内（真手野24704-2）と地図掲載（真手野24767）で番地が異なるため、ピンの設置は見送った"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14080,6 +13983,7 @@
    "unknowns": [
     "江戸期の正確な開窯年は『1700年頃』『18世紀半ば頃』等、出典により表現が揺れる"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14148,6 +14052,7 @@
     "再現作陶を行う工房は県内に複数あると市が紹介するが、全窯の網羅的リストは未確認",
     "候補の現川焼陶窯跡は、長崎市公表の所在地（現川町521番地2ほか）と地図掲載（現川町495）で番地が異なるため、ピンの設置は見送った"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14220,6 +14125,7 @@
    "unknowns": [
     "英語名は公的出典で確認できず"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14295,6 +14201,7 @@
     "開窯年について、大分県アーカイブページは元号表記が1705年と一致しない表記をするため、日田市公式の『宝永2年（1705年）』表記との間で元号表記の揺れがある",
     "英語名は観光系公式ページの表記のみで確認し、学術・制度文書での英語名は未確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14359,6 +14266,7 @@
     "窯元名・所在地：一般ブログは『霧島工房』を挙げるが住所の公的確認が取れていない。陶器市案内には『都城焼太郎窯』の名もあり、現行窯元が単一かどうか未確認",
     "県・国指定等の制度上の位置づけ（県伝統的工芸品指定の有無）は公式一覧で未確認"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14433,6 +14341,7 @@
     "再興年：1969年説（県伝統的工芸品一覧）と1971年説（県季刊誌・UMK）が併存",
     "素材区分を『陶器』と明示する公的出典は未確認の論点を含む"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14507,6 +14416,7 @@
     "別名『能野焼』は前身の古窯の名であり、現行の種子島焼と同一ではない",
     "種子島焼自体の県伝統工芸品指定の有無は公式一覧で未確認（指定が確認できたのは能野焼窯跡の市指定史跡と能野焼花瓶の市指定文化財）"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   },
@@ -14575,6 +14485,7 @@
     "『琉球焼』の語が総称として使われる範囲（沖縄本島のみか離島の焼き物を含むか）は出典により幅があり、公的出典での厳密な定義は未確認",
     "読みを単独で明示する公的出典を確認できなかったため names の reading は null"
    ],
+   "updated": "2026-11-12",
    "layer": "extended",
    "tier": 3
   }

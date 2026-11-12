@@ -88,11 +88,6 @@
    "url": "https://www.city.ota.gunma.jp/page/4234.html",
    "level": "E2"
   },
-  "kotobank-suemura": {
-   "label": "コトバンク「陶邑窯址群」（『日本大百科全書』ほか事典項目の集成）",
-   "url": "https://kotobank.jp/word/%E9%99%B6%E9%82%91%E7%AA%AF%E5%9D%80%E7%BE%A4-1551149",
-   "level": "E3"
-  },
   "takahashi2021-owari-mino": {
    "label": "高橋照彦「尾張・美濃の平安期施釉陶器生産をめぐる2、3の問題」『京都府埋蔵文化財論集』第8集、京都府埋蔵文化財調査研究センター、2021年",
    "url": "https://www.kyotofu-maibun.or.jp/data/kankou/kankou-pdf/ronsyuu8/29takahashi.pdf",
@@ -216,11 +211,6 @@
   "fujisawa-tokai-glazed": {
    "label": "藤澤良祐「施釉陶器の生産形態」『知多半島の歴史と現在』17号（日本福祉大学知多半島総合研究所）",
    "url": "https://nfu.repo.nii.ac.jp/record/2602/files/%E7%9F%A5%E5%A4%9A%E5%8D%8A%E5%B3%B6%E3%81%AE%E6%AD%B4%E5%8F%B2%E3%81%A8%E7%8F%BE%E5%9C%A817_03%E8%97%A6%E6%B5%9C%E8%89%AF%E7%A5%90.pdf",
-   "level": "E1"
-  },
-  "yamamoto-tono-dissertation": {
-   "label": "山本智子『中世東濃窯の研究』愛知学院大学博士論文（内容の要旨）",
-   "url": "https://www.agu.ac.jp/pdf/graduate/thesis/letters1/44-1.pdf",
    "level": "E1"
   },
   "yoshioka-rekihaku19": {
@@ -513,20 +503,10 @@
    "url": "https://kunishitei.bunka.go.jp/heritage/detail/313/204",
    "level": "E2"
   },
-  "hita-onta": {
-   "label": "日田市「重要文化的景観 小鹿田焼の里」",
-   "url": "https://www.city.hita.oita.jp/soshiki/shokokankobu/bunkazaihogoka/bunkazaikanri/bunkazai/2243.html",
-   "level": "E2"
-  },
   "hita-onta-doc": {
    "label": "日田市教育委員会 小鹿田焼陶芸館資料（開窯年の近年の見解）",
    "url": "https://www.city.hita.oita.jp/uploaded/attachment/1588.pdf",
    "level": "E2"
-  },
-  "kyoto-art-onta": {
-   "label": "京都芸術大学「古くて新しい小鹿田焼 ―ゆるぎない伝統」",
-   "url": "https://g.kyoto-art.ac.jp/reports/4969/",
-   "level": "E3"
   },
   "toki-mino": {
    "label": "土岐市「きみとさざもう 土岐市文化財情報 vol.17 美濃桃山茶陶」",
@@ -735,7 +715,8 @@
     "土器製作の着想が列島内で独立に生まれたのか、大陸側の初期土器と関係するのかは未決着（次のイベントで扱う）",
     "出土土器はすべて小破片で、器形全体を復元できる資料はない"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/east-asian-pottery-origins",
@@ -785,7 +766,8 @@
     "中国南部の仙人洞遺跡など約2万年前とされる土器との年代的・技術的関係の検証は継続中",
     "初期土器の具体的な製作技術（粘土の選択・成形法）が地域間で共有されていたかは不明"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/jomon-pottery-expansion",
@@ -834,7 +816,8 @@
    "unknowns": [
     "草創期後半から早期にかけての西日本の土器様相は資料が少なく、地域ごとの広がりの経路は未解明な部分が多い"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/ento-daigi-regional-spheres",
@@ -875,7 +858,8 @@
    "unknowns": [
     "様式の広がりが人の移動によるものか、情報の伝達によるものかは遺跡ごとに検証が必要"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/yayoi-pottery-formation",
@@ -932,7 +916,8 @@
    "unknowns": [
     "縄文土器から弥生土器への移行を「在地の連続」とみる度合いは地域ごとに異なり、定量的な評価は今後の課題"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/yayoi-chronology-debate",
@@ -982,7 +967,8 @@
    "unknowns": [
     "較正曲線の平坦部（プラトー）の影響をどう処理するかで結論が変わりうる点が論点として残る"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/haji-ware-emergence",
@@ -1031,7 +1017,8 @@
    "unknowns": [
     "土師器という名称自体の成立過程（古代の「土師」氏との関係づけ）については考古学側の資料だけでは確定できない"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/furu-style-and-regional-spread",
@@ -1080,7 +1067,8 @@
    "unknowns": [
     "様式の伝播が工人の移動を伴ったかどうかは、胎土分析など理化学的検討の蓄積を要する"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sue-ware-introduction",
@@ -1101,7 +1089,7 @@
      ]
     },
     {
-     "text": "須恵器は朝鮮半島から導入された半地下式の窖窯で、1000〜1200度の高温で焼成された灰色の堅緻な土器である",
+     "text": "須恵器は朝鮮半島から導入された半地下式の窖窯で、1000〜1200℃の高温で焼成された灰色の堅緻な土器である",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -1137,7 +1125,8 @@
    "unknowns": [
     "初期須恵器の工房そのものの考古学的確認はなお不十分で、工人集落の認定基準が論議中である"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sue-multi-origin-and-suemura",
@@ -1194,7 +1183,8 @@
    "unknowns": [
     "多元的に始まった生産が陶邑へ集中した政治的・経済的仕組みの全体像は解明途上である"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sue-regional-kilns-expansion",
@@ -1245,7 +1235,8 @@
    "unknowns": [
     "各地の地方窯の開窯が、畿内からの工人の派遣によるのか、在地工人の学習によるのかは個別の検証が必要"
    ],
-   "era": 1
+   "era": 1,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sueki-consolidation-decline",
@@ -1307,7 +1298,8 @@
    "unknowns": [
     "東日本（関東・東北）で11世紀末まで続いた須恵器生産の具体的な終焉過程は、地域別の報告書の精査が必要"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/nara-sansai-adoption",
@@ -1357,7 +1349,8 @@
    "unknowns": [
     "奈良時代の三彩陶器の生産窯は現状では確認されておらず、技術伝来の具体的な担い手・経路は未解明である"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/lead-glaze-introduction",
@@ -1406,7 +1399,8 @@
    "unknowns": [
     "白鳳期の緑釉技術の具体的な故地（朝鮮半島のどの窯業地か）は、原論文の精査が必要"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/ash-glaze-origin-sanage",
@@ -1466,7 +1460,8 @@
    "unknowns": [
     "灰釉の施釉技術そのものが中国の施釉陶器の直接的影響によるのか、須恵器の自然釉（灰かぶり）の延長として国内で成立したのかは、成立過程の再検討の中でなお論点となっている"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/green-glaze-diffusion-9c",
@@ -1518,7 +1513,8 @@
    "unknowns": [
     "防長（周防・長門）における緑釉生産の具体的な窯跡と開始時期は、地域資料の精査が必要"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/ash-glaze-tokai-expansion",
@@ -1570,7 +1566,8 @@
    "unknowns": [
     "美濃の白瓷系陶器生産と猿投窯との具体的な工人・技術のつながりは、窯跡ごとの検討が必要"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/omi-green-glaze",
@@ -1631,7 +1628,8 @@
    "unknowns": [
     "近江窯の工人集団の出自（畿内・東海いずれからの移動か）はなお検討途上である"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/hajiki-continuity",
@@ -1680,7 +1678,8 @@
    "unknowns": [
     "土師器から中世のかわらけ・瓦器への系譜のつながりは、地域ごとに時期と担い手の実証がなお必要である"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/tile-pottery-combined-kilns",
@@ -1740,7 +1739,8 @@
    "unknowns": [
     "瓦陶兼業の担い手（瓦工と陶工が同一集団だったか）の実態は、遺跡ごとの工房跡の検討が必要"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/atsumi-shinooka-reorganization",
@@ -1802,7 +1802,8 @@
     "篠岡（尾北）窯から東濃・渥美方面への工人の具体的な移動経路は、型式学的な検討に依拠しており実証は途上である",
     "渥美窯と猿投窯の技術的つながりの直接的な証拠（工人移動を示す資料）はなお限定的である"
    ],
-   "era": 2
+   "era": 2,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sarage-to-seto",
@@ -1857,7 +1858,8 @@
     "景正の実在と渡宋の事実関係（史料的裏付けなし）",
     "瀬戸成立期の経営主体（荘園・寺社との関係）の具体像"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/chinese-ceramics-import",
@@ -1918,7 +1920,8 @@
     "天目・青磁の輸入量の時期別定量（沈船資料等の蓄積待ち）",
     "輸入陶磁の器形が古瀬戸に取り入れられる具体的な仲介者（商人・禅僧）の実態"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/ko-seto-glaze-development",
@@ -1970,7 +1973,8 @@
     "鉄釉出現の技術的契機（中国陶磁の鉄釉製品からの直接的影響か、在来灰釉技術の内部発展か）",
     "天目茶碗の初期生産窯の特定"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/yamachawan-tokai-network",
@@ -1995,7 +1999,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "yamamoto-tono-dissertation"
+      "yamamoto2020-tonou"
      ]
     },
     {
@@ -2003,7 +2007,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "yamamoto-tono-dissertation"
+      "yamamoto2020-tonou"
      ]
     },
     {
@@ -2019,7 +2023,7 @@
      "level": "E1",
      "status": "established",
      "sources": [
-      "yamamoto-tono-dissertation"
+      "yamamoto2020-tonou"
      ],
      "note": "知多半島窯（常滑系）の山茶碗成立に関する先行研究の紹介として"
     }
@@ -2033,7 +2037,8 @@
     "山茶碗工人集団と施釉陶器工人集団の人的関係（同一集落内での分業の実態）",
     "各地域型の境界域での技術交流の具体相"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/tokoname-bizen-large-jars",
@@ -2088,7 +2093,8 @@
     "大甕の海上輸送の具体的な船型・積載方法と破損率",
     "常滑・備前の市場分担の時期別変動（消費地編年の精緻化待ち）"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/bizen-founding",
@@ -2133,7 +2139,8 @@
     "9世紀代の生産の実態（空白期の様相）",
     "中世備前への転換期の窯の発掘事例の少なさ"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/echizen-founding",
@@ -2194,7 +2201,8 @@
     "成立時期を含む鎌倉時代前期の型式組列に年代の定点を与える基準資料の不足",
     "成立契機を積極的に証明する史料の不在"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/suzu-founding",
@@ -2215,7 +2223,7 @@
      ]
     },
     {
-     "text": "珠洲焼の製造技術は、古墳時代から平安時代にかけて焼かれた須恵器の技法を受け継いでおり、窖窯で還元炎焼成し1200度以上の高温で焼き締める",
+     "text": "珠洲焼の製造技術は、古墳時代から平安時代にかけて焼かれた須恵器の技法を受け継いでおり、窖窯で還元炎焼成し1200℃以上の高温で焼き締める",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -2255,7 +2263,8 @@
     "招き寄せられた工人の具体的な出身地の特定",
     "15世紀末に生産が途絶した直接の原因"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/tanba-founding",
@@ -2302,7 +2311,8 @@
     "常滑からの工人移動を裏付ける直接の史料",
     "緑風台窯に先行する最初期の生産の有無"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/shigaraki-iga-development",
@@ -2365,7 +2375,8 @@
     "信楽と伊賀の工人集団の相互関係（窯場の近接にもかかわらず系譜の切り分け）",
     "信楽の中世窯の編年の精緻化"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/seto-to-mino-okama",
@@ -2428,7 +2439,8 @@
     "「瀬戸山離散」の実態（工人移動の規模と時期の特定）",
     "大窯の窯体構造の直接の起源（窖窯からの発展過程の細部）"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/chanoyu-demand-shift",
@@ -2484,7 +2496,8 @@
     "茶人の注文と窯側の生産対応を結ぶ具体的な仲介・注文書の史料の少なさ",
     "わび茶成立以前（珠光以前）の国焼評価の実態"
    ],
-   "era": 3
+   "era": 3,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/karatsu-kilns-noborigama",
@@ -2541,7 +2554,8 @@
    "unknowns": [
     "岸岳窯の正確な成立年と最初期の陶工の来歴を示す同時代の文献史料は確認されていない"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/raku-foundation-iemoto",
@@ -2596,7 +2610,8 @@
     "長次郎の父とされる「あめや」の素性など、長次郎の出自には伝承の域を出ない部分が多い",
     "「楽焼」の呼称がいつから用いられたかは不明とされる"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/korean-potters-migration",
@@ -2646,7 +2661,8 @@
    "unknowns": [
     "移住した陶工の総数については、信頼できる同時代史料が乏しく、人数を確定できない"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/mino-momoyama-cha",
@@ -2698,7 +2714,8 @@
    "unknowns": [
     "「志野」の名の由来とされる志野宗信説は発掘成果により否定されており、様式名の成立過程はなお未確定な部分がある"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/satsuma-foundation",
@@ -2750,7 +2767,8 @@
    "unknowns": [
     "連れ帰られた人数（約80名）や各陶工の配属先の詳細は、後世の家伝・地誌に依る部分が残る"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/agano-takatori-foundation",
@@ -2804,7 +2822,8 @@
    "unknowns": [
     "尊楷が加藤清正に従って渡来したとする経緯は伝承であり、同時代史料による裏付けは限られる"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/hagi-foundation",
@@ -2855,7 +2874,8 @@
    "unknowns": [
     "李勺光・李敬の朝鮮における出身地・所属窯については鶏龍山とする伝承があり、確定的な裏付けは得られていない"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/arita-porcelain-foundation",
@@ -2909,7 +2929,8 @@
     "磁器生産が実際に始まった正確な年と、最初期の窯（天狗谷窯等）の操業実態は発掘調査の進展を待つ部分が大きい",
     "李参平個人の実在性については、金ヶ江三兵衛との同一視を含め、なお検討の余地がある"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/hizen-porcelain-diffusion",
@@ -2964,7 +2985,8 @@
    "unknowns": [
     "肥前吉田焼・志田焼など嬉野方面の各窯の創始経緯と有田技術との具体的な接点は、個別の発掘・文献調査に依る部分が大きい"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/nabeshima-domain-kiln",
@@ -3017,7 +3039,8 @@
    "unknowns": [
     "岩谷川内山から大川内山への移転の経路（南川原経由か直接か）には発掘成果に基づく諸説がある"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/kyoyaki-ninsei",
@@ -3068,7 +3091,8 @@
    "unknowns": [
     "仁清の生没年や前半生は未詳であり、伝記的事項には伝承に依る部分が残る"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/imari-export-kakiemon",
@@ -3129,7 +3153,8 @@
    "unknowns": [
     "「柿右衛門様式」と酒井田柿右衛門窯そのものの製品との切り分けは、様式研究の進展によって見直され続けている"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/koishiwara-to-onta",
@@ -3154,7 +3179,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "kyoto-art-onta"
+      "era5-kyoto-art-onta"
      ]
     },
     {
@@ -3162,7 +3187,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "kyoto-art-onta"
+      "era5-kyoto-art-onta"
      ]
     },
     {
@@ -3182,7 +3207,8 @@
    "unknowns": [
     "小石原側の開窯経緯（高取系陶工の移住と、1682年の黒田光之による伊万里陶工招致との関係）は資料間で整理が分かれる"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/seto-porcelain-tamikichi",
@@ -3236,7 +3262,8 @@
     "民吉の各地での滞在期間や修業の具体的な内容には、後世の伝承（苦難譚）によって彩られた部分がある",
     "民吉帰郷以前の瀬戸における染付の試行（陶胎染付など）との技術的連続の程度は、初期染付の研究課題となっている"
    ],
-   "era": 4
+   "era": 4,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/meiji-export-expositions",
@@ -3288,7 +3315,8 @@
    "unknowns": [
     "各産地別の輸出量の時系列は『日本輸出陶磁器史』（1967）に依る部分が大きく、一次統計での再確認は未了"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/japonisme-europe",
@@ -3337,7 +3365,8 @@
    "unknowns": [
     "ドイツ（マイセン）やイギリスのスタジオポタリーへの影響については、フランス中心の本論文の範囲外であり別途の確認が必要"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/wagener-western-techniques",
@@ -3398,7 +3427,8 @@
     "ワグネルの有田滞在中の指導内容の一次史料による詳細確認は未了",
     "鋳込み成形（泥漿鋳込み）の日本への導入時期と経路は、石膏型技法の伝来と分けて確認する必要がある"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/arita-modernization",
@@ -3458,7 +3488,8 @@
    "unknowns": [
     "精磁会社の設立年次など、会社史の細部は社史・一次資料での確認が今後の課題"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/seto-modernization",
@@ -3510,7 +3541,8 @@
    "unknowns": [
     "瀬戸陶器学校（1895年設立とされる）の技術教育が産地に与えた影響は、本イベントの典拠の範囲外であり未確認"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/mingei-naming-mingeikan",
@@ -3562,7 +3594,8 @@
    "unknowns": [
     "河井寛次郎個人の作陶（京都・五条坂を拠点とする塩釉・鉄絵など）については本イベントでは深掘りしておらず、人物レコード側での確認が必要"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/hamada-mashiko",
@@ -3622,7 +3655,8 @@
    "unknowns": [
     "濱田の定着が益子の窯元数や生産額に与えた定量的な影響は未確認"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/leach-st-ives-exchange",
@@ -3680,7 +3714,8 @@
    "unknowns": [
     "リーチの弟子世代（マイケル・カーディューら）を介したアフリカ・オセアニアへの技術伝播は、本イベントの典拠の範囲外"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/ningen-kokuho-system",
@@ -3732,7 +3767,8 @@
    "unknowns": [
     "第1回認定の日付と陶芸の件数について、濱田琢司の学会発表要旨は「1955年5月12日、陶芸5件」と記すなど資料間に相違があり、本ファイルでは日本セラミックス協会の認定一覧（1955年2月15日・4名）を採用した。文化庁の一次記録での確定が課題"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/sodeisha-avant-garde",
@@ -3792,7 +3828,8 @@
    "unknowns": [
     "走泥社会員の海外での受賞歴や欧米の美術館への収蔵経緯の詳細は未確認"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/fuel-transition",
@@ -3852,7 +3889,8 @@
    "unknowns": [
     "産地ごとの燃料転換の時期の差（薪窯が長く残った産地など）の系統的な比較は未了"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/electric-kiln-studio-pottery",
@@ -3865,7 +3903,7 @@
    "summary": "電気窯とガス窯の普及は、焼成を大規模な共同作業から個人で管理できる工程へと変えた。産地の窯元が用途別に窯を使い分けるようになったのに続き、小型窯は産地の外でも作陶の場を開く基盤となったとされる。",
    "claims": [
     {
-     "text": "電気窯は炎を持たず均一に酸化焼成できるため、砥部の窯元では素焼きや約750度での上絵焼成に用いられ、本焼きのガス窯と用途を分けて使われた",
+     "text": "電気窯は炎を持たず均一に酸化焼成できるため、砥部の窯元では素焼きや約750℃での上絵焼成に用いられ、本焼きのガス窯と用途を分けて使われた",
      "level": "E2",
      "status": "established",
      "sources": [
@@ -3905,7 +3943,8 @@
     "戦後の個人陶芸家数・陶芸教室数の時系列統計は未確認",
     "電気窯メーカーの出荷記録など、普及を裏付ける一次資料の確認が今後の課題"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/suzu-revival",
@@ -3967,7 +4006,8 @@
    "unknowns": [
     "中世珠洲焼の衰退原因は今日も解明されていない（大量生産への対応の遅れ等の説がある）"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   },
   {
    "id": "lineage/onta-preservation",
@@ -4021,7 +4061,8 @@
    "unknowns": [
     "指定要件とされる製法上の諸条件（陶土の作り方・成形方法・装飾方法・釉薬等）の公式な文面は、認定書の展示資料に基づく伝聞であり、文化庁の一次資料での確認が課題"
    ],
-   "era": 5
+   "era": 5,
+   "updated": "2026-11-12"
   }
  ]
 }
