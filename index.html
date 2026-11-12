@@ -75,6 +75,9 @@ ol li{margin:.35rem 0}
 <div class="card"><h3><a href="buying.html">買う・選ぶ・贈る</a></h3>
 <p>作家ものや骨董を含む、器の買い方・選び方・贈り方。見方と真贋、買う場所ごとの違い、価格と価値、贈る応用、購入後と手放すときまで。</p>
 <p class="small">レコード 26 件／主張 166 件<br><a href="data/buying-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="biz.html">作り手の経営と制度</a></h3>
+<p>作り手のための、値付けと原価、販路、伝統的工芸品などの制度、産地組合、後継者と事業承継、輸出と各国の基準。</p>
+<p class="small">レコード 25 件／主張 168 件<br><a href="data/biz-records.json">機械可読データ（JSON）</a></p></div>
 <div class="card"><h3><a href="jomon.html">縄文文様の分類</a></h3>
 <p class="small">縄文土器の「縄文」を、原体（撚りをかける道具）・施文方法・文様の3層で分類。同定キーで観察から分類へたどり着けます。</p>
 <p class="small">レコード 40 件／主張 75 件<br><a href="data/jomon-records.json">機械可読データ（JSON）</a></p></div>
@@ -108,7 +111,7 @@ ol li{margin:.35rem 0}
 <details><summary style="cursor:pointer;color:#8a5a1e">ベストプラクティスを開く</summary>
 <ol>
 <li><strong>まずガイドを読ませる。</strong> <a href="docs/ai-guide.md">AI・機械向けガイド（docs/ai-guide.md）</a> に、レコードの形式・証拠レベル（E1〜E5、H）・主張の状態（確立／対立／類推／判定困難）の定義があります。最初にこの文書を読ませると、以降の回答の扱いが正確になります。</li>
-<li><strong>HTMLではなく JSON を読ませる。</strong> 質問の対象分野の機械可読データ（<a href="data/jomon-records.json">縄文</a>／<a href="data/wares-records.json">産地</a>／<a href="data/lineage-records.json">系譜</a>／<a href="data/technique-records.json">技法</a>／<a href="data/people-records.json">人物</a>／<a href="data/kiln-records.json">窯・設備</a>／<a href="data/clay-records.json">土</a>／<a href="data/glaze-records.json">釉薬</a>／<a href="data/basics-records.json">器の基礎と暮らし</a>／<a href="data/buying-records.json">買う・選ぶ・贈る</a>）が、正本の構造化レコードから生成した機械可読形式です。ページの見た目ではなく、こちらを根拠に答えさせてください。</li>
+<li><strong>HTMLではなく JSON を読ませる。</strong> 質問の対象分野の機械可読データ（<a href="data/jomon-records.json">縄文</a>／<a href="data/wares-records.json">産地</a>／<a href="data/lineage-records.json">系譜</a>／<a href="data/technique-records.json">技法</a>／<a href="data/people-records.json">人物</a>／<a href="data/kiln-records.json">窯・設備</a>／<a href="data/clay-records.json">土</a>／<a href="data/glaze-records.json">釉薬</a>／<a href="data/basics-records.json">器の基礎と暮らし</a>／<a href="data/buying-records.json">買う・選ぶ・贈る</a>／<a href="data/biz-records.json">作り手の経営と制度</a>）が、正本の構造化レコードから生成した機械可読形式です。ページの見た目ではなく、こちらを根拠に答えさせてください。</li>
 <li><strong>主張の状態を確認させる。</strong> 状態が「対立」の主張は、どちらか一方ではなく両論を併記させること。「判定困難」「未確認」や、証拠レベル E5（出典不明の一般情報）・H（類推）を根拠に断定させないでください。</li>
 <li><strong>出典つきで答えさせる。</strong> 各主張の <code>sources</code> は出典キーで、JSON 内の <code>sources</code> 台帳に名称と URL があります。回答には出典名を添えるよう指示してください。</li>
 <li><strong>再現手順は前提とセットで使わせる。</strong> 技法の手順（<code>procedure</code>）と縄文の再現欄（<code>reproduction</code>）には、前提注記（<code>premise</code>）として「再構成である」旨が書かれています。前提を落として手順だけを引用させないでください。</li>
@@ -129,14 +132,14 @@ https://givemegohan.github.io/japanese-pottery-kb/data/technique-records.json �
 </section>
 
 <div class="stats">
-<div class="card"><div class="stat">995</div>収載レコード</div>
-<div class="card"><div class="stat">4316</div>出典つきの主張</div>
-<div class="card"><div class="stat">2068</div>出典の総数</div>
+<div class="card"><div class="stat">1020</div>収載レコード</div>
+<div class="card"><div class="stat">4484</div>出典つきの主張</div>
+<div class="card"><div class="stat">2159</div>出典の総数</div>
 <div class="card"><div class="stat">139</div>地図にピンのある産地</div>
 </div>
 </div></main>
 <footer><div class="wrap">
-<p>日本の陶芸ナレッジベース — トップページ。<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／<a href="basics.html">器の基礎と暮らし</a>／<a href="buying.html">買う・選ぶ・贈る</a>／<a href="docs/ai-guide.md">AI・機械向けガイド</a>。このサイトとデータは基本的に AI が生成しています。</p>
+<p>日本の陶芸ナレッジベース — トップページ。<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／<a href="basics.html">器の基礎と暮らし</a>／<a href="buying.html">買う・選ぶ・贈る</a>／<a href="biz.html">作り手の経営と制度</a>／<a href="docs/ai-guide.md">AI・機械向けガイド</a>。このサイトとデータは基本的に AI が生成しています。</p>
 </div></footer>
 
 <script>
@@ -145,6 +148,7 @@ function norm(s){return (s||"").toLowerCase().replace(/\s+/g,"");}
 const FILES=[
  ["basics","器の基礎と暮らし","basics.html","rec-","basics-records.json"],
  ["buying","買う・選ぶ・贈る","buying.html","rec-","buying-records.json"],
+ ["biz","作り手の経営と制度","biz.html","rec-","biz-records.json"],
  ["jomon","縄文文様の分類","jomon.html","rec-","jomon-records.json"],
  ["wares","産地・窯","wares.html","rec-","wares-records.json"],
  ["lineage","陶芸の系譜","history.html","ev-","lineage-records.json"],
@@ -192,8 +196,8 @@ q.addEventListener('input',()=>{
 const STJ={"established":"確立","contested":"対立","inferred":"類推","indeterminate":"判定困難","unknown":"未確認"};
 const RULES="あなたは日本の陶芸ナレッジベースのレコードに基づいて質問に答えるアシスタントです。次のルールを守ってください。\n・答えは、後に示すレコードの内容を主な根拠にしてください。情報が足りない場合は、末尾の「データベース全体の見方」に従って、公開されているデータへ自分でアクセスして補ってください。拾ってきた情報にも、以下のルールを同じように適用してください。それでも分からないことは、その旨を述べてください。\n・各主張には出典名を添えてください。\n・状態が「対立」の主張は、どちらか一方ではなく両論を併記してください。「判定困難」「類推」、および証拠レベルE5（出典不明の一般情報）を断定の根拠にしないでください。\n・手順が含まれる場合は、前提（再構成である旨）も一緒に述べてください。\n・このデータベースの内容はAIが生成したもので、誤りが混ざることがあります。重要な数値は出典の原典で確認するよう、最後に注意を添えてください。";
 const KBASE="https://givemegohan.github.io/japanese-pottery-kb/";
-const KBGUIDE_SHORT="【データベース全体の見方】\n形式と証拠レベル・状態の定義は "+KBASE+"docs/ai-guide.md にあります。機械可読データ（JSON）は分野別に "+KBASE+"data/ の下にあります（jomon-records.json＝縄文文様、wares-records.json＝産地・窯、lineage-records.json＝系譜、technique-records.json＝技法、people-records.json＝陶芸家・保持団体、kiln-records.json＝窯・設備、clay-records.json＝土、glaze-records.json＝釉薬、basics-records.json＝器の基礎と暮らし、buying-records.json＝買う・選ぶ・贈る）。各JSONは records（系譜は events）と sources（出典台帳）からなり、主張ごとに level・status・sources が付いています。";
-const KBGUIDE_FULL="【データベース全体の見方】\nこのデータベースは全体がWebで公開されています。根拠レコードに答えがないときは、次の方法で自分で情報を拾ってください。\n・まず、形式と証拠レベル（E1〜E5・H）・主張の状態（確立／対立／類推／判定困難）の定義を確認する： "+KBASE+"docs/ai-guide.md\n・分野別の機械可読データ（JSON）を取得して検索する： 縄文文様 "+KBASE+"data/jomon-records.json ／ 産地・窯 "+KBASE+"data/wares-records.json ／ 系譜 "+KBASE+"data/lineage-records.json ／ 技法 "+KBASE+"data/technique-records.json ／ 陶芸家・保持団体 "+KBASE+"data/people-records.json ／ 窯・設備 "+KBASE+"data/kiln-records.json ／ 土 "+KBASE+"data/clay-records.json ／ 釉薬 "+KBASE+"data/glaze-records.json ／ 器の基礎と暮らし "+KBASE+"data/basics-records.json ／ 買う・選ぶ・贈る "+KBASE+"data/buying-records.json\n各JSONは records（系譜は events）の配列と sources（出典キー→出典名・URLの台帳）からなります。各主張には level（証拠レベル）・status（状態）・sources（出典キー）が付いています。人間向けのトップページは "+KBASE+" です。";
+const KBGUIDE_SHORT="【データベース全体の見方】\n形式と証拠レベル・状態の定義は "+KBASE+"docs/ai-guide.md にあります。機械可読データ（JSON）は分野別に "+KBASE+"data/ の下にあります（jomon-records.json＝縄文文様、wares-records.json＝産地・窯、lineage-records.json＝系譜、technique-records.json＝技法、people-records.json＝陶芸家・保持団体、kiln-records.json＝窯・設備、clay-records.json＝土、glaze-records.json＝釉薬、basics-records.json＝器の基礎と暮らし、buying-records.json＝買う・選ぶ・贈る、biz-records.json＝作り手の経営と制度）。各JSONは records（系譜は events）と sources（出典台帳）からなり、主張ごとに level・status・sources が付いています。";
+const KBGUIDE_FULL="【データベース全体の見方】\nこのデータベースは全体がWebで公開されています。根拠レコードに答えがないときは、次の方法で自分で情報を拾ってください。\n・まず、形式と証拠レベル（E1〜E5・H）・主張の状態（確立／対立／類推／判定困難）の定義を確認する： "+KBASE+"docs/ai-guide.md\n・分野別の機械可読データ（JSON）を取得して検索する： 縄文文様 "+KBASE+"data/jomon-records.json ／ 産地・窯 "+KBASE+"data/wares-records.json ／ 系譜 "+KBASE+"data/lineage-records.json ／ 技法 "+KBASE+"data/technique-records.json ／ 陶芸家・保持団体 "+KBASE+"data/people-records.json ／ 窯・設備 "+KBASE+"data/kiln-records.json ／ 土 "+KBASE+"data/clay-records.json ／ 釉薬 "+KBASE+"data/glaze-records.json ／ 器の基礎と暮らし "+KBASE+"data/basics-records.json ／ 買う・選ぶ・贈る "+KBASE+"data/buying-records.json ／ 作り手の経営と制度 "+KBASE+"data/biz-records.json\n各JSONは records（系譜は events）の配列と sources（出典キー→出典名・URLの台帳）からなります。各主張には level（証拠レベル）・status（状態）・sources（出典キー）が付いています。人間向けのトップページは "+KBASE+" です。";
 function qaSelect(question,max){
   const nq=norm(question);
   const bg=new Set();for(let i=0;i<nq.length-1;i++)bg.add(nq.slice(i,i+2));
