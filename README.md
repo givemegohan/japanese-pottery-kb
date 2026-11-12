@@ -13,6 +13,7 @@
 ## 現在の掲載内容
 
 - トップページ（index.html）：内容の一覧・サイト内検索・「AIに質問する」フォーム・AIに読ませる場合のベストプラクティス
+- 器の基礎と暮らし（basics.html）：陶器と磁器の違い、電子レンジや食洗機の可否、安全、手入れと保管、贈答、価格の基礎（現時点で30件以上）
 - 縄文文様の分類（jomon.html）：縄文土器の「縄文」を原体・施文方法・文様の3層で分類した項目レコードと同定キー
 - 産地・窯の一覧（wares.html）：日本の陶磁器産地（現時点で160産地以上）のレコードと産地地図（ピンは各産地の代表地点、色は六古窯／伝統的工芸品指定／拡張層の区別）
 - 陶芸の系譜（history.html）：縄文土器から現代陶芸までの系譜と技術伝播を、学術論文を中心とする出典つきのイベントとして整理したもの
@@ -24,7 +25,15 @@
 
 ## AI・機械可読ドキュメント
 
-- `data/jomon-records.json`：項目レコードの機械可読エクスポート
+- `data/basics-records.json`：器の基礎と暮らしのレコード
+- `data/jomon-records.json`：縄文文様の分類のレコード
+- `data/wares-records.json`：産地・窯のレコード
+- `data/lineage-records.json`：系譜・伝播のレコード
+- `data/technique-records.json`：技法のレコード
+- `data/people-records.json`：陶芸家・保持団体のレコード
+- `data/kiln-records.json`：窯・設備のレコード
+- `data/clay-records.json`：土のレコード
+- `data/glaze-records.json`：釉薬のレコード
 - `docs/ai-guide.md`：レコードの読み方、証拠レベルと主張の状態の定義、利用上の注意
 
 ## 更新の仕組み

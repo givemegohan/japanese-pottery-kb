@@ -1,0 +1,2768 @@
+{
+ "about": "日本の陶芸ナレッジベース「器の基礎と暮らし」の機械可読データ。陶器と磁器の違いなどの基礎概念、電子レンジや食洗機の可否、安全、手入れと保管、贈答、価格の基礎を収載（現時点で30件以上）。定義は docs/ai-guide.md を参照。",
+ "ai_generated": true,
+ "stats": {
+  "records": 33,
+  "claims": 200,
+  "sources": 68
+ },
+ "sources": {
+  "b1-moco-guidance": {
+   "label": "大阪市立東洋陶磁美術館「陶磁入門 鑑賞の手引 1.やきものとは」",
+   "url": "https://www.moco.or.jp/intro/guidance/"
+  },
+  "b1-ceramic-bunrui": {
+   "label": "日本セラミックス協会 セラミックス博物館「日本のやきもの／分類」",
+   "url": "https://www.ceramic.or.jp/museum/yakimono/contents/bunrui.html"
+  },
+  "b1-ceramic-genryou": {
+   "label": "日本セラミックス協会 セラミックス博物館「日本のやきもの／原料」",
+   "url": "https://www.ceramic.or.jp/museum/yakimono/contents/genryou.html"
+  },
+  "b1-saga-qa": {
+   "label": "佐賀県立九州陶磁文化館「やきものQ&A やきものの種類」",
+   "url": "https://saga-museum.jp/ceramic/yakimono/qa/05.html"
+  },
+  "b1-toki-mino": {
+   "label": "土岐市「美濃焼の上手なつかいかた」",
+   "url": "https://www.city.toki.lg.jp/_res/projects/default_project/_page_/001/002/167/1002167_1.pdf"
+  },
+  "b1-toujiki-kinds": {
+   "label": "日本陶磁器センター「陶磁器の種類」",
+   "url": "https://www.toujiki.org/kinds%20of%20pottery.html"
+  },
+  "b1-arita-history": {
+   "label": "有田町 有田歴史民俗資料館「有田の陶磁史（2）」（広辞苑第5版の定義を引用）",
+   "url": "https://www.town.arita.lg.jp/rekishi/kiji003924/index.html"
+  },
+  "b1-yakimono-hi": {
+   "label": "陶器の日公式サイト「やきものの素材」",
+   "url": "https://yakimono.or.jp/information/material"
+  },
+  "b1-mie-news43": {
+   "label": "三重県工業研究所だより第43号（令和8年4月）「陶磁器の吸水率について」",
+   "url": "https://www.pref.mie.lg.jp/common/content/001251520.pdf"
+  },
+  "b1-mie-iga-medome": {
+   "label": "三重県工業研究所 榊谷幹雄・林大貴「多孔質な伊賀焼素地の目止め技術」",
+   "url": "https://www.pref.mie.lg.jp/common/content/000172120.pdf"
+  },
+  "b1-mie-thz": {
+   "label": "三重県工業研究所 研究報告No.41（2017）「テラヘルツ時間領域分光法を用いた陶磁器素地の焼結性の評価」",
+   "url": "https://www.pref.mie.lg.jp/common/content/000759226.pdf"
+  },
+  "b1-banko-dokuhon": {
+   "label": "四日市萬古焼陶磁器工業協同組合「よくわかる四日市萬古焼」",
+   "url": "https://banko.or.jp/bankodokuhon.pdf"
+  },
+  "b1-aichi-tokoname-sekki": {
+   "label": "愛知県産業技術研究所 常滑窯業技術センター「化粧土を用いた炻器の食洗機耐久性向上」",
+   "url": "https://www.aichi-inst.jp/tokoname/research/report/12p046ty01.pdf"
+  },
+  "b1-aichi-togai": {
+   "label": "愛知県産業技術研究所 常滑窯業技術センター「粘土瓦の耐凍害性評価技術の検討」",
+   "url": "https://www.aichi-inst.jp/tokoname/research/report/06-p034-ty02.pdf"
+  },
+  "b1-kagoshima-leak": {
+   "label": "鹿児島県工業技術センター研究報告第27号「陶磁器製品の漏れ原因と検査に関する研究」",
+   "url": "https://www.kagoshima-it.jp/pdf/kenkyu_report/k_report_2013_07.pdf"
+  },
+  "b1-lixil-tile": {
+   "label": "LIXIL「磁器質・せっ器質・陶器質の区分を正しく使いこなす選定ガイド」（タイルのJIS区分の解説）",
+   "url": "https://www.lixil.co.jp/lineup/tile/designers_tile_lab/articles/20260800_05"
+  },
+  "b1-nakagawa-guide": {
+   "label": "中川政七商店「道具の特徴とお手入れ（焼き物の素材について）」",
+   "url": "https://www.nakagawa-masashichi.jp/shop/pages/guide_maintenance_pottery.aspx"
+  },
+  "b1-customs-hanbetsu": {
+   "label": "関税中央分析所報第44号（2004）山口達彦ほか「陶磁製品の判別法」",
+   "url": "https://www.customs.go.jp/ccl_search/info_search/inorganicss/r_44_01_j.pdf"
+  },
+  "b2-narumi-faq": {
+   "label": "鳴海製陶株式会社「よくある質問」（Microwave Safe表示・金銀彩の電子レンジ使用不可など）",
+   "url": "https://www.narumi.co.jp/qa/"
+  },
+  "b2-narumi-care": {
+   "label": "鳴海製陶株式会社「素材別商品のお取り扱いについて」",
+   "url": "https://www.narumi.co.jp/care-guide"
+  },
+  "b2-hitachi-range": {
+   "label": "日立家電「電子レンジに使える容器、使えない容器を知りたいです」",
+   "url": "https://kadenfan.hitachi.co.jp/support/range/q_a/a22.html"
+  },
+  "b2-panasonic-faq": {
+   "label": "パナソニック公式FAQ「【ビルトイン食洗機】上絵や金彩・銀彩を施したり、貫入の入っている陶磁器について」",
+   "url": "https://jpn.faq.panasonic.com/app/answers/detail/a_id/84375"
+  },
+  "b2-yakimono-etsuke": {
+   "label": "「陶器の日」公式サイト やきもの情報「絵付食器」",
+   "url": "https://yakimono.or.jp/information/usage/etsuke"
+  },
+  "b2-taishigama-dishwasher": {
+   "label": "九谷焼 大志窯 コラム「九谷焼の食器洗浄機使用時に知っておきたいリスクと注意点」",
+   "url": "https://www.taishigama.com/column/296"
+  },
+  "b2-marumitsu-material": {
+   "label": "株式会社マルミツポテリ「マテリアルナンバーについて」（素材ごとの熱源対応表示と温度変化の注意）",
+   "url": "https://www.marumitsu.jp/proinfo/detail?id=material_number"
+  },
+  "b2-ceramic-donabe": {
+   "label": "日本セラミックス協会『セラミックス』44巻3号（2009年）セラミックスアーカイブズ「土鍋」（JIS S 2400の耐熱衝撃温度差）",
+   "url": "http://www.ceramic.or.jp/museum/contents/pdf/life07.pdf"
+  },
+  "b2-boken-jis": {
+   "label": "一般財団法人ボーケン品質評価機構「耐熱ガラス・陶磁器の熱衝撃性試験（耐熱温度差）JIS規格」",
+   "url": "https://www.boken.or.jp/find_items/lifestyle_goods/kitchenware/container_tableware/43746/"
+  },
+  "b2-shingama-faq": {
+   "label": "しん窯（青花・有田焼）「食器の取扱い方法について」（フリーザー使用不可の案内）",
+   "url": "https://www.shingama.com/question.html"
+  },
+  "b2-hakusan-care": {
+   "label": "白山陶器「製品の特性・お取り扱いについて」（磁器の吸水性と冷蔵保存）",
+   "url": "https://hakusan-shop-online.com/pages/instruction"
+  },
+  "b2-hario-freezer": {
+   "label": "HARIO「冷凍保存についての注意」（製品取扱説明、液体の冷凍膨張による破損）",
+   "url": "https://global.hario.com/product/BLP_BLPF.pdf"
+  },
+  "b2-gifu-elution": {
+   "label": "岐阜県セラミックス研究所「鉛・カドミウムの溶出試験について」（食品衛生法の基準値表）",
+   "url": "https://www.ceram.rd.pref.gifu.lg.jp/elution.html"
+  },
+  "b2-mie-standard": {
+   "label": "三重県工業研究所だより第19号（令和6年）「食品衛生法の規格基準（平成20年厚生労働省告示第416号）について」",
+   "url": "https://www.pref.mie.lg.jp/common/content/001133040.pdf"
+  },
+  "b2-aichi-hygiene": {
+   "label": "愛知県衛生研究所「食品用器具、容器の規格基準における鉛とカドミウムの溶出限度値の引き下げについて」",
+   "url": "https://www.pref.aichi.jp/eiseiken/3f/pdcd.html"
+  },
+  "b2-fsc-bfr": {
+   "label": "食品安全委員会 食品安全関係情報「『陶磁器から出る鉛とカドミウム』に関する意見書（ドイツ連邦リスク評価研究所BfR）」",
+   "url": "https://www.fsc.go.jp/fsciis/foodSafetyMaterial/show/syu00820210314"
+  },
+  "b2-ishikawa-muen": {
+   "label": "石川県工業試験場「無鉛和絵具の開発（研究テーマの紹介）」（上絵具フリットの酸化鉛）",
+   "url": "https://www.irii.jp/randd/theme/h15/text/study13.htm"
+  },
+  "b2-jstage-cdred": {
+   "label": "J-STAGE『窯業協会誌』「膠質着色ガラスに関する研究（第1報）」（硫セレン化カドミウムとカドミウム赤）",
+   "url": "https://www.jstage.jst.go.jp/article/jcersj1950/62/699/62_699_565/_pdf/-char/ja"
+  },
+  "b2-saga-pigment": {
+   "label": "佐賀県窯業技術センター 研究報告（平成19年度）「ナノ粒子複合化による新規顔料の開発」（セレン赤など有害物質を含む顔料の代替開発）",
+   "url": "https://www.scrl.gr.jp/site_files/file/kenkyuu_kaihatsu/houkokusyo/h19/h19_k3.pdf"
+  },
+  "b3-caa-kokuji370": {
+   "label": "消費者庁「食品、添加物等の規格基準（昭和34年厚生省告示第370号）（抄）」第3 器具及び容器包装（最終改正・令和7年内閣府告示第95号）",
+   "url": "https://www.caa.go.jp/policies/policy/standards_evaluation/appliance/assets/standards_cms101_260605_04.pdf"
+  },
+  "b3-maruhiho-material": {
+   "label": "株式会社マルヒロ（波佐見焼）「素材の説明」（陶器・磁器の特徴と取り扱い注意）",
+   "url": "https://www.hasamiyaki.jp/news/12274"
+  },
+  "b3-rmc-medome": {
+   "label": "琉球民芸センター「やちむんのお手入れ方法『目止め』」",
+   "url": "https://www.rm-c.co.jp/pottery/attention.html"
+  },
+  "b3-issui-care": {
+   "label": "一翠窯 ISSUI POTTERY「お手入れについて」",
+   "url": "https://issui-pottery.com/care"
+  },
+  "b3-meizan-manual": {
+   "label": "明山窯「取り扱い説明書」（焼き締めの器の油染みとお手入れ）",
+   "url": "https://www.meizan.co.jp/f/product-manual"
+  },
+  "b3-touyuukai-bizen": {
+   "label": "協同組合岡山県備前焼陶友会「備前焼の使用方法」",
+   "url": "https://touyuukai.jp/howto.html"
+  },
+  "b3-kohoro-yakishime": {
+   "label": "KOHORO「焼き締め」お手入れ・保管方法の案内",
+   "url": "https://kohoro.jp/collections/yakishime"
+  },
+  "b3-kamegawa-touki": {
+   "label": "陶器店かめ川「陶器の扱い方」",
+   "url": "http://www.kamegawa.com/oteire/touki.html"
+  },
+  "b3-cotogoto-care": {
+   "label": "cotogoto「やきもの｜使い方、お手入れ手帖」（窯元・メーカーへの聞き取りによるお手入れ案内）",
+   "url": "https://www.cotogoto.jp/blog/2015/10/oteire_yakimono.html"
+  },
+  "b3-noritake-guide": {
+   "label": "ノリタケ食器公式オンラインショップ「商品のお取り扱い」",
+   "url": "https://tableware.noritake.co.jp/f/guide/toriatsukai.html"
+  },
+  "b3-kintunagi-hibi": {
+   "label": "金継ぎ工房八木「器のヒビについて」",
+   "url": "https://www.kintunagi.com/2021/05/02/%E5%99%A8%E3%81%AE%E3%83%92%E3%83%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+  },
+  "b3-taito-tohaku": {
+   "label": "台東区文化探訪（東京国立博物館）「文化財を守る ─保存と修理─」（桐箱の調湿と保存環境の解説）",
+   "url": "https://www.culture.city.taito.lg.jp/bunkatanbou/culture/touhaku/japanese/guide_04.html"
+  },
+  "b3-bunka-handbook": {
+   "label": "文化庁「文化財（美術工芸品）保存施設、保存活用施設 設置・管理ハンドブック」",
+   "url": "https://www.bunka.go.jp/seisaku/bunkazai/hokoku/pdf/setchi_kanri_handbook.pdf"
+  },
+  "b3-tokushima-museum": {
+   "label": "徳島県立博物館「展示と資料保存の両立【情報ボックス】」（湿度・文化財害虫・カビと資料保存）",
+   "url": "http://museum.bunmori.tokushima.jp/museum_documents/museumnews/mnews092/092_5_infobox.html"
+  },
+  "b3-jsai-hozon": {
+   "label": "資料保存の手引き（保存箱・陰干し・防虫の案内、日本アーカイブズ学会リンク集所収）",
+   "url": "https://www.jsai.jp/linkbank/tmpdata/gunma1.pdf"
+  },
+  "b3-sanikleen-citric": {
+   "label": "サニクリーン「汚れとお掃除の百科事典 ナチュラルクリーニング“クエン酸”」",
+   "url": "https://www.sanikleen.co.jp/biz/seisou/detail/2659.html"
+  },
+  "b3-haseko-mizuaka": {
+   "label": "長谷工ブランエラ「水垢を最短で撃退する部位別手順と失敗ゼロ対策」（クエン酸水の濃度と手順）",
+   "url": "https://www.haseko.co.jp/branchera/idea/clean/clean_0005.html"
+  },
+  "b3-fukuchan-shimi": {
+   "label": "買取福ちゃん「陶器の食器のシミ、汚れを落とすには」",
+   "url": "https://www.fuku-chan.info/column/tableware/13859/"
+  },
+  "b3-kurashi-disposal": {
+   "label": "くらしサポートナビ「割れた食器・ガラスの捨て方」（新宿区・横浜市など自治体案内のまとめ）",
+   "url": "https://kurashi-support365.com/broken-dishes-glass-disposal"
+  },
+  "b3-assistall-citric": {
+   "label": "アシストール「クエン酸で水垢の落とし方徹底解説」（クエン酸の白残りへの注意）",
+   "url": "https://lifestyle.assist-all.co.jp/citric-acid-water-stain-removal-guide/"
+  },
+  "b4-thede-noshi": {
+   "label": "theDe（ザディー）「のしのマナー」（用途別の表書き・水引・相場・贈る時期、地方による違いの注意書きを含む）",
+   "url": "https://www.the-de.jp/noshimanners"
+  },
+  "b4-tokyu-wedding": {
+   "label": "東急百貨店ネットショッピング「結婚祝い｜東急百貨店のギフトマナー」",
+   "url": "https://www.tokyu-dept.co.jp/ec/kekkoniwai_manners.html"
+  },
+  "b4-uchill-wedding": {
+   "label": "和食器通販「うちる」の読みもの「結婚祝いにおすすめの食器 ― プレゼントの選び方や贈るマナー」",
+   "url": "https://uchill.jp/blog/pottery-basic/utsuwa-weddingpresent"
+  },
+  "b4-okurimono-wedding": {
+   "label": "贈りもの語り編集部「結婚祝いの食器 ― 記念性と実用性で選ぶペア＆セットの考え方」（2026年11月検索で内容確認）",
+   "url": "https://okurimonogatari.jp/article/wedding/shokki"
+  },
+  "b4-concent-formal": {
+   "label": "カタログギフトのコンセント「目上の方へ贈ってはいけない贈りものの基本マナー」",
+   "url": "https://www.concent.co.jp/giftcolumn/giftcolumn0028"
+  },
+  "b4-hasami-process": {
+   "label": "波佐見焼振興会「波佐見焼ができるまで」（型屋・生地屋・窯元・釉薬屋・商社の分業と各工程）",
+   "url": "http://hasamiyaki.com/process"
+  },
+  "b4-tajimi-mold": {
+   "label": "多治見市陶磁器意匠研究所「石膏型のできるまで」（原型・元型・ケース型・使用型と量産成形の種類）",
+   "url": "https://www2.city.tajimi.lg.jp/ishoken/06_research/researc_plastermold.html"
+  },
+  "b4-maruken-oem": {
+   "label": "丸健製陶株式会社（美濃焼）「OEM・受注生産」（成形法ごとの型の初期費用と最小ロットの公表例）",
+   "url": "https://www.marukenseitou.com/oem"
+  },
+  "b4-mikawachi-kiln": {
+   "label": "三川内陶磁器工業協同組合 みかわち焼総合サイト「登り窯」（焼成時間・薪の使用量・冷却・協働作業の実例）",
+   "url": "https://www.mikawachiware.or.jp/learn/climbingkiln/"
+  },
+  "b4-momofuku-diff": {
+   "label": "うつわギャラリー百福「作家ものと窯ものと陶磁器メーカーの違い 2」（メーカー・窯元・作家のものづくりの前提の違い）",
+   "url": "https://www.momofuku.jp/2013/10/06/%E4%BD%9C%E5%AE%B6%E3%82%82%E3%81%AE%E3%81%A8%E7%AA%AF%E3%82%82%E3%81%AE%E3%81%A8%E9%99%B6%E7%A3%81%E5%99%A8%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AE%E9%81%95%E3%81%84%E3%80%802"
+  },
+  "b4-daiso-plate": {
+   "label": "ダイソーネットストア公式「ニューボン丸皿 15cm」商品ページ（磁器・原産国 中国・税込110円、2026年11月確認）",
+   "url": "https://jp.daisonet.com/products/4549892310782"
+  }
+ },
+ "records": [
+  {
+   "id": "basics/touki",
+   "names": {
+    "ja": "陶器",
+    "reading": "とうき",
+    "aliases": [
+     "土もの",
+     "陶器質"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "粘土を原料にして釉薬をかけ、高温で焼いたやきもの。素地が完全には焼き締まらないため小さな穴が残って水を吸い、光は通さない。温かみのある風合いが特徴で、「土もの」とも呼ばれる。",
+   "claims": [
+    {
+     "text": "陶器は、粘土質の素地に釉薬を施して焼いたやきもので、素地が十分に焼き締まらないため吸水性があり、光を通さない（不透光性）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-arita-history"
+     ]
+    },
+    {
+     "text": "焼成温度は約1,200℃前後とされることが多いが、資料によっては1,000〜1,300℃や1,100〜1,200℃と示すものもあり、代表値の示し方には幅がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-saga-qa",
+      "b1-yakimono-hi"
+     ]
+    },
+    {
+     "text": "指ではじくと濁った音がする。磁器との見分けは、吸水性の有無、透光性の有無、打音の違いによる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-toki-mino"
+     ]
+    },
+    {
+     "text": "主原料が粘土であることから「土もの」と呼ばれ、石の粉を主原料とする磁器（「石もの」）と対比される。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-yakimono-hi"
+     ]
+    },
+    {
+     "text": "表面の釉薬はガラス質の膜となって水を通しにくくする働きがあるが、素地そのものは多孔質で、高台など釉薬のかかっていない部分から水を吸う。多孔質な素地は汚れやしみ、水漏れ、カビが発生しやすいという側面を持つ。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-toki-mino",
+      "b1-mie-iga-medome"
+     ]
+    },
+    {
+     "text": "代表的な産地・製品として唐津焼、萩焼、益子焼、笠間焼などが挙げられる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-yakimono-hi",
+      "b1-saga-qa"
+     ]
+    }
+   ],
+   "practice": "吸水性があるため、使い始めに水に浸して素地の気孔をふさぐ「目止め」をすると、しみや汚れが付きにくくなるとされ、土鍋などで古くから行われてきた。洗った後はよく乾かすことがカビを防ぐ基本で、やわらかい質の器は陰干しが勧められる。",
+   "relations": [
+    "ware/karatsu",
+    "ware/hagi",
+    "basics/materials-hikaku"
+   ],
+   "unknowns": [
+    "陶器と炻器を分ける吸水率の統一的な境界値は定まっていない。",
+    "焼成温度の代表値が資料によって揺れる理由（産地・製品ごとの差か、定義の差か）は未整理。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/jiki",
+   "names": {
+    "ja": "磁器",
+    "reading": "じき",
+    "aliases": [
+     "石もの",
+     "磁器質",
+     "ポーセリン"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "石を砕いた粉（陶石）を主原料にして、ひときわ高い温度で焼き締めたやきもの。素地がガラス化して白く硬くなり、水をほとんど吸わず、薄い部分は光を通す。「石もの」とも呼ばれる。",
+   "claims": [
+    {
+     "text": "磁器は、陶石を主原料とし、高温の焼成で素地がガラス化したやきもの。素地は白色で、吸水性がほとんどなく、透光性がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "焼成温度は1,300℃前後から1,400℃とする資料が多い。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-saga-qa",
+      "b1-moco-guidance",
+      "b1-toujiki-kinds"
+     ]
+    },
+    {
+     "text": "吸水性はほとんどなく、吸水率は0.5%程度とされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "指ではじくと金属のような澄んだ音がする。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-toki-mino",
+      "b1-saga-qa"
+     ]
+    },
+    {
+     "text": "高温で焼き締まるため、薄く作っても陶器より硬く、耐久性がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui"
+     ]
+    },
+    {
+     "text": "原料が石の粉であることから「石もの」と呼ばれ、粘土主体の陶器（「土もの」）と対比される。代表的な産地として有田焼が挙げられる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-yakimono-hi",
+      "b1-saga-qa"
+     ]
+    },
+    {
+     "text": "判別の実務では、茶碗などは高台の釉薬のかかっていない部分で素地の色を確認でき、磁器の素地は主に白色でなめらかとされる。ただし、白色の陶器や炻器も存在するため、素地が白いというだけでは磁器とは断定できない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-customs-hanbetsu"
+     ]
+    }
+   ],
+   "practice": "透光性は磁器だけに見られる特徴だが、製品の厚さや釉薬・原料の種類によっては光を通さない磁器もあるため、透けるかどうかだけで断定はできない。見分けるときは、高台など釉薬のかかっていない部分で素地の色やなめらかさを確認し、音とあわせて判断する。ただし白色の陶器や炻器もあるため、色だけでも決められない。",
+   "relations": [
+    "ware/arita",
+    "clay/toseki",
+    "basics/materials-hikaku"
+   ],
+   "unknowns": [
+    "硬質磁器・軟質磁器・ボーンチャイナなど、磁器の内部の細分類は未収録。",
+    "吸水率0.5%は解説資料の代表値で、製品ごとの規格値ではない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/sekki",
+   "names": {
+    "ja": "炻器",
+    "reading": "せっき",
+    "aliases": [
+     "せっ器",
+     "ストーンウェア",
+     "焼き締め陶"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "粘土を1,200〜1,300℃の高温で焼き締めた、硬いやきもの。英語のストーンウェアの訳語で、陶器と磁器の間に位置づけられる。日本では備前・信楽・常滑のような、釉薬をかけない焼き締めの器を指すことが多い。",
+   "claims": [
+    {
+     "text": "炻器は、粘土を原料とし、アルカリや鉄を含む粘土を使って1,200〜1,300℃で長時間焼成したやきもので、英語の stoneware の日本語訳とされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance",
+      "b1-toujiki-kinds"
+     ]
+    },
+    {
+     "text": "素地がよく焼き締まって気孔性がない点で陶器と区別され、辞典（広辞苑）では「素地がよく焼き締り、吸水性のない焼物」と定義される。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-arita-history"
+     ]
+    },
+    {
+     "text": "ただし実際の製品では吸水性が残るものもあり、常滑の炻器質の食器では吸水率が3%程度あったという報告がある。「吸水性がない」は定義上の目安で、実測値が常にゼロという意味ではない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-aichi-tokoname-sekki"
+     ]
+    },
+    {
+     "text": "日本では主に備前、信楽、常滑などの無釉の焼締め陶を指して使われる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "炻器の範囲は地域や分類体系によって異なる。欧米の stoneware は釉薬の有無を問わず、素地が白くない硬質のやきものの総称として青磁なども含む広い概念である。一方、日本では炻器を独立の分類とせず、須恵器や備前・信楽・常滑の焼締め陶を「広義の陶器」に含める分類もある。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "釉薬は施すものと施さないものの両方があり、たたくと硬い音がする。製品例として、かめ、火鉢、茶器などが挙げられる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-saga-qa",
+      "b1-toujiki-kinds"
+     ]
+    }
+   ],
+   "practice": "焼き締まって水を通しにくいため、かめや急須、火鉢など、液体や熱に関わる道具に古くから使われてきた。ただし炻器質の食器でも吸水性が残る製品では、乾燥後に食品や洗剤の匂いが残る懸念が産地の研究機関から示されている。使った後はよく乾かすことが大切で、産地では化粧土をかけて吸水率を3%程度から0.7%まで下げる改良も行われている。",
+   "relations": [
+    "ware/bizen",
+    "ware/shigaraki",
+    "ware/tokoname",
+    "tech/yakishime",
+    "basics/materials-hikaku"
+   ],
+   "unknowns": [
+    "陶器との境界となる吸水率の閾値について、統一された基準は確認できていない。",
+    "「炻」の字がいつ、どのように作られたか（訳語としての成立経緯）は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/doki",
+   "names": {
+    "ja": "土器",
+    "reading": "どき",
+    "aliases": [
+     "素焼き",
+     "テラコッタ"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "粘土を形作って、釉薬をかけずに低い温度で焼いたやきもの。素焼きのままで、水をよく吸い、もろい。人類が最初に作ったやきもので、縄文土器や弥生土器が代表例。今も素焼きの植木鉢などに受け継がれている。",
+   "claims": [
+    {
+     "text": "土器は、釉薬を用いない素焼きの器物で、粘土を成形して施釉せずに焼いたものである。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-arita-history",
+      "b1-toujiki-kinds"
+     ]
+    },
+    {
+     "text": "焼成温度は700〜800℃程度の低温で、やきものの中で最も低い部類に入る。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance",
+      "b1-ceramic-bunrui",
+      "b1-toujiki-kinds"
+     ]
+    },
+    {
+     "text": "低温で焼くため素地はもろく、吸水性は10%以上と高い。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "もろい一方で耐火性は高く、煮炊きや貯蔵の用途に適するとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "土器は人類が初めて作ったやきもので、日本では縄文土器や弥生土器が知られている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "土器と陶器の呼び分けは国によって異なり、中国では、無釉で低温焼成したこの種のやきものに対して「陶器」という名称を当てることがある。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    }
+   ],
+   "practice": "水をよく吸うので、液体を入れておく用途には向かず、水が染み出ることがある。素焼きの植木鉢はこの吸水性と通気性を生かした製品で、水が染み出るため受け皿とセットで使うのが普通である。もろいので、ぶつけたり落としたりしないよう扱う。",
+   "unknowns": [
+    "焼成温度の上限の示し方には資料によって差があり（700〜800℃を中心とする資料が多い）、境界は未確定。",
+    "考古学の用語（土師器・須恵器など）との対応関係は未整理。"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/materials-hikaku"
+   ]
+  },
+  {
+   "id": "basics/hanjiki",
+   "names": {
+    "ja": "半磁器",
+    "reading": "はんじき",
+    "aliases": [
+     "半磁器質",
+     "セミポーセリン"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "陶器と磁器の中間的な性質を持つやきもの。陶器のような温かみを持ちながら、吸水性が低く丈夫なため、日常の食器に広く使われてきた。四日市萬古焼の食器が代表例。ただし、その位置づけは資料によって説明が異なる。",
+   "claims": [
+    {
+     "text": "半磁器は、陶器と磁器の中間的な性質を持ち、磁器の硬質さと陶器の柔らかさを兼ね備えた焼き物と説明される。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-banko-dokuhon"
+     ]
+    },
+    {
+     "text": "四日市萬古焼では、明治末期（1911年頃）に水谷四次郎が半磁器の製造技術を開発し、「大正焼」として売り出したことで産地の近代産業としての発展につながり、半磁器は産地の主力製品となった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-banko-dokuhon"
+     ]
+    },
+    {
+     "text": "陶器より強度が増して大きな成形に適し、下絵付けの発色がよいとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-banko-dokuhon"
+     ]
+    },
+    {
+     "text": "半磁器用の土は、焼成温度1,150〜1,200℃用に調整されたものが三重県の陶磁器業界で使われている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-mie-thz"
+     ]
+    },
+    {
+     "text": "半磁器の位置づけは資料によって異なる。中間の独立したカテゴリとして説明される一方、三重県工業研究所の研究資料では半磁器土は「陶器質」に分類され、同研究所の広報資料でも「半磁器等の陶器製品」と陶器の一種として扱われる。また小売の解説では「せっ器、ストーンウェアともいわれる」と炻器と同義に扱う例もある。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "b1-banko-dokuhon",
+      "b1-mie-thz",
+      "b1-mie-news43",
+      "b1-nakagawa-guide"
+     ]
+    },
+    {
+     "text": "もともと貫入（釉薬の細かいひび）のない半磁器等の製品でも、素地の吸水率が高いと、年月とともに後から貫入が入る「経年貫入」が生じ、製品の欠点として扱われる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-mie-news43"
+     ]
+    }
+   ],
+   "practice": "萬古焼の食器に代表される、日常使いの素材である。陶器のような土の風合いを持ちながら吸水性がほとんどないのが特徴とされるが、製品によって吸水率には差があり、年月とともに経年貫入が出ることもある。長く使うなら、洗った後に十分乾かすことが大切である。",
+   "relations": [
+    "ware/yokkaichi-banko",
+    "basics/materials-hikaku"
+   ],
+   "unknowns": [
+    "半磁器の吸水率や焼成温度について、公式に統一された基準値は確認できていない。",
+    "英語の semi-porcelain や semi-vitreous china と半磁器の指す範囲が一致するかは未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/materials-hikaku",
+   "names": {
+    "ja": "陶器・磁器・炻器の違い",
+    "reading": "とうき・じき・せっきのちがい",
+    "aliases": [
+     "陶器と磁器の違い",
+     "やきものの種類",
+     "素材の違い"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "やきものは、土器・陶器・炻器・磁器に大別される。違いを決めるのは、原料（粘土か陶石か）、焼く温度、素地がどれだけ焼き締まったかで、それが水の吸いやすさ、光の通し方、叩いたときの音の違いになって表れる。",
+   "claims": [
+    {
+     "text": "やきものは、材料の土の種類と、焼成した素地の硬度・密度・吸水性、釉薬の有無などの物理的条件によって、土器、炻器、陶器、磁器に大別される。ただし、この分類の基準は厳密なものではなく、中国・日本・韓国・欧米で認識の異なる点もある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "焼成温度の目安は、土器が700〜800℃、陶器が約1,200℃前後、炻器が1,200〜1,300℃、磁器が1,300〜1,400℃である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-saga-qa"
+     ]
+    },
+    {
+     "text": "吸水率の目安は、土器が10%以上、磁器が0.5%程度で、陶器と炻器はその間に分布する。炻器質の食器でも吸水率3%程度という実測例がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance",
+      "b1-aichi-tokoname-sekki"
+     ]
+    },
+    {
+     "text": "透光性（光を通す性質）を持つのは磁器だけで、土器・陶器・炻器は光を通さない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-bunrui",
+      "b1-toki-mino"
+     ]
+    },
+    {
+     "text": "指ではじいたときの音は、土器と陶器が鈍い音、炻器が硬い音、磁器が澄んだ金属音とされ、見分けの手がかりになる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-saga-qa",
+      "b1-toki-mino"
+     ]
+    },
+    {
+     "text": "原料は、土器・陶器・炻器が粘土主体で、磁器は陶石が主体である。釉薬は、土器ではかけず、陶器では施すのが基本で、炻器には施すものと施さないものの両方がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-saga-qa",
+      "b1-ceramic-bunrui"
+     ]
+    },
+    {
+     "text": "陶器と炻器の区別は打音や吸水率の数値で判断するが、打音では判定しにくい場合があり、炻器を広義の陶器に含める分類もあるなど、境界の引き方は一通りではない。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "b1-mie-news43",
+      "b1-moco-guidance"
+     ]
+    }
+   ],
+   "practice": "見分けるときは、まず光にかざして薄い部分が透けるかを見る（透ければ磁器）。次に高台など釉薬のかかっていない部分の素地の色と手触り、指ではじいた音を組み合わせる。褐色の素地なら磁器ではないが、白色の陶器や炻器もあるので色だけでは決められない。水を吸うかどうかは店頭では試せないので、産地や素材の表示を確認するのが確実である。",
+   "unknowns": [
+    "陶器と炻器の間など、吸水率による境界値の統一基準は確認できていない。",
+    "半磁器を含めた5種類の比較表として標準的に参照できる公的資料は未確認。"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/touki",
+    "basics/jiki",
+    "basics/sekki"
+   ]
+  },
+  {
+   "id": "basics/yakimono",
+   "names": {
+    "ja": "やきもの",
+    "reading": "やきもの",
+    "aliases": [
+     "焼き物",
+     "陶磁器",
+     "とうじき"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "土や石の粉を練って形を作り、窯で焼き固めたものの総称。土器・陶器・炻器・磁器が含まれる。「陶磁器」という言葉も、ほぼ同じ範囲を指す総称として使われる。備前焼や有田焼のような産地の名前とは、別の物差しである。",
+   "claims": [
+    {
+     "text": "「やきもの」は、天然に産出する土や石の粉末を用いて作った陶磁器の総称である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-genryou"
+     ]
+    },
+    {
+     "text": "「やきもの」という名は、最後に熱を加えて焼く工程に由来する。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-genryou"
+     ]
+    },
+    {
+     "text": "やきものは、材料の土の種類、素地の硬度・密度・吸水性、釉薬の有無などの物理的条件によって、土器、せっ器、陶器、磁器に大別される。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance"
+     ]
+    },
+    {
+     "text": "原料の土は、水を加えて練ると粘りが出て形を作ることができ、形を保つ。このような性質を持つ原料を可塑性原料という。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-genryou"
+     ]
+    },
+    {
+     "text": "「陶磁器」という言葉もやきものの総称として使われ、指す範囲は「やきもの」とほぼ重なる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-ceramic-genryou",
+      "b1-mie-news43"
+     ]
+    },
+    {
+     "text": "「やきもの」の範囲には資料によって揺れがあり、公的な博物館の解説でも、近代以降の工業材料であるファインセラミックスまでを含めて「やきものの種類」を説明する例がある。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "b1-saga-qa"
+     ]
+    }
+   ],
+   "practice": "備前焼・有田焼・萬古焼のような「産地名＋焼」の呼び名は、素材の分類ではなく産地や窯の名前である。素材の性質を知りたいときは、産地名とは別に「陶器か、磁器か、炻器か」を確認すると、扱い方や特徴がつかみやすい。",
+   "unknowns": [
+    "「やきもの」という語の文献上の初出や語源の詳細は未確認。",
+    "瓦・碍子・衛生陶器など、器以外の陶磁製品を「やきもの」に含めるかどうかは文脈によって異なり、未整理。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/kyusui",
+   "names": {
+    "ja": "吸水性と素地",
+    "reading": "きゅうすいせいとそじ",
+    "aliases": [
+     "吸水率",
+     "水を吸う",
+     "目止め",
+     "きゅうすいりつ"
+    ]
+   },
+   "category": "基礎概念",
+   "summary": "吸水性とは、焼き上がった素地（器の地の部分）が水を吸い込む性質のこと。焼く温度が低いほど素地に細かい穴が多く残って水を吸いやすく、陶器のしみ・カビ・水漏れの原因になる。磁器はほとんど水を吸わない。",
+   "claims": [
+    {
+     "text": "吸水性は数値では吸水率で表され、試料を水中で煮沸するなどして吸わせた水の重さが、乾燥時の重さの何%にあたるかで求められる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-mie-news43"
+     ]
+    },
+    {
+     "text": "焼成温度が上がるほど焼き締まりが進んで素地の気孔が減るため、吸水率は下がる傾向がある。逆に低温で焼かれた素地には気孔が多く残り、水が入り込む。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-aichi-togai",
+      "b1-toki-mino"
+     ]
+    },
+    {
+     "text": "素材ごとの吸水率の目安は、土器で10%以上、磁器で0.5%程度であり、陶器と炻器はその間に分布する。同じ炻器質でも製品によって数%程度の吸水率を持つものがある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-moco-guidance",
+      "b1-aichi-tokoname-sekki"
+     ]
+    },
+    {
+     "text": "水分を含んだ素地が凍結と融解を繰り返すと劣化する「凍害」が起こることがあり、粘土瓦の研究では吸水率や細孔の状態が耐凍害性に影響するとされる。屋外や凍結のおそれがある場所で使う製品では、吸水率の低さが選定の判断材料になる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-aichi-togai",
+      "b1-lixil-tile"
+     ]
+    },
+    {
+     "text": "吸水性の高い多孔質な素地は、汚れやしみ、水漏れ、カビが発生しやすい。また、釉薬層の細かいひび（貫入）やピンホールなどの欠陥から液体が漏れ出すことがあり、吸水率の測定は、そうした欠陥の起こりやすさを予測する手がかりになる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-mie-iga-medome",
+      "b1-kagoshima-leak"
+     ]
+    },
+    {
+     "text": "もともと貫入のない製品でも、素地の吸水率が高いと、年月とともに後から貫入が入る「経年貫入」が生じることがある。経年貫入は、食材の水分が染み込んで水漏れや汚れ、カビの原因になるため、製品の欠点として扱われる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-mie-news43"
+     ]
+    },
+    {
+     "text": "吸水率による区分の例として、タイルの分野ではJISに基づき、磁器質を吸水率1%以下、せっ器質を5%以下、陶器質を22%以下とする説明がある。ただしこれはタイルの区分であり、食器の素材分類にそのまま当てはまるものではない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-lixil-tile"
+     ]
+    }
+   ],
+   "practice": "陶器の器では、使い始めに水や米のとぎ汁に浸したり煮たりして素地の気孔をふさぐ「目止め」が、しみや汚れを防ぐ方法として古くから行われ、公的な研究機関でもその技術が研究されている。使った後は十分に乾かすことが、カビや匂い移りを防ぐ基本である。屋外で使う器や鉢を選ぶときは、冬の凍結で割れるおそれを避けるため、吸水率の低い素材かどうかが目安になる。",
+   "relations": [
+    "basics/touki",
+    "basics/jiki",
+    "basics/sekki",
+    "basics/metome",
+    "basics/unsealed-hygiene"
+   ],
+   "unknowns": [
+    "食器については吸水率を表示する慣行が一般的ではなく、買う側が数値で比べることは難しい。",
+    "目止めの効果を定量的に示した公的資料は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/microwave",
+   "names": {
+    "ja": "電子レンジ",
+    "reading": "でんしれんじ",
+    "aliases": [
+     "レンジ",
+     "電子レンジ加熱",
+     "電子レンジ対応"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "陶磁器の多くは電子レンジで使えるが、金・銀などの金属彩のある器、吸水性の高い陶器、ヒビや欠けのある器は使えないか注意が要る。器ごとに「電子レンジ対応」の表示があるかで判断するのが基本で、素材が陶器か磁器かだけでは決まらない。",
+   "claims": [
+    {
+     "text": "器の電子レンジ対応は製品ごとの表示で判断するのが原則で、鳴海製陶の案内では「Microwave Safe」と書かれている器は家庭用電子レンジ（1000W程度以下）で調理などに使用できるとされる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-faq"
+     ]
+    },
+    {
+     "text": "金彩・銀彩が施された器は、金属部分がスパークし、黒く変色したり剥げの原因になったりするため、電子レンジでは使用できない。ただしレンジ対応の金を使用した一部の製品は例外とされ、表示で区別される。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-faq"
+     ]
+    },
+    {
+     "text": "家電メーカーの容器案内では、色絵付け・ひび模様（貫入）・金や銀の模様のあるもの、素焼きの陶器や土鍋、吸水性の高いものが、電子レンジで使えないものに挙げられている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-hitachi-range"
+     ]
+    },
+    {
+     "text": "陶器は素地に水分や油分を含みやすく、水分と油分では加熱のされ方が違うため、器の中で大きな温度差が生まれて破損することがある。このためメーカーは、電子レンジ使用の前に器の外側の水分を拭き取るよう案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "ヒビや欠けの入った器は、加熱中に破損することがあるため、電子レンジでは使用しないよう案内されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-faq"
+     ]
+    },
+    {
+     "text": "「電子レンジ金」のような対応絵柄を使った食器でも、使用で生じた表面の汚れや傷が原因でスパークを起こすことがあると、業界団体の絵付食器の扱い方の案内は注意している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-yakimono-etsuke"
+     ]
+    }
+   ],
+   "practice": "まず器の裏印やパッケージで「電子レンジ対応」の表示を探す。表示がなく金銀彩もない器は、長時間の調理ではなく短時間の温め直しから様子を見る。陶器は水を吸っていることがあるので、洗った直後や浸け置きのあとは外側の水気を拭き、乾かしてから使う。加熱後は器自体が熱くなるため、素手で持たず布巾やミトンを使う。",
+   "safety": "金・銀などの金属彩のある器を電子レンジに入れると、火花（スパーク）が出て絵柄が焦げ・剥がれるだけでなく、電子レンジの庫内を傷めるおそれがある。金属彩のある器は電子レンジに入れないこと（鳴海製陶の公式案内、「陶器の日」公式サイトの絵付食器の扱い方による）。",
+   "unknowns": [
+    "電子レンジ対応の表示はメーカーの任意表示であり、表示のない作家ものの器の可否を一律に判断する公的な基準はない",
+    "雲母金・雲母銀などの疑似金属彩がスパークを起こす条件（顔料組成や膜の厚さ）の公表値"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/thermal-shock",
+    "basics/kinsai"
+   ]
+  },
+  {
+   "id": "basics/dishwasher",
+   "names": {
+    "ja": "食器洗い乾燥機",
+    "reading": "しょっきあらいかんそうき",
+    "aliases": [
+     "食洗機",
+     "食器洗浄機",
+     "食器洗い機"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "食洗機で洗えるかどうかは器ごとの表示で決まる。最も注意が要るのは釉薬の上に絵を描いた上絵付けと金銀彩で、高温の洗浄水とアルカリ性の専用洗剤で変色・剥離しやすく、手洗いが基本になる。貫入のある器も水が染み込みやすく、長時間の洗浄は避けたい。",
+   "claims": [
+    {
+     "text": "対応は製品ごとの表示で判断し、鳴海製陶の案内では器の裏に「Dishwasher Safe」と書かれているものが家庭用食器洗浄機の対応品とされ、金彩・銀彩が施された器は食器洗浄機の使用を避けるよう案内されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-faq"
+     ]
+    },
+    {
+     "text": "パナソニックの公式FAQでは、陶器や磁器で食洗機で洗うことができるのは、表面の最も外側に釉薬がかかっている下絵付けのものに限られ、釉薬の上に絵を施す上絵付けや金彩・銀彩の陶磁器は、洗浄すると変色したりはがれたりする場合があるとされる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-panasonic-faq"
+     ]
+    },
+    {
+     "text": "上絵は釉薬を掛けて約1300℃で焼成した器面に絵を描き約800℃で焼き付けるもので、金彩はさらに約650℃で焼き付けるため、絵付の層は本焼きよりはるかに低温で定着しており、食洗機の高温洗浄やアルカリ性洗剤で変色・剥離のリスクがあると、窯元は説明している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-taishigama-dishwasher"
+     ]
+    },
+    {
+     "text": "貫入（表面の細かなひび模様）の入っている陶器や磁器は、食洗機の長時間洗浄により、ひび割れの隙間から水分が染み込み、汚れやカビ、破損の原因となる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-panasonic-faq"
+     ]
+    },
+    {
+     "text": "家庭用食器洗浄機や食器乾燥機を使う際は、器同士がぶつかることがないよう、重なりを無くして間隔を空けて並べるよう、業界団体の絵付食器の扱い方の案内は述べている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-yakimono-etsuke"
+     ]
+    },
+    {
+     "text": "鳴海製陶のお取り扱いの案内では、金銀装飾のある食器は食器洗浄機では使用しないこと（電子レンジ・食洗機の対応表示のある場合を除く）とされ、製品本体やしおり、パッケージの表示に従うよう求めている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-care"
+     ]
+    }
+   ],
+   "practice": "上絵・金銀彩・貫入のある器、薄手の器や高台の高い器は手洗いを基本にする。食洗機を使う器は間隔を空けて並べ、洗剤は食洗機専用のものを規定量で使う。洗い終わったら早めに取り出し、高台の裏までしっかり乾かす。吸水性のある陶器は、浸け置きや長時間コースで水を吸わせ続けないようにする。",
+   "unknowns": [
+    "業務用食洗機（高温・強アルカリ洗剤）での上絵・金彩への影響を定量した公表データ",
+    "食洗機対応をうたう陶器製品が、どのような試験条件（洗浄回数・洗剤）で確認されているかの公表状況"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/kinsai"
+   ]
+  },
+  {
+   "id": "basics/chokka",
+   "names": {
+    "ja": "直火",
+    "reading": "ちょっか",
+    "aliases": [
+     "直火対応",
+     "ガス直火",
+     "空焚き"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "普通の陶器や磁器の食器は、ガスコンロなどの直火にかけると温度差で割れてしまうため使えない。直火で使えるのは、熱膨張の小さい素地で作られた「耐熱陶器」の土鍋などに限られ、対応する熱源（直火・IHなど）も製品ごとに表示で確認する必要がある。",
+   "claims": [
+    {
+     "text": "鳴海製陶のお取り扱いの案内では、陶磁器の食器は「直火では使用できません」とされ、通常の食器を直火調理や空焚きに使うことはできない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-care"
+     ]
+    },
+    {
+     "text": "メーカーの素材表示では、陶器は直火不可・電子レンジ可・オーブン不可のように熱源ごとに可否が示され、直火に使えるのは耐熱陶器として作られた製品に限られる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "日本セラミックス協会の土鍋の解説では、土鍋はガスバーナーや炭火で加熱して用いるもので、急熱・急冷に耐える必要があるため、熱膨張が低く耐熱衝撃性が高いことが特徴とされる。炎に当たる部分だけが膨張する通常の陶器は、この温度差の応力に耐えられず割れる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ceramic-donabe",
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "四日市萬古焼の土鍋は、陶土にリチウム鉱石（ペタライト）を40〜50%配合して成形し1150〜1200℃以上で焼くことで熱膨張の低い素地にした耐熱陶器で、直火や空焚きに対しても耐久性を発揮すると、産地の資料は説明している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b1-banko-dokuhon"
+     ]
+    },
+    {
+     "text": "陶磁器製の耐熱食器については、JIS S 2400「陶磁器製耐熱食器」に、急熱・急冷に耐え得る温度差（耐熱衝撃温度差）を測る試験方法が定められている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ceramic-donabe"
+     ]
+    },
+    {
+     "text": "耐熱陶器の直火対応製品でもIH調理器では使えないものがあり、対応する熱源は製品ごとに表示で確認する必要がある。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    }
+   ],
+   "practice": "直火対応の土鍋でも、使い始めは弱火から熱に慣らし、鍋底からはみ出すような大きな炎は避ける。洗った後はよく乾かしてから火にかけ、調理後の熱い鍋を冷たい台や濡れた布の上に置かない。空焚きができるかどうかも製品で異なり、四日市萬古焼のように空焚きへの耐久を特徴とする製品と、取扱説明で空焚きを禁じる製品があるため、表示と取扱説明に従う。",
+   "unknowns": [
+    "陶磁器製耐熱食器の耐熱温度差にはJISの試験方法があるが、家庭用品品質表示法で表示が義務付けられているのは耐熱ガラスであり、陶磁器では製品ごとの任意表示にとどまる",
+    "作家ものの土鍋など小規模な生産品で、耐熱衝撃試験がどの程度実施されているか"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/thermal-shock"
+   ]
+  },
+  {
+   "id": "basics/oven",
+   "names": {
+    "ja": "オーブン",
+    "reading": "おーぶん",
+    "aliases": [
+     "オーブン対応",
+     "天火",
+     "グリル"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "オーブンで使えるのは「耐熱」として作られ、対応表示のある陶磁器に限られる。オーブン自体は器全体を穏やかに熱するが、予熱した庫内に冷えた器を入れる、焼き上がりに水や冷たい台に触れさせる、といった急な温度変化で割れることがある。金銀彩の器はオーブンでも避ける。",
+   "claims": [
+    {
+     "text": "メーカーの素材表示では、陶器の中にもオーブン可の区分と不可の区分があり、オーブンで使えるかどうかは「陶器」という素材名ではなく製品ごとの表示で決まる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "家電メーカーの容器案内では、陶磁器のオーブン・グリル使用は耐熱性のあるものに限られ、耐熱性のないものは使えないとされる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-hitachi-range"
+     ]
+    },
+    {
+     "text": "オーブンの使用では、冷蔵庫から出した器をすぐにオーブンに入れること、オーブンから出した熱い器を水に浸したり冷たい調理台に置いたりすることが、急激な温度変化による貫入や破損の原因になるため避けるよう、メーカーは案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "グラタン皿など加熱調理に使う陶磁器製の耐熱食器はJIS S 2400「陶磁器製耐熱食器」の対象で、急熱・急冷に耐え得る温度差（耐熱衝撃温度差）によって性能が測られる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ceramic-donabe"
+     ]
+    },
+    {
+     "text": "金・銀の絵柄のある器は、電子レンジやオーブンなどで使用するとスパークを起こし絵柄が剥げてしまうとして、使用しないよう業界団体の案内は述べている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-yakimono-etsuke"
+     ],
+     "note": "スパークは電子レンジ機能での現象であり、この案内はオーブンレンジを含む加熱機器全般への注意として読むのが適切である"
+    }
+   ],
+   "practice": "予熱の済んだオーブンには常温に戻した器を入れ、冷蔵・冷凍した器をそのまま入れない。焼き上がりは、乾いた布や木の台の上で自然に冷ましてから取り分ける。オーブントースターは熱源が近く部分的に強く熱せられるため、耐熱表示のある器でも取扱説明の範囲で使う。金銀彩や上絵の器は、オーブン調理には使わず盛り付け用にする。",
+   "unknowns": [
+    "オーブン対応表示のある陶磁器でも、使用できる上限温度は製品ごとに異なり、一覧できる公表資料はない",
+    "オーブントースターでの陶磁器の使用について、家電メーカーと陶磁器メーカーの統一した案内は確認できなかった"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/thermal-shock"
+   ]
+  },
+  {
+   "id": "basics/freezer",
+   "names": {
+    "ja": "冷凍・冷蔵",
+    "reading": "れいとう・れいぞう",
+    "aliases": [
+     "冷凍",
+     "冷蔵",
+     "フリーザー"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "冷蔵保存は概ね問題ないが、吸水性のある陶器は食品の色や匂いが染み込みやすい。冷凍は、器の中の液体が凍って膨らみ、器を内側から押して破損させるおそれがあるため、対応表示のある器以外では避けるのが無難で、冷えた器をすぐ加熱するのも割れる原因になる。",
+   "claims": [
+    {
+     "text": "窯元の案内では、液体を入れて凍らせると液体が膨張して食器に負荷がかかり破損のおそれがあるため、フリーザー（冷凍庫）では使用できないとされる製品がある。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-shingama-faq"
+     ]
+    },
+    {
+     "text": "食品が凍ると体積が増え、容器を押し拡げる力が働いて破損しやすくなるため、液体の冷凍はしないよう求める注意が、耐熱ガラス製品の取扱説明でも示されている。陶磁器でも液体を満たした器の冷凍には同じ力が働く。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-hario-freezer",
+      "b2-shingama-faq"
+     ]
+    },
+    {
+     "text": "磁器は密度が高くほとんど吸水性がないため、シミや匂い移りがなく清潔に使えるとメーカーは説明している。これに対し陶器は吸水性があり、食品の色や匂いが染み込みやすい素材である。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-hakusan-care"
+     ]
+    },
+    {
+     "text": "冷蔵庫から出した器をすぐに電子レンジに入れることは、急激な温度変化による貫入や破損の原因となるため避けるよう、メーカーは案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    }
+   ],
+   "practice": "冷蔵保存では、陶器は色・匂い移りを避けるため料理を盛ったまま長時間置かず、覆いをして短時間にとどめる。冷凍保存は保存容器に移し替えるのが無難で、陶磁器で冷凍する場合は冷凍対応の表示がある器に限り、液体は膨らむ分を見込んで満杯にしない。解凍は冷蔵庫内や常温でゆっくり行い、凍った状態のまま加熱しない。",
+   "unknowns": [
+    "陶器の素地に染み込んだ水分自体が凍結・膨張して割れる現象について、メーカーや公的機関の実測データや公式の説明は確認できなかった",
+    "冷凍対応を明示して販売される国産陶磁器製品の範囲（産地・メーカー別の公表状況）"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/thermal-shock",
+    "basics/kyusui"
+   ]
+  },
+  {
+   "id": "basics/thermal-shock",
+   "names": {
+    "ja": "急な温度変化（熱衝撃）",
+    "reading": "ねつしょうげき",
+    "aliases": [
+     "熱衝撃",
+     "急熱急冷",
+     "耐熱温度差"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "陶磁器が割れる大きな原因のひとつが、急な温度変化による熱衝撃である。熱した部分とそうでない部分の膨張の差が応力を生み、素材が耐えられる温度差を超えると割れたり、釉面に貫入が入ったりする。冷蔵庫から出してすぐ加熱する、熱い器を水につける、といった日常の動きが典型的な場面になる。",
+   "claims": [
+    {
+     "text": "陶磁器は急激な温度変化が生じると破損の原因となるため、熱い状態の器を水に浸したり、冷たい調理台に置いたりしないよう、メーカーは案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "試験機関の説明では、素材の持つ「耐熱温度差」を超える急激な温度変化が発生すると、体積の膨張や収縮により割れが発生し、細かく割れた破片による怪我など重大な事故につながる可能性が考えられるとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-boken-jis"
+     ]
+    },
+    {
+     "text": "耐熱温度差は急熱・急冷に耐え得る温度差を指し、陶磁器製耐熱食器についてはJIS S 2400「陶磁器製耐熱食器」にその試験方法が定められている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ceramic-donabe",
+      "b2-boken-jis"
+     ]
+    },
+    {
+     "text": "日常で熱衝撃が起こりやすい場面として、メーカーは、冷蔵庫から出した器をすぐに電子レンジに入れること、電子レンジで熱くなった器を水に浸したり冷たい調理台に置いたりすることを、避けるべき行為として挙げている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "電子レンジ加熱では、食品に含まれる油分が水分より高温になることで、器の中に非常に大きな温度差が生まれ破損する場合がある。このためメーカーは、使用前に器の外側の水分を拭き取るよう案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    },
+    {
+     "text": "急激な温度変化は、破損だけでなく釉面の貫入（細かなひび模様）を生じさせる原因にもなると、メーカーは案内している。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-marumitsu-material"
+     ]
+    }
+   ],
+   "practice": "冷たい器に熱湯を注ぐときは、先にぬるま湯で器全体を温めてからにする。熱い器は乾いた布や木・コルクの台に置き、水や冷たい金属の面に触れさせない。冷蔵・冷凍した器は常温に戻してから加熱し、加熱した器は自然に冷ましてから洗うと、熱衝撃の多くは避けられる。",
+   "safety": "熱衝撃で割れた陶磁器は細かい破片になることがあり、破片による怪我など重大な事故につながる可能性が、試験機関によって指摘されている（一般財団法人ボーケン品質評価機構の熱衝撃性試験の案内による）。",
+   "unknowns": [
+    "耐熱食器ではない一般の食器について、耐熱温度差の実測値を公表しているメーカーは少ない",
+    "釉薬と素地の熱膨張の差が貫入の発生に与える影響を、消費者が判断できる形で示した公的資料"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/kinsai",
+   "names": {
+    "ja": "上絵・金銀彩の器の扱い",
+    "reading": "うわえ・きんぎんさいのうつわのあつかい",
+    "aliases": [
+     "金彩",
+     "銀彩",
+     "上絵",
+     "色絵"
+    ]
+   },
+   "category": "扱いの可否",
+   "summary": "上絵や金銀彩は、本焼きした器の表面に低温で焼き付けた薄い絵付の層で、器本体より熱・洗剤・摩擦に弱い。電子レンジでは金属彩が火花を出すため使えず、食洗機や研磨剤でも変色・剥離しやすい。手洗いし、加熱には使わないのが長く保つ扱い方になる。",
+   "claims": [
+    {
+     "text": "上絵付は、釉薬を掛けて約1300℃で焼成した器面に絵を描き約800℃で焼き付ける加飾で、金彩がある場合はさらに約650℃で焼き付けを重ねる。絵付の部分は高温や強力な洗剤に弱く、変色や剥離のリスクがあると、窯元は説明している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-taishigama-dishwasher"
+     ]
+    },
+    {
+     "text": "陶磁器用上絵具は、800℃前後で溶融するフリット（ガラスの粉砕物）に着色剤を混合したもので、ガラス化のためのフリット成分には伝統的に酸化鉛が含まれてきたと、石川県工業試験場の無鉛和絵具開発の紹介は述べている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ishikawa-muen"
+     ]
+    },
+    {
+     "text": "金彩・銀彩が施された器は電子レンジではスパークし、黒く変色したり剥げの原因になったりするため使用できず、レンジ対応の金を使用した一部の商品が例外とされる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-narumi-faq"
+     ]
+    },
+    {
+     "text": "「電子レンジ金」を使った食器でも、使用の段階で生じた表面の汚れや傷が原因でスパークを起こすことがあるため注意が要ると、業界団体の絵付食器の扱い方の案内は述べている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-yakimono-etsuke"
+     ]
+    },
+    {
+     "text": "パナソニックの公式FAQでは、釉薬の上に絵を施す上絵付けや金彩・銀彩の陶磁器は、食洗機で洗浄すると変色したりはがれたりする場合があり、食洗機で洗うことができるのは下絵付けのものに限られるとされる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b2-panasonic-faq"
+     ]
+    },
+    {
+     "text": "絵付食器を洗うときは、台所用洗剤を柔らかいスポンジや布につけて洗い、クレンザーや研磨剤付きのナイロンたわしで強く擦ると、金・銀や絵柄が剥げたり表面を傷つける原因になると、業界団体の案内は述べている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-yakimono-etsuke",
+      "b2-narumi-care"
+     ]
+    },
+    {
+     "text": "色絵や金銀彩のある器も、食品衛生法の鉛・カドミウム溶出基準の対象であり、国内で販売される製品は基準に適合している。絵付があること自体が安全性の問題を意味するわけではない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-gifu-elution"
+     ]
+    }
+   ],
+   "practice": "金銀彩・上絵の器は手洗いと自然乾燥を基本にし、電子レンジ・オーブンでの加熱と食洗機には回さない。重ねて収納するときは器の間に布や紙を挟み、絵付の面同士が擦れないようにする。酢の物など酸味の強い食品を長時間盛り置くと絵付を傷めることがあるため、盛り付けは食べる直前にし、残り物は別の容器に移す。",
+   "safety": "金・銀などの金属彩のある器を電子レンジに入れると、パチパチと音を立ててスパーク（火花）を起こし、金・銀の絵柄が剥げてしまう。金属彩のある器は電子レンジで加熱しないこと（「陶器の日」公式サイトの絵付食器の扱い方、鳴海製陶の公式案内による）。",
+   "unknowns": [
+    "雲母金・雲母銀など金属粉を使わない疑似金彩について、電子レンジ・食洗機への耐性を公表したメーカー資料の範囲",
+    "無鉛上絵具への置き換えが、産地や製品分野ごとにどこまで進んでいるかの公表データ"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/lead-safety",
+    "basics/microwave"
+   ]
+  },
+  {
+   "id": "basics/lead-safety",
+   "names": {
+    "ja": "鉛の溶出と器の安全",
+    "reading": "なまりのようしゅつとうつわのあんぜん",
+    "aliases": [
+     "鉛溶出",
+     "食器の鉛",
+     "鉛釉の安全"
+    ]
+   },
+   "category": "安全",
+   "summary": "釉薬や上絵の絵具には、溶けやすくして輝きを出すために鉛が使われてきたため、陶磁器からは条件によって鉛が溶け出すことがある。日本では食品衛生法で溶出量の上限が器の形・大きさ・用途ごとに定められ、その基準に適合した製品だけが販売できる。溶出は酸性の食品で起こりやすいので、盛り置きの仕方に気をつけるのが実践的な要点になる。",
+   "claims": [
+    {
+     "text": "愛知県衛生研究所の解説では、ガラス・陶磁器・ホウロウ引き製品は高温で溶融・焼成して作られるが、輝きを増すため鉛を入れたり金属を含む釉薬や顔料を使用することがあり、カドミウムや鉛などの金属類が溶出する可能性があるとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-aichi-hygiene"
+     ]
+    },
+    {
+     "text": "陶磁器用上絵具は、800℃前後で溶融するフリット（ガラスの粉砕物）に着色剤を混ぜたもので、ガラス化のためフリット成分に酸化鉛を含んでいることが一般的だった。このため上絵の器は鉛溶出の主な対象のひとつになる（石川県工業試験場の無鉛和絵具開発の紹介）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-ishikawa-muen"
+     ]
+    },
+    {
+     "text": "食品衛生法の規格基準（食品、添加物等の規格基準）では、陶磁器製の器具・容器包装について溶出試験の方法と鉛・カドミウムの溶出上限値が定められている。試験は、食品と接する部分に4%酢酸を満たし、常温で24時間置いて溶け出した濃度を測る方法である（三重県工業研究所の解説）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-mie-standard"
+     ]
+    },
+    {
+     "text": "試験に4%酢酸が使われるのは、鉛やカドミウムが酸性の液体に溶けやすい特性があるためで、酢の物や果汁などの酸性食品を想定し、一般的な食品よりも溶出が起こりやすい条件で測られている（愛知県衛生研究所）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-aichi-hygiene"
+     ]
+    },
+    {
+     "text": "現行の鉛の溶出基準（陶磁器製）は、液体を満たしたときに深さ2.5cm以上ある器では、容量1.1L未満が2μg/ml以下、1.1L以上3L未満が1μg/ml以下、3L以上が0.5μg/ml以下、深さ2.5cm未満の平たい器では8μg/cm2以下と、器の形と容量で区分されている（岐阜県セラミックス研究所）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-gifu-elution"
+     ]
+    },
+    {
+     "text": "100℃を超える高温で使用される加熱調理用器具（なべ、グラタン皿など）は鉛0.5μg/ml以下と最も厳しい基準が設定されている。一方、食品の温め直しに短時間電子レンジにかけるだけの飯碗や皿、マグカップ、水蒸気で調理する茶碗蒸しの器は、この加熱調理用器具には該当しない（愛知県衛生研究所、岐阜県セラミックス研究所）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-aichi-hygiene",
+      "b2-gifu-elution"
+     ]
+    },
+    {
+     "text": "溶出のしやすさは、釉薬の質、焼成温度、絵付の施し方、食品の種類（酸性の食品かどうか）、接触時間によって変わると、ドイツ連邦リスク評価研究所（BfR）の意見書は指摘している（食品安全委員会の食品安全関係情報）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-fsc-bfr"
+     ]
+    }
+   ],
+   "practice": "酸味の強い食品（酢の物、梅干し、果汁、ワインなど）を、色絵や上絵の器に長時間盛り置いたり保存したりせず、残り物は別の容器に移す。出所の分からない古い器や海外で買った色鮮やかな器は、日常の食器として常用する前に、販売者や作り手に溶出試験の有無を確認する。現在国内で販売されている製品は基準への適合が販売の条件になっており、通常の使い方で過度に心配する必要はない。",
+   "safety": "鉛は有害な重金属であり、器からの溶出は見た目では判断できない。食品衛生法の溶出基準は国内で製造・輸入され販売される製品に適用されるため、骨董品や海外で個人が入手した器など、基準への適合が確かでない器は、食品用に常用しないか、公設試験場などの溶出試験で確認すること（岐阜県セラミックス研究所、愛知県衛生研究所の資料による）。",
+   "unknowns": [
+    "愛知県衛生研究所が平成15年から19年に実施した陶磁器69件の溶出検査では基準超過は検出されなかったとされるが、全国規模での近年の検査結果の集計は未確認",
+    "2009年8月の改正基準施行前に製造・輸入された器（古い贈答品や骨董）の扱いについて、消費者向けの公的な統一案内",
+    "個人が手持ちの器の溶出試験を公設試験場に依頼する場合の費用と手順（試験場ごとに異なり、一覧化された案内がない）"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/food-sanitation-law",
+    "basics/kinsai"
+   ]
+  },
+  {
+   "id": "basics/cadmium-safety",
+   "names": {
+    "ja": "カドミウムと色絵の安全",
+    "reading": "かどみうむといろえのあんぜん",
+    "aliases": [
+     "カドミウム溶出",
+     "色絵の安全",
+     "カドミウム赤"
+    ]
+   },
+   "category": "安全",
+   "summary": "鮮やかな赤や黄色の絵付けには、カドミウムを含む顔料（カドミウム赤など）が使われてきた。カドミウムも鉛と同じく食品衛生法の溶出基準の対象で、器の形・容量・用途ごとに上限が定められ、加熱調理用器具では最も厳しい値が設定されている。色の鮮やかさと溶出量は見た目では結びつかないため、判断は基準と由来の確かさに委ねるのが要点になる。",
+   "claims": [
+    {
+     "text": "鮮やかな赤色顔料として知られる硫セレン化カドミウムは「カドミウム赤」「火赤」などの名称で高級赤色顔料として用いられ、陶磁器やホウロウの上絵具にも使われている。また硫化カドミウム自身は黄から橙黄色を呈する顔料である（『窯業協会誌』の膠質着色ガラスに関する研究）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-jstage-cdred"
+     ]
+    },
+    {
+     "text": "カドミウムは鉛と並んで食品衛生法の溶出基準の対象であり、陶磁器製の基準は、深さ2.5cm以上で容量1.1L未満の器が0.5μg/ml以下、1.1L以上3L未満と3L以上が0.25μg/ml以下、深さ2.5cm未満の平たい器が0.7μg/cm2以下と定められている（岐阜県セラミックス研究所）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-gifu-elution"
+     ]
+    },
+    {
+     "text": "加熱調理用器具のカドミウムの基準は0.05μg/ml以下で、陶磁器製の全区分の中で最も厳しい値が設定されている（岐阜県セラミックス研究所）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-gifu-elution"
+     ]
+    },
+    {
+     "text": "2008年の規格基準改正では、ガラス製・陶磁器製・ホウロウ引きに共通だった基準が材質別に改められ、鉛・カドミウムともに区分によっては改正前の半分以下に引き下げられ、あわせて加熱調理用器具の区分が新設された（三重県工業研究所、愛知県衛生研究所の解説）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-mie-standard",
+      "b2-aichi-hygiene"
+     ]
+    },
+    {
+     "text": "有色の釉薬や絵柄には鉛・カドミウム・コバルトといった重金属が含まれることがあり、食品への移行の量は、釉薬の質、焼成温度、絵付の施し方、食品の種類、接触時間によって変わる。また子どもの感受性の高さを考慮し、規制値をさらに下げることが勧告されている（ドイツ連邦リスク評価研究所BfRの意見書、食品安全委員会の紹介）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-fsc-bfr"
+     ]
+    },
+    {
+     "text": "佐賀県窯業技術センターでは、セレン赤に代表されるカドミウムなど有害な物質を含む顔料に代わる、安全性の高い鮮やかな新規顔料や、無鉛の上絵具の開発が進められている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b2-saga-pigment"
+     ]
+    }
+   ],
+   "practice": "鮮やかな赤・黄・オレンジの色絵の器は、酸味の強い食品を長時間盛り置く用途には使わず、盛り付け中心に使う。出所の分からない古い色絵の器は子どもの日常使いの食器にせず、由来の確かな製品を選ぶ。現在販売されている製品は溶出基準への適合が条件になっており、色絵そのものを避ける必要はない。",
+   "safety": "カドミウムは有害な重金属であり、器からの溶出量は色の鮮やかさや見た目では判断できない。基準への適合が確かでない古い器や海外製品を日常の食器として使う場合は、販売者への確認や、公設試験場が行う溶出試験の利用を検討すること（岐阜県セラミックス研究所、食品安全委員会の資料による）。",
+   "unknowns": [
+    "現在販売されている陶磁器のうち、カドミウム系顔料を使う製品がどの産地・分野にどの程度残っているかの公表データ",
+    "「カドミウムフリー」をうたう製品表示が、顔料の不使用を指すのか溶出試験の結果を指すのかの統一した基準",
+    "EUの陶磁器指令における鉛・カドミウム規制の改訂動向と、日本の基準との差"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/food-sanitation-law",
+    "basics/kinsai"
+   ]
+  },
+  {
+   "id": "basics/food-sanitation-law",
+   "names": {
+    "ja": "食品衛生法と器の基準",
+    "reading": "しょくひんえいせいほうとうつわのきじゅん",
+    "aliases": [
+     "器の安全基準",
+     "陶磁器の鉛・カドミウム溶出基準"
+    ]
+   },
+   "category": "安全",
+   "summary": "食べ物や飲み物を入れる器には、食品衛生法にもとづく国の基準があります。陶磁器については、鉛とカドミウムが食品側へ移る量（溶出量）の上限が、器の大きさや用途ごとに決められています。ふだん店で売られている食器は、この基準に合うように作られています。",
+   "claims": [
+    {
+     "text": "食品衛生法にもとづく「食品、添加物等の規格基準」（告示）の第3「器具及び容器包装」に、陶磁器製の器具・容器包装の規格が定められている。食品衛生基準行政は厚生労働省から消費者庁へ移管されており、告示は内閣府告示として改正されている（最終改正は令和7年内閣府告示第95号）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    },
+    {
+     "text": "陶磁器製の器具・容器包装には鉛とカドミウムの溶出規格がある。試験は食品擬似溶媒として4%酢酸を用い、器に満たして（平らな器は表面積1cm2あたり2mLの割合で）常温の暗所に24時間放置し、溶け出した量を測る。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    },
+    {
+     "text": "液体を満たしたときの深さが2.5cm以上の加熱調理用器具は最も厳しい区分で、カドミウム0.05µg/mL以下、鉛0.5µg/mL以下である。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    },
+    {
+     "text": "加熱調理用以外の深さ2.5cm以上の器具では、容量1.1L未満でカドミウム0.5µg/mL以下・鉛2µg/mL以下、容量1.1L以上3L未満でカドミウム0.25µg/mL以下・鉛1µg/mL以下、容量3L以上でカドミウム0.25µg/mL以下・鉛0.5µg/mL以下と、容量が大きいほど限度が厳しくなる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    },
+    {
+     "text": "液体を満たせない器、または満たしたときの深さが2.5cm未満の平らな器は面積あたりで測り、カドミウム0.7µg/cm2以下、鉛8µg/cm2以下である。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    },
+    {
+     "text": "告示の一般の規格では、器具・容器包装は、食品衛生法施行規則別表第1に掲げる着色料以外の化学的合成品たる着色料を含むものであってはならない。ただし、着色料が溶出または浸出して食品に混ざるおそれのないように加工されている場合はこの限りでない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b3-caa-kokuji370"
+     ]
+    }
+   ],
+   "practice": "以下は告示の内容を家庭向けに言い換えた実践メモであり、法解釈そのものではない前提で読むこと。買い物の場面では「食品用として販売されている器」を選ぶことが基準適合の目安になる。古い器や用途表示のない器を食品用に転用する判断は、このレコードの数値だけではできないため、個別の確認が必要になる。",
+   "unknowns": [
+    "観賞用・装飾用として作られた陶磁器を食品用に使うことへの、公的機関による注意喚起の有無（本調査では公的出典を特定できなかった）",
+    "個人が自作した器を販売・提供する際に必要となる検査や届出の詳細",
+    "輸入陶磁器について、輸入時に求められる手続きと規格適合確認の実務詳細"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/lead-safety",
+    "basics/cadmium-safety"
+   ]
+  },
+  {
+   "id": "basics/unsealed-hygiene",
+   "names": {
+    "ja": "施釉していない器の衛生",
+    "reading": "せゆうしていないうつわのえいせい",
+    "aliases": [
+     "焼締めの衛生",
+     "無釉の器の扱い"
+    ]
+   },
+   "category": "安全",
+   "summary": "釉薬をかけていない焼締めなどの器は、素地がむき出しで水や油を吸いやすいのが特徴です。そのため、染み・臭い・カビの原因になるものを内部にため込みやすく、使った後によく乾かすことが衛生の基本になります。使う前に水にくぐらせると、染み込みを抑えられます。",
+   "claims": [
+    {
+     "text": "陶器は多孔質で吸水性があるため、料理の水分や油分、茶渋などが土の内部に入り込み、染みや匂いの原因となる。磁器はガラス質で吸水性がほとんどなく、染みや匂いがつきにくい点で対照的である。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-maruhiho-material",
+      "b3-issui-care"
+     ]
+    },
+    {
+     "text": "釉薬はガラス質で水分や油分を通さないが、表面のごく小さなピンホールや、貫入と呼ばれる釉薬のヒビ、釉薬のかかっていない無釉の面からは染み込む。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-issui-care",
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "焼締めの器は土の粒子が粗く施釉もされていないため、水漏れすることがある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kohoro-yakishime"
+     ]
+    },
+    {
+     "text": "濡れたままにしておくとカビや臭いの原因となるので、使った後は洗ってしっかり乾かすことが案内されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-touyuukai-bizen"
+     ]
+    },
+    {
+     "text": "使用する直前に水に浸し、軽く拭いてから使うと、素地が先に水を含むため色鮮やかに見え、汁気や油分の染み込みも抑えられる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-touyuukai-bizen",
+      "b3-kohoro-yakishime"
+     ]
+    },
+    {
+     "text": "油分の多い料理を盛った後は染み込みやすいため、できるだけ早く洗うことが、焼締めの器をきれいに保つコツとして案内されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-meizan-manual"
+     ]
+    }
+   ],
+   "practice": "以下はメーカーや産地の案内をもとに一般家庭向けに再構成した実践メモである前提で読むこと。流れは「使う前に水にくぐらせる→油ものは長く置かない→使ったら早めに洗う→芯まで乾かしてからしまう」。染みや匂いの変化そのものを味わいとして楽しむ使い方もあり、衛生上の要点は「湿らせたまま放置しない」ことに絞られる。",
+   "unknowns": [
+    "無釉の素地内部に残る細菌量を実測した公的な試験データの有無",
+    "焼締めの器を煮沸することの可否・効果についての産地・メーカー間の見解の差"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/kyusui",
+    "basics/metome"
+   ]
+  },
+  {
+   "id": "basics/storage",
+   "names": {
+    "ja": "器の収納",
+    "reading": "うつわのしゅうのう",
+    "aliases": [
+     "食器の収納",
+     "器のしまい方"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "器の収納で一番大切なのは、しまう前に完全に乾かすことです。とくに吸水性のある陶器は、表面が乾いて見えても内部に水分が残っていることがあり、そのまましまうとカビや臭いの原因になります。重ねるときは間に布や紙を挟むと、傷を防げます。",
+   "claims": [
+    {
+     "text": "陶器は洗った後、完全に乾燥させてからでないと収納できず、乾ききらないまましまえないことが磁器との扱いの違いとして挙げられている。磁器は拭いたらすぐに乾かせてカビにくい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b1-nakagawa-guide"
+     ]
+    },
+    {
+     "text": "使った後は必ず乾燥させてから収納する。乾燥が不十分だと、カビ・しみ・臭い発生の原因となる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-maruhiho-material"
+     ]
+    },
+    {
+     "text": "吸水性の高い陶器や焼締めのものは、ふきんで水気を取った後もすぐには片づけず、しばらく置いて芯まで乾燥させておくと、カビが付きにくい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kamegawa-touki"
+     ]
+    },
+    {
+     "text": "限られたスペースで重ねて収納する場合は、器と器の間に薄い布や紙を挟むと、傷や湿気の防止になる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kohoro-yakishime"
+     ]
+    },
+    {
+     "text": "長期間しまうときは、天日干しをしておくと安心である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kohoro-yakishime"
+     ]
+    },
+    {
+     "text": "ザラついた高台（糸底）は食卓や棚に傷をつけることがあるため、砥石やサンドペーパーで軽くこすって滑らかにするか、敷物を使うことが案内されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kamegawa-touki"
+     ]
+    }
+   ],
+   "practice": "以下はメーカー・専門店の案内をもとに再構成した実践メモである前提で読むこと。洗った器は水切りかごや布の上でしばらく置き、手で触って冷たさ（湿り気）を感じなくなってから戸棚へ入れる。重ね収納では形のそろった器同士を重ね、絵付け面どうしが触れる箇所には紙や布を1枚挟む。",
+   "unknowns": [
+    "食器棚内の湿度や換気について、日常の食器を対象とした公的な目安値の有無",
+    "地震対策としての食器の収納方法に関する公的機関の器物向け指針"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/box-storage"
+   ]
+  },
+  {
+   "id": "basics/metome",
+   "names": {
+    "ja": "目止め",
+    "reading": "めどめ",
+    "aliases": [
+     "目止めの方法"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "目止めは、使い始めの陶器を米のとぎ汁などのデンプン質の液体で煮て、表面の細かいヒビ（貫入）や小さな穴（ピンホール）をデンプンでふさぐ下準備です。汁気や油分が染み込みにくくなり、シミ・変色・におい移りを抑える効果が期待されます。必須の作業ではなく、経年変化を味わいとする考え方もあります。",
+   "claims": [
+    {
+     "text": "目止めとは、お米のとぎ汁などデンプン質の液体に器を浸け置き、器全体をデンプン質でコーティングすることである。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "染み込みの原因は、陶器表面の目に見えない小さなヒビ（貫入）や穴（ピンホール）、釉薬が施されていない素地の面であり、デンプン質がそれらをふさぐ役割を担う。ただし完全には防げない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "材料はお米のとぎ汁のほか小麦粉・片栗粉でもよく、方法ごとの目止め効果に大きな差異はないとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "目止めは購入後、使い始める前に行い、その後も使用頻度に応じて半年に1回など定期的に行うとより効果的である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "目止めをしなくても器は使え、染みや変色などの経年変化を「味わい」として楽しむ人も多い。購入時の状態を長く保ちたい人に向く手入れである。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome",
+      "b3-issui-care"
+     ]
+    },
+    {
+     "text": "新しい陶器をおろすときに米のとぎ汁で煮沸すれば、土肌の目を埋めることになり、汚れや水もれを防げると、陶器店の案内でも紹介されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kamegawa-touki"
+     ]
+    }
+   ],
+   "practice": "以下は販売店・陶器店の案内をもとに一般家庭向けに再構成した手順である前提で読むこと。鍋底が見えないくらい白濁したとぎ汁に器を浸し、弱火で20分ほど煮て、そのまま冷めるまで置き、洗ってよく乾かす。煮沸の際は器同士がぶつからないよう注意し、熱い器を急に冷水に入れるような急激な温度変化は避ける。",
+   "unknowns": [
+    "目止めの効果（吸水率や染み込み量の変化）を数値で測定した公的な試験データの有無",
+    "土鍋の目止め（お粥を炊く方法）と食器の目止めで、目的や効果にどこまで差があるかの整理"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/kyusui"
+   ]
+  },
+  {
+   "id": "basics/stain",
+   "names": {
+    "ja": "茶渋・汚れの落とし方",
+    "reading": "ちゃしぶ・よごれのおとし方",
+    "aliases": [
+     "シミの落とし方",
+     "茶渋取り"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "お茶やコーヒーの茶渋、料理の色素は、器の貫入や素地に染み込んでシミになります。基本は重曹を付けたスポンジで擦り洗いし、落ちない場合は酸素系漂白剤の浸け置きが案内されています。金彩や上絵付けのある器では漂白で変色することがあるため、使える方法が限られます。",
+   "claims": [
+    {
+     "text": "色素の強い食品の汁気などは、貫入やピンホールのある箇所から染み込み、シミとなって残る場合がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "シミやにおいには、水を含んだスポンジに重曹をのせて擦り洗いする方法が案内されている。粗塩も効果的だが絵付けなどを傷つける可能性があるため、重曹の使用が勧められている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "重曹で落ちない場合は、食器用漂白剤（酸素系）の説明書や注意書きに従って浸け置きする方法がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-rmc-medome"
+     ]
+    },
+    {
+     "text": "焼締めの器の油染みには、重曹を加えたお湯で10〜15分ほど煮沸する、または酸素系漂白剤で浸け置きする方法が案内され、塩素系漂白剤は使用不可とされている。完全には元の状態に戻らない場合もある。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-meizan-manual"
+     ]
+    },
+    {
+     "text": "金彩・銀彩など上絵付けのものは、漂白で変色するおそれがあるので、漂白は避けた方がよい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kamegawa-touki"
+     ]
+    },
+    {
+     "text": "予防として、料理を盛り付ける前に器を真水に浸して吸水させておくと、煮汁や油分が染み込みにくくなる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kohoro-yakishime"
+     ]
+    }
+   ],
+   "practice": "以下は販売店・メーカーの案内をもとに再構成した実践メモである前提で読むこと。順序は「重曹で擦る→酸素系漂白剤に浸ける→（無釉の器なら）重曹水で煮る」の順に強い方法へ進め、各段階で絵付けや金彩がないかを確認する。どの方法でも最後は流水でよくすすぎ、芯まで乾かす。",
+   "unknowns": [
+    "メラミンスポンジの研磨作用が釉面に与える影響についてのメーカー公式の見解",
+    "重曹の煮沸が貫入の多い器や楽焼など低温焼成の器に与える影響"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/waterspot",
+   "names": {
+    "ja": "水垢・くもり",
+    "reading": "みずあか・くもり",
+    "aliases": [
+     "水あか",
+     "器のくもり"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "器や急須に残る白い跡は、水道水に含まれるカルシウムなどのミネラル分が乾いて固まった「水垢」です。アルカリ性の汚れなので、酸性のクエン酸で溶かして落とす方法が広く案内されています。ただし、この分野は公的機関や窯元による案内が乏しく、掃除の一般論にもとづく情報が中心です。",
+   "claims": [
+    {
+     "text": "厨房などに残る白い水はね跡は、水に含まれるカルシウムなどのミネラル分であり、こうした汚れにはクエン酸が効果的である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-sanikleen-citric"
+     ]
+    },
+    {
+     "text": "水垢はアルカリ性の汚れであるため、酸性のクエン酸水で湿らせてしばらく置くとミネラルが軟化し、落としやすくなる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "b3-haseko-mizuaka"
+     ]
+    },
+    {
+     "text": "クエン酸水の濃度の例として、水200mLに対してクエン酸小さじ1/2（約1%）の割合が紹介されている。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "b3-haseko-mizuaka"
+     ]
+    },
+    {
+     "text": "陶器の食器のシミについては、クエン酸と水の中に器を浸し、そのまま煮沸する方法を紹介する案内もある。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "b3-fukuchan-shimi"
+     ]
+    },
+    {
+     "text": "掃除後にクエン酸が残ると、白残りや曇りの原因になる場合があるため、水でしっかりすすぐ必要がある。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "b3-assistall-citric"
+     ]
+    }
+   ],
+   "practice": "以下は掃除の一般案内をもとに再構成した実践メモであり、器専用の公的指針ではない前提で読むこと。クエン酸水を白い部分に浸み込ませた紙や布で湿布し、10〜30分置いてから柔らかいスポンジで軽くこすり、よくすすいで拭き上げる。金彩や絵付けのある器では目立たない部分で試してから行い、落ちない白さは無理に研磨しない。",
+   "unknowns": [
+    "釉面の「くもり」が、汚れの膜によるものか、表面そのものの劣化によるものかを見分ける公的な目安の有無",
+    "クエン酸を使用してはいけない釉薬・絵付けの種類についてのメーカー公式の整理",
+    "急須内部の水垢について、産地・メーカー公式の手入れ案内の有無"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/mold",
+   "names": {
+    "ja": "カビが生えたとき",
+    "reading": "かびがはえたとき",
+    "aliases": [
+     "器のカビ対策"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "吸水性のある陶器は、湿ったまま収納すると素地の内部でカビが生えることがあります。対処は、メーカーの案内では煮沸して消毒し、風通しのよい場所でよく乾かすことが基本です。予防には、使った後に芯まで乾かすことと、洗剤水への長時間の浸け置きを避けることが効きます。",
+   "claims": [
+    {
+     "text": "陶器は吸水性があるため、洗った後に完全に乾燥するまで収納できず、乾ききらない状態ではカビが生えることがある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b1-nakagawa-guide"
+     ]
+    },
+    {
+     "text": "長時間、洗剤の入った水に浸しておくと、貫入や釉薬のかかっていない部分から汚れや洗剤が染み込んでしまい、臭いやカビの原因になるため、浸け置き洗いは避ける。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-maruhiho-material"
+     ]
+    },
+    {
+     "text": "カビが生えたり匂いが気になる場合は、煮沸消毒をして風通しのよい場所で乾燥させる方法がメーカーから案内されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-maruhiho-material"
+     ]
+    },
+    {
+     "text": "茶渋など落ちにくい汚れやにおい、カビには食器用漂白剤も使えるが、吸水性のある陶器は素地に薬剤が入り込む可能性があるため、すすぎをしっかり丁寧に行う必要がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-cotogoto-care"
+     ]
+    },
+    {
+     "text": "文化財保存の指針では、カビやひび割れなどの予防には相対湿度の管理が極めて重要で、カビの発生を予防するためには相対湿度を60%以下に保つことが望ましいとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-bunka-handbook"
+     ]
+    },
+    {
+     "text": "湿度が高い環境では、資料にカビが生えたり文化財害虫による食害が起きたりするため、博物館では温湿度の管理と清潔な収蔵環境の維持が行われている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-tokushima-museum"
+     ]
+    }
+   ],
+   "practice": "以下はメーカー等の案内をもとに再構成した実践メモである前提で読むこと。カビを見つけたら、まず他の器と分けて洗い、煮沸できる器は煮沸し、風通しのよい場所で芯まで乾かす。再発する場合は収納場所の湿気そのものを見直す（戸棚の換気、除湿）。煮沸や漂白に耐えられない器（金彩・上絵付け・低温焼成）では無理をせず、作り手や販売店に相談する。",
+   "unknowns": [
+    "素地の内部まで入り込んだカビを完全に除去できるかの検証データ",
+    "カビの生えた器を食品用に戻すことへの、公的機関の可否判断の有無"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/chip-crack",
+   "names": {
+    "ja": "欠け・ヒビのある器の扱い",
+    "reading": "かけ・ひびのあるうつわのあつかい",
+    "aliases": [
+     "欠けた器",
+     "ヒビの入った器"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "欠けやヒビのある器をどうするかは、「安全」「衛生」「直せるか」「思い入れ」で考えます。メーカー公式の原則は、ヒビ・カケが入ったら安全のため使用を止めること。一方で、金継ぎなどの修理で使い続けられる場合もあり、小さな欠けなら角を滑らかにして使い続ける案内もあります。判断材料を整理したレコードです。",
+   "claims": [
+    {
+     "text": "メーカー公式の取り扱い案内では、強い衝撃や急激な温度変化はヒビ・カケや破損の原因になるため避けること、万一ヒビ・カケが入った場合や破損した場合は、安全のため使用を止めることが明記されている。安全上の理由により修理は承っていないとするメーカーもある。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-noritake-guide"
+     ]
+    },
+    {
+     "text": "欠けてしまった場合、欠けた部分で怪我をしないように、サンドペーパーで角をやわらげる方法が案内されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kohoro-yakishime"
+     ]
+    },
+    {
+     "text": "ヒビには茶渋などの汚れがたまり、金継ぎで修理した後も、修理部分の上から茶渋などが付いて汚れが目立つことがあるため、湯呑やマグカップの内側のヒビは修理するか迷う場所であると、修理の現場から指摘されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kintunagi-hibi"
+     ]
+    },
+    {
+     "text": "内側のヒビについては、状態によって縁から2〜3cm内側に入った部分で金継ぎを止め、外側を中心に修理して漏れを防ぐような線引きが行われることがある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kintunagi-hibi"
+     ]
+    },
+    {
+     "text": "金継ぎの修理には費用と期間がかかる。工房の事例では、コップの欠けの修理が4,900円ほど、割れた茶碗の修理では納期が4か月ほどに及ぶ例が示されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b3-kintunagi-hibi"
+     ]
+    },
+    {
+     "text": "割れた食器を処分する際は、収集する人が破片に触れないよう、厚紙や新聞紙で包んで「危険」などの表示をするよう案内する自治体がある。分別や表示の方法は自治体ごとに異なる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "b3-kurashi-disposal"
+     ],
+     "note": "自治体案内の二次まとめにもとづく。実際の処分時は居住地の自治体の案内で確認すること。"
+    }
+   ],
+   "practice": "以下はメーカーと修理現場の案内をもとに再構成した判断メモである前提で読むこと。判断の順序は、(1)口が触れる縁の欠けや、貫通して水が漏れるヒビは、日常の食品用からは外す。(2)小さな欠けで角が鋭くない、または角を滑らかにできるものは、使い続ける選択肢がある。(3)思い入れのある器は金継ぎなどの修理を検討するが、費用・期間と、内側のヒビは修理後も汚れが付きやすい点を織り込む。(4)直さない器は、植木鉢や小物入れなど食品以外の用途に回すか、自治体のルールで処分する。",
+   "unknowns": [
+    "ヒビ・欠けのある器の衛生リスク（亀裂内部の細菌残留）を実測した公的なデータの有無",
+    "修理した器（金継ぎ・漆継ぎ）を食品用に戻すことへの公的な可否基準の有無"
+   ],
+   "relations": [
+    "tech/kintsugi"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/box-storage",
+   "names": {
+    "ja": "箱入りの器の保管",
+    "reading": "はこいりのうつわのほかん",
+    "aliases": [
+     "共箱の保管",
+     "桐箱の保管"
+    ]
+   },
+   "category": "手入れ・保管",
+   "summary": "共箱や桐箱に入った器は、箱が湿度の変化をやわらげるため、むしろ保管に適した状態にあります。ただし箱ごと湿気のこもる場所に置けば、箱にも器にもカビや虫の害が出ます。博物館の保存の考え方では、湿度を安定させることと、ときどき開けて点検することが基本です。",
+   "claims": [
+    {
+     "text": "桐箱は、一度ふたを閉めると内部の湿度を安定化させる役割があり、部屋の湿度が動いても箱の中はその10分の1余りしか揺らがないと、東京国立博物館の保存解説で紹介されている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-taito-tohaku"
+     ]
+    },
+    {
+     "text": "文化財にとって湿度の安定化は重要で、湿度は大体50〜60%の間にあることが望ましいとされ、博物館では記録計で定期的に確認されている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-taito-tohaku"
+     ]
+    },
+    {
+     "text": "カビの発生を予防するためには、相対湿度は60%以下に保つことが望ましいと、文化庁の保存施設ハンドブックに示されている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-bunka-handbook"
+     ]
+    },
+    {
+     "text": "私たちの暮らす環境には、湿度が高すぎることによるカビや、文化財害虫によって資料が食べられることなど、資料を壊す要因が多くあり、博物館では空調や調湿剤で環境を整えている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-tokushima-museum"
+     ]
+    },
+    {
+     "text": "外部から入ってきた資料は、害虫やカビが付着している可能性があるため、博物館では文化財用の殺虫・殺菌剤で燻蒸してから収蔵庫に収納する。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b3-tokushima-museum"
+     ]
+    },
+    {
+     "text": "古文書などの保存では、保存箱に入れて湿気の少ない場所に保管し、乾燥した日に陰干しをして風通しをすることが案内されており、箱の中に防虫剤を入れる方法も示されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "b3-jsai-hozon"
+     ]
+    }
+   ],
+   "practice": "以下は博物館の保存の考え方を家庭向けに再構成した実践メモである前提で読むこと。箱は湿気のこもらない場所に置き、梅雨どきなどにときどき開けて、器と箱の内側にカビや虫食いがないか点検し、乾燥した日に陰干ししてからしまう。箱書のある共箱は、作家や由緒を示す情報そのものなので、器と離さず一緒に保管する。防虫剤を使う場合は、器に直接触れない置き方にする。",
+   "unknowns": [
+    "新聞紙で器を直接包むことの是非（インク移りや酸性紙の影響）についての公的な出典",
+    "家庭用防虫剤を共箱に使う場合の、器や箱書への影響に関する公的な案内"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/storage"
+   ]
+  },
+  {
+   "id": "basics/gift-basics",
+   "names": {
+    "ja": "器を贈る基本",
+    "reading": "うつわをおくるきほん",
+    "aliases": [
+     "贈答の基本",
+     "のしと水引"
+    ]
+   },
+   "category": "贈答",
+   "summary": "器を贈り物にするときの土台になる作法のまとめ。のし紙と水引の選び方、表書きの書き方、配送と手渡しでの掛け方の違いなど、場面に共通する基本形を押さえる。慣習は絶対の規則ではなく、地域や家庭で差がある前提で読む。",
+   "claims": [
+    {
+     "text": "贈り物には水引と熨斗（のし）を印刷したのし紙を掛けるのが一般的な包装とされる。水引は目的に応じて色・本数・結び方が異なり、適していない結び方を選ぶと失礼にあたる場合があると案内される。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "のし紙の表書きは、上段中央に用途（御祝・寿など）を記し、下段に贈り主の名前を表書きより少し小さく書くのが基本形とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "のし紙の掛け方には、品物に直接掛けてから包装紙で包む「内のし」と、包装の上から掛ける「外のし」がある。宅配便などで直接送る場合はのし紙が汚れたり破れたりしにくい内のしが、手渡しの場合は外のしが目安とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "食器や調理器具などの実用品は贈り物としてよく選ばれ、とくに自分たちでは買わないような上質なものや贅沢品が喜ばれる傾向があると百貨店の案内では説明される。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-tokyu-wedding"
+     ]
+    },
+    {
+     "text": "ほかの贈り主からの品との重複を避けるため、親しい間柄であれば事前に欲しいものを聞いておくこともよい方法とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-tokyu-wedding",
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "お祝いへのお返し（内祝い）は、結婚内祝いの場合で頂いた額の半額程度が目安とされるなど、場面ごとにおおよその目安が案内されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    }
+   ],
+   "practice": "まず場面（慶事・弔事・お礼）を確認し、それに合う水引と表書きを選ぶのが出発点。器を贈る場合は、百貨店のギフトカウンターや通販の「のし対応」を使えば、包装・のし・配送（内のし）まで一括で整えられる。慣習には地域差・家庭差があるため、形式に厳しい相手かどうか分からないときは、贈る前にさりげなく確認するのが実務的である。",
+   "unknowns": [
+    "地域差（関西の水引の色使いなど）を体系的に示す公的資料は未確認",
+    "のし紙を使わないカジュアルな贈答がどの程度一般化したかを示す調査データは未確認"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/wedding-gift",
+    "basics/gift-taboo",
+    "basics/formal-gift"
+   ]
+  },
+  {
+   "id": "basics/wedding-gift",
+   "names": {
+    "ja": "結婚祝いの器",
+    "reading": "けっこんいわいのうつわ",
+    "aliases": [
+     "結婚祝いの食器",
+     "ペア食器"
+    ]
+   },
+   "category": "贈答",
+   "summary": "結婚祝いに器を贈る場合の実務メモ。夫婦茶碗などのペア食器が定番であること、品物の相場、のしと贈る時期の目安を示す。「割れ物はタブー」という言い伝えについては、通説と現在の慣行の両面を併記する。",
+   "claims": [
+    {
+     "text": "夫婦茶碗やペアグラス、ペアマグカップなど、2つで一組になるペア食器が結婚祝いの定番とされる。ペアは「どちらか片方が欠けてはいけない」ものとして、夫婦の象徴に重ねて説明されることが多い。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "品物で贈る場合の相場は3,000円から1万円程度が一般的とされる。これは披露宴に出席する場合のご祝儀（現金）の目安（友人で3万円など）とは別の考え方である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding",
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "結婚祝いののしは、紅白または金銀の水引10本の結び切り（またはあわじ結び）が基本で、表書きは「寿」「御祝」「御結婚御祝」など。何度も結び直せる蝶結びは、結婚祝いには適さないとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding",
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "贈る時期は、結婚式の1か月から2か月前、遅くとも1週間前までが目安とされる。当日に受付で品物を渡すのは、持ち帰りの荷物になって相手の負担になるため避ける案内が多い。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "かつては食器やガラスなどの「割れ物」は、「割れる・壊れる」を連想させるとして結婚祝いには好ましくないと考えられていた。一方で現在は、百貨店や食器専門店の案内が「あまり気にしない人が増えている」「高級な食器を贈られると喜ばれることもある」とし、夫婦茶碗をはじめとするペア食器は定番の贈り物として実際に売られている。タブー視は弱まっているが、相手やその家族の世代が気にする場合は配慮が要る、というのが両案内に共通する落としどころである。",
+     "level": "E4",
+     "status": "contested",
+     "sources": [
+      "b4-tokyu-wedding",
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "割れ物が気になる相手への代替として、漆器や木の器など割れにくい素材の器や、相手が自分で選べるギフトカードを贈る方法も案内されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding"
+     ]
+    }
+   ],
+   "practice": "聞ける間柄なら、欲しいものや必要なものを事前に聞くのが最も確実。聞けない場合は、毎日使う夫婦茶碗やペアマグカップなど実用的な品を相場の範囲から選ぶ。相手やその親の世代が縁起を気にする様子があれば、漆器など割れにくい素材にするか、品物に「末永くお使いいただけますように」と一言添えると受け止め方が和らぐとされる。",
+   "unknowns": [
+    "「割れ物」を気にするかどうかを世代別に数値で示した公表調査は未確認",
+    "品物の相場（3,000円から1万円）は案内媒体によって幅があり、地域差の裏付けは未確認"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/gift-basics",
+    "basics/gift-taboo"
+   ]
+  },
+  {
+   "id": "basics/gift-taboo",
+   "names": {
+    "ja": "贈答の数と忌み",
+    "reading": "ぞうとうのかずといみ",
+    "aliases": [
+     "贈り物のタブー",
+     "数のマナー"
+    ]
+   },
+   "category": "贈答",
+   "summary": "贈り物の個数や場面にまつわる「忌み」の考え方を整理する。4と9を避ける語呂の話、偶数をめぐる案内の食い違い、慶事と弔事の区別など。いずれも絶対の規則ではなく、案内する側によって扱いが異なることを含めて記録する。",
+   "claims": [
+    {
+     "text": "贈り物の数では、4は「死」、9は「苦」の語呂に通じるとして避ける考え方が広く案内される。食器のセット個数を選ぶ場面でも、この4と9を避ける案内が繰り返し現れる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-concent-formal",
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "結婚祝いでは偶数そのものも「割れる・別れる」の連想から避けるという説がある。一方で、ペア（2客・2人用）は夫婦で使う構成として例外とされ、結婚祝いの定番になっている。点数の合計が偶数でも、中身がペア構成のセットであれば問題ないとする案内もあり、個数の数字だけで一律に判断されるわけではない。",
+     "level": "E4",
+     "status": "contested",
+     "sources": [
+      "b4-uchill-wedding",
+      "b4-okurimono-wedding"
+     ]
+    },
+    {
+     "text": "6客（6点）のセットについては、4・6・9を避けるとする案内と、「2客×3」「3客×2」と見立てれば贈れるという案内があり、扱いは案内媒体によって異なる。",
+     "level": "E5",
+     "status": "contested",
+     "sources": [
+      "b4-uchill-wedding",
+      "b4-okurimono-wedding"
+     ]
+    },
+    {
+     "text": "忌みの考え方は器に限らない。ハンカチは「手巾（てきれ）」と書くことから手切れ（絶交）を連想させる、履物は相手を「踏みつける」連想がある、といった具合に、言葉の語呂や用途の連想で贈り物を避ける慣行が贈答全般にある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-concent-formal"
+     ]
+    },
+    {
+     "text": "弔事の贈答では水引の色が黒白または双銀（関西など一部の西日本では黄白）とされ、慶事の紅白とは明確に分けられる。場面を取り違えないことが、数の忌み以上に基本的な配慮とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "これらの慣習は絶対の規則ではなく、ギフト大手の案内自体が「地方により習慣、使い方、流派による違いがある場合がございます」と注意書きを置いている。地域・宗教・世代によって受け止め方が異なる前提で扱う必要がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    }
+   ],
+   "practice": "数で迷ったら、4と9を避け、ペア（2）か奇数の揃えにするのが無難な落としどころ。ただし相手が気にしないことが分かっている場合は、この限りではない。数の話よりも、慶事と弔事でのしと水引を取り違えないことのほうが失礼になりにくい。",
+   "unknowns": [
+    "茶碗・湯呑の「5客揃え」が正式とされる由来（来客文化など）の原典は未確認",
+    "地域別の数の忌みの実態を示す調査は未確認"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/formal-gift",
+   "names": {
+    "ja": "目上の人への贈り方",
+    "reading": "めうえのひとへのおくりかた",
+    "aliases": [
+     "改まった贈答",
+     "フォーマルな贈り物"
+    ]
+   },
+   "category": "贈答",
+   "summary": "目上の人や改まった相手に器などを贈るときの注意点。避けたほうがよいとされる品の考え方、風呂敷やのしによる形式の整え方、好みが聞きづらい相手への選び方をまとめる。",
+   "claims": [
+    {
+     "text": "目上の人には、スリッパや靴下などの履物は「踏みつける」ことを連想させるとして、贈答品には不向きとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-concent-formal"
+     ]
+    },
+    {
+     "text": "時計や鞄は「より勤勉に」という意味合いがあるとして、目上の人へ贈るのは失礼にあたるとされる。また、相手に気を使わせてしまうような高価すぎるものも、避けたほうが無難とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-concent-formal"
+     ]
+    },
+    {
+     "text": "直接手渡す場合は風呂敷で包んで持参し、相手の前でほどいて渡す形が丁寧とされる。風呂敷の色では、高貴な色とされる紫は冠婚葬祭のさまざまな場面に使えるとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-concent-formal"
+     ]
+    },
+    {
+     "text": "目上の相手は好みを聞きづらいため、器を選ぶなら無地でシンプルなもの、ふだん使いしやすい主張しすぎないデザインのものが無難という案内がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-uchill-wedding"
+     ]
+    },
+    {
+     "text": "連名で贈る場合、のし紙の下段の名前は、右から地位や年齢の順に記すのが作法とされる。地位や年齢が関係ない場合は右から五十音順とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    },
+    {
+     "text": "配送で送る場合は内のし、手渡しの場合は外のしが目安とされる。改まった贈答では、品物そのものに加えて、この包装とのしの形式が相手への丁寧さを左右する要素として扱われる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-thede-noshi"
+     ]
+    }
+   ],
+   "practice": "品選びは「質は確かだが過度に高額ではない」範囲に収め、産地や老舗の確かな作りの器などが候補になる。形式は風呂敷包みとのしで整え、渡すときは両手で、感謝の言葉を添える。贈る時期を逃した場合は、遅れたことへの一言を添えたうえでなるべく早く届ける。",
+   "unknowns": [
+    "法人間の贈答における金額の上限や税務・コンプライアンス上の扱いは未調査（本レコードの対象外）",
+    "目上の相手に器を贈る場合の具体的な相場感を示す公表資料は未確認"
+   ],
+   "updated": "2026-11-12",
+   "relations": [
+    "basics/gift-basics"
+   ]
+  },
+  {
+   "id": "basics/mass-production",
+   "names": {
+    "ja": "量産の器の作り方",
+    "reading": "りょうさんのうつわのつくりかた",
+    "aliases": [
+     "量産食器",
+     "メーカーの器"
+    ]
+   },
+   "category": "価格の基礎",
+   "summary": "100円ショップや量販店の皿がなぜ安く作れるのかを、産地の量産の仕組みから説明する。石膏型による型成形、分業体制、大型窯の回転が、1個あたりのコストを下げる構造になっている。",
+   "claims": [
+    {
+     "text": "量産の産地では分業体制が取られる。波佐見焼の例では、型を作る型屋、生地を作る生地屋、素焼き・絵付け・施釉・焼成を行う窯元、釉薬を供給する釉薬屋、流通を担う商社に分かれ、同じ器を大量に作る体制が整えられている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "石膏型は、原型・元型・ケース型・使用型の4段階を経て作られる。陶磁器は生素地から焼成までに10%から15%収縮するため、原型の段階で収縮と変形を見込んだ設計が必要になる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-tajimi-mold"
+     ]
+    },
+    {
+     "text": "量産の成形方法には、機械ロクロ（水ゴテ）成形、ローラーマシン成形、排泥鋳込み成形、圧力鋳込み成形などがあり、器の形状と生産数量に応じて使い分けられる。ローラーマシン成形は回転するコテの動きが機械化された全自動の成形で、大量生産に適するとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-tajimi-mold",
+      "b4-maruken-oem"
+     ]
+    },
+    {
+     "text": "絵付けも量産では、筆による描き方に加えて、パッド印刷や判子など均一に早く仕上げる方法が併用される。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "本焼成は、波佐見の例ではガスなどの燃料でおよそ1,300℃・約15時間かけて焼き、約15時間かけて冷ますサイクルで行われる。窯を止めずに回し続けることが、1個あたりの焼成コストを下げる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "型の初期費用は、美濃焼メーカーのOEM受注の公表例では、がば鋳込み（排泥鋳込み）の2つ割型で15万円から20万円、圧力鋳込みで18万円から23万円、動力成形で25万円から30万円とされ、最小ロットは200個から500個程度とされる。型代は生産個数で割られるため、個数が多いほど1個あたりの型代の負担は小さくなる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b4-maruken-oem"
+     ]
+    },
+    {
+     "text": "実測では、ダイソーの公式通販で磁器の丸皿（素材は磁器ニューボン、原産国は中国）が税込110円で販売されている（2026年11月時点）。この価格帯は、型成形による均一な成形と大量ロットの生産が前提になっている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b4-daiso-plate"
+     ]
+    }
+   ],
+   "practice": "器が量産品かどうかは、形の均一さ、型の継ぎ目の痕の有無、底の処理、産地と価格帯からおおよそ見分けられる。量産品は同じものを買い足しやすい反面、廃番になると揃え直せない。贈答や買い足しを前提に選ぶときは、この点を意識しておくとよい。",
+   "relations": [
+    "kiln/denki",
+    "basics/price-factors"
+   ],
+   "unknowns": [
+    "100円ショップ向け食器の原価内訳（材料費・型代・物流費の配分）を示す公表資料は未確認",
+    "海外の量産工場における焼成設備や標準ロット規模の一次資料は未確認"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/handmade-price",
+   "names": {
+    "ja": "手作りの器の価格",
+    "reading": "てづくりのうつわのかかく",
+    "aliases": [
+     "作家ものの価格",
+     "手作りの器はなぜ高いか"
+    ]
+   },
+   "category": "価格の基礎",
+   "summary": "手作りや作家ものの器の価格が、量産品と比べて高くなる理由を工程とコストの構造から説明する。材料費の差ではなく、1点ごとに必要な作業時間、窯の焼成にかかる燃料と日数、商品にならない分の損失が重なって価格になる。",
+   "claims": [
+    {
+     "text": "陶磁器の作り手は大きく、陶磁器メーカー、窯元、個人作家に分けられる。メーカーは品質の揃った原料と機械成形で大量に供給できるものづくりを前提とし、窯元は伝統の技法を保ちながらある程度量産できる体制を取り、個人作家は成形から仕上げまでを一人で担うことが多い、とギャラリーの解説では整理される。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-momofuku-diff"
+     ]
+    },
+    {
+     "text": "器づくりの工程は、土づくり、成形、乾燥、素焼き、絵付け・施釉、本焼成、窯出しと多段階にわたる。量産の産地ではこの工程を分業と機械で処理するが、手作りでは各工程に作り手本人の時間が必要になる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process",
+      "b4-momofuku-diff"
+     ]
+    },
+    {
+     "text": "薪を燃料にする登り窯の焼成は、大きな固定コストになる。三川内焼の協働登り窯の実例では、焼成時間33時間から35時間、薪の使用量250束から260束、最高温度およそ1,280℃から1,290℃、冷却に窯焚きとほぼ同じ2日間を要し、窯詰めと窯出しも参加者全員の共同作業で行われ、焼成は年1回から2回にとどまる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-mikawachi-kiln"
+     ]
+    },
+    {
+     "text": "薪窯や登り窯では、炎や灰の当たり方によって同じ窯の中でも1点ごとに焼き上がりが異なり、狙った景色になるものとそうでないものが混ざって出てくる。窯出し後に商品になるものを選ぶ選別が前提になるため、窯に入れた数がそのまま販売できる数にはならない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-mikawachi-kiln"
+     ]
+    },
+    {
+     "text": "一度に焼ける量は窯の容積で決まるため、焼成回数の少ない小さな窯では、焼成1回分の燃料費と人手を少ない点数で負担することになり、1点あたりの焼成コストは下がりにくい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-mikawachi-kiln",
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "手作りの器の価格には、材料費に加えて、工程ごとの作業時間、窯の燃料と焼成・冷却にかかる日数、焼成で商品にならなかった分の損失が重なって反映される。さらに、作り手から直接買うか、ギャラリーや百貨店などの小売を経由するかでも、最終価格は変わる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "b4-momofuku-diff",
+      "b4-mikawachi-kiln"
+     ]
+    }
+   ],
+   "practice": "手作りの器の値段を見るときは、大きさや見た目だけでなく、型ものか1点ずつの成形か、どの窯でどう焼かれたか（薪窯・登り窯か、ガス窯・電気窯か）、どこで売られているか（作り手の直販か小売か）を確認すると、価格の理由が具体的に読み解ける。",
+   "relations": [
+    "kiln/noborigama",
+    "kiln/maki",
+    "basics/price-factors"
+   ],
+   "unknowns": [
+    "焼成の歩留まり（窯に入れた数に対する商品化率）の公表統計はなく、窯ごとの実数は未確認",
+    "ギャラリーや百貨店の販売手数料率の公表値は未確認で、流通コストは構造としてのみ記録した"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "basics/price-factors",
+   "names": {
+    "ja": "器の価格を決める要素",
+    "reading": "うつわのかかくをきめるようそ",
+    "aliases": [
+     "価格の仕組み",
+     "器の値段の決まり方"
+    ]
+   },
+   "category": "価格の基礎",
+   "summary": "「100均の皿と高い皿は何が違うのか」に構造で答えるための整理。型代などの初期費用の割り勘、焼成の方法と回し方、分業と流通の段階、工程の数という4つの軸で、器の価格差の大部分は説明できる。",
+   "claims": [
+    {
+     "text": "初期費用の割り勘が効く。型や原型の費用は生産個数で割られるため、同じ型代でも個数が10倍になれば1個あたりの負担は10分の1になる。OEMの公表例では型代15万円から30万円に対して最小ロットが200個から500個とされ、少量生産では型代だけでも1個あたり数百円から千円を超える計算になる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b4-maruken-oem"
+     ]
+    },
+    {
+     "text": "焼成の方法と回し方が違う。量産のガス窯は約15時間の焼成と約15時間の冷却のサイクルを繰り返し回せる一方、登り窯は1回の焼成に30時間以上と冷却の日数を要し、数百束の薪と複数の人手が必要で、焼成そのものが年に数回に限られる窯もある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process",
+      "b4-mikawachi-kiln"
+     ]
+    },
+    {
+     "text": "分業と流通の段階が積み上がる。産地の分業体制では、型屋・生地屋・窯元・商社のそれぞれが工程と流通を担い、各段階の費用と利益が価格に積み上がる。作り手が直接販売する場合はこの一部を省ける代わりに、販売や発送の手間を作り手自身が負担する。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "工程の数が効く。絵付けや彫りなどの装飾工程が増えるほど作業時間が増えて価格に反映される。量産では絵付けにパッド印刷や判子を使うことで、この部分の時間を圧縮している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-hasami-process"
+     ]
+    },
+    {
+     "text": "素材と作り方の難しさも要素になる。陶磁器は焼成までに10%から15%収縮し、土や形によっては変形や割れのリスクが高い。大きな器や薄い器は失敗したときの材料と窯の場所の損失も大きく、そのリスクは価格に含まれる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "b4-tajimi-mold"
+     ]
+    },
+    {
+     "text": "実測できる範囲では、量産の磁器皿が税込110円で売られている（2026年11月時点、ダイソー公式通販、中国製の磁器丸皿）。手作りの器との価格差は、型代の割り勘の効き方、焼成の回し方、流通段階の数という構造の違いとして説明でき、単に材料の質の差だけではない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "b4-daiso-plate",
+      "b4-maruken-oem"
+     ]
+    }
+   ],
+   "practice": "価格を比べるときは「型ものか、1点ずつの成形か」「窯の種類と焼成の回し方」「どこで買うか（直販・産地・小売）」「装飾などの工程の多さ」の4点を確認すると、安さと高さの理由が具体的に分かる。安い器が劣り高い器が優れるという話ではなく、払っている対象（均一さと安定した供給か、1点ごとの景色と作り手の時間か）が違うと理解するのが実務的である。",
+   "relations": [
+    "kiln/noborigama",
+    "basics/mass-production",
+    "basics/handmade-price"
+   ],
+   "unknowns": [
+    "作家の知名度・受賞歴・共箱の有無が価格に与える影響は、市場の慣行として語られるが、定量的な裏付け資料は未確認",
+    "百貨店やギャラリーの標準的な販売手数料率は公表資料がなく未確認"
+   ],
+   "updated": "2026-11-12"
+  }
+ ]
+}

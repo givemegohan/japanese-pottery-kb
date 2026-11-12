@@ -8,7 +8,7 @@
 
 ## ファイル構成
 
-- `index.html` — トップページ（GitHub Pages）。内容の一覧、サイト内検索、AIに読ませる場合のベストプラクティス。
+- `index.html` — トップページ（GitHub Pages）。内容の一覧、サイト内検索、「AIに質問する」フォーム、AIに読ませる場合のベストプラクティス。
 - `jomon.html` — 縄文文様の分類ページ。項目データはページ内に埋め込まれています。
 - `wares.html` — 産地・窯の一覧ページ。
 - `history.html` — 陶芸の系譜ページ（縄文から現代までの伝播イベント）。
@@ -17,10 +17,12 @@
 - `kilns.html` — 窯・設備の一覧ページ。
 - `clays.html` — 土の一覧ページ。
 - `glazes.html` — 釉薬の一覧ページ。
+- `basics.html` — 器の基礎と暮らしの一覧ページ。
 - `data/people-records.json` — 人物レコードの機械可読エクスポート。
 - `data/kiln-records.json` — 窯・設備レコードの機械可読エクスポート。市場の事実（価格帯など）は2026年11月時点。
 - `data/clay-records.json` — 土レコードの機械可読エクスポート。市場の事実は2026年11月時点。
 - `data/glaze-records.json` — 釉薬レコードの機械可読エクスポート。市場の事実は2026年11月時点。
+- `data/basics-records.json` — 器の基礎と暮らしレコードの機械可読エクスポート。
 - `data/technique-records.json` — 技法レコードの機械可読エクスポート。
 - `data/lineage-records.json` — 系譜・伝播レコードの機械可読エクスポート。イベントは時期・種類・伝播元→伝播先・伝わった技術や様式・出典つきの主張からなります。
 - `data/jomon-records.json` — 縄文文様の項目レコードの機械可読エクスポート（正本の構造化レコードからの自動生成）。
