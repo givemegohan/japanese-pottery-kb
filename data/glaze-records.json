@@ -3,8 +3,8 @@
  "ai_generated": true,
  "stats": {
   "records": 100,
-  "claims": 443,
-  "sources": 183
+  "claims": 450,
+  "sources": 187
  },
  "sources": {
   "maruni-kisoyu": {
@@ -738,6 +738,22 @@
   "kasamashiko-ashinuma": {
    "label": "日本遺産 笠間・益子「芦沼石採石場（Ashinuma Stone Quarry）」",
    "url": "https://kasamashiko.style/en/point/detail/38/"
+  },
+  "t4-gazan-shino": {
+   "label": "雅山窯（美濃の窯元）「志野器物鑑賞 vol.025 繪志野茶碗」",
+   "url": "http://www.studioss.com/utsuwa/shinoyaki-25.html"
+  },
+  "t4-geidai-tetsuyu": {
+   "label": "東京藝術大学博士審査展2018 猪狩美貴「釉薬の発色に及ぼす融剤および遷移金属の効果」",
+   "url": "https://dr-exhibition.geidai.ac.jp/2018/conservation-science/682"
+  },
+  "t4-momat-arakawa": {
+   "label": "国立工芸館「現代の眼 オンライン版：荒川豊蔵《志野茶碗 銘 不動》」（唐澤昌宏）",
+   "url": "https://www.momat.go.jp/craft-museum/magazine/636-20220307"
+  },
+  "t4-touroji-shino": {
+   "label": "陶磁器情報サイト touroji.com「志野釉」（釉薬の種類の解説）",
+   "url": "https://touroji.com/yuuyakunosyurui/shinoyuu.html"
   }
  },
  "records": [
@@ -2847,6 +2863,65 @@
      "sources": [
       "maruni-dentou",
       "tougei-liquid"
+     ]
+    },
+    {
+     "text": "緋色は志野の見どころの一つで、国立工芸館の解説では、荒川豊蔵が桃山時代の志野について、厚くかかった柔らかい白釉のところどころに志野独特の薄紅色が柚子肌の膚に自然ににじみ出ている、と解説したことが紹介されている。緋色は全面に均一に出るものではなく、部分的に現れる景色である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "t4-momat-arakawa"
+     ]
+    },
+    {
+     "text": "緋色の発色源は鉄分で、伝統的な素地である百草土は鉄分が約1.5%と少なく、焼き締まりが小さいために緋色が出やすいとされる。微量の鉄分が緋色を生む一方で、鉄分の多い土では白色の釉の白さが損なわれるため、白さと緋色の両立は素地の鉄分の量のバランスの上に成り立つ。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "t4-touroji-shino"
+     ]
+    },
+    {
+     "text": "釉の厚さは緋色の出方を左右し、厚く掛けるほど白さは増すが、緋色が全く出ないこともある。緋色は釉の薄い部分や釉切れの箇所、釉際や口縁まわり、ピンホールの周囲に現れやすい。緋色が出ない場合に、釉が厚すぎることは切り分けの観点の一つになる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "t4-touroji-shino"
+     ]
+    },
+    {
+     "text": "鉄釉一般の知見として、鉄を含む釉の発色は鉄の酸化状態（Fe3+とFe2+の平衡）によって変わり、Fe3+は黄から茶色系、Fe2+は青色系の発色とされる。焼成雰囲気が酸化か還元かとその強さが、素地や釉に含まれる鉄の色の出方を変えるため、同じ鉄分量でも緋色の出方は焼成で変わりうる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "t4-geidai-tetsuyu"
+     ]
+    },
+    {
+     "text": "窯元の解説では、緋色は素地の鉄分からも釉薬側の鉄分からも発色しうるとされ、長石釉に少量の鉄分や木節粘土を混ぜて緋色を狙う方法もある。また窯詰めの位置も影響し、火源に近すぎて火勢の強すぎる場所では緋色が消えるため、火の当たりの強すぎない位置に置くとされる。同じ鉄分の下地でも、窯内の状態によって赤色に発色するもの（赤志野）と深灰色になるもの（鼠志野）に分かれる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "t4-gazan-shino"
+     ]
+    },
+    {
+     "text": "公設試験研究機関の焼成試験では、冷却時の雰囲気が素地および釉の発色に影響を及ぼすことが検討されており、還元焼成の後に冷却過程をどう運ぶかも、鉄分を含む釉の色を左右する要因の一つである。志野の伝統的な焼成の運びとしても、ゆっくり昇温させた後、同じように時間をかけて徐冷することが基本とされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "ibaraki-cooling",
+      "t4-touroji-shino"
+     ]
+    },
+    {
+     "text": "緋色はもともと歩留まりの良い発色ではなく、素地の鉄分、釉の厚さ、焼成の雰囲気、冷却の過程、窯詰め位置が重なって決まるため、単一の条件だけでは安定しない。緋色が出ない、あるいは強すぎる場合は、素地に鉄分があるか、釉が厚すぎないか、火の当たり方と冷却の過程はどうかを順に切り分けることが実務的な観点になる。",
+     "level": "E3",
+     "status": "inferred",
+     "sources": [
+      "t4-touroji-shino",
+      "t4-gazan-shino",
+      "ibaraki-cooling"
      ]
     }
    ],
