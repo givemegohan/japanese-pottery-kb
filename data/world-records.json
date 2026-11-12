@@ -1,0 +1,790 @@
+{
+ "about": "日本の陶芸ナレッジベース「世界の陶磁器」の機械可読データ。日本の陶芸と関わりの深い中国・朝鮮半島・欧州の陶磁器と関係史を収載（現時点で5件以上）。定義は docs/ai-guide.md を参照。",
+ "ai_generated": true,
+ "stats": {
+  "records": 8,
+  "claims": 56,
+  "sources": 11
+ },
+ "sources": {
+  "wd-moco-china": {
+   "label": "大阪市立東洋陶磁美術館「中国陶磁概説」（陶磁史）",
+   "url": "https://www.moco.or.jp/intro/history_c/china.php"
+  },
+  "wd-fukuoka-goryeo": {
+   "label": "福岡市博物館 アーカイブズ「No.278 考古資料にみる高麗と博多」",
+   "url": "https://museum.city.fukuoka.jp/archives/leaflet/278/index.html"
+  },
+  "wd-miho-joseon": {
+   "label": "MIHO MUSEUM 収蔵品解説「白磁壺（朝鮮王朝時代）」",
+   "url": "https://www.miho.jp/booth/html/artcon/00001875.htm"
+  },
+  "wd-kyushu-hizen": {
+   "label": "佐賀県立九州陶磁文化館 研究紀要（肥前陶磁の時期区分と朝鮮からの技術伝播）",
+   "url": "https://sitereports.nabunken.go.jp/files/attach/69/69172/142535_1_%E4%BD%90%E8%B3%80%E7%9C%8C%E7%AB%8B%E4%B9%9D%E5%B7%9E%E9%99%B6%E7%A3%81%E6%96%87%E5%8C%96%E9%A4%A8%E7%A0%94%E7%A9%B6%E7%B4%80%E8%A6%81.pdf"
+  },
+  "wd-kyushu-trade": {
+   "label": "佐賀県立九州陶磁文化館 研究紀要第10号（2025）（明代東アジア陶磁貿易と肥前磁器）",
+   "url": "https://saga-museum.jp/ceramic/docs/812cfd2ab65866e5576fc76b76cd7199.pdf"
+  },
+  "wd-sfumart-toguri": {
+   "label": "Sfumart コラム「柿右衛門様式にみる磁器の歴史」（戸栗美術館 展覧会「『柿右衛門』の五色」紹介、2023）",
+   "url": "https://sfumart.com/column/12143"
+  },
+  "wd-mfa-delft": {
+   "label": "Museum of Fine Arts, Boston コレクション解説「Dutch Ceramics」",
+   "url": "https://www.mfa.org/collections/dutch-ceramics"
+  },
+  "wd-delftware-history": {
+   "label": "Dutch Delftware（デルフト陶器の学術情報サイト）「How did Delftware develop?」",
+   "url": "http://delftsaardewerk.nl/en/discover/how-did-delftware-develop"
+  },
+  "wd-ksu-jingdezhen": {
+   "label": "京都産業大学リポジトリ所収論文「景徳鎮の陶磁器クラスターにおけるイノベーション過程」（経営学部論集）",
+   "url": "https://ksu.repo.nii.ac.jp/record/2307/files/KMR_24_1.pdf"
+  },
+  "wd-bunka-kohiki": {
+   "label": "文化庁 国指定文化財等データベース「粉引茶碗（三好）」（重要文化財、三井記念美術館蔵）の指定解説",
+   "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/201/00011721"
+  },
+  "wd-meiji-arita": {
+   "label": "明治大学リポジトリ所収論文「伝統工芸有田焼の商品開発動向―歴史的前提から第2次大戦後まで―」（博物館研究）",
+   "url": "https://meiji.repo.nii.ac.jp/record/14377/files/hakubutsukankenkyu_17_27.pdf"
+  }
+ },
+ "records": [
+  {
+   "id": "world/jingdezhen",
+   "names": {
+    "ja": "景徳鎮",
+    "reading": "けいとくちん",
+    "en": "Jingdezhen",
+    "aliases": [
+     "景徳鎮窯",
+     "陶都"
+    ]
+   },
+   "user_terms": [
+    "景徳鎮って何がすごいの",
+    "景徳鎮と有田の違い",
+    "中国の磁器の都",
+    "青花磁の本場",
+    "染付はどこから来たの"
+   ],
+   "name_level": "産地・窯業地",
+   "category": "中国",
+   "summary": "中国・江西省の窯業都市。宋代に青白磁で名声を得て元代に青花（染付）を完成させ、明清には御窯を擁して世界の磁器貿易の中心となった。日本の有田はその磁器技術と様式を目標に成立し、17世紀には景徳鎮の輸出途絶を受けて伊万里焼が欧州へ渡るなど、日本の陶磁と深く関わる。",
+   "claims": [
+    {
+     "text": "景徳鎮では漢時代に陶磁器生産が始まったとされ、北宋の景徳年間（1004〜1007年）に真宗皇帝により昌南鎮から景徳鎮へ改称された。宮廷御用達となり、製品の底に「景徳年製」の款を入れたという。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-ksu-jingdezhen"
+     ]
+    },
+    {
+     "text": "宋代には青白磁を完成させて中国を代表する陶磁器産地となり、元時代には青花（染付）の技術が景徳鎮で完成した。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-moco-china",
+      "wd-ksu-jingdezhen"
+     ]
+    },
+    {
+     "text": "明時代には景徳鎮に御器廠が置かれ、宮廷用の陶磁器が焼かれた。設置の時期については洪武2年（1369年）説、洪武35年（1402年）説、宣徳元年（1426年）説があり、文献によって異なる。",
+     "level": "E2",
+     "status": "contested",
+     "sources": [
+      "wd-moco-china",
+      "wd-ksu-jingdezhen"
+     ]
+    },
+    {
+     "text": "元・明時代の青花磁は中近東をはじめ海外へ広く輸出され、景徳鎮は世界の磁器貿易の中心地となった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-moco-china"
+     ]
+    },
+    {
+     "text": "清時代には康熙年間に御器廠が再開され、雍正・乾隆年間に生産技法が頂点を極めた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-moco-china"
+     ]
+    },
+    {
+     "text": "17世紀初め、日本の茶人・小堀遠州らが景徳鎮に水指や会席具を注文し、天啓期（1621〜1627年）を中心に「古染付」と呼ばれる日本向けの染付磁器が作られた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-trade"
+     ]
+    },
+    {
+     "text": "国産磁器として生産が始まった肥前磁器の通常の染付磁器は、中国の景徳鎮磁器を目指したものと考えられ、景徳鎮産磁器の供給量の不足を補う形で国内に流通し始めた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-trade"
+     ]
+    },
+    {
+     "text": "2004年には命名千年祭が開かれるなど、現在も陶磁器産業が都市経済の中核を占める「陶都」として知られる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-ksu-jingdezhen"
+     ]
+    }
+   ],
+   "relations": [
+    "ware/arita",
+    "world/china-japan",
+    "lineage/chinese-ceramics-import",
+    "tech/sometsuke",
+    "visit/kaigai-sanchi"
+   ],
+   "unknowns": [
+    "御器廠の正確な設置年は諸説あり（1369年／1402年／1426年）、確定していない。",
+    "元代の青花の技術的成立過程については、景徳鎮以外の窯との関係を含め議論が続いている。",
+    "日本への景徳鎮磁器の輸入量の時代別推移を示す定量データは、本レコードの出典範囲では確認できていない。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/goryeo-celadon",
+   "names": {
+    "ja": "高麗青磁",
+    "reading": "こうらいせいじ",
+    "en": "Goryeo celadon",
+    "aliases": [
+     "象嵌青磁",
+     "高麗の青磁"
+    ]
+   },
+   "user_terms": [
+    "高麗青磁ってどんな器",
+    "象嵌青磁って何",
+    "韓国の青磁",
+    "ヒスイ色の器",
+    "高麗茶碗のもとになった器"
+   ],
+   "name_level": "陶磁の種類・様式",
+   "category": "朝鮮半島",
+   "summary": "朝鮮半島の高麗王朝（918〜1392年）で作られた青磁。薄く透明感のある釉と「翡色」と称される発色を特徴とし、12世紀後半以降には白土・赤土を埋め込む象嵌青磁が高麗独自の様式として花開いた。中世には日麗貿易で日本にももたらされ、後の高麗茶碗受容の源流の一つとなった。",
+   "claims": [
+    {
+     "text": "高麗青磁は、青灰色の胎土に鉄分を含んだ釉を掛けて焼き締めたもので、胎土と釉の色が重なって「翡色（ヒスイの色）」に発色する。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "高麗青磁は中国の龍泉窯青磁などに比べ釉を薄く（1、2度掛け）掛けるため、釉層が薄く透明感が強い。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "11世紀後半から12世紀前半にかけて、全羅南道康津窯産の精製品をはじめとする高麗陶磁が、大宰府と博多に集中してもたらされた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "象嵌はもともと金属工芸の技法で、それを陶磁器に応用した高麗独自のものとされる。生乾きの器面に文様を彫り、白土や鉄分を含む赤土を埋め込み、釉を掛けて焼く。埋め込んだ土は釉越しに白・黒に発色する。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "象嵌技法が本格化するのは12世紀後半以降である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "中世の博多で出土する輸入陶磁器のうち中国産が95%を超え、高麗陶磁の流通は一部の階層に限られていた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "日本の茶会記における高麗茶碗の初出は、『松屋会記』天文6年（1537年）の条とされ、天正年間（1573〜1592年）に記載頻度が急増した。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    }
+   ],
+   "relations": [
+    "style/kourai-chawan",
+    "work/kourai-seiji-umebyou",
+    "style/seiji",
+    "world/korea-japan"
+   ],
+   "unknowns": [
+    "象嵌青磁の成立時期については12世紀前半に遡らせる見方もあり、本格化の時期との境界は資料により幅がある。",
+    "中世日本に将来された高麗青磁の総量や流通経路の全体像は、出土資料が限られ未解明の部分が多い。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/joseon-white",
+   "names": {
+    "ja": "李朝白磁",
+    "reading": "りちょうはくじ",
+    "en": "Joseon white porcelain",
+    "aliases": [
+     "朝鮮王朝の白磁",
+     "朝鮮白磁"
+    ]
+   },
+   "user_terms": [
+    "李朝の白磁ってどんな器",
+    "朝鮮の白い器",
+    "李朝白磁と高麗青磁の違い",
+    "朝鮮の官窯の白磁",
+    "朝鮮陶工が日本に来た話"
+   ],
+   "name_level": "陶磁の種類",
+   "category": "朝鮮半島",
+   "summary": "朝鮮王朝（1392〜1910年）で作られた白磁。15世紀以降に主流となり、京畿道広州の官窯を中心に質素で端正な白磁が焼かれた。同じ半島の地方窯の日用器は日本で高麗茶碗として見立てられ、文禄・慶長の役を機に渡来した陶工は日本の窯業の成立に関わった。",
+   "claims": [
+    {
+     "text": "朝鮮王朝では白磁が一貫して焼かれたが、主流となるのは15世紀に入ってからである。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-miho-joseon"
+     ]
+    },
+    {
+     "text": "白磁の製作期は、広州（京畿道）官窯白磁の変遷を中心に、前期（1392〜1649年）・中期（1650〜1751年）・後期（1752〜1880年代）の三期に分ける説が有力である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-miho-joseon"
+     ]
+    },
+    {
+     "text": "壬辰倭乱（1592年）・丁酉倭乱（1597年、日本でいう文禄・慶長の役）から17世紀前半の戦乱期に、半島の陶磁器産業は壊滅的な打撃を受け、前期に盛んに焼かれた粉青沙器は消滅し、以後は白磁が主流を占めるようになった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-miho-joseon"
+     ]
+    },
+    {
+     "text": "戦乱後、官窯は京畿道広州地方に集約され、釉色が青みがかった白磁などが作られた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-miho-joseon"
+     ]
+    },
+    {
+     "text": "朝鮮半島の地方の民窯で焼かれた日用の器や祭器は、日本の茶の湯で茶碗として見立てられ、「高麗茶碗」として珍重された。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "16世紀末頃になると、日本の茶人が好みの茶碗を朝鮮に注文して焼かせるようになった。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "肥前陶磁は朝鮮からの技術者によって始まったことは間違いないとされ、この朝鮮からの技術伝播には二つの大きな波があったと考えられている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-hizen"
+     ]
+    }
+   ],
+   "relations": [
+    "style/kourai-chawan",
+    "lineage/korean-potters-migration",
+    "world/korea-japan",
+    "ware/arita"
+   ],
+   "unknowns": [
+    "広州官窯の組織・運営の詳細は時期により変遷が大きく、本レコードの出典範囲では通史的な確認にとどまる。",
+    "渡来した朝鮮陶工の人数や各藩への配属の実態は、伝承と史料の間に隔たりがあり確定していない。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/meissen",
+   "names": {
+    "ja": "マイセン",
+    "reading": "まいせん",
+    "en": "Meissen porcelain",
+    "aliases": [
+     "マイセン磁器",
+     "マイセン窯"
+    ]
+   },
+   "user_terms": [
+    "マイセンって日本の影響を受けたの",
+    "ヨーロッパで最初の磁器",
+    "柿右衛門のコピーって本当",
+    "ベトガーが磁器を発明したの"
+   ],
+   "name_level": "窯・磁器産地",
+   "category": "欧州",
+   "summary": "ドイツ・ザクセンの磁器窯。1710年に欧州初の硬質磁器製作所として設立された。設立当初は東洋磁器への憧れが原動力で、有田の柿右衛門様式の花鳥文などを写した作品が作られ、日本の磁器が欧州磁器の出発点に直接影響した例として知られる。",
+   "claims": [
+    {
+     "text": "17世紀後半の西欧にはまだ磁器がなく、柿右衛門様式を含む東洋の磁器は高級品として王侯貴族のみが使うものであった。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "ザクセン選帝侯フリードリッヒ・アウグスト1世のもと、錬金術師ベトガーと科学者チルンハウスが磁器開発に挑み、1708年に白磁器の開発に成功した。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "1710年、ドイツのマイセンに王立磁器製作所の設立が宣言され、欧州で初めて硬質磁器の生産が始まった。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "柿右衛門様式は1670年代に有田で完成した様式で、濁手と呼ばれる純白の素地に赤・青・緑・黄・金の5色を基本とする絵付けを施す。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "マイセンでは柿右衛門様式の写しが作られ、ヨーロッパでは花鳥文や竹虎文などが人気でよく写された。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "戸栗美術館の展覧会解説では、マイセンの写しはうまく写されているものの、本歌の柿右衛門様式と比べると色彩の表現に硬さが感じられると評されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    }
+   ],
+   "relations": [
+    "style/kakiemon",
+    "lineage/imari-export-kakiemon",
+    "world/europe-japan",
+    "lineage/japonisme-europe"
+   ],
+   "unknowns": [
+    "1708年の硬質磁器開発におけるベトガーとチルンハウスの寄与の配分は、本レコードの出典範囲では検証していない。",
+    "マイセン初期における柿右衛門様式写しの生産数量や窯内での位置づけの詳細は未確認である。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/delft",
+   "names": {
+    "ja": "デルフト焼",
+    "reading": "でるふとやき",
+    "en": "Delftware",
+    "aliases": [
+     "デルフト陶器",
+     "デルフトウェア"
+    ]
+   },
+   "user_terms": [
+    "デルフト焼って磁器じゃないの",
+    "オランダの青い陶器",
+    "中国磁器のコピーから始まったの",
+    "伊万里の影響を受けたオランダの器"
+   ],
+   "name_level": "陶器の種類・産地",
+   "category": "欧州",
+   "summary": "オランダのデルフトを中心に17〜18世紀に作られた錫釉陶器。磁器そのものではなく、白い錫釉で磁器の外観を陶器で再現したもので、中国の青花磁への憧れから生まれ、後に日本の伊万里焼の写しも作られた。日本陶磁の影響が「模倣の模倣」として返ってきた例でもある。",
+   "claims": [
+    {
+     "text": "17世紀、オランダ東インド会社（VOC）は大量の中国磁器を輸入した。最初の本格的な荷が1604年にオランダへ届くと、中国磁器は瞬く間に人気となった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-mfa-delft"
+     ]
+    },
+    {
+     "text": "オランダでは磁器の主原料であるカオリンが得られなかったため、本物の磁器を作ることはできず、陶工たちは陶器による模倣で対抗した。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-delftware-history"
+     ]
+    },
+    {
+     "text": "模倣の基盤となったのは錫釉の技術で、錫を加えた釉は不透明な白色となり磁器に近い外観が得られた。この技術はアントウェルペン陥落後にオランダ各地へ移ったフランドルの陶工たちが伝えた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-delftware-history"
+     ]
+    },
+    {
+     "text": "デルフトの陶工たちは素地を薄く作り、清浄な白面と光沢のある仕上げを実現して、中国磁器の明るい青の絵付けや器形を写した。その出来栄えから製品はデルフトの「porceleyn（磁器）」と呼ばれた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-delftware-history"
+     ]
+    },
+    {
+     "text": "デルフト焼は中国磁器より安価な代替品として需要を集め、1625年にはすでに8軒の工房がデルフト焼だけを生産していた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-delftware-history"
+     ]
+    },
+    {
+     "text": "デルフトの全盛期はオランダ黄金時代の1660〜1720年頃とされ、この時期の陶工たちは中国磁器だけでなく日本の磁器の写しや、オランダ流の解釈を加えた製品も作った。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-mfa-delft"
+     ]
+    },
+    {
+     "text": "中国磁器の忠実な写しの一方で、チューリップ・ベースのようなオランダ独自の器形もデルフトで生まれた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-mfa-delft"
+     ]
+    }
+   ],
+   "relations": [
+    "world/europe-japan",
+    "lineage/imari-export-kakiemon",
+    "style/ko-imari",
+    "visit/kaigai-sanchi"
+   ],
+   "unknowns": [
+    "日本（伊万里）の磁器を直接の手本としたデルフト製品の割合や、個別作品の手本の特定は作品ごとの研究に委ねられ、本レコードでは確定していない。",
+    "デルフトの工房数・生産量のピーク時の数値については資料により幅がある。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/china-japan",
+   "names": {
+    "ja": "中国陶磁と日本",
+    "reading": "ちゅうごくとうじとにほん",
+    "en": "Chinese ceramics and Japan",
+    "aliases": [
+     "中国陶磁の受容",
+     "唐物陶磁"
+    ]
+   },
+   "user_terms": [
+    "中国の陶器は日本にどう影響したの",
+    "唐物って何",
+    "天目や青磁は中国から来たの",
+    "中国陶磁と日本の陶磁の関係"
+   ],
+   "name_level": "総論・関係史",
+   "category": "関係史",
+   "summary": "日本の陶磁は、中国陶磁の輸入と受容を繰り返しながら育った。中世の日宋貿易で大量の中国陶磁がもたらされ、青磁・天目・青白磁が「唐物」として珍重された。近世には日本の注文に応じた古染付が景徳鎮で焼かれ、国産磁器である肥前磁器も景徳鎮磁器を目標に成立した。",
+   "claims": [
+    {
+     "text": "中世の博多では中国・宋との日宋貿易が活発に展開し、博多出土の輸入陶磁器のうち中国産の占める比率は95%を超えている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "南宋時代には、都の臨安に官窯が置かれたほか、日本にも伝世品の多く知られる龍泉窯の青磁、建窯や吉州窯の天目茶碗、景徳鎮窯の青白磁など、各地で特徴あるやきものが生産された。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-moco-china"
+     ]
+    },
+    {
+     "text": "元時代に景徳鎮で青花の技術が完成し、明時代には御器廠で宮廷用磁器が焼かれるなど、中国陶磁は各時代に日本へ将来される器の目標であり続けた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-moco-china"
+     ]
+    },
+    {
+     "text": "17世紀初めには、小堀遠州ら日本の茶人が景徳鎮に対して水指や会席具を注文し、「古染付」と呼ばれる独特の染付が日本向けに作られた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-trade"
+     ]
+    },
+    {
+     "text": "国産磁器として生産が始まった肥前磁器は、通常の染付磁器については景徳鎮磁器を目指したものと考えられ、景徳鎮産の供給不足を補う形で国内に流通し始めた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-trade"
+     ]
+    },
+    {
+     "text": "一方で、粗製品の多い一部の肥前染付には、中国・漳州窯の粗製品との競争を目論んだものと推測されるものもある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-trade"
+     ]
+    }
+   ],
+   "relations": [
+    "lineage/chinese-ceramics-import",
+    "world/jingdezhen",
+    "work/yohen-tenmoku-inaba",
+    "style/tenmoku",
+    "style/seiji"
+   ],
+   "unknowns": [
+    "時代ごとの中国陶磁の輸入量や価格の推移を示す定量的な整理は、本レコードの出典範囲では確認できていない。",
+    "各窯の製品が日本のどの地域・階層にどう流通したかの全体像は、消費地遺跡の調査の進展に依存し未解明の部分が多い。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/korea-japan",
+   "names": {
+    "ja": "朝鮮半島の陶磁と日本",
+    "reading": "ちょうせんはんとうのとうじとにほん",
+    "en": "Korean ceramics and Japan",
+    "aliases": [
+     "朝鮮陶磁の受容",
+     "日麗・日朝の陶磁交流"
+    ]
+   },
+   "user_terms": [
+    "朝鮮の陶工が日本に来た話",
+    "高麗茶碗はなぜ日本で大事にされたの",
+    "朝鮮の陶器と日本の陶器の関係",
+    "文禄慶長の役と陶器の関係"
+   ],
+   "name_level": "総論・関係史",
+   "category": "関係史",
+   "summary": "中世の日麗貿易で高麗陶磁がもたらされ、16世紀には半島の日常器が日本の茶の湯で「高麗茶碗」として見立てられるようになった。文禄・慶長の役では半島の陶磁産業が壊滅的な打撃を受ける一方、渡来した朝鮮の技術者が肥前をはじめ日本の窯業の始まりに関わり、技術と美意識の両面で往還が続いた。",
+   "claims": [
+    {
+     "text": "11世紀後半から12世紀前半にかけて、高麗の青磁や陶器が日麗貿易を通じて大宰府・博多にもたらされたが、高麗陶磁は量産され安価な中国陶磁には及ばず、交易品としての流通は一部の階層に限られていた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-fukuoka-goryeo"
+     ]
+    },
+    {
+     "text": "茶会記における高麗茶碗の初出は『松屋会記』天文6年（1537年）の条で、天正年間（1573〜1592年）になると記載頻度が急増した。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "高麗茶碗は、もとは朝鮮半島の地方の民窯で焼かれた日用の器や祭器が、茶の湯の茶碗として見立てられたもので、茶の湯の好尚の変化に伴って取り上げられたとみられる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "16世紀末頃になると、日本の茶人が好みの茶碗を朝鮮に注文して焼かせるようになった。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "粉引茶碗は、朝鮮陶磁史の流れの上では、鉄分を含む胎土に白土を用いて装飾を施す粉青沙器の最終段階に位置づけられる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "wd-bunka-kohiki"
+     ]
+    },
+    {
+     "text": "文禄・慶長の役（壬辰・丁酉倭乱）を含む戦乱期に、半島の陶磁器産業は壊滅的な打撃を受け、粉青沙器は消滅して以後は白磁が主流となった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-miho-joseon"
+     ]
+    },
+    {
+     "text": "肥前陶磁は朝鮮からの技術者によって始まったことは間違いないとされ、この技術伝播には二つの大きな波があったと考えられている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-kyushu-hizen"
+     ]
+    }
+   ],
+   "relations": [
+    "lineage/korean-potters-migration",
+    "style/kourai-chawan",
+    "world/goryeo-celadon",
+    "world/joseon-white",
+    "ware/arita"
+   ],
+   "unknowns": [
+    "渡来した朝鮮陶工の総数や、個々の窯の開窯に果たした役割は伝承を含む部分が大きく、史料で確定できる範囲は限られる。",
+    "日本から半島への注文生産（注文茶碗）の規模や窯の特定は、個別研究の途上にある。"
+   ],
+   "updated": "2026-11-13"
+  },
+  {
+   "id": "world/europe-japan",
+   "names": {
+    "ja": "欧州の磁器と日本",
+    "reading": "おうしゅうのじきとにほん",
+    "en": "European porcelain and Japan",
+    "aliases": [
+     "伊万里とヨーロッパ",
+     "磁器の西漸と里帰り"
+    ]
+   },
+   "user_terms": [
+    "伊万里がヨーロッパに与えた影響",
+    "日本の磁器はヨーロッパでどう広まった",
+    "マイセンと伊万里の関係",
+    "ヨーロッパの磁器は日本のおかげなの"
+   ],
+   "name_level": "総論・関係史",
+   "category": "関係史",
+   "summary": "17世紀、中国磁器の輸出が滞ると有田の伊万里焼が欧州への磁器供給を担い、柿右衛門様式はマイセンなど欧州磁器の手本となった。明治期には流れが逆転し、欧州で発達した窯業技術が有田にもたらされるなど、磁器をめぐる技術と様式は日本と欧州のあいだを往還した。",
+   "claims": [
+    {
+     "text": "17世紀半ば、中国の動乱で景徳鎮磁器の輸出が滞ると、その受け皿として有田の伊万里焼がオランダ東インド会社を通じて欧州へ輸出されるようになった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita",
+      "wd-mfa-delft"
+     ]
+    },
+    {
+     "text": "柿右衛門様式を含む伊万里焼は欧州で高級品として王侯貴族に愛好され、マイセンでは柿右衛門様式の写しが作られた。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "wd-sfumart-toguri"
+     ]
+    },
+    {
+     "text": "オランダのデルフトでは、磁器そのものではなく錫釉陶器による模倣産業が成立し、中国・日本の磁器の外観を陶器で再現した。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-mfa-delft",
+      "wd-delftware-history"
+     ]
+    },
+    {
+     "text": "清朝の体制が整うと、ヨーロッパへの輸出の担い手は再び中国となり、有田製品は国内市場への供給が中心となった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita"
+     ]
+    },
+    {
+     "text": "18世紀後半の産業革命によって陶磁器生産の技術水準は東西で逆転し、明治の幕開けとともに、ヨーロッパの進んだ技術の導入が有田でも始まった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita"
+     ]
+    },
+    {
+     "text": "明治2年（1869年）には有田に酸化コバルト顔料がもたらされ、明治3年（1870年）に招聘されたドイツのゴッドフリート・ワグネルにより焼成効率のよい石炭窯が試作され、明治10年（1877年）に実用化された。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita"
+     ]
+    },
+    {
+     "text": "明治6年（1873年）のウィーン万国博覧会へ派遣された川原忠次郎ら伝習生は、機械ろくろや泥漿鋳込による製陶機械を見聞し、帰国後に上絵付け顔料の使用や泥漿鋳込法を伝えた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita"
+     ]
+    },
+    {
+     "text": "明治8年（1875年）には有田で合本組織「香蘭社」が設立され、明治9年（1876年）のフィラデルフィア万国博覧会への出品などを契機に、アメリカを対象とする有田磁器輸出の機運が高まった。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "wd-meiji-arita"
+     ]
+    }
+   ],
+   "relations": [
+    "lineage/imari-export-kakiemon",
+    "lineage/japonisme-europe",
+    "lineage/meiji-export-expositions",
+    "world/meissen",
+    "world/delft",
+    "style/kakiemon"
+   ],
+   "unknowns": [
+    "マイセン以外の欧州各窯（セーブル、チェルシー等）への伊万里・柿右衛門様式の影響の広がりは、本レコードの出典範囲では個別に確認していない。",
+    "明治期の欧州技術導入が有田以外の産地（瀬戸など）へどう波及したかの比較整理は未着手である。"
+   ],
+   "updated": "2026-11-13"
+  }
+ ]
+}
