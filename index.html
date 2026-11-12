@@ -20,6 +20,13 @@ main .wrap{padding-top:1.2rem;padding-bottom:2rem}
 .domains .card{margin:0}
 .domains h3{margin:.1rem 0 .4rem}
 input[type=search]{width:100%;box-sizing:border-box;padding:.6rem .8rem;font-size:1rem;border:1px solid #c9c0b2;border-radius:8px}
+textarea{width:100%;box-sizing:border-box;padding:.6rem .8rem;font-size:1rem;border:1px solid #c9c0b2;border-radius:8px;font-family:inherit;line-height:1.6}
+.qa-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.qa-row textarea{flex:1 1 320px;width:auto}
+.qa-btns{display:flex;flex-direction:column;gap:.5rem;justify-content:flex-start}
+.qa-btns button{padding:.55rem 1rem;font-size:.95rem;border-radius:8px;border:1px solid #8a5a1e;background:#8a5a1e;color:#fff;cursor:pointer;white-space:nowrap}
+.qa-btns button.sub{background:#fff;color:#8a5a1e}
+.exbtn{margin:.2rem .3rem .2rem 0;padding:.15rem .7rem;font-size:.82rem;border:1px solid #c9c0b2;border-radius:999px;background:#efe7db;cursor:pointer}
 .hit{border-top:1px solid #eee5d8;padding:.45rem 0}
 .hit:first-of-type{border-top:none}
 a{color:#8a5a1e}
@@ -43,6 +50,23 @@ ol li{margin:.35rem 0}
 <div class="card"><div class="stat">1839</div>出典の総数</div>
 <div class="card"><div class="stat">139</div>地図にピンのある産地</div>
 </div>
+
+<section id="ask"><h2>AIに質問する</h2>
+<div class="card">
+<p style="margin-top:0">質問を書くと、このデータベースから関連するレコードを選び、出典つきで答えるための「質問文」を組み立てます。お使いのAIに渡して使ってください。</p>
+<div class="qa-row">
+<textarea id="qq" rows="3" placeholder="例：志野釉の焼成温度と特徴を教えてください"></textarea>
+<div class="qa-btns">
+<button type="button" id="btn-gpt">ChatGPTで聞く</button>
+<button type="button" id="btn-copy" class="sub">文章をコピー</button>
+</div>
+</div>
+<p class="small" style="margin:.5rem 0 0">質問例：<button type="button" class="exbtn">志野釉の焼成温度と特徴は？</button><button type="button" class="exbtn">備前焼はどんな土を使いますか？</button><button type="button" class="exbtn">楽焼の作り方を教えてください</button></p>
+<p class="small" id="qastat"></p>
+<div id="qarecs"></div>
+<p class="small">「ChatGPTで聞く」は、質問文を入力した状態で ChatGPT を開きます（内容を確認して送信してください）。ChatGPT 以外の AI（Claude・Gemini など）では「文章をコピー」を押して、開いた AI に貼り付けて送信してください。回答は AI が生成します。数字や手順は、各レコードと出典で確かめてください。</p>
+</div>
+</section>
 
 <section id="search"><h2>サイト内検索</h2>
 <input type="search" id="q" placeholder="名前・産地・技法・キーワードで検索（例：志野、備前、楽、還元）">
@@ -121,11 +145,11 @@ const FILES=[
  ["clays","土","clays.html","rec-","clay-records.json"],
  ["glazes","釉薬","glazes.html","rec-","glaze-records.json"]];
 let INDEX=[];
-function addEntry(f,r,title,sub){
+function addEntry(f,r,title,sub,srcs){
   const claims=(r.claims||[]).map(c=>c.text).join(" ");
   const hay=title+" "+((r.names&&r.names.reading)||"")+" "+(((r.names&&r.names.aliases)||[]).join(" "))+" "+(r.summary||"")+" "+(r.what||"")+" "+claims;
   INDEX.push({domain:f[0],label:f[1],page:f[2],prefix:f[3],id:r.id,title:title,sub:sub||"",
-    text:norm(hay),snip:(r.summary||claims||"")});
+    text:norm(hay),snip:(r.summary||claims||""),rec:r,srcs:srcs||{}});
 }
 Promise.all(FILES.map(f=>fetch("data/"+f[4]).then(r=>r.json()).then(j=>{
   (j.records||j.events||[]).forEach(r=>{
@@ -137,7 +161,7 @@ Promise.all(FILES.map(f=>fetch("data/"+f[4]).then(r=>r.json()).then(j=>{
     else if(f[0]==="people")sub=(r.id.indexOf("group/")===0?"保持団体":(r.layer==="core"?"制度的コア":"拡張層"));
     else if(f[0]==="kilns"||f[0]==="clays")sub=r.kind||"";
     else if(f[0]==="glazes")sub=(r.type==="material"?"釉原料":"釉の種別");
-    addEntry(f,r,(r.title||(r.names&&r.names.ja)||r.id),sub);
+    addEntry(f,r,(r.title||(r.names&&r.names.ja)||r.id),sub,j.sources);
   });
 }).catch(()=>{}))).then(()=>{
   document.getElementById('sstat').textContent=INDEX.length+"件のレコードから検索できます";
@@ -156,6 +180,72 @@ q.addEventListener('input',()=>{
   if(hits.length>80)h+="<p class='small'>上位80件まで表示しています。検索語を絞ってください。</p>";
   box.innerHTML=h;
 });
+const STJ={"established":"確立","contested":"対立","inferred":"類推","indeterminate":"判定困難","unknown":"未確認"};
+const RULES="あなたは日本の陶芸ナレッジベースのレコードに基づいて質問に答えるアシスタントです。次のルールを守ってください。\n・答えは、後に示すレコードの内容だけを根拠にしてください。レコードにないことは、その旨を述べてください。\n・各主張には出典名を添えてください。\n・状態が「対立」の主張は、どちらか一方ではなく両論を併記してください。「判定困難」「類推」、および証拠レベルE5（出典不明の一般情報）を断定の根拠にしないでください。\n・手順が含まれる場合は、前提（再構成である旨）も一緒に述べてください。\n・このデータベースの内容はAIが生成したもので、誤りが混ざることがあります。重要な数値は出典の原典で確認するよう、最後に注意を添えてください。";
+function qaSelect(question,max){
+  const nq=norm(question);
+  const bg=new Set();for(let i=0;i<nq.length-1;i++)bg.add(nq.slice(i,i+2));
+  const scored=[];
+  INDEX.forEach(e=>{
+    let m=0;bg.forEach(b=>{if(e.text.indexOf(b)>=0)m++;});
+    const tt=norm(e.title);const th=tt.length>=2&&nq.indexOf(tt)>=0;
+    const s=m+(th?6:0);
+    if(th||m>=3)scored.push({e:e,s:s});
+  });
+  if(!scored.length)return [];
+  scored.sort((a,b)=>b.s-a.s);
+  const thr=Math.max(5,Math.ceil(scored[0].s*0.5));
+  return scored.filter(x=>x.s>=thr).slice(0,max).map(x=>x.e);
+}
+function claimLine(c,srcs,withUrl){
+  const labs=(c.sources||[]).map(k=>{const s=(srcs||{})[k];if(!s)return k;return withUrl&&s.url?s.label+"（"+s.url+"）":s.label;});
+  return "・"+c.text+"［"+(c.level||"")+"・"+(STJ[c.status]||c.status||"")+"／出典："+labs.join("、")+"］";
+}
+function recBlock(e,maxClaims,claimLen,withUrl){
+  const r=e.rec||{};const lines=["【"+e.label+"】"+e.title+"（"+e.id+"）"];
+  const sum=r.summary||r.what||"";
+  if(sum)lines.push(sum.slice(0,claimLen));
+  (r.claims||[]).slice(0,maxClaims).forEach(c=>{let cl=claimLine(c,e.srcs,withUrl);if(cl.length>claimLen)cl=cl.slice(0,claimLen)+"…";lines.push(cl);});
+  lines.push("ページ： https://givemegohan.github.io/japanese-pottery-kb/"+e.page+"#"+e.prefix+e.id);
+  return lines.join("\n");
+}
+function qaPackage(question,short){
+  let sel=qaSelect(question,short?2:5);
+  const head=RULES+"\n\n質問："+question+"\n";
+  if(!sel.length)return {text:head+"\n（このデータベースに関連レコードは見つかりませんでした。一般知識で答える場合は、その旨を明示してください。）",sel:sel};
+  const build=()=>sel.map(e=>recBlock(e,short?3:6,short?110:1000,!short)).join("\n\n");
+  let text=head+"\n根拠レコード：\n"+build();
+  if(short){while(encodeURIComponent(text).length>19000&&sel.length>1){sel=sel.slice(0,sel.length-1);text=head+"\n根拠レコード：\n"+build();}}
+  else{while(text.length>14000&&sel.length>1){sel=sel.slice(0,sel.length-1);text=head+"\n根拠レコード：\n"+build();}}
+  return {text:text,sel:sel};
+}
+function qaShowRecs(sel){
+  const box=document.getElementById('qarecs');
+  if(!sel.length){box.innerHTML="<p class='small'>関連するレコードが見つかりませんでした。言葉を変えるか、下のサイト内検索も試してください。</p>";return;}
+  let h="<p class='small'>根拠に使うレコード：</p>";
+  sel.forEach(e=>{h+="<div class='hit'><span class='chip'>"+esc(e.label)+"</span><a href='"+e.page+"#"+e.prefix+encodeURIComponent(e.id)+"'><strong>"+esc(e.title)+"</strong></a></div>";});
+  box.innerHTML=h;
+}
+const qq=document.getElementById('qq'),qastat=document.getElementById('qastat');
+function qaNeed(){const v=qq.value.trim();if(!v){qastat.textContent="まず質問を入力してください。";qq.focus();return "";}return v;}
+document.getElementById('btn-gpt').addEventListener('click',()=>{
+  const v=qaNeed();if(!v)return;
+  const pk=qaPackage(v,true);qaShowRecs(pk.sel);
+  qastat.textContent="ChatGPT を開きます。質問文が入力されているので、内容を確認して送信してください。";
+  window.open("https://chatgpt.com/?q="+encodeURIComponent(pk.text),"_blank");
+});
+document.getElementById('btn-copy').addEventListener('click',async ()=>{
+  const v=qaNeed();if(!v)return;
+  const pk=qaPackage(v,false);qaShowRecs(pk.sel);
+  let ok=false;
+  try{await navigator.clipboard.writeText(pk.text);ok=true;}catch(e){
+    const ta=document.createElement('textarea');ta.value=pk.text;document.body.appendChild(ta);ta.select();
+    try{ok=document.execCommand('copy');}catch(_){ok=false;}
+    ta.remove();
+  }
+  qastat.textContent=ok?"質問文をコピーしました。お使いの AI を開いて、貼り付けて送信してください。":"コピーできませんでした。ブラウザの設定を確認してください。";
+});
+document.querySelectorAll('.exbtn').forEach(b=>b.addEventListener('click',()=>{qq.value=b.textContent;qq.focus();}));
 </script>
 </body>
 </html>
