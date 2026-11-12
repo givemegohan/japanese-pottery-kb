@@ -86,7 +86,7 @@ ol li{margin:.35rem 0}
 <p class="small">レコード 40 件／主張 75 件<br><a href="data/jomon-records.json">機械可読データ（JSON）</a></p></div>
 <div class="card"><h3><a href="wares.html">産地・窯の一覧</a></h3>
 <p class="small">日本の陶磁器産地の一覧と地図。ピンは各産地の代表地点（公的施設・窯元・碑）で、色は六古窯／伝統的工芸品指定／拡張層の区別です。</p>
-<p class="small">レコード 161 件／主張 805 件<br><a href="data/wares-records.json">機械可読データ（JSON）</a></p></div>
+<p class="small">レコード 162 件／主張 810 件<br><a href="data/wares-records.json">機械可読データ（JSON）</a></p></div>
 <div class="card"><h3><a href="history.html">陶芸の系譜</a></h3>
 <p class="small">縄文土器から現代陶芸までの流れを「伝播イベント」として整理。土師器・須恵器の起こり、海外からの伝入と海外への影響、地方間の技術伝播を、学術論文を中心とする出典で記録します。</p>
 <p class="small">イベント 61 件／主張 262 件<br><a href="data/lineage-records.json">機械可読データ（JSON）</a></p></div>
@@ -135,8 +135,8 @@ https://givemegohan.github.io/japanese-pottery-kb/data/technique-records.json �
 </section>
 
 <div class="stats">
-<div class="card"><div class="stat">1083</div>収載レコード</div>
-<div class="card"><div class="stat">4925</div>出典つきの主張</div>
+<div class="card"><div class="stat">1084</div>収載レコード</div>
+<div class="card"><div class="stat">4930</div>出典つきの主張</div>
 <div class="card"><div class="stat">2329</div>出典の総数</div>
 <div class="card"><div class="stat">139</div>地図にピンのある産地</div>
 </div>
@@ -202,15 +202,23 @@ const RULES="あなたは日本の陶芸ナレッジベースのレコードに�
 const KBASE="https://givemegohan.github.io/japanese-pottery-kb/";
 const KBGUIDE_SHORT="【データベース全体の見方】\n形式と証拠レベル・状態の定義は "+KBASE+"docs/ai-guide.md にあります。機械可読データ（JSON）は分野別に "+KBASE+"data/ の下にあります（jomon-records.json＝縄文文様、wares-records.json＝産地・窯、lineage-records.json＝系譜、technique-records.json＝技法、people-records.json＝陶芸家・保持団体、kiln-records.json＝窯・設備、clay-records.json＝土、glaze-records.json＝釉薬、basics-records.json＝器の基礎と暮らし、buying-records.json＝買う・選ぶ・贈る、biz-records.json＝作り手の経営と制度、works-records.json＝作品・文化財）。各JSONは records（系譜は events）と sources（出典台帳）からなり、主張ごとに level・status・sources が付いています。";
 const KBGUIDE_FULL="【データベース全体の見方】\nこのデータベースは全体がWebで公開されています。根拠レコードに答えがないときは、次の方法で自分で情報を拾ってください。\n・まず、形式と証拠レベル（E1〜E5・H）・主張の状態（確立／対立／類推／判定困難）の定義を確認する： "+KBASE+"docs/ai-guide.md\n・分野別の機械可読データ（JSON）を取得して検索する： 縄文文様 "+KBASE+"data/jomon-records.json ／ 産地・窯 "+KBASE+"data/wares-records.json ／ 系譜 "+KBASE+"data/lineage-records.json ／ 技法 "+KBASE+"data/technique-records.json ／ 陶芸家・保持団体 "+KBASE+"data/people-records.json ／ 窯・設備 "+KBASE+"data/kiln-records.json ／ 土 "+KBASE+"data/clay-records.json ／ 釉薬 "+KBASE+"data/glaze-records.json ／ 器の基礎と暮らし "+KBASE+"data/basics-records.json ／ 買う・選ぶ・贈る "+KBASE+"data/buying-records.json ／ 作り手の経営と制度 "+KBASE+"data/biz-records.json ／ 作品・文化財 "+KBASE+"data/works-records.json\n各JSONは records（系譜は events）の配列と sources（出典キー→出典名・URLの台帳）からなります。各主張には level（証拠レベル）・status（状態）・sources（出典キー）が付いています。人間向けのトップページは "+KBASE+" です。";
+const SYNONYMS=[["ネット","オンライン","通販","EC"],["再利用","再生","リサイクル"],["収納","保管","しまう","片付け"],["値段","価格","値付け","料金"],["売る","販売","販路","出品"],["割れた","壊れた","欠けた","ヒビ","ひび"],["手放す","処分","譲る"],["海外","輸出","外国"],["電気代","電気料金"],["初心者","初めて","入門"],["置き場所","置場"]];
 function qaSelect(question,max){
   const nq=norm(question);
   const bg=new Set();for(let i=0;i<nq.length-1;i++)bg.add(nq.slice(i,i+2));
+  SYNONYMS.forEach(g=>{if(g.some(w=>nq.indexOf(w)>=0))g.forEach(w=>{for(let i=0;i<w.length-1;i++)bg.add(w.slice(i,i+2));});});
   const scored=[];
   INDEX.forEach(e=>{
     let m=0;bg.forEach(b=>{if(e.text.indexOf(b)>=0)m++;});
     const tt=norm(e.title);const th=tt.length>=2&&nq.indexOf(tt)>=0;
-    const segs=tt.split(/[・（/]/).filter(x=>x.length>=2);const sh=segs.some(x=>nq.indexOf(x)>=0);const s=m+(th?6:(sh?4:0));
-    if(th||m>=3)scored.push({e:e,s:s});
+    let sh=false;
+    const surfaces=[e.title].concat((e.rec&&e.rec.names&&e.rec.names.aliases)||[]).concat((e.rec&&e.rec.user_terms)||[]);
+    for(const sf of surfaces){const nsf=norm(sf||"");if(nsf.length<2)continue;
+      if(nq.indexOf(nsf)>=0){sh=true;break;}
+      const segs=nsf.split(/[・（/]/).filter(x=>x.length>=2);if(segs.some(x=>nq.indexOf(x)>=0)){sh=true;break;}
+    }
+    const s=m+(th?6:(sh?4:0));
+    if(th||sh||m>=3)scored.push({e:e,s:s});
   });
   if(!scored.length)return [];
   scored.sort((a,b)=>b.s-a.s);
