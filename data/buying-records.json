@@ -1,0 +1,2790 @@
+{
+ "about": "日本の陶芸ナレッジベース「買う・選ぶ・贈る」の機械可読データ。作家もの・骨董を含む器の買い方・選び方・贈り方（見方と真贋、買う場所、価格と価値、贈る応用、購入後と手放す）を収載（現時点で25件以上）。定義は docs/ai-guide.md を参照。",
+ "ai_generated": true,
+ "stats": {
+  "records": 26,
+  "claims": 166,
+  "sources": 114
+ },
+ "sources": {
+  "k1-eishodo-miwake": {
+   "label": "骨董店の解説「やきもの鑑定・見分けのポイント」（高台と胎土）",
+   "url": "https://eishodo.net/antiqueart/miwake/"
+  },
+  "k1-kogei-mikata": {
+   "label": "工芸ジャポニカ「器を裏返すと何がわかる？『高台』から読む日本のやきもの入門」",
+   "url": "https://kogei-japonica.com/media/crafts/pottery-kodai/"
+  },
+  "k1-kogei-shohyo": {
+   "label": "工芸ジャポニカ「『伝統マーク』があれば本物？証紙・作家銘・共箱の見方」",
+   "url": "https://kogei-japonica.com/media/invest/dento-mark-authenticity/"
+  },
+  "k1-kogei-tenji": {
+   "label": "工芸ジャポニカ「日本民藝館展2026｜展示販売・作品購入の仕組み」",
+   "url": "https://kogei-japonica.com/media/events/mingeikan-2026/"
+  },
+  "k1-moco-guidance": {
+   "label": "大阪市立東洋陶磁美術館「陶磁入門 鑑賞の手引」",
+   "url": "https://www.moco.or.jp/intro/guidance/"
+  },
+  "k1-antique-touin": {
+   "label": "古美術商Antique Liquor「陶印・落款・サイン図鑑」",
+   "url": "https://antiqueliquor1926.com/blogs/japanese-crafts/potters-seals-and-signatures"
+  },
+  "k1-kyoto-nokaze-mei": {
+   "label": "Kyoto nokaze「器の銘・陶印の見分け方｜高台の窯印・作家印で作り手を調べる」",
+   "url": "https://global.kyoto-nokaze.com/ja/blogs/guide/pottery-marks"
+  },
+  "k1-saga-mei": {
+   "label": "佐賀県立九州陶磁文化館 やきものQ&A資料「なんて書いてあると？」（銘について）",
+   "url": "https://saga-museum.jp/ceramic/docs/b760e426104a948945378b1f85c8c5d6.pdf"
+  },
+  "k1-yakata-ohi": {
+   "label": "古美術やかた「大樋長左衛門買取（歴代が長左衛門を襲名）」",
+   "url": "https://www.kyoto-yakata.net/artist/1316/"
+  },
+  "k1-antique-shiori": {
+   "label": "古美術商Antique Liquor「共箱・栞・刻銘の読み方」",
+   "url": "https://antiqueliquor1926.com/blogs/japanese-crafts/reading-tomobako-shiori-and-signatures"
+  },
+  "k1-grace-tomobako": {
+   "label": "グレイス「共箱（箱書き）がないと、茶道具の価値は下がる？」",
+   "url": "https://www.gracetrade.co.jp/qa-tomobako.html"
+  },
+  "k1-monokau-tomobako": {
+   "label": "モノカウ「共箱とは？箱書きの見方と買取前の確認」",
+   "url": "https://monokau.jp/guide/items/tomobako-box-inscriptions/"
+  },
+  "k1-schooloftea-hakogaki": {
+   "label": "茶道専門メディア school of tea「箱書きとは？箱書きの意味・見方・真贋・保管の基本」",
+   "url": "https://www.school-of-tea.com/what-is-hakogaki-box-inscription/"
+  },
+  "k1-schooloftea-kakitsuke": {
+   "label": "茶道専門メディア school of tea「書付箱とは？箱書きの読み方・共箱・極箱の違いと保管法」",
+   "url": "https://www.school-of-tea.com/what-is-kakituke-bako/"
+  },
+  "k1-treasure-hako": {
+   "label": "トレジャーマーケット「木箱のない茶道具は売れる？共箱・書付がない場合の査定」",
+   "url": "https://treasure-market.net/column/chadougu-tomobakonashi-kaitori"
+  },
+  "k1-fukuchan-fuzoku": {
+   "label": "骨董品買取「福ちゃん」「藤原雄の作品買取｜付属品（共箱・共布・栞）をそろえておく」",
+   "url": "https://www.fuku-chan.info/column/kottou-kaitori/88815/"
+  },
+  "k1-gihodo-suzuki": {
+   "label": "北岡技芳堂「鈴木治とは？（共箱・付属資料の保管について）」",
+   "url": "https://gihodo.jp/29271/"
+  },
+  "k1-coconala-kantei": {
+   "label": "オンライン鑑定サービス（coconala出品サービス）の利用条件（鑑定結果は鑑定する人により異なることがある旨の明示）",
+   "url": "https://coconala.com/services/3471684"
+  },
+  "k1-fukuchan-gansaku": {
+   "label": "骨董品買取「福ちゃん」「骨董品が売れないのはなぜ？（贋作・来歴・付属資料）」",
+   "url": "https://www.fuku-chan.info/column/kottou-kaitori/95721/"
+  },
+  "k1-jstage-tl": {
+   "label": "小嶋芳行・遠山岳史「熱ルミネッセンス」（陶磁器の年代測定について）",
+   "url": "https://www.jstage.jst.go.jp/article/mukimate2000/14/331/14_331_437/_pdf"
+  },
+  "k1-lensapp": {
+   "label": "骨董品鑑定アプリ LensApp「よくある質問（写真だけで真作や贋作を確定することはできない）」",
+   "url": "https://lensapp.io/ja/antique-identifier/"
+  },
+  "k1-nikkoudou-kantei": {
+   "label": "日晃堂「骨董品の『銘』とは？陶器・茶道具の価値と真贋（鑑定書・証書の照合）」",
+   "url": "https://nikkoudou-kottou.com/blog/kottou/26637"
+  },
+  "k1-sakai-chugoku": {
+   "label": "堺美術「中国美術の真贋判定とは？価値を見極めるポイントを解説」",
+   "url": "https://sakaibijyutu.co.jp/topics/column/3015/"
+  },
+  "k1-sakai-shingan": {
+   "label": "堺美術「古陶磁の価値基準がわかる！古陶磁の価値を正しく見極めるポイント」",
+   "url": "https://sakaibijyutu.co.jp/topics/column/2395/"
+  },
+  "k1-springer-tl": {
+   "label": "Study and progress of the thermoluminescence dating of ancient pottery and porcelain（陶磁器TL年代測定の精度と限界のレビュー）",
+   "url": "https://link.springer.com/article/10.1007/s11431-009-0106-4"
+  },
+  "k1-bunka-arteco": {
+   "label": "文化庁 令和5年度「アートエコシステム基盤形成促進事業」実施業務報告書（鑑定評価ガイドライン・公的鑑定書フォーマット試行版）",
+   "url": "https://www.bunka.go.jp/seisaku/bunka_gyosei/artecosystem/pdf/94097501_01.pdf"
+  },
+  "k1-recycle-kantei": {
+   "label": "リサイクル通信「\"証書つき\"は高くなる!?（陶芸家の鑑定機関の例）」",
+   "url": "https://www.recycle-tsushin.com/news/detail_1538.php"
+  },
+  "k1-tnm-faq": {
+   "label": "東京国立博物館「ご意見・ご感想・ご質問」案内（所蔵作品以外の鑑定・真贋の判断には回答を差し控える旨）",
+   "url": "https://www.tnm.jp/modules/r_form/index.php?id=33"
+  },
+  "k1-tocfa-about": {
+   "label": "一般財団法人東美鑑定評価機構「鑑定委員会について」",
+   "url": "https://toobi-tocfa.or.jp/about/"
+  },
+  "k1-toobi-service": {
+   "label": "株式会社東京美術倶楽部「評価/売却 鑑定業務」（鑑定と評価の区別）",
+   "url": "https://www.toobi.co.jp/service/judge/"
+  },
+  "k1-japanpotterynet-iroe": {
+   "label": "Japan Pottery Net「焼き物プロフィール 色絵」",
+   "url": "https://www.japanpotterynet.com/jp/user_data/ceramics029"
+  },
+  "k1-kogeistandard-yakishime": {
+   "label": "KOGEI STANDARD 工芸用語集「焼締」",
+   "url": "https://www.kogeistandard.com/jp/resource/yakishime/"
+  },
+  "k1-kyohaku-sometsuke": {
+   "label": "京都国立博物館 陶磁用語辞典「染付」",
+   "url": "https://www.kyohaku.go.jp/jp/learn/home/dictio/touji/sometuke/"
+  },
+  "k1-nikkoudou-hakuji": {
+   "label": "日晃堂「白磁とは？特徴や青磁・青白磁・染付との違い」",
+   "url": "https://nikkoudou-kottou.com/blog/ceramics/28785"
+  },
+  "k1-tnm-yakishime": {
+   "label": "東京国立博物館 展示解説「焼き締め」",
+   "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=1980"
+  },
+  "k1-toguri-iroe": {
+   "label": "戸栗美術館「今さら聞けない渋アート―戸栗美術館編―」（染付と色絵の違い）",
+   "url": "https://www.bunkamura.co.jp/sp/shibu-art/contents/11754.html"
+  },
+  "k2-cocochi-outlet": {
+   "label": "cocochi「『器市』アウトレット食器について」（B級品・アウトレット品の定義と返品条件の説明）",
+   "url": "https://cocochi-hirooka.jp/special/special-39029"
+  },
+  "k2-hashimoto-jogaku": {
+   "label": "京焼窯元 橋本城岳（はしもと製陶所）「高品質でも低価格の理由」（窯元直売と価格配分の説明）",
+   "url": "https://jogaku.co.jp/high-quality"
+  },
+  "k2-mashiko-town": {
+   "label": "益子町公式ホームページ「益子陶器市」（来場者数・テント数・価格の町の公表）",
+   "url": "https://www.town.mashiko.lg.jp/page/page000110.html"
+  },
+  "k2-artscape-dept": {
+   "label": "artscape アートワード「百貨店の美術画廊」（DIC川村記念美術館ほか監修の美術用語事典）",
+   "url": "https://artscape.jp/artword/6579"
+  },
+  "k2-kakiden-lottery": {
+   "label": "柿傳ギャラリー「チーム九谷展VII 抽選販売用 見附正康 全作品一覧」（人気作家作品の抽選販売の告知）",
+   "url": "https://www.kakiden.com/gallery/archives/74553/"
+  },
+  "k2-tachikawa-as": {
+   "label": "立川アートスペース「利用案内」（貸しギャラリー・企画展示の販売手数料の公表例）",
+   "url": "https://t-as.jp/guide"
+  },
+  "k2-hankyu-gallery": {
+   "label": "阪急うめだ本店「美術画廊の催しスケジュール」（週替わりの個展・企画展の告知）",
+   "url": "https://www.hankyu-dept.co.jp/honten/shopnews/detail/12690645_2067.html"
+  },
+  "k2-mitsukoshi-kogei": {
+   "label": "日本橋三越本店「第73回 日本伝統工芸展」（日本工芸会の公募展の会場告知）",
+   "url": "https://www.mistore.jp/store/nihombashi/shops/other/other_shopnews/dentoukougei_50.html"
+  },
+  "k2-hankyu-heian": {
+   "label": "阪急電鉄 イベント詳細「平安蚤の市」（開催概要の案内）",
+   "url": "https://www.hankyu.co.jp/area_info/event/detail/010148.html"
+  },
+  "k2-oedo-official": {
+   "label": "大江戸骨董市 公式サイト（主催・大江戸骨董市実行委員会）",
+   "url": "https://www.antique-market.jp/"
+  },
+  "k2-tiforum-oedo": {
+   "label": "東京国際フォーラム「大江戸骨董市」（会場公式の開催案内・出店数）",
+   "url": "https://www.t-i-forum.co.jp/visitors/antique/"
+  },
+  "k2-caa-mailorder": {
+   "label": "消費者庁 特定商取引法ガイド「通信販売」（広告表示事項と法第15条の3の返品ルール）",
+   "url": "https://www.no-trouble.caa.go.jp/what/mailorder"
+  },
+  "k2-mainichi-guide": {
+   "label": "毎日オークション「落札ガイド」（落札手数料16.5%の計算例）",
+   "url": "https://www.my-auction.co.jp/buy/successful_bid.html"
+  },
+  "k2-mainichi-terms": {
+   "label": "毎日オークション「MA（毎日オークション）規約」（落札手数料・下見会・落札後の解約不可の規定）",
+   "url": "https://www.my-auction.co.jp/pdf/term.pdf"
+  },
+  "k2-yahoo-fee": {
+   "label": "Yahoo!オークション「ご利用料金」（買い手0円・落札システム利用料10%の公式料金表）",
+   "url": "https://auctions.yahoo.co.jp/guide/m/navi/archives/fee.html"
+  },
+  "k2-kokusen-coolingoff": {
+   "label": "国民生活センター 見守り新鮮情報第471号「通信販売はクーリング・オフできません」（2024年1月16日公表）",
+   "url": "https://www.kokusen.go.jp/mimamori/mj_mailmag/mj-shinsen471.html"
+  },
+  "k2-tokyo-ec-faq": {
+   "label": "東京くらしWEB（東京都消費生活総合センター）FAQ「インターネット通販では、どんなことに気をつけたらよいか」",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/sodan/faq/main/246.html"
+  },
+  "k2-daitoukiichi": {
+   "label": "全国大陶器市 公式サイト（巡回型陶器市の開催案内）",
+   "url": "https://dai-toukiichi.com/"
+  },
+  "k2-himatsuri-about": {
+   "label": "笠間の陶炎祭（ひまつり）公式サイト「陶炎祭について」（200を超える窯元の出店規模）",
+   "url": "https://www.himatsuri.net/about"
+  },
+  "k2-himatsuri-top": {
+   "label": "笠間の陶炎祭（ひまつり）公式サイト トップページ（第45回〈2026年〉閉幕の報告・来場者数）",
+   "url": "https://www.himatsuri.net/"
+  },
+  "k2-kasama-city": {
+   "label": "笠間市公式ホームページ「陶炎祭の楽しみ方」（名刺・陶歴をもらう作法、混雑と交通の案内）",
+   "url": "https://www.city.kasama.lg.jp/page/page009686.html"
+  },
+  "k2-mashiko-about": {
+   "label": "益子陶器市 公式サイト「about 益子陶器市」（主催・益子陶器市実行委員会）",
+   "url": "https://toukiichi.mashiko-db.net/about/"
+  },
+  "k3-chuo-matsuri": {
+   "label": "中央大学『商学論纂』「モノづくり観光とその消費額に関する研究」（陶器まつりと窯元の販路）",
+   "url": "https://chuo-u.repo.nii.ac.jp/record/2000873/files/0453-4778_64_5-6_63-76.pdf"
+  },
+  "k3-gallery01": {
+   "label": "Gallery-01「ギャラリー規約」",
+   "url": "https://gallery-01.com/gallery-terms"
+  },
+  "k3-gallerykiya": {
+   "label": "ギャラリー来舎 梅猫庵「委託販売」",
+   "url": "https://gallerykiya.jp/?page_id=3221"
+  },
+  "k3-hanausagi": {
+   "label": "ぎゃらりぃ花うさぎ「作品委託販売を承ります」（募集要項・ご利用規約）",
+   "url": "https://hanausa2005.com/campaign/itaku"
+  },
+  "k3-hyakkei": {
+   "label": "アートギャラリー百継「委託販売」（利用規約）",
+   "url": "https://webhyakkei.com/consignment"
+  },
+  "k3-jfc-souken": {
+   "label": "日本政策金融公庫総合研究所「ものづくり基盤の革新」（2012年、産地の商社・小売店と窯元の取り組み）",
+   "url": "https://www.jfc.go.jp/n/findings/pdf/soukenrepo_12_07_27.pdf"
+  },
+  "k3-meiji-hakusan": {
+   "label": "明治大学リポジトリ 研究ノート「波佐見焼の窯元、白山陶器の経営革新」",
+   "url": "https://meiji.repo.nii.ac.jp/record/16853/files/informatics_3_2_61.pdf"
+  },
+  "k3-morgen": {
+   "label": "MORGEN cafe and gallery +「作品委託展示・販売利用規約」",
+   "url": "https://morgen-plus.com/?page_id=126"
+  },
+  "k3-nihon-u-mino": {
+   "label": "日本大学『商学研究』第42号（美濃焼産地の生産・流通構造を論じた論文）",
+   "url": "http://www.bus.nihon-u.ac.jp/wp-content/uploads/2026/04/03_%E5%95%86%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%AC%AC42%E5%8F%B7_%E5%B1%B1%E6%9C%AC%E5%85%88%E7%94%9F_Web.pdf"
+  },
+  "k3-ohtani-report": {
+   "label": "中小企業診断協会徳島県支部「伝統的工芸品に指定された大谷焼産地の活性化に関する調査研究」（平成17年）",
+   "url": "https://www.jf-cmca.jp/attach/kenkyu/shibu/h16/tokushima.pdf"
+  },
+  "k3-buysell": {
+   "label": "バイセル公式コラム「陶器の買取相場はいくら？高値がつく有名作家・ブランド一覧と高く売るコツ」",
+   "url": "https://buysell-kaitori.com/column/antique-pottery_kaitori"
+  },
+  "k3-hongou": {
+   "label": "本郷美術骨董館「陶磁器の買取・鑑定・査定」",
+   "url": "https://www.hongou.jp/item/touki"
+  },
+  "k3-iart-selling": {
+   "label": "iART auction（アイアートオークション）「出品のご案内」（出品諸費用）",
+   "url": "https://www.ise-art.co.jp/auction/selling"
+  },
+  "k3-kokouya": {
+   "label": "古好屋ブログ「作家物の評価ってどうやって決めているのでしょうか？」",
+   "url": "https://antiques-store.com/tisiki/9367.html"
+  },
+  "k3-shinwa-sell": {
+   "label": "Shinwa Auction「出品ガイド」（出品にかかる費用の説明）",
+   "url": "https://www.shinwa-auction.com/sell/sell2"
+  },
+  "k3-urukatsu": {
+   "label": "ウルカツ「陶器の買取で価値が決まる仕組み｜作家物・洋食器・骨董の3系統で整理」",
+   "url": "https://nandemo-kaitori.com/other/pottery-kaitori"
+  },
+  "k3-gihodo": {
+   "label": "ギャラリー北岡技芳堂 2023年の展覧会告知（宮﨑優展・下重ななみ展・白亜器陶展の販売方法）",
+   "url": "https://gihodo.jp/date/2023/"
+  },
+  "k3-masuken": {
+   "label": "古美術ますけん「陶芸家【完全ガイド】なり方から日本の人間国宝・人気作家一覧」",
+   "url": "https://masuken.jp/column/tougeika"
+  },
+  "k3-gracetrade": {
+   "label": "グレイストレード「割れ・欠け・汚れがある骨董品でも売れる？骨董商が根拠とともに答えます」",
+   "url": "https://www.gracetrade.co.jp/qa-ware-kake.html"
+  },
+  "k3-origen": {
+   "label": "ORIGEN（骨董品買取）「陶磁器｜キズ・直し｜用語集」",
+   "url": "https://osaka-origen.com/2024/09/17/repair/"
+  },
+  "k3-sanka": {
+   "label": "三佳「骨董品陶磁器の状態や部位などの専門用語について解説」",
+   "url": "https://sanka-antique.com/en/pages/term"
+  },
+  "k3-treasure": {
+   "label": "トレジャーマーケット「欠けた陶磁器は売れる？古伊万里・古陶磁で価値が残るケースと査定の分かれ目」",
+   "url": "https://treasure-market.net/column/koimari-kake-kaitori"
+  },
+  "k3-crex": {
+   "label": "CREX「京都の骨董市スケジュール一覧 おすすめの蚤の市も紹介」（値段交渉のポイント）",
+   "url": "https://crexgroup.com/ja/travel/niche/kyoto-antique-market-schedule/"
+  },
+  "k3-eventstokyo": {
+   "label": "Tokyo Events「東京の骨董市・蚤の市・マルシェ」（買い方のコツ）",
+   "url": "https://eventstokyo.com/ja/guides/flea-markets"
+  },
+  "k3-japanflow": {
+   "label": "Japan Flea Market Guide 2025（日本の蚤の市での交渉の作法と定価販売店との対比）",
+   "url": "https://www.japanflowai.com/japan-flea-market-guide"
+  },
+  "k3-remusubi": {
+   "label": "買取むすび コラム「骨董市で掘り出し物を見つける方法」",
+   "url": "https://re-musubi.jp/column/kottou/antiques-bargains"
+  },
+  "k4-kamisommelier": {
+   "label": "紙ソムリエ「のし（熨斗）の種類と使い方について」",
+   "url": "https://kamisommelier.jp/6080"
+  },
+  "k4-kataoka-noshi": {
+   "label": "片岡物産 ギフトマナーガイド「“のし”のルール」",
+   "url": "https://www.kataoka.com/enjoy/gift/wrapping"
+  },
+  "k4-mistore-noshi": {
+   "label": "三越伊勢丹ギフト「のし紙とかけ紙の正しいマナー」",
+   "url": "https://www.mistore.jp/gifts/knowledge/noshigami"
+  },
+  "k4-yamato-packing": {
+   "label": "ヤマト運輸「食器・グラス・陶器・ガラス製品（宅急便）の梱包方法」",
+   "url": "https://www.kuronekoyamato.co.jp/ytc/customer/send/preparations/packing/takkyubin/pottery"
+  },
+  "k4-sagawa-packing": {
+   "label": "佐川急便「輸送用梱包ガイドライン」",
+   "url": "http://www.sagawa-exp.co.jp/assets/pdf/send/howto-packing/packing_guideline.pdf"
+  },
+  "k4-yamato-faq-comp": {
+   "label": "ヤマト運輸 よくある質問「宅急便の荷物の紛失・破損に対する補償（責任限度額）」",
+   "url": "https://faq.kuronekoyamato.co.jp/app/answers/detail/a_id/1410/"
+  },
+  "k4-yupack": {
+   "label": "日本郵便「ゆうパック」",
+   "url": "https://www.post.japanpost.jp/service/send/domestic/delivery/yu-pack"
+  },
+  "k4-yupack-guide": {
+   "label": "日本郵便「ゆうパック・ゆうパケット・ゆうメールご利用案内」",
+   "url": "https://www.post.japanpost.jp/assets/docs/service/yu-pack/goriyou_annai.pdf"
+  },
+  "k4-arttech-corp": {
+   "label": "アートテック「法人・大量注文のお客様へ（名入れノベルティ・記念品）」",
+   "url": "https://arttech21.co.jp/corporate.html"
+  },
+  "k4-eguchi-naire": {
+   "label": "江口製陶所「FEATURES」（小ロット生産と名入れ方法）",
+   "url": "https://eguchiseitosho.jp/features"
+  },
+  "k4-narumi-corp": {
+   "label": "鳴海製陶「企業・法人様向け 記念品・名入れ・コーポレートギフト」",
+   "url": "https://www.e-narumi.com/shop/pages/corporate_naire.aspx"
+  },
+  "k4-omisega-naire": {
+   "label": "お店がどっとこむ「名入れ食器・どんぶり」",
+   "url": "https://www.e-omisega.com/contents/naire/naire/tableware-naire"
+  },
+  "k4-akomeya-kotaisa": {
+   "label": "AKOMEYA TOKYO「商品の個体差について」",
+   "url": "https://www.akomeya.jp/shop/pages/item-difference.aspx"
+  },
+  "k4-caa-henpin-guideline": {
+   "label": "消費者庁「通信販売における返品特約の表示についてのガイドライン」",
+   "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/amendment/2012/pdf/130220legal_6.pdf"
+  },
+  "k4-caa-mailorder-case": {
+   "label": "消費者庁 特定商取引法ガイド 事例「インターネット・オークションで購入した商品を返品したい」",
+   "url": "https://www.no-trouble.caa.go.jp/case/mailorder/case02.html"
+  },
+  "k4-tokyo-mailorder": {
+   "label": "東京都消費生活総合センター「インターネット通信販売 〜特定商取引法による規制の概要」",
+   "url": "https://www.shouhiseikatu.metro.tokyo.lg.jp/center/kyoiku/web/kou05/assets/data/kaisetsu_4.pdf"
+  },
+  "k4-amano-order": {
+   "label": "金継ぎ/うるし アマノシトミ「金継ぎ依頼」",
+   "url": "http://amanoshitomi.com/order"
+  },
+  "k4-hirosegama": {
+   "label": "広瀬窯「器のお直し『金継ぎ』を承ります」",
+   "url": "https://www.hirosegama.com/kintsugi"
+  },
+  "k4-kintsugi-nadeshiko": {
+   "label": "金継ぎ撫日子「ご依頼までの流れ」",
+   "url": "https://www.kintsugi-nadeshiko.com/order"
+  },
+  "k4-kintsugi-work": {
+   "label": "金継ぎ工房「金継ぎ依頼のご案内」",
+   "url": "https://kintsugi.work/p-request"
+  },
+  "k4-bunka-mokuroku": {
+   "label": "文化庁 博物館ポータル「博物館資料の目録」",
+   "url": "https://museum.bunka.go.jp/wp-content/uploads/2025/02/b1318cfcc3231abe91cf6211fa090d9c.pdf"
+  },
+  "k4-hiroshima-db": {
+   "label": "広島県立美術館 紀要「館蔵品データベースの構築について」",
+   "url": "https://www.hpam.jp/htdocs/images/about/BulletinNo16_fukuda2013.pdf"
+  },
+  "k4-ncar-register": {
+   "label": "国立アートリサーチセンター「全国美術館収蔵品サーチ ワークショップ報告」",
+   "url": "https://ncar.artmuseums.go.jp/reports/20260803-2.html"
+  },
+  "k4-wa-ceramics-care": {
+   "label": "Western Australian Museum “Conservation and Care of Collections: Ceramics — Preventive Conservation”",
+   "url": "https://manual.museum.wa.gov.au/conservation-and-care-collections-2017/ceramics/preventive-conservation/index.html"
+  },
+  "k4-bande-consignment": {
+   "label": "売却支援サービスの解説「委託販売と買取どっちがお得？仕組み・手数料・現金化の速さから比較」",
+   "url": "https://bande-gi.co.jp/%E5%A7%94%E8%A8%97%E8%B2%A9%E5%A3%B2%E3%81%A8%E8%B2%B7%E5%8F%96%E3%81%A9%E3%81%A3%E3%81%81%E3%81%8C%E3%81%8A%E5%BE%97%EF%BC%9F%E4%BB%95%E7%B5%84%E3%81%BF%E3%83%BB%E6%89%8B%E6%95%B0%E6%96%99%E3%83%BB/"
+  },
+  "k4-consignment-guide": {
+   "label": "@SOHO「委託販売の手数料｜相場と契約の注意点」",
+   "url": "https://atsoho.com/blog/selling-consignment-fees"
+  },
+  "k4-kobutsu-law": {
+   "label": "リユース関連情報サイト「古物営業法 第一章 総則の解説」",
+   "url": "https://www.smilefactory-reuse.com/1shou"
+  },
+  "k4-kogirekai": {
+   "label": "古裂會（古美術オークション）「出品方法」",
+   "url": "https://www.kogire-kai.co.jp/entry"
+  },
+  "k4-ryugudo-auction": {
+   "label": "竜宮堂「竜宮オークション」",
+   "url": "https://auction.ryugudo.net/"
+  },
+  "k4-yahoo-fee": {
+   "label": "Yahoo!オークション「特定商取引法の表示」（落札システム利用料）",
+   "url": "https://auctions.yahoo.co.jp/special/html/tokushoho.html"
+  }
+ },
+ "records": [
+  {
+   "id": "buy/mikata",
+   "names": {
+    "ja": "作家ものの器の見方",
+    "reading": "さっかもののうつわのみかた",
+    "aliases": [
+     "器の見方",
+     "いい器の見分け方",
+     "鑑賞のポイント",
+     "作家もの 見分け方"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "作家ものの器を見るときの観察の入口。全体の形、口造り、高台、土と釉の表情、絵付け、持ったときのバランスを順に見ていくことで、作り手の仕事と器の性格が読み取れるようになる。ここでの「見方」は鑑賞と選択のための観察であり、真贋の断定とは別の営みである。",
+   "claims": [
+    {
+     "text": "美術館の鑑賞案内では、器形（器全体の形）と高台が陶磁器を見る基本の要素として解説されている。高台は器の底に作られる支えの部分で、別に作って貼り付ける付け高台と、底部を削って作る削り出し高台に分けられ、蛇の目高台・輪高台などの形の種類がある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-moco-guidance"
+     ]
+    },
+    {
+     "text": "高台の周辺は情報が集まる場所で、畳付の状態、削りの方向や深さ、露出した土の色と質感、釉薬がどこまで掛かっているか、目跡などの焼成時の痕跡、銘や陶印を順に確認するのが観察の手順として示されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-mikata"
+     ]
+    },
+    {
+     "text": "高台で露出する胎土（素地）は、産地や窯を考える手がかりになる。釉や形は産地が違っても似ることがあるが、胎土は窯場ごとに異なる特徴を持つため、高台を見ることは産地を絞り込む有効な情報になるとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-eishodo-miwake"
+     ]
+    },
+    {
+     "text": "釉薬の表情や貫入、鉄粉などは、窯の中で生じた「景色」として鑑賞の対象になる。ただし景色として楽しめる状態と、ヒビ・欠けなど使用上の問題になる状態とは、分けて確認する必要がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-tenji"
+     ]
+    },
+    {
+     "text": "展示販売の場では、展示品を自分の判断で持ち上げたり裏返したりしないことが基本とされ、高台や底面を見たいときは先に係員へ相談する。手に取ることが許される場でも、観察の前に許可の範囲を確認するのが作法である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-tenji"
+     ]
+    },
+    {
+     "text": "観察ポイントは真贋判定のチェックリストではない。銘や印、箱、資料などの情報が互いに一致するかを含め、複数の情報を合わせて確認することが基本で、一つの特徴だけで作者や真贋を断定しない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-shohyo"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "買う前に見る順序の例。まず距離を置いて全体の形と大きさ、持ったときの重さのバランスを見る。次に表面の景色と口造り、最後に許可を得て裏返し、高台・銘・傷の有無を確認する。店や展示では、触ってよい範囲を先に聞く。",
+    "sources": [
+     "k1-kogei-mikata",
+     "k1-moco-guidance"
+    ]
+   },
+   "relations": [
+    "buy/rakuin",
+    "buy/hakogaki",
+    "buy/yoshiki",
+    "basics/handmade-price"
+   ],
+   "unknowns": [
+    "「良い器」の基準は用途（茶道具、日常使い、鑑賞用）や持ち手の好みで異なり、統一的な評価軸は存在しない。",
+    "手に取って観察できる範囲は店舗・展示ごとに異なり、一般化できない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/rakuin",
+   "names": {
+    "ja": "銘と落款",
+    "reading": "めいとらっかん",
+    "aliases": [
+     "陶印",
+     "裏印",
+     "サイン",
+     "署名",
+     "無銘"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "器に記された作り手の表示の総称。篦で刻む刻銘、印を押す陶印（落款）、筆で書く書き銘があり、高台の内側や脇、胴の側面などに入る。作者や窯を調べる第一の手がかりになるが、銘の有無や形だけで真贋や価値は決まらない。",
+   "claims": [
+    {
+     "text": "銘は器に付けられた作り手の署名で、高台の内側に文字やマークが書かれていることが多い。佐賀県立九州陶磁文化館の解説でも、高台の内側の文字・マークを「銘」と呼ぶと説明されている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-saga-mei"
+     ]
+    },
+    {
+     "text": "銘の入れ方には、素地が柔らかいうちに刻む刻銘、印章を押す陶印（落款印）、筆で書く書き銘がある。陶印は同じ形を繰り返し使えるため窯元・工房の製品にも用いられ、刻銘は一点ごとに字跡が異なる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kyoto-nokaze-mei",
+      "k1-antique-touin"
+     ]
+    },
+    {
+     "text": "銘が示す先は個人とは限らない。作家個人の名や号を示す作家印のほか、窯や工房の名を示す窯印があり、個人作家の一点ものか窯元の製品かで読み方が変わる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kyoto-nokaze-mei",
+      "k1-antique-touin"
+     ]
+    },
+    {
+     "text": "名跡を襲名する家では、同じ銘や印が複数代にわたって使われる。大樋長左衛門や酒井田柿右衛門、樂吉左衛門のように代々同じ名を継ぐ家では、銘だけから何代の作かを特定することはできない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-yakata-ohi"
+     ]
+    },
+    {
+     "text": "銘がない器も多い。とくに古陶磁の多くは無銘で、無銘であること自体は価値の低さを意味しない。逆に、銘がある器でも銘だけで本人作と断定するのは避けるべきだとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-shohyo",
+      "k1-kogei-mikata"
+     ]
+    },
+    {
+     "text": "同じ作家でも、制作時期や作品の種類によって使う銘や印が異なることがある。銘の照合は、作家本人や工房の公式情報、所蔵美術館の作品、展覧会図録など、作品との関係が明確な資料と比べることが基本になる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-kogei-shohyo"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "読めない銘は無理に読まず、写真を撮って箱書き・栞・購入先の情報と一緒に残す。印影を集めたデータベースや落款辞典で当たりを付けることはできるが、作者の確定は複数の資料の照合と、必要なら専門家の判断に委ねる。",
+    "sources": [
+     "k1-antique-touin",
+     "k1-kogei-shohyo"
+    ]
+   },
+   "relations": [
+    "buy/mikata",
+    "buy/hakogaki",
+    "buy/shingan"
+   ],
+   "unknowns": [
+    "銘の判読は崩し字や略字が多く、公開資料だけで確実に読めるとは限らない。",
+    "工房作や弟子の作に当主・作家の銘が入る範囲（どこまでを本人作と呼ぶか）は、作家や窯ごとに扱いが異なり、統一的な基準はない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/hakogaki",
+   "names": {
+    "ja": "共箱と箱書き",
+    "reading": "ともばことはこがき",
+    "aliases": [
+     "共箱",
+     "箱書き",
+     "桐箱",
+     "極箱",
+     "後箱"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "作品を納める箱と、そこに書かれた文字のこと。作者本人が書いた共箱は、作者と作品を結びつける一次的な資料になる。一方、鑑定者や家元などが書いた極箱・書付箱、後から用意した後箱・合箱は性格が異なり、証明力も異なる。箱と中身が取り違えられている可能性を含めて見る必要がある。",
+   "claims": [
+    {
+     "text": "共箱は、作者本人が作品名や自分の名と印を記した箱で、蓋の表に作品名、蓋の裏に作者名と印という形式が一般的である。作者がその作品を自分の作と認めた記録として扱われる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-schooloftea-hakogaki",
+      "k1-monokau-tomobako"
+     ]
+    },
+    {
+     "text": "作者以外が書いた箱は呼び名と意味が異なる。作者の親族・後継者・鑑定者などが真正を認めて書いた箱は極箱・書付箱と呼ばれ、後から保護のために用意されただけの箱は後箱・合箱と呼ばれて、共箱のような本人証明の力はない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-schooloftea-kakitsuke",
+      "k1-treasure-hako"
+     ]
+    },
+    {
+     "text": "共箱の有無は市場の評価を大きく左右し、とくに明治以降の作家ものや茶道具では、共箱がないと評価が下がるのが一般的とされる。一方で時代の古い古陶磁では、箱の有無よりも品そのものの作行が評価の中心で、影響は小さいとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-treasure-hako",
+      "k1-grace-tomobako"
+     ]
+    },
+    {
+     "text": "共箱なしの場合に評価がどれだけ下がるかは、業者資料の間でも表現に大きな幅があり、作品や作家、分野によって異なる。一般化できる率は存在しない。",
+     "level": "E4",
+     "status": "contested",
+     "sources": [
+      "k1-treasure-hako",
+      "k1-grace-tomobako"
+     ]
+    },
+    {
+     "text": "共箱があることは本物の保証にはならない。箱だけが立派で中身と合っていない取り違え（箱違い）があり得るため、箱書きの内容と作品本体が対応しているかを確認する必要がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-monokau-tomobako"
+     ]
+    },
+    {
+     "text": "箱書きは来歴の記録でもある。贈答先や旧蔵者、製作年などが記されていれば、その作品がどのような人の手を経てきたかをたどる資料になる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-antique-shiori"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "買うときは、箱の文字を誰が書いたのか（作者本人か、鑑定者・家元か、所有者のメモか）をまず切り分け、本体の銘や様式と箱書きの内容に矛盾がないかを見る。箱と中身の対応が取れない場合は、その分を割り引いて考える。箱は作品の付属資料として、本体と一緒に保管する。",
+    "sources": [
+     "k1-schooloftea-kakitsuke",
+     "k1-monokau-tomobako"
+    ]
+   },
+   "relations": [
+    "buy/fuzoku",
+    "buy/kantei",
+    "buy/shingan",
+    "basics/box-storage"
+   ],
+   "unknowns": [
+    "箱書きの筆跡が本人のものかを、公開資料だけで確かめる方法はない。",
+    "共箱を失った場合に後から箱を作り直すこと（後箱）の扱いは、分野や取引の場によって評価が異なる。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/fuzoku",
+   "names": {
+    "ja": "栞・陶歴書などの付属品",
+    "reading": "しおり・とうれきしょなどのふぞくひん",
+    "aliases": [
+     "付属品",
+     "栞",
+     "陶歴",
+     "共布",
+     "完品"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "共箱のほかに作品へ添えられる紙や布などの総称。作家の経歴や作品解説を記した栞（しおり）、略歴をまとめた陶歴書、作家の印が入った共布、茶道具を包む仕覆などがあり、作者や来歴を補う資料になる。揃っていることが「完品」として評価に影響する一方、付属品そのものが真贋を保証するわけではない。",
+   "claims": [
+    {
+     "text": "栞は、作者の経歴や作品の解説を記した小冊子や紙片で、陶歴を記したもの、個展の案内を兼ねたもの、技法や意図を解説したもの、評論家らが寄稿したものなどの種類がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-antique-shiori"
+     ]
+    },
+    {
+     "text": "陶歴は作家の略歴・受賞歴・個展歴をまとめたもので、栞に含まれる形と、独立した書類として添えられる形がある。作品と一緒に渡され、作者を確認する際の補助資料になる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-antique-shiori",
+      "k1-fukuchan-fuzoku"
+     ]
+    },
+    {
+     "text": "共布は器を包む布で、作家の印や署名が入ったものは、作者を示す裏付け資料として共箱に近い役割を果たす。茶道具の仕覆（しふく）は茶入や茶碗を包む裂地の袋で、古い裂や名物裂はそれ自体が評価の対象になることがある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-treasure-hako"
+     ]
+    },
+    {
+     "text": "共箱・共布・栞などの付属品がそろっている作品は「完品」として扱われ、欠けている場合より評価が高くなる傾向があるとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-fukuchan-fuzoku"
+     ]
+    },
+    {
+     "text": "付属品は本体の真贋を保証しない。栞や陶歴は印刷物であり後から用意することも可能なため、作者本人の直筆である共箱とは資料としての性格が異なる。付属品は本体や箱書きと照合して初めて意味を持つ。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-monokau-tomobako",
+      "k1-antique-shiori"
+     ]
+    },
+    {
+     "text": "購入時の領収書や明細、展覧会の図録、出品記録なども来歴を示す資料になる。美術商の現場では、共箱・共布・栞・図録・購入時の資料が残っている場合は処分せず、作品と一緒に保管することが勧められている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-gihodo-suzuki"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "小さな紙や布ほど捨てられやすい。栞・陶歴・共布・領収書は箱の中に入れるなどして本体とセットで保管し、売るときや譲るときも一緒に渡す。実家の整理などで出てきた場合も、紙切れだからと捨てない。",
+    "sources": [
+     "k1-gihodo-suzuki",
+     "k1-treasure-hako"
+    ]
+   },
+   "relations": [
+    "buy/hakogaki",
+    "buy/collection",
+    "buy/kantei"
+   ],
+   "unknowns": [
+    "付属品の有無が評価に与える影響の大きさは分野・作家ごとに異なり、目安は公開されていない。",
+    "栞や陶歴に記された略歴の正確さは発行主体によって差があり、作家の公式略歴と食い違う場合の扱いは定まっていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/shingan",
+   "names": {
+    "ja": "真贋の判断と素人の誤り",
+    "reading": "しんがんのはんだんとしろうとのあやまり",
+    "aliases": [
+     "本物と偽物",
+     "贋作",
+     "ニセモノ",
+     "偽物の見分け方"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "真贋は一つの特徴で決まるものではなく、専門家が本体の様式・素材・技法、銘や箱などの付属資料、所有の移り変わりを示す来歴を総合して判断する営みである。ここでは個別作品の見分け方ではなく、判断の仕組みと、買い手が陥りやすい代表的な誤りを整理する。",
+   "claims": [
+    {
+     "text": "専門家の真贋判断は、器の形・胎土・釉薬の発色・焼成・装飾技法・筆致といった本体の細部が、特定の時代や窯の様式と一致するかを照合し、さらに銘・箱書き・来歴などの資料を合わせて総合的に行われる。単一の決め手で結論を出すものではない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-sakai-shingan",
+      "k1-sakai-chugoku"
+     ]
+    },
+    {
+     "text": "来歴（プロヴェナンス）は真贋を裏付ける重要な材料である。著名なコレクターや美術館を経由した品、売立目録や展覧会図録・書籍に掲載された品は、所有の移り変わりをたどれる分だけ、信頼性が高いものとして扱われる傾向がある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-sakai-shingan",
+      "k1-fukuchan-gansaku"
+     ]
+    },
+    {
+     "text": "誤りの一つは、銘や落款が入っているから本物だと思い込むことである。有名な陶芸家の署名や落款を模して作られた贋作が存在するため、銘は判断の出発点であって結論にはならない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-fukuchan-gansaku",
+      "k1-kogei-shohyo"
+     ]
+    },
+    {
+     "text": "誤りの一つは、鑑定書や共箱が付いているから本物だと決めつけることである。鑑定書は真贋を完全に保証するものではなく、発行元・証書番号・添付写真や押形と本体の特徴を照合することが前提になる。箱と中身の取り違えも起こり得る。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-nikkoudou-kantei",
+      "k1-monokau-tomobako"
+     ]
+    },
+    {
+     "text": "誤りの一つは、写真だけで真贋を確定できると思うことである。写真からは形や文様、銘などで候補を絞ることはできても、材質や内部構造、修復歴、来歴を含む現物の確認なしに、真作か贋作かを確定することはできない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-lensapp"
+     ]
+    },
+    {
+     "text": "鑑定は絶対的な判定ではない。鑑定を行うサービスの中には、鑑定結果は鑑定する人によって異なることがあり得ることや、結果をもとに議論・変更はできないことを、あらかじめ利用条件として明示しているものがある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-coconala-kantei"
+     ]
+    },
+    {
+     "text": "科学的な年代測定（熱ルミネッセンス法など）は、陶磁器が最後に焼成されてからの経過時間を推定する手法で、真贋判断の補助に使われる。ただし誤差は大きく、作者が誰かまでは分からないため、単独で真贋を決めるものではない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-jstage-tl",
+      "k1-springer-tl"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "高額な購入では、来歴を示す資料がそろっているか、販売者が真贋に関する条件（保証や返品の可否）をどう定めているかを先に確認する。判断が割れる場合や金額が大きい場合は、一人の意見で決めず、複数の専門家や鑑定機関に相談する。",
+    "sources": [
+     "k1-sakai-shingan",
+     "k1-nikkoudou-kantei"
+    ]
+   },
+   "relations": [
+    "buy/kantei",
+    "buy/rakuin",
+    "buy/hakogaki",
+    "buy/auction",
+    "buy/kottouichi"
+   ],
+   "unknowns": [
+    "分野や作家ごとに、標準とされる鑑定の担い手や手続きは異なり、統一された手順は存在しない。",
+    "科学分析の結果と専門家の目による判断が食い違う場合の扱いは、事例ごとに異なり、一般的な決着の付け方は定まっていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/kantei",
+   "names": {
+    "ja": "鑑定書と鑑定の相談先",
+    "reading": "かんていしょとかんていのそうだんさき",
+    "aliases": [
+     "鑑定書",
+     "鑑定証書",
+     "鑑定機関",
+     "査定",
+     "鑑定の相談"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "鑑定（本物かどうか＝真贋の判定）と評価（いくらか＝価格の査定）は別の営みである。鑑定書は、それを発行する機関や専門家の信用を背負った文書で、様式も効力も発行者ごとに異なる。美術館は原則として個人の所蔵品の鑑定に応じず、実際の相談先は美術商、鑑定機関、作家ゆかりの機関などに分かれる。",
+   "claims": [
+    {
+     "text": "鑑定と評価は別の業務である。鑑定は作品が本物かどうかを判定し鑑定証書を発行するもので、評価は相続や法人の資産登録、保険などのために現在の価格を査定し評価証を発行するものである。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k1-toobi-service"
+     ]
+    },
+    {
+     "text": "一般財団法人東美鑑定評価機構は、株式会社東京美術倶楽部の鑑定委員会の業務を引き継いだ鑑定機関で、真作と認められる作品についてのみ鑑定証書を発行し、不発行の理由や鑑定結果の詳細については説明しないとしている。鑑定の対象となる作家は限定され、鑑定料は分野や作家ごとに定められている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k1-tocfa-about"
+     ]
+    },
+    {
+     "text": "鑑定書の様式や発行の手続きは発行機関ごとに異なる。文化庁の事業では、美術品の鑑定評価における価格評価の手法・手順のガイドラインと「公的鑑定書フォーマット（試行版）」の活用が報告されており、様式の標準化は試行の段階にある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-bunka-arteco"
+     ]
+    },
+    {
+     "text": "作家によっては、ゆかりの機関が鑑定を担う例がある。北大路魯山人については銀座黒田陶苑、河井寛次郎については河井寛次郎記念館が鑑定機関として知られている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k1-recycle-kantei"
+     ]
+    },
+    {
+     "text": "美術館や博物館は、個人が持ち込む作品の鑑定に応じないのが原則である。東京国立博物館は、所蔵作品以外の作品に関することや、手持ちの美術品についての調査・鑑定・真贋の判断を求める問い合わせには、回答を差し控えると明示している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-tnm-faq"
+     ]
+    },
+    {
+     "text": "鑑定書は発行者の信用に依拠する文書であり、それ自体が絶対的な保証にはならない。受け取った鑑定書は、発行元、証書番号、添付された写真や押形、本体の特徴が一致するかを照合して初めて意味を持ち、必要に応じて発行機関に確認することが勧められる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-nikkoudou-kantei"
+     ]
+    },
+    {
+     "text": "実務上の相談の入口は複数ある。購入した美術商やギャラリー、その分野を専門とする古美術商、オークション会社の査定、そして作家別の鑑定機関であり、真贋を知りたいのか価格を知りたいのかによって、依頼先も出てくる文書（鑑定証書か評価証か）も異なる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-sakai-chugoku",
+      "k1-toobi-service"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "依頼の前に、目的が真贋の判定（鑑定）なのか価格の把握（評価）なのかを分け、その機関が対象の作家や分野を扱っているか、手数料と証書発行の条件（真作と認められた場合にのみ発行される等）を先に確認する。鑑定書を受け取ったら、対象作品の写真や特徴と一致しているかを自分でも照合する。",
+    "sources": [
+     "k1-tocfa-about",
+     "k1-nikkoudou-kantei"
+    ]
+   },
+   "relations": [
+    "buy/shingan",
+    "buy/hakogaki",
+    "buy/chuko"
+   ],
+   "unknowns": [
+    "鑑定機関や鑑定家の権威の序列は公的には定まっておらず、市場でどの鑑定書が通用するかは分野ごとに異なる。",
+    "鑑定結果に納得できない場合の再鑑定や異議申立ての、標準的な手続きは定まっていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/yoshiki",
+   "names": {
+    "ja": "様式の見分け入門",
+    "reading": "ようしきのみわけにゅうもん",
+    "aliases": [
+     "染付と色絵の違い",
+     "白磁",
+     "焼締",
+     "やきものの種類"
+    ]
+   },
+   "name_level": "概念",
+   "category": "見方と真贋",
+   "summary": "器の見た目を大きく分ける様式の入口。文様を釉の下に描く染付、釉の上に多色で描く色絵、装飾のない白磁、釉をかけずに焼き締める焼締など、装飾の仕組みの違いを知ると、店頭や図録の説明や産地の個性が読みやすくなる。様式の区別は鑑賞のための分類であり、真贋の判定とは別のものである。",
+   "claims": [
+    {
+     "text": "絵付けは、釉薬をかける前に描く釉下彩と、釉薬をかけて焼いた後に描く釉上彩に大別される。大阪市立東洋陶磁美術館の鑑賞案内では、コバルト顔料で青く発色させる青花・染付は釉下彩に、多色の上絵付けは釉上彩に分類されている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-moco-guidance"
+     ]
+    },
+    {
+     "text": "染付は、白い素地に呉須（コバルトを含む顔料）で文様を描き、その上に透明釉をかけて高温で焼く技法である。文様が釉の下にあるため表面はなめらかで、絵が擦れて落ちることはない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-kyohaku-sometsuke",
+      "k1-toguri-iroe"
+     ]
+    },
+    {
+     "text": "色絵は、本焼きした器の釉の上に赤・黄・緑・紫などの色絵具で文様を描き、低温で焼き付ける技法である。染付の上に色絵を重ねたものは染錦・錦手と呼ばれる。色絵は釉の上にあるため、長年の使用や強い摩擦で色が薄れたり剥げたりすることがある。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-toguri-iroe",
+      "k1-japanpotterynet-iroe"
+     ]
+    },
+    {
+     "text": "色絵の焼き付けは約800℃の低温で行われるため、高温に耐えない多様な色の顔料が使える。これが色絵の色彩の豊かさの背景にある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-japanpotterynet-iroe"
+     ]
+    },
+    {
+     "text": "白磁は、鉄分の少ない白い素地に透明釉をかけた磁器で、装飾のないものが基本の形である。染付との違いは下絵付けの有無にあり、白磁は色絵の下地にもなる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k1-nikkoudou-hakuji"
+     ]
+    },
+    {
+     "text": "焼締は、釉薬をかけずに高温で焼き締めたやきもので、備前や信楽などに代表される。薪の灰が器にかかって生じる自然釉や、窯の中の条件で色が変わる窯変が景色になり、素地の土の質がそのまま表面に現れる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-tnm-yakishime",
+      "k1-kogeistandard-yakishime"
+     ]
+    },
+    {
+     "text": "様式の名前は「どのように装飾したか」の分類であり、年代や作者を直接示すものではない。染付のような様式は多くの産地と時代で作られてきたため、様式が分かっただけでは産地や真贋は決まらない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k1-moco-guidance",
+      "k1-kyohaku-sometsuke"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "店頭や図録の説明は、まず大づかみに分けると読みやすくなる。文様が釉の下にあるか上にあるか（染付か色絵か）、釉自体がかかっているか（焼締かどうか）、文様がなく白いか（白磁か）という順で見ていく。",
+    "sources": [
+     "k1-moco-guidance",
+     "k1-toguri-iroe"
+    ]
+   },
+   "relations": [
+    "tech/sometsuke",
+    "tech/iroe",
+    "tech/seihakuji",
+    "tech/yakishime",
+    "buy/mikata"
+   ],
+   "unknowns": [
+    "様式の呼び名には産地名と様式名が重なる用法（鍋島、九谷など）があり、分類の境界が曖昧な場合がある。",
+    "釉の色による分類（青磁・白磁など）と絵付けによる分類（染付・色絵など）は観点が異なり、実務では混在して使われている。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/chokuhan",
+   "names": {
+    "ja": "窯元・産地直販で買う",
+    "reading": "かまもと・さんちちょくはん",
+    "aliases": [
+     "窯元直売",
+     "産地直売",
+     "工房直販",
+     "窯元のアウトレット"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "産地の窯元や工房、共同販売所（共販センターなど）に出向いて、作り手やその店から直接買う買い方。流通の中間マージンが乗らない分、同じ窯元の品でも小売店より安くなる構造があり、定番品に加えて窯元だけが持つアウトレット品（B級品）に出会えることがある。一方で、選べるのはその産地・その窯元の品に限られ、遠方なら交通費と時間がかかる。",
+   "claims": [
+    {
+     "text": "窯元直売では問屋・小売店を通さないため、流通マージンの分だけ価格が下がる構造がある。ある窯元は自社製品について、店頭価格の内訳として小売店・中間業者へそれぞれ約30%が配分され、製造元の価格が店頭では約3倍になると説明している（2026年11月確認）。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k2-hashimoto-jogaku"
+     ]
+    },
+    {
+     "text": "窯元や産地の直販では、正規の検品でA級品にならなかったB級品（アウトレット品）が割引価格で売られることがある。釉薬の付き方や形のわずかなムラなど見た目の軽微な差が理由で、使用上の品質に大きな問題はないとされる一方、返品・交換の条件が正規品より厳しいのが通例である。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k2-cocochi-outlet"
+     ]
+    },
+    {
+     "text": "産地では窯元が共同で販売所を構える例があり、益子陶器市の会場となる益子町でも、常設の販売店約50店舗が窯元や作家の品を扱っている（益子町公表）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-mashiko-town"
+     ]
+    },
+    {
+     "text": "直販で買える範囲は、その産地・窯元の製品に限られる。複数産地を見比べたい場合は、産地ごとに足を運ぶか、巡回型の陶器市や百貨店の催事など別の場を使うことになる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "作り手や窯元の店員と直接話せるため、使い方・手入れ・追加購入や修理の相談をその場でしやすいのが、仲介者を挟む買い方との大きな違いである。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "人気の窯元・作家の直販では、定番品でも品薄で買えないことがある。直販だから安く・確実に買えるとは限らず、在庫と価格は窯元ごとに異なる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "産地では窯元直販・共販の店・作家の工房ショップが混在するので、同じ品でも店によって価格やアウトレット品の有無が違う。B級品を買うときは、どこが理由でB級なのか（釉のムラか、小さな傷か）を店で確認し、返品条件もその場で聞いておくと後の食い違いが防げる。",
+    "sources": [
+     "k2-cocochi-outlet"
+    ]
+   },
+   "relations": [
+    "buy/sanchi",
+    "buy/kakaku",
+    "basics/handmade-price",
+    "basics/price-factors"
+   ],
+   "unknowns": [
+    "窯元直販の価格が小売店と比べてどの程度安いかは、窯元・品目ごとに異なり、横断的に実測した公的データは確認できなかった。",
+    "共販センター型の共同販売所が全国の産地にいくつあるかの一覧は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/gallery",
+   "names": {
+    "ja": "ギャラリー・個展で買う",
+    "reading": "ぎゃらりー・こてん",
+    "aliases": [
+     "画廊",
+     "うつわギャラリー",
+     "個展",
+     "企画展"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "作家の器を専門に扱うギャラリー（画廊）や、作家の個展・企画展で買う買い方。存命作家の新作が最初に売られる場（一次流通）で、価格は作家とギャラリーが決めた定価が基本となり、値引き交渉の場ではない。人気作家では初日に売り切れたり、全作品が抽選販売になったりする。共箱や陶歴書など付属品がそろい、出所（プロベナンス）が明確な点が強みである。",
+   "claims": [
+    {
+     "text": "人気作家の個展では、混雑や転売対策などの理由で全作品を抽選販売にするギャラリーがある。陶器専門の柿傳ギャラリーでは、見附正康の出品作品について「あらかじめ混雑することが想定されるため」全作品を抽選販売とした例がある（2024年11月、ギャラリー公式告知）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-kakiden-lottery"
+     ]
+    },
+    {
+     "text": "ギャラリーの販売価格には、作家への支払いとは別にギャラリーの販売手数料が含まれている。公表例では、貸しギャラリーの販売手数料は20%、招待作家による企画展示では35〜50%とされている（立川アートスペース利用案内、2026年11月確認）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-tachikawa-as"
+     ]
+    },
+    {
+     "text": "百貨店の美術画廊についても、企画した美術家に対して売上の何割かを手数料として徴収する仕組みが美術事典に記されており、手数料を前提とした価格設定は画廊一般の構造である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-artscape-dept"
+     ]
+    },
+    {
+     "text": "個展は会期が数日から1週間程度と短く、人気の品は初日に売約が付くことが多い。会期中でも売約済みの作品は最終日まで展示され、受け渡しは会期終了後になるのが通例である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "ギャラリーで買う新作は、共箱・栞・陶歴書などの付属品がそろった状態で渡されることが多く、将来手放すときの出所の証明にもなる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "価格は作家の格（キャリア・受賞歴・人気）に応じて作家とギャラリーが設定する定価であり、同じ作家でもギャラリーごとに勝手に値付けが変わるものではない。二次流通（中古・オークション）の価格とは決まり方が異なる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "目当ての作家の個展は、ギャラリーの案内（DM・メルマガ・SNS）で会期と販売方法（先着・抽選・初日来場条件）を事前に確認する。抽選販売では会期初日に行かなくても申し込める場合がある一方、購入後のキャンセル不可などの条件が付くことがあるので、申し込み前に条件を読む。",
+    "sources": [
+     "k2-kakiden-lottery"
+    ]
+   },
+   "relations": [
+    "buy/mikata",
+    "buy/hakogaki",
+    "buy/ninki",
+    "buy/kosho",
+    "buy/department"
+   ],
+   "unknowns": [
+    "陶芸専門ギャラリーの販売手数料率について、業界横断の公表値はなく、貸しギャラリーの公表例以外は未確認。",
+    "抽選販売・初日入場制限を採用しているギャラリーの割合は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/department",
+   "names": {
+    "ja": "百貨店で買う",
+    "reading": "ひゃっかてん",
+    "aliases": [
+     "デパート",
+     "百貨店の美術画廊",
+     "百貨店の催事",
+     "美術売場"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "百貨店の美術売場・美術画廊や、催事場の工芸展・陶器市で買う買い方。専門部署（美術部）が企画・運営・販売を担い、週替わり程度で作家の個展や企画展が開かれる。日本伝統工芸展のような大きな公募展の会場にもなり、入選作をその場で買える。百貨店の看板による信用、包装・のし・配送などのサービスが一体になっている分、価格は定価が基本で、産直型の場より割安感は薄い。",
+   "claims": [
+    {
+     "text": "百貨店内の美術画廊は「美術部」という専門部署が企画・運営・販売のすべてを担う形が基本で、三越は1907年に美術部を創設した（美術事典artscapeの解説）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-artscape-dept"
+     ]
+    },
+    {
+     "text": "百貨店の美術画廊では1週間単位の個展・企画展が連続して組まれる。阪急うめだ本店の美術画廊では、陶芸家の個展を含む展覧会が火曜から翌週火曜までの会期で週替わりに開催されている（2026年11月時点の同店告知）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-hankyu-gallery"
+     ]
+    },
+    {
+     "text": "日本工芸会の公募展「日本伝統工芸展」は日本橋三越本店で開かれたのち全国を巡回する形が定着しており、第73回展では公募作品1,071点から選ばれた入選作と人間国宝の最新作を含む約550点が展示された。入選作は会場で購入できる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-mitsukoshi-kogei"
+     ]
+    },
+    {
+     "text": "百貨店の美術画廊は歴史的に、観覧者にはほぼ無料で展覧会を見せ、美術家からは売上の何割かを手数料として徴収する仕組みで運営されてきた（美術事典artscapeの解説）。価格にはこの手数料と百貨店の運営コストが含まれる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-artscape-dept"
+     ]
+    },
+    {
+     "text": "百貨店では、のし・包装・配送・ギフト包装の手配を売場で一括して受けられるため、贈答用途では手続きが簡便である。価格交渉の場ではなく、表示された定価で買うのが基本である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "催事場では「全国陶器市」のような複数産地の展示販売会も開かれ、産地に行かずに各地の器を比べられる一方、出店者や品ぞろえは常設売場とは別枠で、会期が終われば同じ品は買えない。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "作家ものの新作を百貨店で買うときは、美術画廊の催しスケジュールを先に確認し、目当ての個展の初日に行くのが基本。贈答では、のしや配送を購入時にまとめて頼むと別便の手配が不要になる。伝統工芸展の入選作は会期序盤に売約が付きやすいので、購入目的では会期の早いうちに見る。",
+    "sources": [
+     "k2-hankyu-gallery",
+     "k2-mitsukoshi-kogei"
+    ]
+   },
+   "relations": [
+    "buy/gallery",
+    "buy/ninki",
+    "buy/noshi",
+    "basics/gift-basics"
+   ],
+   "unknowns": [
+    "百貨店の美術売場の手数料率の現行の公表値は確認できなかった（歴史的な「何割か」という記述のみ）。",
+    "百貨店の陶器・工芸売場の店舗数や売上の推移など、業界統計は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/kottouichi",
+   "names": {
+    "ja": "骨董市・蚤の市で買う",
+    "reading": "こっとういち・のみのいち",
+    "aliases": [
+     "蚤の市",
+     "アンティークマーケット",
+     "露天の骨董市",
+     "ガラクタ市"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "寺社や広場で定期的に開かれる露天の市で、古物商の店から古い器を買う買い方。並ぶのは中古・古物が中心で、新品の定価という概念がなく、値付けも交渉も店ごとに違う。実物を手に取って確かめられる一方、買った後の返品や保証は基本的に期待できず、真贋も傷も自分の目で判断する場である。掘り出し物との出会いは早い者勝ちで、朝の早い時間が勝負になる。",
+   "claims": [
+    {
+     "text": "大江戸骨董市は東京国際フォーラム地上広場で毎月2回開かれ、全国から和洋の骨董店が約250店出店する日本最大規模の屋外骨董市である（主催者・会場の公表、2026年11月確認）。入場無料で雨天中止。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-oedo-official",
+      "k2-tiforum-oedo"
+     ]
+    },
+    {
+     "text": "京都の平安蚤の市は平安神宮前の岡崎公園で毎月ほぼ10日に開かれ、約100〜150店が出店する。出店は古物商許可を持つ業者に限られ、骨董・古道具・古着など古いものだけが並ぶ構成である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-hankyu-heian"
+     ]
+    },
+    {
+     "text": "骨董市の出店者は古物営業法に基づく古物商許可を持つ業者が中心であるため、素性の分からない個人の出品とは異なるが、個々の品の真贋や年代まで主催者が保証する仕組みではない。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k2-hankyu-heian"
+     ]
+    },
+    {
+     "text": "価格は店の言い値が出発点で、交渉で下がることもある一方、交渉を受けない店もある。同じ古伊万里の皿でも、店の仕入れと目利きによって値付けが大きく違うため、複数の店を見て回ることが相場感を作る。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "品物は一点ものの古物で、傷・直し・ヒビの有無が価格を左右する。照明のない屋外では見落としやすいので、光にかざして貫入や直しを確認するなど、その場での検品が前提になる。原則として購入後の返品はできないと考えて買う場である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "良い品は開場直後になくなることが多く、目利きの買い手は朝早くから回る。逆に終了間際は値引き交渉がしやすくなるという面もあるが、残り物から選ぶことになる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "現金払いが基本の店が多いので小額紙幣を用意し、買った器を入れる袋や緩衝材を持参する。気になる品は「傷や直しはありますか」と店に直接聞くのが普通のやり取りで、箱書きや銘はその場で写真に残しておくと、後で調べるときの手がかりになる。",
+    "sources": []
+   },
+   "relations": [
+    "buy/shingan",
+    "buy/kantei",
+    "buy/chuko",
+    "buy/kizu"
+   ],
+   "unknowns": [
+    "骨董市全体の年間開催数や市場規模の公的統計は確認できなかった。",
+    "値引き交渉の成立率など、買い方の実態を測った調査は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/auction",
+   "names": {
+    "ja": "オークションで買う",
+    "reading": "おーくしょん",
+    "aliases": [
+     "競売",
+     "セリ",
+     "ネットオークション",
+     "ヤフオク",
+     "美術品オークション"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "値段が入札で決まる買い方で、形態は大きく二つある。一つは美術品オークション会社が開く競売で、参加登録をして、事前の下見会で実物を確かめ、落札価格（ハンマープライス）に落札手数料を上乗せして払う。もう一つはヤフオクのようなネットオークションで、個人同士の取引が中心となり、買い手の手数料は無料で、出品者が落札額の一定率を負担する。どちらも「相場より安く買える可能性がある代わりに、返品・保証が弱く、自分の判断がすべて」という点は共通する。",
+   "claims": [
+    {
+     "text": "美術品の競売では、落札者は落札価格（ハンマープライス）に落札手数料を加えて支払う。毎日オークションの規約では落札手数料はハンマープライスの16.5%と定められている（例：100万円の落札なら支払額は116万5,000円。2026年11月確認）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-mainichi-terms",
+      "k2-mainichi-guide"
+     ]
+    },
+    {
+     "text": "競売では、カタログの記載は出品物の状態を完全に保証するものではなく、参加者は下見会で実物を自ら調査し、自己の責任と判断で入札することが規約で求められる。落札後にカタログとの差異を理由とする契約の解消には応じないと明記する会社がある（毎日オークション規約）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-mainichi-terms"
+     ]
+    },
+    {
+     "text": "競売への参加は登録制で、競りに参加できるのは登録した参加者（またはその代理人）に限られる。会場に行けない場合は、事前に上限額を預ける委託入札（書面入札）や電話・ライブ配信での入札を受け付ける会社が多い（毎日オークション規約・案内）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-mainichi-terms"
+     ]
+    },
+    {
+     "text": "ネットオークションのYahoo!オークションでは、買う側（入札・落札）の利用料は0円で、手数料は出品者が負担し、落札システム利用料は落札金額の10%（税込）と定められている（2024年6月の改定以降、公式料金表）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-yahoo-fee"
+     ]
+    },
+    {
+     "text": "ネットオークションの出品者が特定商取引法上の「販売業者」に当たるかどうかは、営利の意思と反復継続性で客観的に判断され、個人の不用品売却と受け取れる出品には同法の表示義務などが及ばない場合がある（消費者庁 特定商取引法ガイド）。買い手の保護の厚みは出品者の属性で変わる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-caa-mailorder"
+     ]
+    },
+    {
+     "text": "入札で価格が決まるため、人気の作家ものは店舗の定価を上回ることもあれば、出品が少ない時期には相場より安く落ちることもある。落札価格の記録は次の相場の目安になるため、過去の落札結果を調べることが買い手の基本動作になる。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "競売では、入札前に「ハンマープライス+落札手数料+消費税」の総額で上限を決め、下見会で傷・直し・箱の有無を実物で確認する。ネットオークションでは、出品者の評価と出品文の特定商取引法表示（事業者かどうか）を確認し、写真だけで判断せず寸法・状態の説明文を読む。",
+    "sources": [
+     "k2-mainichi-terms",
+     "k2-yahoo-fee"
+    ]
+   },
+   "relations": [
+    "buy/chuko",
+    "buy/kantei",
+    "buy/shingan",
+    "buy/ec"
+   ],
+   "unknowns": [
+    "美術品オークション各社の落札手数料率は会社・価格帯で異なり（スライド制もある）、横断比較できる公式の一覧は確認できなかった。",
+    "陶磁器に限った国内オークションの年間落札額などの市場規模統計は未確認。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/ec",
+   "names": {
+    "ja": "EC・オンラインで買う",
+    "reading": "おんらいん",
+    "aliases": [
+     "ネット通販",
+     "オンラインショップ",
+     "通販",
+     "ネットショップ",
+     "オンライン陶器市"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "窯元・ギャラリー・器のセレクトショップなどのネットショップで買う買い方。産地に行かずに全国の器を比べられ、在庫検索や再入荷通知などデジタルの利便性がある一方、器の色・質感・重さ・サイズ感は写真と説明文から判断するしかない。法律面では通信販売として特定商取引法の対象で、クーリング・オフは適用されず、返品は店が表示した条件（返品特約）に従うのが原則である。",
+   "claims": [
+    {
+     "text": "通信販売にはクーリング・オフ制度の適用がない。返品できるかどうかは、事業者が広告やサイトに表示した返品条件（返品特約）に従う（国民生活センターの消費者向け解説、2024年公表）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-kokusen-coolingoff"
+     ]
+    },
+    {
+     "text": "返品特約の表示がない場合は例外で、商品の引渡しを受けた日から8日以内であれば、消費者が送料を負担して契約の申込みの撤回・解除（返品）ができる（特定商取引法第15条の3、消費者庁 特定商取引法ガイド）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-caa-mailorder"
+     ]
+    },
+    {
+     "text": "特定商取引法は通信販売の広告に、販売価格と送料、代金の支払時期・方法、商品の引渡時期、返品特約の内容、事業者の氏名・住所・電話番号などの表示を義務づけている（法第11条）。表示がそろっているか自体が、店の信頼性を見分ける材料になる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-caa-mailorder"
+     ]
+    },
+    {
+     "text": "東京都消費生活総合センターは、インターネット通販の注意点として、申込み前に事業者の氏名・住所・電話番号、支払時期と方法、引渡し時期などの表示を確認し、契約内容や解約方法が確認できない場合は申込みを見合わせるよう案内している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-tokyo-ec-faq"
+     ]
+    },
+    {
+     "text": "手作りの器は一点ごとに色・形・釉の流れが異なるため、ECでは「掲載写真の個体が届く」形式と「同種の中から選ばれて届く」形式があり、後者では写真と実物の差が生じうる。個体差を理由とする返品の可否は店の表示次第である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "器は割れ物であり、配送中の破損リスクがある。破損時の交換・返金や、梱包の仕様は店ごとに定めが違うため、購入前に「破損時の対応」を確認しておく必要がある。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    },
+    {
+     "text": "色味は撮影時の光源とモニタの設定で実物とずれて見えることがあり、白磁の白さや志野の緋色のような微妙な色は写真だけでは判断しにくい。寸法と重さは数値で表示されるため、実物感のずれを減らすには数値表示を確認するのが確実である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "注文前に、特定商取引法の表示ページで事業者の氏名・住所・電話番号と返品条件（返品の可否・期間・送料負担）を確認する。手作りの器では、写真の個体が届くのかどうか、寸法・重さの数値、破損時の対応の3点を商品ページで確かめてから注文すると、届いてからの食い違いが減る。",
+    "sources": [
+     "k2-caa-mailorder",
+     "k2-tokyo-ec-faq"
+    ]
+   },
+   "relations": [
+    "buy/henpin",
+    "buy/okurukata",
+    "buy/auction",
+    "basics/price-factors"
+   ],
+   "unknowns": [
+    "陶器・器に限ったEC市場規模や、返品率などの統計は確認できなかった。",
+    "大手モール（楽天市場・Amazon等）と作家直販ECで返品条件がどう違うかは、モール側の規約改定が頻繁なため本レコードでは扱っていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/sanchi",
+   "names": {
+    "ja": "産地を訪ねて買う（陶器市）",
+    "reading": "とうきいち",
+    "aliases": [
+     "陶器市",
+     "陶炎祭",
+     "ひまつり",
+     "窯元まつり",
+     "陶器まつり"
+    ]
+   },
+   "name_level": "販売形態",
+   "category": "買う場所",
+   "summary": "産地で開かれる陶器市・陶器まつりの期間に現地を訪ね、窯元や作家のテント・店舗から直接買う買い方。益子陶器市のように春秋合わせて約60万人が訪れる大規模なものから、地域の窯元まつりまで規模はさまざま。通常より安い価格で売られることが多く、作り手本人と話しながら選べるのが特徴だが、会場は広く混雑し、目当ての品は早い時間になくなる。産地ではない都市に全国の窯元が集まる巡回型の「全国陶器市」とは成り立ちが異なる。",
+   "claims": [
+    {
+     "text": "益子陶器市は益子町で春（ゴールデンウィーク）と秋（11月3日前後）の年2回開かれ、販売店約50店舗に加えて約800のテントが並ぶ。来場者は春に約30万人、秋に約20万人と益子町が公表しており、主催者（益子陶器市実行委員会）は春秋合わせて約60万人と案内している。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-mashiko-town",
+      "k2-mashiko-about"
+     ]
+    },
+    {
+     "text": "益子陶器市では、日用雑器から壺・花器などの美術品まで「通常の価格より安い価格で販売される」と益子町が公式に案内している。陶器市の値頃感は、窯元・作家からの直接販売で中間マージンが乗らないことによる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-mashiko-town"
+     ]
+    },
+    {
+     "text": "笠間の陶炎祭（ひまつり）はゴールデンウィークに笠間芸術の森公園で開かれ、200を超える窯元・作家・販売店が出店する。第45回（2026年）は来場者数が約8万人にのぼったと主催者が報告しており、入場料は1日500円である。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-himatsuri-about",
+      "k2-himatsuri-top",
+      "k2-kasama-city"
+     ]
+    },
+    {
+     "text": "陶器市では作り手本人が店頭に立つことが多く、素材・焼き方・使い方を直接聞きながら、手に取った重さや口当たりを自分で確かめて買える。笠間市は公式の楽しみ方として、購入時に出店者の名刺か陶歴（陶歴書）をもらうよう案内しており、不備があったときの交換や、作り手の特定に役立つとしている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-kasama-city",
+      "k2-mashiko-town"
+     ]
+    },
+    {
+     "text": "大規模な陶器市は会場周辺の道路と駐車場が激しく混雑するため、主催者・自治体は公共交通機関や臨時駐車場からのシャトルバスの利用を案内している。会場が広いため、出店者マップで目当ての作家の場所を事前に絞ることが公式の作法として勧められている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-kasama-city",
+      "k2-mashiko-town"
+     ]
+    },
+    {
+     "text": "産地開催型の陶器市に対し、全国の有名産地・窯元の器を都市部の公園などに集めて巡回する「全国大陶器市」のような形式もあり、こちらは産地へ行かずに複数産地を比べられる代わりに、その土地の窯元を訪ねる体験は伴わない。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k2-daitoukiichi"
+     ]
+    },
+    {
+     "text": "陶器市の出店は窯元・作家本人だけでなく産地の販売店も混ざり、価格の付け方（定価販売か、期間限定の割引か）は出店者ごとに異なる。同じ産地の同じような品でも、テントごとに価格と品ぞろえが違う前提で見て回る場である。",
+     "level": "E5",
+     "status": "established",
+     "sources": []
+    }
+   ],
+   "practice": {
+    "text": "事前に公式サイトで出店者一覧と会場マップを確認し、目当ての作家を絞ってから行く。人気作家のテントは開場直後に品薄になるため初日の朝を狙い、支払いは現金が基本の出店も多いので小額紙幣を用意する。買った器は名刺か陶歴書を一緒にもらい、重い物は車までの運搬か宅配の手配を会場で確認する。",
+    "sources": [
+     "k2-kasama-city",
+     "k2-mashiko-about"
+    ]
+   },
+   "relations": [
+    "buy/chokuhan",
+    "ware/mashiko",
+    "ware/kasama",
+    "buy/kakaku"
+   ],
+   "unknowns": [
+    "陶器市の来場者数は主催者発表の推計値であり、回ごとの公表方法（延べ人数か実人数か）は統一されていない。",
+    "全国の陶器市・陶器まつりの総数と規模の一覧は、観光協会等の横断資料では確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/kakaku",
+   "names": {
+    "ja": "買い手から見た価格の仕組み",
+    "reading": "かいてからみたかかくのしくみ",
+    "aliases": [
+     "なぜ店によって値段が違う",
+     "直販とデパートの価格差",
+     "上代と下代"
+    ]
+   },
+   "name_level": "仕組み",
+   "category": "価格と価値",
+   "summary": "同じ産地の器でも売り場で値段が違うのは、窯元から産地問屋、消費地問屋、小売へと流通段階を経るごとに価格が設定されるためである。直販、ギャラリーの委託販売、百貨店など、売り方ごとの価格の決まり方を、公表資料で裏付けられる範囲で整理する。",
+   "claims": [
+    {
+     "text": "産地の陶磁器は、窯元から産地問屋、消費地問屋を経て百貨店・専門店などの小売に届く多段階の流通が基本形で、段階ごとに取引価格が設定されるため、窯元の出荷価格と店頭価格は一致しない。美濃焼や波佐見焼の産地研究では、この流れが今も流通の太い幹として描かれている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k3-meiji-hakusan",
+      "k3-nihon-u-mino",
+      "k3-ohtani-report"
+     ]
+    },
+    {
+     "text": "窯元直営店・自社通販・陶器市などの直接販売は中間の流通段階を省く売り方で、産地によっては陶器市が窯元の最大の販路になる。丹波焼では陶器まつりが第1の販路と答えた窯元が71%に上った（2012年の調査）。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k3-chuo-matsuri",
+      "k3-jfc-souken"
+     ]
+    },
+    {
+     "text": "直販だから必ず安いとは限らない。波佐見焼の白山陶器のように最終消費者の手に渡る価格を強く意識して価格を設定する窯元があり、価格は流通経費の積み上げだけでなく、価格競争を避ける商品設計とも一体で決められている。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k3-meiji-hakusan"
+     ]
+    },
+    {
+     "text": "作家作品をギャラリーに委託して売る場合、販売価格からギャラリーの販売手数料が差し引かれる。規約を公表している小規模ギャラリーでは手数料30%の例が複数あり（ぎゃらりぃ花うさぎ、MORGEN cafe and gallery +、アートギャラリー百継）、40%の例もある（Gallery-01、ギャラリー来舎 梅猫庵）。いずれも2026年11月時点で公表されていた条件である。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-hanausagi",
+      "k3-morgen",
+      "k3-hyakkei",
+      "k3-gallery01",
+      "k3-gallerykiya"
+     ]
+    },
+    {
+     "text": "委託販売では販売手数料のほかに、契約料や展示の基本料を作家が負担する形もある。公表例では、2ヶ月の契約につき3,000円の契約料（ぎゃらりぃ花うさぎ）、条件に応じて月2,200円の委託基本料（MORGEN cafe and gallery +）などがある（2026年11月時点）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-hanausagi",
+      "k3-morgen"
+     ]
+    },
+    {
+     "text": "店頭価格が窯元の価格より高くなる分には、流通段階のマージンに加えて売場の経費や販売促進の負担も織り込まれるため、同じ器でも売り場によって価格が異なるのは構造的なことであると考えられる。",
+     "level": "E2",
+     "status": "inferred",
+     "sources": [
+      "k3-jfc-souken",
+      "k3-ohtani-report"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "価格を比べるときは、作り手の取り分そのものではなく「どの流通段階を通った価格か」を見る。直販や陶器市は段階が少なく、百貨店・専門店の価格は段階と売場の経費を含む。作家ものの個展価格にも、販売価格から差し引かれるギャラリーの手数料分が含まれている。",
+    "sources": [
+     "k3-meiji-hakusan",
+     "k3-hanausagi"
+    ]
+   },
+   "relations": [
+    "basics/price-factors",
+    "basics/handmade-price",
+    "basics/mass-production",
+    "buy/chokuhan",
+    "buy/gallery",
+    "buy/department",
+    "buy/sanchi"
+   ],
+   "unknowns": [
+    "陶芸専門ギャラリー（柿傳、黒田陶苑など）の個展における手数料率や作家との分配条件は公表されておらず、確認できなかった。",
+    "百貨店の美術画廊・陶磁器売場の掛け率や消化仕入れの条件は、公表資料では確認できなかった。",
+    "窯元の出荷価格（下代）と小売価格（上代）の比率についての公表統計は確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/chuko",
+   "names": {
+    "ja": "中古での価値",
+    "reading": "ちゅうこでのかち",
+    "aliases": [
+     "中古相場",
+     "買取価格",
+     "売るといくらになる",
+     "二次流通"
+    ]
+   },
+   "name_level": "流通",
+   "category": "価格と価値",
+   "summary": "作家ものの器を中古で売るとき・買うときの価値の決まり方。作者と付属品と状態が査定の軸になり、買取とオークションでは手数料の分だけ手取りと支払額が変わる。その仕組みと、公開されている手数料や買取相場の観察材料を記録する。",
+   "claims": [
+    {
+     "text": "中古の査定で最も大きく効くのは作者が誰かであり、人間国宝（重要無形文化財保持者）や伝統工芸士といった公的な認定を受けた作家の作品は、評価の対象になりやすい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-urukatsu"
+     ]
+    },
+    {
+     "text": "共箱・栞・共布などの付属品の有無は査定額を左右する。人間国宝級の作家では箱の作りの丈夫さ自体が作家の格を示す手がかりとして見られ、付属品をなくさないことが勧められている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-urukatsu",
+      "k3-kokouya"
+     ]
+    },
+    {
+     "text": "同じ作家の作品でも、器種・大きさ・出来・保存状態によって評価は大きく変わる。保存状態が悪いもの、欠けやひび、直しのあるものは、著名な作家の作品でも査定に大きく響く。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-hongou",
+      "k3-kokouya"
+     ]
+    },
+    {
+     "text": "オークションで売る場合、売り手の受け取りは落札価格（ハンマープライス）から委託手数料などを差し引いた額になる。公表例では販売委託手数料が落札価格の11%（Shinwa Auction、税込）、落札価格100万円まで15%・100万円を超えた部分は10%でカタログ掲載料5,000〜30,000円が別途かかる例（iART）などがある（2026年11月時点）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-shinwa-sell",
+      "k3-iart-selling"
+     ]
+    },
+    {
+     "text": "オークションで買う場合、買い手は落札価格に落札手数料を上乗せして支払う。毎日オークションの公表では落札手数料はハンマープライスの16.5%で、落札価格が100万円なら支払総額は116万5,000円になる（2026年11月時点）。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k2-mainichi-guide"
+     ]
+    },
+    {
+     "text": "買取業者に売る場合はその場で現金化できる代わりに、価格は業者が再販する際のマージンを見込んで決まるため、オークションの落札価格とは水準が異なる。大手の買取業者は作家名と作品名による買取相場の例を公開していることがあり、バイセルの公開例では十三代酒井田柿右衛門の花瓶に15万円の買取相場が示されている。ただし一社の参考例であり、実際の査定額を保証するものではない。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-buysell",
+      "k3-urukatsu"
+     ]
+    },
+    {
+     "text": "買取の対象として値が付きやすいのは作家物、ブランド洋食器、骨董の3系統であり、それ以外の日常使いの食器は、ブランド品などを除き中古価格が付きにくい。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-urukatsu"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "手放す前に、作者の確認（高台の銘や陶印、箱書き）と付属品の取りそろえをしておくと査定が進めやすい。即金性を取るなら買取業者、時間と手間をかけても高値を狙うならオークションという違いがあり、どちらでも手数料分は差し引かれる。",
+    "sources": [
+     "k3-urukatsu",
+     "k3-shinwa-sell"
+    ]
+   },
+   "relations": [
+    "buy/auction",
+    "buy/tebanasu",
+    "buy/hakogaki",
+    "buy/kantei",
+    "buy/collection"
+   ],
+   "unknowns": [
+    "中古価格が新品価格や定価の何割になるかという、一般化できる比率は公表資料では確認できなかった。",
+    "フリマアプリなど個人間取引における作家もの陶器の成約価格の統計は確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/ninki",
+   "names": {
+    "ja": "人気作家・人間国宝の作品",
+    "reading": "にんきさっか・にんげんこくほうのさくひん",
+    "aliases": [
+     "人間国宝の値段",
+     "抽選販売",
+     "初日完売",
+     "買えない作家の器"
+    ]
+   },
+   "name_level": "現象",
+   "category": "価格と価値",
+   "summary": "人気作家や人間国宝の作品は、個展で抽選販売や購入チケット制になることがあり、価格は一次市場（個展・画廊）と二次市場（オークション・買取）で決まり方が異なる。画廊の告知や業者の買取相場など、公表されている情報から観察できる実態を整理する。",
+   "claims": [
+    {
+     "text": "人気作家の個展では、購入希望の集中や混乱を避けるため、全作品を抽選で販売する方法が採られることがある。名古屋のギャラリー北岡技芳堂は、宮﨑優展（2023年）で応募締切と抽選日時を告知して全作品を抽選販売とし、下重ななみ展でも同様の方式を採った。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-gihodo"
+     ]
+    },
+    {
+     "text": "同じギャラリーの白亜器陶展（2023年）では、観覧のみのプレビュー日、購入チケットが必要な販売日、その後のフリー入場日を分けており、初日に人が集中しないよう販売方法を設計する例がある。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-gihodo"
+     ]
+    },
+    {
+     "text": "抽選やチケット制の場合でも、価格は作家・画廊があらかじめ定めた定価であり、競りで値が上がる仕組みではない。買えるかどうかは価格競争ではなく、購入機会の配分の問題になる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k3-gihodo"
+     ]
+    },
+    {
+     "text": "人間国宝やメディアで取り上げられる人気作家の作品は、1点数十万円から数百万円以上で取引されることがある一方、まだ無名の若手作家の作品は数千円から数万円程度であり、価格帯の開きが大きいことが業者の解説で示されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-masuken"
+     ]
+    },
+    {
+     "text": "中古市場でも人間国宝級の作家は高額買取の対象として名が挙げられ、業者による買取相場の公開例がある。バイセルがコラムで公開した例では、十三代酒井田柿右衛門の花瓶に15万円、加藤卓男の鉢に18万円、九代大樋長左衛門の茶碗に16万円の買取相場が示されている（2021年公開、一社の参考価格であり、買取額を保証するものではない）。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-buysell"
+     ]
+    },
+    {
+     "text": "業者が作家の格付けを確認する材料として、美術年鑑に掲載される作家ごとの基準評価額が使われてきた。ただし年鑑に載る最高額は実際の買取評価額とは異なり、あくまで作家のランクを確認する目安とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-kokouya"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "人気作家の新作を買いたい場合は、個展の告知で販売方法（先着順・抽選・予約制・チケット制）を先に確認する。価格の見当は、個展の定価だけでなく、オークションの落札結果や業者の買取相場のような二次市場の公開情報と見比べると、一次価格と中古価格の違いが見えてくる。",
+    "sources": [
+     "k3-gihodo",
+     "k3-buysell"
+    ]
+   },
+   "relations": [
+    "buy/gallery",
+    "buy/auction",
+    "buy/mikata",
+    "buy/kakaku"
+   ],
+   "unknowns": [
+    "人間国宝の認定の前後で作品価格がどう変化したかを示す定量的な公表データは確認できなかった。",
+    "百貨店や有名画廊の個展の価格表は一般に公開されず、一次価格の観察は展覧会告知や二次市場の情報に限られる。",
+    "「初日に完売した」という情報は画廊やメディアの告知に基づくもので、販売点数や金額の裏付けのある統計は確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/kizu",
+   "names": {
+    "ja": "傷・直しのある器の価値",
+    "reading": "きず・なおしのあるうつわのかち",
+    "aliases": [
+     "欠けた器の価値",
+     "金継ぎ済みの値段",
+     "窯傷は傷か",
+     "ニュウとホツ"
+    ]
+   },
+   "name_level": "状態",
+   "category": "価格と価値",
+   "summary": "焼成の過程で生じた窯傷は骨董の取り扱いでは「傷」として扱われない一方、使用で生じたニュウやホツは評価に響く。骨董・買取の実務で使われる状態用語の区別と、直しのある器の評価の分かれ方を記録する。",
+   "claims": [
+    {
+     "text": "窯傷（窯疵）は、成形や焼成の過程で窯の中で生じた先天的な疵の総称で、骨董の取り扱いでは傷物としては扱われず、器の個性（景色）とされるのが基本である。貫入、窯ワレ、釉抜けなどがこれに含まれる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-origen",
+      "k3-sanka"
+     ]
+    },
+    {
+     "text": "貫入は釉薬の表面だけに現れる微細なひび割れで、窯疵の一種として基本的に傷とはされない。一方、ニュウは釉薬を越えて胎土まで通ったヒビで、裏表の両方から確認でき、広がったり水が漏れたりする恐れがあるため、瑕疵として評価に影響する。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-origen"
+     ]
+    },
+    {
+     "text": "ホツは、使用や衝撃によって後から生じた数ミリ程度の小さな欠けで、口縁や高台に多い。小さいホツは比較的軽微とされるが、飲み口にあたる口縁のホツは実用面・衛生面からも影響が大きく、位置と大きさによって評価が変わる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-origen",
+      "k3-treasure"
+     ]
+    },
+    {
+     "text": "窯傷か使用傷か迷う場合の実務的な見分け方として、欠けた部分の上に釉薬がかかっていれば、焼成の時点ですでに生じていた窯傷だという判別が示されている。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-sanka"
+     ]
+    },
+    {
+     "text": "作家物の査定では欠け・ひび・直しは大きく響くとされ、買取業者の案内では「修復に2万円かけても買取額は5,000円ということもある」と示されている。売る前に素人判断で直してしまうことは勧められておらず、状態はそのままにして査定に出すのが無難とされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-hongou"
+     ]
+    },
+    {
+     "text": "直し（金継ぎ・銀継ぎ・共直し）のある品の評価は一様ではなく、直しの質や品物の時代によって分かれる。時代のある茶碗や古陶磁では直しがあっても評価が残ることがある一方、現代の作家物では傷や直しの影響が大きいとされる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k3-treasure",
+      "k3-gracetrade"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "商品説明や査定の場では、窯傷と貫入は「傷」ではなく状態を表す用語として区別される。買う側も、窯傷・貫入とニュウ・ホツの区別を知っておくと説明文が読み解ける。使う器として買う場合は、貫入は基本的に問題ないが、ニュウのある器は水漏れとヒビの広がりに注意が要る。",
+    "sources": [
+     "k3-origen",
+     "k3-treasure"
+    ]
+   },
+   "relations": [
+    "buy/mikata",
+    "tech/kintsugi",
+    "basics/chip-crack",
+    "buy/shuri"
+   ],
+   "unknowns": [
+    "傷の程度に応じて評価が何割下がるかという、公表された減額基準は確認できなかった（業者や鑑定者ごとの判断になる）。",
+    "金継ぎを施した現代作家物の再販価格への影響を示す実測データは確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/kosho",
+   "names": {
+    "ja": "価格交渉の可否",
+    "reading": "かかくこうしょうのかひ",
+    "aliases": [
+     "値切れるか",
+     "値引き交渉",
+     "まけてくれるか"
+    ]
+   },
+   "name_level": "慣行",
+   "category": "価格と価値",
+   "summary": "値引き交渉ができるかどうかは、買う場所で大きく違う。骨董市・蚤の市、作家本人が売る手づくり市・陶器市、百貨店・小売店という場ごとの慣行の違いを、案内類の見解が分かれる点も含めて記録する。",
+   "claims": [
+    {
+     "text": "百貨店や通常の小売店では、表示価格（定価）で買うことが前提になっており、値引き交渉は行われないのが一般的である。交渉の余地があるのは、定価販売を前提としない市のような場である。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k3-japanflow"
+     ]
+    },
+    {
+     "text": "骨董市で値引き交渉ができるかどうかは案内類でも見解が分かれる。「骨董市はほぼ定価で、まとめて買うときに端数を引いてもらえることがある程度」とする案内がある一方、値札価格は最終価格とは限らず、丁寧に尋ねれば応じてもらえることが多いとする案内もあり、市や出店者（業者か個人か）によって異なる。",
+     "level": "E5",
+     "status": "contested",
+     "sources": [
+      "k3-eventstokyo",
+      "k3-crex",
+      "k3-remusubi"
+     ]
+    },
+    {
+     "text": "交渉が成立しやすい形として案内類で共通して挙がるのは、複数点をまとめて買う際の合計額の調整で、希望額の目安は1〜2割程度とされる。法外な値引きの要求や、品物の背景を聞かずに開口一番値切る態度はマナー違反とされる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k3-crex"
+     ]
+    },
+    {
+     "text": "作家本人が出店する手づくり市・陶器市・クラフト市では、作り手が決めた価格に敬意を払い、値引き交渉はしないのがマナーとされる。骨董市・蚤の市とは場の性格が異なる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k3-crex",
+      "k3-eventstokyo"
+     ]
+    },
+    {
+     "text": "交渉する場合の進め方として、購入の意思を示したうえで具体的な金額を丁寧に尋ね、断られたら引き下がることが、案内類の共通した助言になっている。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k3-crex",
+      "k3-remusubi"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "交渉できるかどうかは、場所が「市」か「作家直販の場」か「店舗」かで見分ける。骨董市で交渉する場合も、購入の意思を示したうえで、まとめ買いや端数の範囲で丁寧に尋ねる形が、案内類の共通した勧め方である。",
+    "sources": [
+     "k3-crex",
+     "k3-eventstokyo"
+    ]
+   },
+   "relations": [
+    "buy/kottouichi",
+    "buy/chokuhan",
+    "buy/department",
+    "buy/gallery",
+    "buy/sanchi"
+   ],
+   "unknowns": [
+    "ギャラリーや画廊で作家作品を買う際に値引き交渉ができるかどうかを、公式に案内している例は確認できなかった。",
+    "産地の陶器市で窯元が値引きに応じるかどうかの相場観は、公表資料では確認できなかった。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/noshi",
+   "names": {
+    "ja": "のしと包装",
+    "reading": "のしとほうそう",
+    "aliases": [
+     "のし紙",
+     "熨斗",
+     "水引",
+     "内のし",
+     "外のし",
+     "表書き",
+     "贈答の包装",
+     "かけ紙"
+    ]
+   },
+   "name_level": "概念",
+   "category": "贈る応用",
+   "summary": "器を正式に贈るときの、のし紙・水引・表書きと包装の作法。水引の結び方（蝶結びと結び切り）で意味が変わり、手渡しか配送かで内のし・外のしを使い分ける。マナーには地域や場面による幅があり、絶対の正解としてではなく標準形として記録する。",
+   "claims": [
+    {
+     "text": "のし紙とは、のし（のしあわびの意匠）と水引が印刷された贈答用のかけ紙を指し、慶事に用いる。弔事やお見舞いでは、のしのない水引だけのかけ紙を使うのが基本とされる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-mistore-noshi"
+     ]
+    },
+    {
+     "text": "水引の結び方には、何度あってもよい慶事（出産祝い、お中元、お歳暮など）に使う蝶結び（花結び）と、一度きりがよい事柄（結婚祝い、快気祝いなど）に使う結び切りがあり、用途によって使い分ける。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-mistore-noshi",
+      "k4-kataoka-noshi"
+     ]
+    },
+    {
+     "text": "水引の本数は、慶事では3本・5本・7本など奇数が一般的とされるが、贈る相手や地域の慣習によって選び方が変わる場合がある。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-mistore-noshi"
+     ]
+    },
+    {
+     "text": "内のしは箱にのし紙をかけてから包装紙で包む形、外のしは包装紙の上からのし紙をかける形である。手渡しでは外のしが礼儀とされ、配送では伝票でのしの汚れや剥がれを避けるため内のしが一般的とされる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-mistore-noshi"
+     ]
+    },
+    {
+     "text": "表書きは用途に応じた言葉を上段中央に書き、贈り主の氏名は下段中央に揃えて書く。筆記具は毛筆や筆ペンが望ましく、目上の人へはフルネームで記名するのが丁寧とされる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-mistore-noshi"
+     ]
+    },
+    {
+     "text": "のしの起源は、薄く伸ばして干したあわびを縁起物として贈り物に添えたことにあり、昆布や紙の代用を経て、現在は印刷された意匠ののし紙が一般的になっている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-kataoka-noshi",
+      "k4-kamisommelier"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "陶器は割れ物なので、のし以前に箱の中で器が動かないよう固定し、共箱や化粧箱のあるものはそのまま贈るのが無難である。購入店では注文時に内のし・外のしの別、表書き、記名の有無を指定できることが多い。配送で贈る場合は内のしにし、梱包は割れ物の手順に沿う（buy/okurukata参照）。",
+    "sources": [
+     "k4-mistore-noshi",
+     "k4-yamato-packing"
+    ]
+   },
+   "relations": [
+    "basics/gift-basics",
+    "basics/formal-gift",
+    "basics/gift-taboo",
+    "basics/wedding-gift",
+    "buy/houjin",
+    "buy/okurukata"
+   ],
+   "unknowns": [
+    "水引の色や本数に関する地域差（関西の慣習など）の全体像は、公的な統一資料では確認できていない。",
+    "風呂敷包みとの使い分けについて、業界標準と呼べる資料は確認できていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/okurukata",
+   "names": {
+    "ja": "器の梱包と送り方",
+    "reading": "うつわのこんぽうとおくりかた",
+    "aliases": [
+     "割れ物の梱包",
+     "食器の送り方",
+     "陶器の発送",
+     "われもの注意",
+     "割れ物 配送"
+    ]
+   },
+   "name_level": "概念",
+   "category": "贈る応用",
+   "summary": "陶器を宅配便で送るときの梱包手順と、破損したときの補償の基礎。配送各社は器を1点ずつ包んで立てて詰める方法を案内し、補償には1個30万円の限度がある。補償は上限付きの制度であり、割らない梱包が前提になる。",
+   "claims": [
+    {
+     "text": "ヤマト運輸の公式ガイドでは、食器・陶器は1点ずつ緩衝材（新聞紙やエアーキャップなど）で包み、蓋のあるものは本体と蓋を別々に包むと案内されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yamato-packing"
+     ]
+    },
+    {
+     "text": "箱詰めでは、底に緩衝材を敷き、食器を寝かせて重ねず「立てて」並べる。寝かせて重ねると下の食器が圧迫されて破損の原因になるとされる。詰め終わったら箱を軽く揺すって中身が動かないか確認し、動く場合は隙間に緩衝材を詰める。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yamato-packing"
+     ]
+    },
+    {
+     "text": "宅急便の責任限度額は荷物1個につき30万円（税込）までで、30万円を超える品物は宅急便では預かってもらえない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yamato-packing",
+      "k4-yamato-faq-comp"
+     ]
+    },
+    {
+     "text": "ゆうパックには最高30万円までの損害賠償制度があり、30万円を超える荷物の補償には別途セキュリティサービスの利用が案内されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yupack"
+     ]
+    },
+    {
+     "text": "佐川急便の輸送用梱包ガイドラインでは、内容品に適した梱包がされていない場合、宅配便の引き受けを断る場合があると明記されている。破損時の扱いは、まず梱包が適切だったかが前提になる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-sagawa-packing"
+     ]
+    },
+    {
+     "text": "ゆうパックには「こわれもの」用などの取扱注意シールが用意されている。シールは取り扱いへの注意喚起であり、破損を防ぐのは梱包そのもので、貼ることが補償を約束するものではない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yupack-guide"
+     ]
+    },
+    {
+     "text": "作家ものの高額な器など、評価額が30万円を超える品物を送る場合は、通常の宅配便の補償では足りないため、専門の美術品輸送や保険の付いた手段を別途検討する必要がある。",
+     "level": "E3",
+     "status": "inferred",
+     "sources": [
+      "k4-yamato-packing",
+      "k4-yupack"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "手順は、1点ずつ緩衝材で包む、箱の底に緩衝材を敷く、立てて詰める、隙間を埋めて揺すって確認する、「こわれもの」の表示をする、の順が基本。発送前に器と梱包の状態を写真に残しておくと、万一破損したときに販売店や配送会社との確認が進めやすい。",
+    "sources": [
+     "k4-yamato-packing",
+     "k4-yupack-guide"
+    ]
+   },
+   "relations": [
+    "buy/noshi",
+    "buy/shuri",
+    "buy/tebanasu",
+    "basics/chip-crack"
+   ],
+   "unknowns": [
+    "内箱と外箱の間に緩衝材を入れる二重箱は実務で広く行われるが、各社の公式ガイドで必須手順として明記されているかは確認できていない。",
+    "美術品専門輸送の料金相場は、業者・距離・評価額で幅が大きく未整理。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/houjin",
+   "names": {
+    "ja": "法人ギフト・記念品",
+    "reading": "ほうじんぎふと・きねんひん",
+    "aliases": [
+     "記念品",
+     "名入れ",
+     "ノベルティ",
+     "周年記念品",
+     "ロット注文",
+     "コーポレートギフト",
+     "引き出物 法人"
+    ]
+   },
+   "name_level": "概念",
+   "category": "贈る応用",
+   "summary": "企業や団体が周年記念、竣工記念、表彰などで陶磁器を記念品にする場合の実務。名入れの方法（転写・刻印・印刷）、最小ロット、校正確認の流れなど、個人の贈答とは異なる発注の論点を記録する。",
+   "claims": [
+    {
+     "text": "陶磁器への名入れの代表的な方法は転写で、転写紙に印刷した文字や柄を素地に貼り付けて焼成し、顔料だけを残す。ロゴや店名だけでなく柄そのものも製作でき、名入れとしては比較的安価な方法とされる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-eguchi-naire"
+     ]
+    },
+    {
+     "text": "既製品の器への後加工として、レーザー刻印、サンドブラスト、UVプリント（フルカラー）などの方法が名入れ業者により提供されており、焼成を伴わずに名入れできる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-arttech-corp"
+     ]
+    },
+    {
+     "text": "窯元への直接注文では最小ロット（最小製作数）が設定されるのが一般的で、一例として佐賀県嬉野市の窯元では初期製作ロット20個から、破損などに備える追加製作は10個からと公開している。ロットの条件は窯元や業者ごとに異なる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-eguchi-naire"
+     ]
+    },
+    {
+     "text": "名入れ記念品の発注は、見積もり相談から入り、製作前にデザインの校正（仕上がりイメージ）を確認してから製作に進む流れが一般的である。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-arttech-corp"
+     ]
+    },
+    {
+     "text": "大手洋食器メーカーも法人向けに記念品・名入れの専用窓口を設けており、周年記念や竣工記念などの用途で陶磁器が記念品として供給されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-narumi-corp"
+     ]
+    },
+    {
+     "text": "飲食店の業務用食器やノベルティ向けには、数個程度の小ロットから名入れ食器を受け付ける業者もあり、ロットの下限は発注先によって大きく異なる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-omisega-naire"
+     ]
+    },
+    {
+     "text": "版や型を新たに作る名入れでは初期費用がかかることがあり、発注側の初期費用を抑えるために小ロット生産に対応する窯元もある。総額は本体価格だけでなく、こうした初期費用とロットの条件を含めて見積もる必要がある。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-eguchi-naire",
+      "k4-arttech-corp"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "発注側の実務として、用途・数量・納期・名入れ内容（文字、ロゴ、書体）を先に決め、校正は必ず実物大のイメージで確認する。受注生産の陶器は窯の焼成サイクルに左右されるため、記念日などの期限がある場合は逆算して早めに相談する。納品後の破損に備え、予備分を含めて発注する例もある。",
+    "sources": [
+     "k4-eguchi-naire",
+     "k4-arttech-corp"
+    ]
+   },
+   "relations": [
+    "buy/noshi",
+    "buy/okurukata",
+    "basics/formal-gift",
+    "basics/gift-basics"
+   ],
+   "unknowns": [
+    "版代・型代の金額相場は、図柄の大きさや色数、業者によって幅が大きく、統一的な公開資料は確認できていない。",
+    "受注生産の記念品の標準的な納期は、窯元や数量で異なり未整理。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/henpin",
+   "names": {
+    "ja": "返品・交換と個体差",
+    "reading": "へんぴん・こうかんとこたいさ",
+    "aliases": [
+     "返品",
+     "交換",
+     "クーリングオフ",
+     "個体差",
+     "不良品との違い",
+     "色味が違う",
+     "イメージ違い"
+    ]
+   },
+   "name_level": "概念",
+   "category": "購入後と手放す",
+   "summary": "通販で器を買ったときの返品・交換の制度と、手作り品の個体差の線引き。通信販売にクーリング・オフはなく、返品は販売事業者の表示する返品特約が基準になる。一方で貫入やピンホールなどの個体差は不良ではなく、その境目を公的資料と販売店の公式説明で記録する。",
+   "claims": [
+    {
+     "text": "通信販売にはクーリング・オフ制度の適用はなく、返品できるかどうかは、販売事業者が広告に表示する返品特約の内容による。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-caa-mailorder-case",
+      "k4-tokyo-mailorder"
+     ]
+    },
+    {
+     "text": "返品特約の表示がない場合、消費者は商品の引渡しを受けた日から8日間は、申込みの撤回または契約の解除ができる。ただし、その場合の返品にかかる送料は消費者の負担となる。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-caa-mailorder-case"
+     ]
+    },
+    {
+     "text": "広告に「返品不可」と表示されていた場合でも、商品に隠れた瑕疵（欠陥）がある場合は、その限りではないと消費者庁の特定商取引法ガイドは説明している。個別の事案でどうなるかは、ここでは判断しない。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-caa-mailorder-case"
+     ]
+    },
+    {
+     "text": "特定商取引法では、通信販売の広告に返品特約を含む契約条件を表示することが事業者に求められている。購入前に返品条件の表示を確認することが、制度の前提になっている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-caa-henpin-guideline",
+      "k4-tokyo-mailorder"
+     ]
+    },
+    {
+     "text": "手作りの陶磁器では、形のゆがみ、釉薬のムラやたれ、鉄粉（ほくろ状の黒点）、絵付けのかすれといった個体差が現れ、同じ商品でも1点ずつ風合いが異なると、販売店の公式説明でも案内されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-akomeya-kotaisa"
+     ]
+    },
+    {
+     "text": "貫入（素地と釉薬の収縮率の差で生じる釉薬表面の細かいひび状の模様）とピンホール（焼成時に素地の空気などが抜けて残る小さな穴）は陶器によく見られる現象で、使用に問題はなく不良品ではないと説明されている。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-akomeya-kotaisa"
+     ]
+    },
+    {
+     "text": "窯の場所による温度差や釉薬のかけ方により、同じ釉薬・同じ土でも色味や光沢にばらつきが出る。そのため写真と実物の色味が完全には一致しないことも、個体差の一部として扱われる。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-akomeya-kotaisa"
+     ]
+    },
+    {
+     "text": "輸送中の破損や明らかな欠けなど、個体差の範囲を超える不具合は個体差とは別問題であり、返品特約の範囲にかかわらず、まず販売店に連絡して対応を確認するのが通常の進め方である。",
+     "level": "E4",
+     "status": "inferred",
+     "sources": [
+      "k4-caa-mailorder-case",
+      "k4-akomeya-kotaisa"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "購入前に、商品ページの「個体差について」の説明と、返品条件（返品特約）の表示の両方を確認する。届いたら早めに検品し、気になる点があれば写真を撮って販売店に問い合わせる。色味の違いは照明やモニター環境でも生じるため、自然光でも確認すると判断しやすい。",
+    "sources": [
+     "k4-akomeya-kotaisa",
+     "k4-caa-mailorder-case"
+    ]
+   },
+   "relations": [
+    "buy/ec",
+    "buy/shuri",
+    "buy/collection",
+    "basics/chip-crack"
+   ],
+   "unknowns": [
+    "民法の契約不適合責任が、個体差をめぐる個別の争いにどう適用されるかは事案ごとの判断であり、ここでは扱わない。",
+    "実店舗（対面販売）での返品は法律上の義務ではなく店の規定によるが、店ごとの実態は未調査。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/shuri",
+   "names": {
+    "ja": "破損と修理の相談",
+    "reading": "はそんとしゅうりのそうだん",
+    "aliases": [
+     "器の修理",
+     "割れた器",
+     "欠けた器",
+     "金継ぎ依頼",
+     "修理相談",
+     "直し"
+    ]
+   },
+   "name_level": "概念",
+   "category": "購入後と手放す",
+   "summary": "買った器が割れた・欠けたときの相談の流れ。購入店、作り手・窯元、修理専門の工房という相談先の系統と、金継ぎ依頼の一般的な手順（写真で仮見積もり、送付、正式見積もり、修理、返送）を記録する。",
+   "claims": [
+    {
+     "text": "破損した器の相談先は、購入店、作り手や窯元、修理専門の工房の3系統があり、窯元自身が金継ぎによる器の直しを受け付けている例もある。まず購入店や作り手に相談するのが入口になることが多い。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-hirosegama"
+     ]
+    },
+    {
+     "text": "金継ぎ工房への依頼は、器のサイズや欠片の有無と写真を送って仮見積もりを受ける、器を工房へ送る、実物を見て正式な見積もりが出る、了承後に修理して返送される、という流れが複数の工房で共通している。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-amano-order",
+      "k4-kintsugi-nadeshiko"
+     ]
+    },
+    {
+     "text": "見積もりは無料としている工房が多く、欠けた陶片は捨てずに、残っているものをすべて一緒に持ち込む・送ることが案内されている。欠片が揃っているかどうかで直し方が変わるためである。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-kintsugi-nadeshiko"
+     ]
+    },
+    {
+     "text": "金継ぎは、壊れた陶磁器を漆で接着し、金粉のほか銀粉や錫粉、色漆などで仕上げる修理法の総称で、仕上げの材料や方法を選べる工房もある。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-hirosegama"
+     ]
+    },
+    {
+     "text": "金継ぎは茶道の世界を中心に受け継がれてきた修理法で、壊れた跡を隠すのではなく器の景色として生かす考え方に特徴がある。骨董としての価値や思い出のある器を、再び暮らしで使える状態に戻すために選ばれてきた。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-kintsugi-work"
+     ]
+    },
+    {
+     "text": "通販で届いた時点で割れていた場合は、修理に出す前の問題として扱いが異なり、まず販売店へ連絡するのが先である。輸送中の破損は、販売店や配送会社の補償手続きで処理されることがある。",
+     "level": "E4",
+     "status": "inferred",
+     "sources": [
+      "k4-yamato-packing",
+      "k4-caa-mailorder-case"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "割れたら、まず欠片をすべて集めて保管し、全体と破損部の写真を撮る。購入店・窯元に修理の可否を尋ね、難しければ金継ぎ工房に写真で見積もりを依頼する。工房によって期間や仕上げの選択肢が異なるため、急がない場合は複数に相談して比べることもできる。",
+    "sources": [
+     "k4-kintsugi-nadeshiko",
+     "k4-amano-order"
+    ]
+   },
+   "relations": [
+    "tech/kintsugi",
+    "buy/henpin",
+    "buy/okurukata",
+    "buy/kizu",
+    "basics/chip-crack"
+   ],
+   "unknowns": [
+    "金継ぎの料金や納期の相場は、工房と破損の状態によって幅が大きく、統一的な公開資料は確認できていない。",
+    "大手食器メーカーが自社製品の破損修理を受け付けるかどうかは各社で異なり、横断的な調査は未実施。",
+    "本漆と合成樹脂による直しで、食品に使う場合の安全性の公的な線引きは確認できていない。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/collection",
+   "names": {
+    "ja": "コレクションの記録と管理",
+    "reading": "これくしょんのきろくとかんり",
+    "aliases": [
+     "コレクション管理",
+     "購入記録",
+     "作品台帳",
+     "保管環境",
+     "所蔵管理",
+     "箱の対応付け"
+    ]
+   },
+   "name_level": "概念",
+   "category": "購入後と手放す",
+   "summary": "買い集めた器を将来にわたって同定し、活用し、手放すときにも困らないための記録と保管の方法。美術館の収蔵管理（登録番号と台帳、保存環境）の考え方を、個人のコレクション管理に応用できる形で記録する。",
+   "claims": [
+    {
+     "text": "美術館では、収蔵品1点ごとに登録番号（所蔵番号）を付けて作品と記録を結び付ける方式が標準で、所蔵番号は作品と作品データを結び付け、情報更新の差分を確認するための識別子として機能するとされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k4-ncar-register"
+     ]
+    },
+    {
+     "text": "美術館の台帳に記録される項目の例として、受入年月日、作者名、生没年、作品名、制作年、納入者（入手先）、購入価額、備考があり、作品カードには写真を貼る欄が設けられてきた。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k4-hiroshima-db"
+     ]
+    },
+    {
+     "text": "文化庁の博物館資料の目録に関する資料でも、資料番号、資料名、収集方法、取得先、収集日時といった項目で資料の情報を記録する形式が示されている。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-bunka-mokuroku"
+     ]
+    },
+    {
+     "text": "陶磁器の保存環境について、博物館の保存ガイドでは、安定した環境として温度15〜25℃、相対湿度40〜60%の範囲が示され、24時間での変動は温度4℃、湿度5%以内に抑えることが望ましいとされる。急激な変化は釉薬のひびや、修理に使った接着剤への悪影響の原因になる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k4-wa-ceramics-care"
+     ]
+    },
+    {
+     "text": "保管では、振動や衝撃のない棚や箱に置き、作品が見やすく取り出しやすい状態に保って、取り扱いの回数そのものを減らすことが予防保存の考え方とされる。",
+     "level": "E2",
+     "status": "established",
+     "sources": [
+      "k4-wa-ceramics-care"
+     ]
+    },
+    {
+     "text": "共箱や箱書き、栞などの付属品は、作品と切り離さずに対応付けて保管することが、将来の同定や、手放す際の評価の手がかりを残すことにつながる。",
+     "level": "E4",
+     "status": "inferred",
+     "sources": [
+      "k4-bunka-mokuroku",
+      "k4-hiroshima-db"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "個人の管理では、1点ごとに番号を振り、作家名・作品名・寸法、購入日、入手先、価格を記録し、全体写真と銘・高台・箱の写真を同じ記録にひも付ける。箱には作品名を書いたメモを添える（箱書きそのものに書き足さない）。記録は手放すときの査定資料にもそのまま使える。",
+    "sources": [
+     "k4-hiroshima-db",
+     "k4-ncar-register"
+    ]
+   },
+   "relations": [
+    "buy/hakogaki",
+    "buy/tebanasu",
+    "basics/box-storage",
+    "basics/storage"
+   ],
+   "unknowns": [
+    "家庭の収納環境で湿度をどの水準まで管理すべきかは、住宅事情による差が大きく、実務的な目安の統一資料は確認できていない。",
+    "高額なコレクションへの動産保険や家財保険の適用の扱いは未整理。"
+   ],
+   "updated": "2026-11-12"
+  },
+  {
+   "id": "buy/tebanasu",
+   "names": {
+    "ja": "手放すときの選択肢",
+    "reading": "てばなすときのせんたくし",
+    "aliases": [
+     "売却",
+     "買取",
+     "委託販売",
+     "オークション出品",
+     "譲渡",
+     "寄贈",
+     "遺品の器",
+     "断捨離"
+    ]
+   },
+   "name_level": "概念",
+   "category": "購入後と手放す",
+   "summary": "集めた器を手放すときの方法の違い。買取（即時・価格は業者次第）、委託販売（売れるまで所有権は自分、手数料を引いて精算）、オークション出品（価格は入札次第、手数料あり）、譲渡・寄贈。それぞれの仕組みと、手取りに影響する費用を記録する。",
+   "claims": [
+    {
+     "text": "買取は、業者が査定してその場で買い取る方式で、現金化は早い一方、価格は業者の再販を見込んで決まるため、自分で買い手を見つける方法より低くなる傾向があるとされる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k4-bande-consignment"
+     ]
+    },
+    {
+     "text": "委託販売は、品物を店や事業者に預けて代わりに売ってもらう方式で、売れるまでは所有権は委託者（持ち主）にあり、売れた金額から手数料を差し引いた額が後日精算される。手数料率は店によって大きく異なる。",
+     "level": "E5",
+     "status": "established",
+     "sources": [
+      "k4-consignment-guide"
+     ]
+    },
+    {
+     "text": "骨董専門のオークション会社に出品する方法もあり、海外のバイヤーを含む入札者が集まるため、品によっては店頭買取より高く落札されることがある一方、落札されなければ売れず、出品の手続きも必要になる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-ryugudo-auction",
+      "k4-kogirekai"
+     ]
+    },
+    {
+     "text": "古美術オークションへの出品は、申し込みをするとカタログや出品資料が送られ、それに沿って手続きを進める形が一般的で、個人間売買とは進め方が異なる。",
+     "level": "E4",
+     "status": "established",
+     "sources": [
+      "k4-kogirekai"
+     ]
+    },
+    {
+     "text": "Yahoo!オークションで出品し落札された場合、落札価格の10.0%（税込）の落札システム利用料がかかる（2026年11月時点の同社公式表示）。フリマアプリなど他の経路にもそれぞれ販売手数料があり、手取りは落札価格から手数料と送料条件を差し引いて考える必要がある。",
+     "level": "E1",
+     "status": "established",
+     "sources": [
+      "k4-yahoo-fee"
+     ]
+    },
+    {
+     "text": "中古品の買い取りを業として行うには古物営業法に基づく古物商の許可が必要で、買取の場面では本人確認や取引の記録が求められる仕組みになっている。そのため買取では身分証の提示を求められるのが通常である。",
+     "level": "E3",
+     "status": "established",
+     "sources": [
+      "k4-kobutsu-law"
+     ]
+    },
+    {
+     "text": "美術館などへの寄贈も手放す方法の一つだが、受け入れは各館の収集方針に基づく登録・受入の手続きによるもので、申し出れば必ず受け入れられるものではない。",
+     "level": "E2",
+     "status": "inferred",
+     "sources": [
+      "k4-bunka-mokuroku"
+     ]
+    }
+   ],
+   "practice": {
+    "text": "手放す前に、コレクションの記録（作家名、購入価格、入手先、共箱の有無、状態）を揃えておくと、どの方法でも査定や出品の説明が進めやすい。急ぐ場合は買取、価格を重視する場合は委託やオークションを候補にし、手数料と送料を含めた手取りで比べる。買取は複数業者に査定を依頼して比較するのが定石とされる。",
+    "sources": [
+     "k4-consignment-guide",
+     "k4-ryugudo-auction"
+    ]
+   },
+   "relations": [
+    "buy/collection",
+    "buy/auction",
+    "buy/chuko",
+    "buy/kantei",
+    "basics/box-storage"
+   ],
+   "unknowns": [
+    "作家や作品ごとの買取相場は、公開オークションの落札結果が手がかりになるが、系統だった整理は別途必要。",
+    "相続に伴う陶器の評価や税務上の扱いは専門外として、ここでは扱わない。"
+   ],
+   "updated": "2026-11-12"
+  }
+ ]
+}
