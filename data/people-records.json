@@ -28,11 +28,6 @@
    "url": "https://bunka.nii.ac.jp/index.php/heritages/detail/531961",
    "level": "E2"
   },
-  "kotobank-tomimoto": {
-   "label": "コトバンク「富本憲吉」（日本大百科全書ほか）",
-   "url": "https://kotobank.jp/word/%E5%AF%8C%E6%9C%AC%E6%86%B2%E5%90%89-19034",
-   "level": "E3"
-  },
   "mingeikan-hamada": {
    "label": "日本民藝館「濱田庄司作品」所蔵品解説",
    "url": "https://mingeikan.or.jp/collections/hamada_shoji/",
@@ -46,16 +41,6 @@
   "daj-hamada": {
    "label": "日本アーティスト事典（文化庁）「濱田庄司」",
    "url": "https://artplatform.go.jp/ja/artists/A1782",
-   "level": "E2"
-  },
-  "momat-hamada": {
-   "label": "国立工芸館 作家「濱田庄司」",
-   "url": "https://www.momat.go.jp/craft-museum/artists/aha047",
-   "level": "E2"
-  },
-  "tobunken-shimaoka": {
-   "label": "東京文化財研究所 日本美術年鑑所載物故者記事「島岡達三」",
-   "url": "https://www.tobunken.go.jp/materials/bukko/28409.html",
    "level": "E2"
   },
   "tobunken-arakawa": {
@@ -93,11 +78,6 @@
    "url": "https://www.kyoto-seika.ac.jp/news/gjh1lq0000001051.html",
    "level": "E2"
   },
-  "toyama-ishiguro": {
-   "label": "富山県水墨美術館「石黒宗麿のすべてと人間国宝の作家たち」",
-   "url": "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/exh_0100/exh_0000/exh_1506.html",
-   "level": "E2"
-  },
   "shinminato-ishiguro": {
    "label": "射水市新湊博物館 収蔵資料「石黒宗麿」",
    "url": "https://shinminato-museum.jp/docs/mune/",
@@ -133,11 +113,6 @@
    "url": "https://bunka.nii.ac.jp/heritages/detail/468496",
    "level": "E2"
   },
-  "museum-kato-hajime": {
-   "label": "「加藤土師萌展 色絵磁器を極めた人間国宝」展覧会情報（美術館連絡協議会）",
-   "url": "https://www.museum.or.jp/event/91692",
-   "level": "E3"
-  },
   "wiki-kato-hajime": {
    "label": "Wikipedia 日本語版「加藤土師萌」",
    "url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%97%A4%E5%9C%9F%E5%B8%AB%E8%90%8C",
@@ -146,11 +121,6 @@
   "tobunken-miwa": {
    "label": "東京文化財研究所 日本美術年鑑所載物故者記事「三輪休和」（山口県立美術館図録に基づく年譜）",
    "url": "https://www.tobunken.go.jp/materials/bukko/9876.html",
-   "level": "E2"
-  },
-  "momat-miwa-jusetsu": {
-   "label": "国立工芸館「人間国宝 三輪壽雪の世界」",
-   "url": "https://www.momat.go.jp/craft-museum/exhibitions/431",
    "level": "E2"
   },
   "okayama-fujiwara": {
@@ -163,19 +133,9 @@
    "url": "https://artplatform.go.jp/ja/artists/A2705",
    "level": "E2"
   },
-  "tobunken-fujiwara-yu": {
-   "label": "東京文化財研究所 日本美術年鑑所載物故者記事「藤原雄」",
-   "url": "https://www.tobunken.go.jp/materials/bukko/28236.html",
-   "level": "E2"
-  },
   "wiki-fujiwara": {
    "label": "Wikipedia 日本語版「藤原啓」",
    "url": "https://ja.wikipedia.org/wiki/%E8%97%A4%E5%8E%9F%E5%95%93",
-   "level": "E5"
-  },
-  "eishodo-lnt": {
-   "label": "栄匠堂「人間国宝（工芸技術・陶芸）」一覧",
-   "url": "https://eishodo.net/kokuhou/kougei-tougei/",
    "level": "E5"
   },
   "tobunken-nakazato": {
@@ -333,11 +293,6 @@
    "url": "https://www.momat.go.jp/craft-museum/exhibitions/557",
    "level": "E2"
   },
-  "mlit-suzuki": {
-   "label": "国土交通省 観光資源多言語解説「Suzuki Osamu (1934– )」",
-   "url": "https://www.mlit.go.jp/tagengo-db/en/R3-00646.html",
-   "level": "E2"
-  },
   "manabiaterrace-suzuki": {
    "label": "まなびあテラス（東根市公益文化施設）「鈴木藏の志野展」案内",
    "url": "https://www.manabiaterrace.jp/event/art-gallery/a-event_20240810_01/",
@@ -346,11 +301,6 @@
   "masuken-tsukamoto": {
    "label": "古美術ますけん コラム「中国古陶磁器の再現にかけた人生 塚本快示」",
    "url": "https://masuken.jp/column/ningenkokuhou9",
-   "level": "E5"
-  },
-  "tenpyodo-shimizu": {
-   "label": "銀座 天平堂「清水卯一」作家ページ",
-   "url": "https://tenpyodo.com/artists/shimizu-uichi",
    "level": "E5"
   },
   "arita-town-inoue": {
@@ -366,11 +316,6 @@
   "gllc-inoue": {
    "label": "生涯学習開発財団「日本の技」30. 陶芸 井上萬二（インタビューと略歴）",
    "url": "https://www.gllc.or.jp/llm/magazine/waza/waza-30/",
-   "level": "E3"
-  },
-  "kyogei-inoue": {
-   "label": "教育芸術社「井上萬二 Manji Inoue」資料（英語表記の確認）",
-   "url": "https://www.kyogei.co.jp/data_room/hana/pdf/bouquet08_b5.pdf",
    "level": "E3"
   },
   "tobunken-kato": {
@@ -433,19 +378,9 @@
    "url": "https://www.mlit.go.jp/tagengo-db/common/001653226.pdf",
    "level": "E2"
   },
-  "suntory-tokuda": {
-   "label": "サントリー「三代徳田八十吉 経歴」（響35年関連ページ）",
-   "url": "https://www.suntory.co.jp/whisky/tokuda/career.html",
-   "level": "E5"
-  },
   "tobunken-miura": {
    "label": "東京文化財研究所アーカイブデータベース「三浦小平二」（物故者記事）",
    "url": "https://www.tobunken.go.jp/materials/bukko/28376.html",
-   "level": "E2"
-  },
-  "sado-city-miura": {
-   "label": "佐渡市 文化財資料（三浦小平二の青磁に関する記述）",
-   "url": "https://www.city.sado.niigata.jp/uploaded/attachment/20743.pdf",
    "level": "E2"
   },
   "umakato-miura": {
@@ -518,11 +453,6 @@
    "url": "https://www.mangetsu.co.jp/yoshitaminori",
    "level": "E4"
   },
-  "daiwahouse-yoshita": {
-   "label": "大和ハウス工業 PREMIST SALON「陶芸作家 吉田美統」",
-   "url": "https://www.daiwahouse.co.jp/mansion/premistclub/premist_salon/vol24_p1/",
-   "level": "E5"
-  },
   "sado-city-mumyoi": {
    "label": "佐渡市公式サイト「国指定 重要無形文化財：無名異焼」",
    "url": "https://www.city.sado.niigata.jp/site/bunkazai/5115.html",
@@ -551,11 +481,6 @@
   "mext-bunkakoro-2025": {
    "label": "文部科学省「令和7年度 文化功労者」",
    "url": "https://www.mext.go.jp/b_menu/houdou/2025/attach/1422025_00002.htm",
-   "level": "E2"
-  },
-  "osaka-hist-waza": {
-   "label": "大阪歴史博物館ほか「日本のわざと美」展 出品目録（伊勢﨑淳「備前黒鉢」等）",
-   "url": "https://www.osakamushis.jp/news/2005/wazatobi/all_list.pdf",
    "level": "E2"
   },
   "kogei-hara": {
@@ -588,11 +513,6 @@
    "url": "https://www.cpm-gifu.jp/museum/events/event/event-9322",
    "level": "E2"
   },
-  "wiki-kato": {
-   "label": "Wikipedia 日本語版「加藤孝造」",
-   "url": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%97%A4%E5%AD%9D%E9%80%A0",
-   "level": "E5"
-  },
   "kogei-maeta": {
    "label": "日本工芸会 重要無形文化財等伝承事業「わざを伝える」人間国宝 前田昭博（2025年12月31日時点の認定情報）",
    "url": "https://www.nihonkogeikai.or.jp/waza/artist/402",
@@ -601,11 +521,6 @@
   "saga-pref-imaemon": {
    "label": "佐賀県文化財データベース「国指定（無形文化財の部）」重要無形文化財 色絵磁器・色鍋島",
    "url": "https://www.pref.saga.lg.jp/kiji0031638/index.html",
-   "level": "E2"
-  },
-  "kogei-fukushima": {
-   "label": "日本工芸会 重要無形文化財等伝承事業「わざを伝える」人間国宝 福島善三",
-   "url": "https://www.nihonkogeikai.or.jp/waza/artist/384/",
    "level": "E2"
   },
   "kunishitei-fukushima": {
@@ -652,11 +567,6 @@
    "label": "東京文化財研究所アーカイブデータベース 1984年物故者記事（楠部彌弌）",
    "url": "https://www.tobunken.go.jp/materials/bukko/era/1984",
    "level": "E2"
-  },
-  "wikipedia-kusube": {
-   "label": "Wikipedia 日本語版「楠部彌弌」",
-   "url": "https://ja.wikipedia.org/wiki/%E6%A5%A0%E9%83%A8%E5%BD%8C%E5%BC%8C",
-   "level": "E5"
   },
   "tobunken-asakura": {
    "label": "東京文化財研究所アーカイブデータベース「浅蔵五十吉」（物故者記事）",
@@ -728,19 +638,9 @@
    "url": "https://www.tobunken.go.jp/materials/bukko/9880.html",
    "level": "E2"
   },
-  "kotobank-rokubei": {
-   "label": "コトバンク「清水六兵衛」（日本大百科全書ほか）",
-   "url": "https://kotobank.jp/word/%E6%B8%85%E6%B0%B4%E5%85%AD%E5%85%B5%E8%A1%9B-53477",
-   "level": "E3"
-  },
   "kyoto-city-merit": {
    "label": "京都市「京都市文化功労者」一覧",
    "url": "https://www.city.kyoto.lg.jp/bunshi/page/0000093312.html",
-   "level": "E2"
-  },
-  "momat-rokubei": {
-   "label": "国立工芸館 作家ページ「六代清水六兵衞（KIYOMIZU, Rokubei VI）」",
-   "url": "https://www.momat.go.jp/craft-museum/artists/aki052",
    "level": "E2"
   },
   "tobunken-yoshika": {
@@ -788,11 +688,6 @@
    "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/303/112",
    "level": "E2"
   },
-  "saga-ironabeshima": {
-   "label": "佐賀県「国指定（無形文化財の部）色鍋島」",
-   "url": "https://www.pref.saga.lg.jp/kiji0031638/index.html",
-   "level": "E2"
-  },
   "saga-list": {
    "label": "佐賀県「国指定等文化財一覧」（保持団体・会長名を含む）",
    "url": "https://www.pref.saga.lg.jp/kiji00398919/3_98919_up_u3i84u3q.pdf",
@@ -823,19 +718,9 @@
    "url": "https://online.bunka.go.jp/heritages/detail/135707",
    "level": "E2"
   },
-  "raku-museum-rekidai": {
-   "label": "樂美術館「樂歴代紹介」（初代長次郎）",
-   "url": "https://www.raku-yaki.or.jp/history/successive.html",
-   "level": "E2"
-  },
   "kunishitei-shunkan": {
    "label": "国指定文化財等データベース「黒楽茶碗（俊寛）〈長次郎作／〉」（三井記念美術館蔵）",
    "url": "https://kunishitei.bunka.go.jp/heritage/detail/201/7326",
-   "level": "E2"
-  },
-  "bunka-donyu": {
-   "label": "文化遺産オンライン「黒楽茶碗（青山）〈道入作／〉」解説（樂家の系譜）",
-   "url": "https://online.bunka.go.jp/db/heritages/detail/245158",
    "level": "E2"
   },
   "toyama-kinenkan-raku": {
@@ -992,11 +877,6 @@
    "label": "Encyclopaedia Britannica \"Bernard Leach\"",
    "url": "https://www.britannica.com/biography/Bernard-Leach",
    "level": "E3"
-  },
-  "hyogo-kenbi-leach": {
-   "label": "兵庫県立美術館 芸術の館紀要 西田桐子「岸田劉生とバーナード・リーチ」",
-   "url": "https://www.artm.pref.hyogo.jp/artcenter/pdf/kiyou15.pdf",
-   "level": "E2"
   },
   "momat-rie": {
    "label": "国立工芸館「ルーシー・リー展―東西をつなぐ優美のうつわ―」",
@@ -1563,11 +1443,6 @@
    "url": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E6%B3%89%E5%8D%93",
    "level": "E5"
   },
-  "shippokudo-official": {
-   "label": "卓袱堂（今泉卓）公式サイト プロフィール",
-   "url": "https://www.shippokudo.com/profile",
-   "level": "E4"
-  },
   "toko-imanari": {
    "label": "陶庫（益子）作家紹介「今成誠一」",
    "url": "https://mashiko.com/artists/seiichi-imanari",
@@ -2103,11 +1978,6 @@
    "url": "https://www.tobunken.go.jp/materials/bukko/9777.html",
    "level": "E2"
   },
-  "tobunken-tsukamoto-x5": {
-   "label": "東京文化財研究所 日本美術年鑑所載物故者記事「塚本快示」",
-   "url": "https://www.tobunken.go.jp/materials/bukko/10314.html",
-   "level": "E2"
-  },
   "sccp-kiyoko": {
    "label": "滋賀県立陶芸の森「炎との対話から 私の自然釉－神山清子展」",
    "url": "https://www.sccp.jp/exhibitions/21521",
@@ -2573,11 +2443,6 @@
    "url": "http://ohimuseum.com/about-ware",
    "level": "E2"
   },
-  "b8-ohimuseum-kiln": {
-   "label": "大樋美術館「大樋長左衛門窯の歴史」",
-   "url": "https://ohimuseum.com/about-klin/",
-   "level": "E2"
-  },
   "b8-onishi-ohi": {
    "label": "Onishi Gallery「十一代大樋年雄長左衛門 Biography」",
    "url": "https://www.onishigallery.com/ja/artists/60-ohi-toshio-chozaemon-xi/biography",
@@ -2621,11 +2486,6 @@
   "b8-nact-okazaki": {
    "label": "国立新美術館アートコモンズ「岡崎裕子」作家紹介",
    "url": "https://www.nact.jp/artcommons/user/detail/71952",
-   "level": "E2"
-  },
-  "b8-kyotocity-yaki": {
-   "label": "京都市歴史資料館「文化史20 京都の焼物 粟田焼と清水焼」",
-   "url": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/bunka20.html",
    "level": "E2"
   },
   "b8-yamatokoriyama-mokuhaku": {
@@ -3148,11 +3008,6 @@
    "url": "https://otaniyaki.jp/sakka.html",
    "level": "E4"
   },
-  "raku-sokei": {
-   "label": "樂美術館「樂歴代紹介」（田中宗慶）",
-   "url": "https://www.raku-yaki.or.jp/history/successive.html",
-   "level": "E2"
-  },
   "nagi-tohakujin": {
    "label": "国立新美術館アートコモンズ「天狗寺陶白人展」（奈義町現代美術館）",
    "url": "https://artcommons.nact.jp/artcommons/user/detail/31276",
@@ -3403,11 +3258,6 @@
    "url": "https://www.bunka.pref.mie.lg.jp/rekishi/kenshi/asp/hakken/detail253.html",
    "level": "E2"
   },
-  "mie-u-banko": {
-   "label": "三重大学『人文論叢』第27号（2010）「近代陶芸としての万古焼(1)」",
-   "url": "https://mie-u.repo.nii.ac.jp/record/1545/files/10C13923.pdf",
-   "level": "E3"
-  },
   "kotobank-yamada-tetsu": {
    "label": "コトバンク「山田喆」（日外アソシエーツ『20世紀日本人名事典』）",
    "url": "https://kotobank.jp/word/%E5%B1%B1%E7%94%B0%E5%96%86-1117910",
@@ -3635,7 +3485,8 @@
    "unknowns": [
     "英語名の公的表記は未確認のため en は未設定",
     "生没の月日レベルは公的出典で未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hamada-shoji",
@@ -3726,7 +3577,8 @@
    ],
    "unknowns": [
     "益子への定住開始を1924年とする資料と、本格的な作陶開始を1930年とする資料があり、「移住」と「定住・本格始動」の区別は資料により異なる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/arakawa-toyozo",
@@ -3822,7 +3674,8 @@
    "unknowns": [
     "出生地は東文研が「岐阜県土岐郡」とする一方、多治見出身とする資料もあり、表記が揺れる",
     "牟田洞の築窯は1932年に陶房を作り始めたとする記述と1933年に古式の窯を築いたとする記述がある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ishiguro-munemaro",
@@ -3900,7 +3753,8 @@
    "unknowns": [
     "八瀬への築窯年は、東文研が1935年（昭和10年）とする一方、京都精華大学の展覧会資料は1936年に八瀬陶窯で作陶を始めたとしており、築窯と作陶開始の区別を含め表記が分かれる",
     "英語名の公的表記は未確認のため en は未設定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kaneshige-toyo",
@@ -3990,7 +3844,8 @@
    ],
    "unknowns": [
     "生没の月日（1月3日生・11月6日没）は一般資料に基づき、公的出典では未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kato-hajime",
@@ -4074,7 +3929,8 @@
    "unknowns": [
     "「黄地紅彩」が1951年に重要無形文化財に指定されたとする資料があるが、技法そのものへの指定の経緯は公的出典で未確認",
     "晩年に皇居新宮殿へ納める萌葱金襴手の大飾壺を制作し完成間近に没したとする展覧会資料（E3）があるが、納入の有無は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miwa-kyuwa",
@@ -4164,7 +4020,8 @@
    "unknowns": [
     "生年について、一部の市販資料（買取業者系サイト等）に1896年（明治29年）とする記載があるが、東文研の年譜（山口県立美術館「三輪休和展」図録に基づく）は1895年4月20日生・1981年10月24日没とし、本レコードはこれに従う",
     "十代休雪の襲名年を1937年とする表記も一部資料に見られるが、年譜では1927年であり誤記の可能性がある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujiwara-kei",
@@ -4212,7 +4069,7 @@
      "level": "E5",
      "status": "established",
      "sources": [
-      "eishodo-lnt"
+      "p2-eishodo-lnt"
      ],
      "note": "商業系一覧サイトの人物解説に基づく主張"
     },
@@ -4229,7 +4086,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "tobunken-fujiwara-yu"
+      "tobunken-fujiwara"
      ]
     }
    ],
@@ -4253,7 +4110,8 @@
    "unknowns": [
     "文学期から陶芸転向までの経歴の細部と1962年のプラハ国際陶芸賞受賞は一般資料に基づき、公的出典での確認は次工程",
     "1948年の技術保存資格者（丸技）認定と1954年の岡山県指定無形文化財保持者認定は一般資料に基づく"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakazato-muan",
@@ -4331,7 +4189,8 @@
    "unknowns": [
     "父・天祐の没年を1924年とする資料があり、1927年の襲名を「実父の歿後」とする記述との間で、襲名までの経緯の細部は未確認",
     "英語名の公的表記は未確認のため en は未設定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kondo-yuzo",
@@ -4419,7 +4278,8 @@
     "「染付」保持者認定の月日は、東文研の年譜が1977年3月とする一方、4月25日とする資料もあり表記が分かれる（認定年は1977年で一致）",
     "1975年に有田の窯で制作した直径126cmの『梅染付大皿』は一般資料に基づき、公的出典での確認は次工程",
     "英語名の公的表記は未確認のため en は未設定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miwa-jusetsu",
@@ -4506,7 +4366,8 @@
    ],
    "unknowns": [
     "生没の月日（1910年2月4日生・2012年12月11日没）は Wikipedia 等の一般資料に拠り、公的出典での確定は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsukamoto-kaiji",
@@ -4585,7 +4446,8 @@
    ],
    "unknowns": [
     "代表作の主要な美術館所蔵先（国立工芸館等）の個別確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kinjo-jiro",
@@ -4660,7 +4522,8 @@
    ],
    "unknowns": [
     "人間国宝認定の日付は資料により1985年3月23日・4月13日など表記が分かれるため、年までの記録とした"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shimizu-uichi",
@@ -4744,7 +4607,8 @@
    ],
    "unknowns": [
     "紫綬褒章（1986年）などの叙勲歴は画廊サイト等の一般資料に拠り、公的出典での確定は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujimoto-yoshimichi",
@@ -4826,7 +4690,8 @@
    "unknowns": [
     "青梅への築窯年は資料により1963年・1968年・1973年と分かれるため、レコードには年を特定する主張を入れていない",
     "名の読みは「よしみち」が一般的だが、「のうどう」と読む資料もある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tamura-koichi",
@@ -4906,7 +4771,8 @@
    "unknowns": [
     "拠点の佐野市・赤見窯に対応する産地実体が母集団にないため wares は空とした",
     "代表作の美術館所蔵先の個別確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamamoto-toshu",
@@ -4982,7 +4848,8 @@
    "wares": [
     "ware/bizen"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imaizumi-imaemon-13",
@@ -5061,7 +4928,8 @@
    "unknowns": [
     "十三代襲名の年について1974年とする資料もあり、1975年（父の逝去年）との表記ゆれがある",
     "生没の月日（1926年1月10日生・2001年10月13日没）は栄匠堂等の資料に拠り、公的出典での確定は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/matsui-kosei",
@@ -5148,7 +5016,8 @@
    ],
    "unknowns": [
     "「昭和生まれ初の人間国宝」とする紹介があるが、典拠は地方銀行の展覧会案内等の一般資料にとどまるため主張には入れていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-osamu",
@@ -5231,7 +5100,8 @@
    ],
    "unknowns": [
     "旭日中綬章の受章年（2006年）は一般の作家データベースに拠り、公的出典での確定は未了のため主張には入れていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inoue-manji",
@@ -5317,7 +5187,8 @@
    "unknowns": [
     "柿右衛門窯での師事について、十二代酒井田柿右衛門に師事とする有田町の資料と、十三代の窯で働き始めたとする資料があり、代の特定には揺れがある",
     "文化庁買上げ作品を含む主要作品の現在の所蔵先一覧は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kato-takuo",
@@ -5388,7 +5259,8 @@
    "unknowns": [
     "三彩・ラスター彩に対応する技法レコードは現行の技法91件に含まれていないため、techniques は空とした",
     "生没の月日レベル（1917年9月12日生・2005年1月11日没）はWikipedia等の一般資料によるもので、東文研資料では年次のみ確認した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shimaoka-tatsuzo",
@@ -5479,7 +5351,8 @@
    "unknowns": [
     "バーナード・リーチ本人との直接の交流の具体的な記録（時期・場面）は公的資料で未確認",
     "主要作品の海外所蔵先の網羅的な確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujiwara-yu",
@@ -5552,7 +5425,8 @@
    ],
    "unknowns": [
     "代表作品の現在の所蔵先一覧（岡山県立美術館を含む）は網羅的には未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tokuda-yasokichi-3",
@@ -5624,7 +5498,8 @@
     "三代襲名の年は資料によって1983年・1986年・1988年と異なり、確定できていない",
     "1971年の日本伝統工芸展の受賞名は、高松市美術館資料では「NHK総裁賞」、一部の資料では「NHK会長賞」と表記が揺れる",
     "生没の月日レベル（1933年9月14日生・2009年8月26日没）はWikipedia等の一般資料による"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miura-koheiji",
@@ -5699,7 +5574,8 @@
    "unknowns": [
     "認定の正確な日付（1997年6月6日とする資料がある）は公的資料では未確認",
     "師事した加藤土師萌は母集団ドラフトの人物実体に含まれていないため relations には含めていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamada-jozan-3",
@@ -5777,7 +5653,8 @@
    ],
    "unknowns": [
     "ブリュッセル万博・ビエンナーレ国際陶芸展の受賞の詳細は、公的機関の資料での裏付けが未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakaida-kakiemon-14",
@@ -5857,7 +5734,8 @@
    ],
    "unknowns": [
     "有田窯業大学校の校長就任など後進育成の役職の詳細は、訃報記事等の一般資料に拠っており公的資料での確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshita-minori",
@@ -5945,7 +5823,8 @@
    "unknowns": [
     "釉裏金彩に取り組み始めた契機の年は、石川県の資料では昭和47年（1972年）に加藤土師萌の作品に触発されたとし、本人のインタビューでは昭和43年（1968年）の加藤土師萌遺作展が転機と語られており、資料間で相違がある",
     "存命人物のため、近況や最新の活動は公表された範囲でのみ扱い、本レコードでは確認していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ito-sekisui-5",
@@ -6017,7 +5896,8 @@
    ],
    "unknowns": [
     "生年月日の月日は、日本セラミックス協会一覧が6月24日とするのみで、自治体・文化庁系資料では確認できなかったため、生年（1941年）のみを記録した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/isezaki-jun",
@@ -6098,7 +5978,8 @@
    ],
    "unknowns": [
     "出生月日は日本セラミックス協会一覧が2月20日とするのみで、備前市美術館の略歴では確認できなかったため、生年（1936年）のみを記録した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hara-kiyoshi",
@@ -6173,7 +6054,8 @@
    "wares": [],
    "unknowns": [
     "存命の確認は、日本工芸会「わざを伝える」の2025年12月31日時点の認定情報に保持者として掲載されていることに拠る。以後の活動状況は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakashima-hiroshi",
@@ -6251,7 +6133,8 @@
    "wares": [],
    "unknowns": [
     "読みについては、東京文化財研究所が「なかじまひろし」とする一方、NHKアーカイブスと日本セラミックス協会は「なかしまひろし」としており、資料間で相違がある。本レコードでは後者を採った"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kato-kozo",
@@ -6338,7 +6221,8 @@
    "unknowns": [
     "荒川豊蔵への師事の形態（正式な弟子入りか、指導・助言の関係か）は資料により表現が異なり、詳細は未確認",
     "没日の月日はWikipedia以外の公的資料では確認できなかった"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/maeta-akihiro",
@@ -6404,7 +6288,8 @@
    "unknowns": [
     "「白磁」そのものに対応する技法レコードが技法母集団にないため、技法リンクは轆轤成形と面取りに留めた",
     "作品の主な美術館所蔵先の網羅的な確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imaizumi-imaemon-14",
@@ -6482,7 +6367,8 @@
    ],
    "unknowns": [
     "本名は公的出典で確認できなかったため記載していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fukushima-zenzo",
@@ -6557,7 +6443,8 @@
    ],
    "unknowns": [
     "父・祖父の代の窯主の氏名など、ちがいわ窯の家系の詳細は公的資料で確認できなかったため、系譜関係は記録していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/itaya-hazan",
@@ -6636,7 +6523,8 @@
    "unknowns": [
     "英語表記（Itaya Hazan 等）の公的出典での確定は未了のため en は未設定",
     "葆光彩磁の具体的な釉・絵具の調合は公表資料では確認できない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kusube-yaichi",
@@ -6718,7 +6606,8 @@
    "unknowns": [
     "「彩埏」に対応する技法レコードは未整備（tech/saiyu「彩釉」とは定義が異なるためリンクしていない）",
     "没月日（1984年12月18日）は一般サイトの情報であり、公的出典での確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/asakura-isokichi",
@@ -6799,7 +6688,8 @@
    ],
    "unknowns": [
     "師事した初代徳田八十吉・北出塔次郎の人物レコードは母集団ドラフトに未収載のため、relations は未設定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoki-ryuzan",
@@ -6871,7 +6761,8 @@
    ],
    "unknowns": [
     "没年月日（2008年4月23日）は Wikipedia による。東文研の物故者記事はあるが日付の直接確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ohi-toshiro",
@@ -6954,7 +6845,8 @@
    ],
    "unknowns": [
     "生没年月日の公的出典（東文研の物故者記事等）での裏付けは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imai-masayuki",
@@ -7037,7 +6929,8 @@
    "unknowns": [
     "活動拠点は京都と竹原だが、特定の産地実体には対応付けていない（修業地の備前焼は wares に含めない）",
     "代表作の主な所蔵先（美術館名）の個別確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shimizu-rokubei-6",
@@ -7117,7 +7010,8 @@
    "unknowns": [
     "玄窯・銹泑・三彩流泑・古稀彩など六代独自の技法に対応する技法レコードは未整備",
     "父である五代（清水六和）の人物レコードは母集団ドラフトに未収載のため、relations は未設定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshika-taibi",
@@ -7201,7 +7095,8 @@
    "unknowns": [
     "日本芸術院賞の受賞年は1971年とする資料（コトバンク等）と1974年とする資料があり、確定できていない",
     "代表作の主な所蔵先の確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/morino-hiroaki",
@@ -7288,7 +7183,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴・顕彰歴の範囲でのみ記録している",
     "日本芸術院賞の受賞年（2007年、扁壺「大地」）は一般サイトの情報であり、公的出典での確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/chojiro-1",
@@ -7310,7 +7206,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "bunka-donyu"
+      "b8-bunka-donyu"
      ]
     },
     {
@@ -7318,7 +7214,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "raku-museum-rekidai"
+      "b8-raku-museum"
      ],
      "note": "樂美術館の歴代紹介による伝承的な系譜であり、渡来の経緯を示す同時代史料はない"
     },
@@ -7345,7 +7241,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "raku-museum-rekidai"
+      "b8-raku-museum"
      ]
     },
     {
@@ -7375,7 +7271,8 @@
     "生年は不詳である",
     "父・阿米也の出身地や渡来の経緯は伝承の域を出ない",
     "千利休との具体的な注文・指導関係を示す同時代史料は限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nonomura-ninsei",
@@ -7459,7 +7356,8 @@
    "unknowns": [
     "生没年は不詳であり、本名や前半生を示す確実な記録がない",
     "「仁清」の名の由来を確定する資料はない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ogata-kenzan",
@@ -7547,7 +7445,8 @@
    "unknowns": [
     "江戸・佐野における晩年の活動の詳細は資料が限られる",
     "「乾山」銘作品のうち乾山自身の手になる範囲と工房作の切り分けは作品ごとに検討を要する"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ninnami-dohachi",
@@ -7641,7 +7540,8 @@
    "unknowns": [
     "奥田頴川への入門を裏付ける確実な史料は確認されていない",
     "晩年の桃山窯の操業実態や作品の範囲は不明な点が多い"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoki-mokubei",
@@ -7725,7 +7625,8 @@
    "unknowns": [
     "生家が祇園の茶屋であったとする伝承の確実な裏付けはない",
     "加賀九谷再興における木米の具体的な役割の範囲は公的資料での確認が課題である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/eiraku-hozen",
@@ -7803,7 +7704,8 @@
    "unknowns": [
     "若年期の修業の詳細は明らかでない",
     "湖南焼・高槻藩御用窯で保全が手がけた作品の具体的な範囲は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yi-sam-pyeong",
@@ -7877,7 +7779,8 @@
     "李参平個人の実在性については、金ヶ江三兵衛との同一視を含め、なお検討の余地がある（系譜レコード lineage/arita-porcelain-foundation の未確認事項と一致）",
     "朝鮮半島における出身地や所属した窯を確定する資料はない",
     "磁器生産が実際に始まった正確な年は発掘調査の進展を待つ部分が大きい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/honami-koetsu",
@@ -7965,7 +7868,8 @@
    "unknowns": [
     "光悦自身が成形した範囲と、常慶・道入ら楽家陶工の分担の詳細は作品ごとに異なる",
     "伝世する光悦作茶碗の制作年次の確定は難しいものが多い"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyagawa-kozan-1",
@@ -8053,7 +7957,8 @@
     "眞葛焼は産地母集団（161産地）に独立の産地実体として収載されていないため wares は空とした",
     "帝室技芸員への任命年次は、今回用いた公的出典では未確認である",
     "万国博覧会での個別の受賞歴は美術商等の二次情報が中心で、公的資料での逐一の裏付けは今後の課題である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kitaoji-rosanjin",
@@ -8133,7 +8038,8 @@
    "unknowns": [
     "星岡窯の作品について、魯山人自身の成形と職人の分担の切り分けは作品ごとに異なる",
     "星岡窯は産地母集団（161産地）に収載されていないため wares は空とした"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kawai-kanjiro",
@@ -8223,7 +8129,8 @@
    "unknowns": [
     "文化勲章・人間国宝の辞退の年次と経緯を、一次資料で確定することは今後の課題である",
     "試験所時代の釉薬研究（1万種）の記録の所在と内容の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/bernard-leach",
@@ -8314,7 +8221,8 @@
     "六代乾山への入門年は1911年説と1912年説があり確定していない",
     "生涯の作陶が10万点以上という数の根拠は報道由来であり精査を要する",
     "リーチ・ポタリーは日本の産地ではないため wares は空とした"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/lucie-rie",
@@ -8403,7 +8311,8 @@
    "unknowns": [
     "リー本人の来日歴の有無など、日本との直接の交流の詳細は今回の出典では未確認である",
     "日本の陶芸家への影響の具体的な系譜は、展覧会での再検討が進みつつある段階である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hans-coper",
@@ -8485,7 +8394,8 @@
    "unknowns": [
     "日本の陶芸家との直接の交流や、日本への影響の具体的な系譜は今回の出典では未確認である",
     "教育活動の詳細（カンバーウェル・RCAでの担当期間）は公的資料での裏付けが今後の課題である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "group/kakiemon-hozonkai",
@@ -8549,7 +8459,8 @@
    "unknowns": [
     "現在の代表者・構成員数の公的出典での確認は未了",
     "母集団ドラフトに団体の id がなかったため、group/ 形式の id を本バッチで新規に付与した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "group/ironabeshima-imaemon-hozonkai",
@@ -8565,7 +8476,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "saga-ironabeshima"
+      "saga-pref-imaemon"
      ]
     },
     {
@@ -8573,7 +8484,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "saga-ironabeshima",
+      "saga-pref-imaemon",
       "kunishitei-ironabeshima"
      ]
     },
@@ -8620,7 +8531,8 @@
    "unknowns": [
     "会員数・構成員数の現況は未確認",
     "母集団ドラフトに団体の id がなかったため、group/ 形式の id を本バッチで新規に付与した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "group/onta-hozonkai",
@@ -8677,7 +8589,8 @@
    "unknowns": [
     "現在の窯元数（9軒とされる）の公的出典での確認は未了",
     "母集団ドラフトに団体の id がなかったため、group/ 形式の id を本バッチで新規に付与した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/abe-anjin",
@@ -8738,7 +8651,8 @@
    ],
    "unknowns": [
     "陶芸転向後に師事した陶工や修業先は、調べた資料では確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/agano-kajiemon",
@@ -8790,7 +8704,8 @@
     "生没年は不詳である",
     "創始した松尾焼のその後の展開や作品の現存状況は確認できていない",
     "松尾焼自体の産地レコードは未整備であり、wares は出身の八代・高田焼を示す"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aida-yusuke",
@@ -8851,7 +8766,8 @@
    "unknowns": [
     "山梨県忍野村の忍野窯の開窯年など作陶拠点の詳細は確認できていない",
     "陶芸の師事関係は調べた資料では確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akaishi-ichihei",
@@ -8901,7 +8817,8 @@
    "unknowns": [
     "生没年は不詳である",
     "舞子焼の窯の所在地・操業期間など詳細は確認できていない（本KBに舞子焼の産地レコードはない）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akatsu-saburozaemon",
@@ -8956,7 +8873,8 @@
    "unknowns": [
     "出自や品野窯との具体的な関係を示す同時代史料は限られる",
     "名の表記（三郎左衛門／三郎右衛門）のいずれが正式かは定かでない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akazawa-roseki",
@@ -9019,7 +8937,8 @@
     "本レコードは個人ではなく名跡（窯元）の系譜を扱うため、生没年は記載しない",
     "四代・赤沢正中の襲名年について、資料により1963年と1988年の両説がある",
     "三代・赤沢静尾の詳細な経歴は公的資料での確認が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akazawa-shuzo",
@@ -9086,7 +9005,8 @@
    ],
    "unknowns": [
     "作品の主要な所蔵先は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akazawa-yoshinori",
@@ -9151,7 +9071,8 @@
    ],
    "unknowns": [
     "京都市立芸術大学の卒業年について、資料により1994年と1995年の両説がある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/akutsu-tadao",
@@ -9216,7 +9137,8 @@
    "unknowns": [
     "広崎裕哉への師事期間など修業の詳細は確認できていない",
     "2022年に高根沢町歴史民俗資料館で展覧会が開かれたことは知られるが、受賞歴の全体は公的資料での確認が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoki-eigoro",
@@ -9276,7 +9198,8 @@
    ],
    "unknowns": [
     "金沢移住後の窯の所在地や作品の現存状況は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoki-kiyotaka",
@@ -9345,7 +9268,8 @@
    ],
    "unknowns": [
     "師事した轆轤師の名について、資料により「中村清見」とするものもある（工房公式プロフィールは中村清六）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoki-ryota",
@@ -9404,7 +9328,8 @@
    ],
    "unknowns": [
     "陶芸を始めた経緯や師事関係は、公式プロフィールでは確認できない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/aoya-genemon",
@@ -9463,7 +9388,8 @@
    "unknowns": [
     "生年（1789年）・没年（1858年）はいずれも疑問符付きで伝えられ、確実ではないため没年は記録しない",
     "開窯後の作品や窯の存続期間の詳細は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/arakawa-tomoyuki",
@@ -9513,7 +9439,8 @@
    "unknowns": [
     "天河窯の所在地（市町村）や現在の活動状況は、調べた資料では確認できていない",
     "経歴の裏付けはWikipediaの記述に限られ、公的資料での確認ができていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/asahina-tamenojo",
@@ -9564,7 +9491,8 @@
     "生没年・出身地は不詳である",
     "旭焼の存続期間や窯跡の現状は確認できていない",
     "本KBの産地レコード ware/asahi は宇治の朝日焼であり、伊勢の旭焼とは読みが同じでも別産地である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/asai-ichigo",
@@ -9635,7 +9563,8 @@
    ],
    "unknowns": [
     "経歴の細部は地域史料に基づく解説に拠るところが大きく、公的機関の人物データベースでは確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/asami-ryuzo",
@@ -9698,7 +9627,8 @@
    ],
    "unknowns": [
     "生家の浅見家（五良助）の家業との関係の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/deguchi-onisaburo",
@@ -9756,7 +9686,8 @@
    "unknowns": [
     "没日について、一部の辞典類の転載には1947年8月27日没とする記載があり、大本公式年譜の1948年1月19日と異なる",
     "前期楽焼の作品は弾圧時に多くが破壊され、現存数が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/demachimitsunori",
@@ -9808,7 +9739,8 @@
    "unknowns": [
     "現在の作陶拠点は公開資料で確認できていない",
     "Wikipedia記事には一次資料への依存や出典の信頼性に関する指摘があり、経歴の細部は裏付けを要する"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/eiraku-ryozen",
@@ -9875,7 +9807,8 @@
    ],
    "unknowns": [
     "土風炉以外の作品の現存状況は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/eiraku-wazen",
@@ -9942,7 +9875,8 @@
    ],
    "unknowns": [
     "生年について、一部の画廊資料は1822年とする（文政6年＝1823年、愛知県陶磁美術館の作者データも1823年）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/eirakumyozen",
@@ -10001,7 +9935,8 @@
    "unknowns": [
     "作品の主要な所蔵先や作風の詳細は、公的資料での確認が限られる",
     "夫・永樂得全の代数表記（十三代／十四代）は資料により異なる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/euan-craig",
@@ -10057,7 +9992,8 @@
    ],
    "unknowns": [
     "現在の制作の詳細は本人の発信に拠るところが大きい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujii-kinsai",
@@ -10118,7 +10054,8 @@
    ],
    "unknowns": [
     "受賞歴・展覧会歴の詳細は、公的資料での確認が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujii-sachi",
@@ -10172,7 +10109,8 @@
    "wares": [],
    "unknowns": [
     "淡路での作陶の評価や作品の主要な所蔵先の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujiwara-kyosuke",
@@ -10235,7 +10173,8 @@
    "unknowns": [
     "経歴の裏付けはWikipediaの記述に限られ、美術館等の公的資料での確認ができていない",
     "備前志野の焼成法の詳細は公開資料での確認が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujiwara-rakuzan",
@@ -10289,7 +10228,8 @@
    "unknowns": [
     "三代目自身の作風や受賞歴の詳細は、公的資料での確認が限られる",
     "初代・二代藤原楽山は本KBの人物母集団に個別の実体がない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fujiwara-tetsuzo",
@@ -10345,7 +10285,8 @@
    "unknowns": [
     "狸の置物の「創案」をめぐり、同時代の他の作り手との先後関係を示す公的資料は確認できていない",
     "京都時代の作品の現存状況は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fukumori-masatake",
@@ -10412,7 +10353,8 @@
    ],
    "unknowns": [
     "窯業指導所等での修業の詳細な年次は資料により確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fukumori-michiho",
@@ -10469,7 +10411,8 @@
    "unknowns": [
     "生年1975年は母集団実測（Wikipediaカテゴリ・Wikidata系）によるもので、公的資料での裏づけは未確認である",
     "当主就任の年次は公表資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fukushima-buzan",
@@ -10530,7 +10473,8 @@
    ],
    "unknowns": [
     "赤絵細描の顔料調合や焼成条件の詳細は公表されていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/fukushima-haruo",
@@ -10583,7 +10527,8 @@
    "unknowns": [
     "師事した陶芸家や独立の年次は公的資料で確認できていない",
     "主な受賞歴は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/funaki-michitada",
@@ -10636,7 +10581,8 @@
    "unknowns": [
     "代表作や作風の詳細は公的資料で十分に確認できていない",
     "県無形文化財の認定年は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/funakoshi-hiroshi",
@@ -10695,7 +10641,8 @@
    ],
    "unknowns": [
     "独立・開窯の年次や受賞歴は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/furukawa-takahisa",
@@ -10753,7 +10700,8 @@
    "unknowns": [
     "益子時代の作風の詳細や代表作は公的資料で十分に確認できていない",
     "没年は確認できていない（陶芸家としての活動は過去のものとして記録されている）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/furutani-michio",
@@ -10807,7 +10755,8 @@
    ],
    "unknowns": [
     "築いた窯の所在地と年次の全一覧は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/goda-yoshimichi",
@@ -10873,7 +10822,8 @@
    ],
    "unknowns": [
     "自身の作品の作風を体系的にまとめた公的資料は限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/goto-shigeo",
@@ -10930,7 +10880,8 @@
    ],
    "unknowns": [
     "独立・築窯の正確な年次や受賞歴は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/gunji-toshio",
@@ -10981,7 +10932,8 @@
    "unknowns": [
     "足尾焼の窯の所在地や焼成方法の詳細は公的資料で確認できていない",
     "生没年の公的資料による裏づけは未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hagiwara-yoshinori",
@@ -11034,7 +10986,8 @@
    ],
    "unknowns": [
     "父・萩原芳雄との正確な襲名年次は公表資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hamada-atsuya",
@@ -11095,7 +11048,8 @@
    ],
    "unknowns": [
     "独立後の代表作の公的な収蔵状況は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hamada-shinsaku",
@@ -11151,7 +11105,8 @@
    ],
    "unknowns": [
     "濱田窯二代の正式な襲名年次は公式プロフィールに明示されていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hamada-tomo",
@@ -11214,7 +11169,8 @@
    ],
    "unknowns": [
     "塩釉窯「志緒窯」の築窯年（2006年）は個展なび等の二次情報（E5）による"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hataoka-hiromitsu",
@@ -11264,7 +11220,8 @@
    "wares": [],
    "unknowns": [
     "陶芸家時代の師事・拠点・作風の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hayama-yuki",
@@ -11327,7 +11284,8 @@
    ],
    "unknowns": [
     "修行した有田の窯元の名称は公表資料に明示されていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hayashi-kaku",
@@ -11382,7 +11340,8 @@
    "wares": [],
    "unknowns": [
     "陶芸を志した経緯や師事関係は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hazama-inosuke",
@@ -11437,7 +11396,8 @@
    ],
    "unknowns": [
     "九谷焼の作陶における具体的な師事者や窯の体制は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hibata-koken",
@@ -11491,7 +11451,8 @@
    ],
    "unknowns": [
     "作陶の師事関係や窯の名称は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hirosaki-yuya",
@@ -11556,7 +11517,8 @@
    ],
    "unknowns": [
     "磁器の原料・焼成の技術的詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hisada-kichinosuke",
@@ -11608,7 +11570,8 @@
    ],
    "unknowns": [
     "久田工場の所在地や製品の現存例の詳細は公的資料で十分に確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/honami-koho",
@@ -11669,7 +11632,8 @@
    "unknowns": [
     "作陶の具体的な窯や協力した陶工は同時代史料で十分に確認できていない",
     "晩年に萩焼を模した茶碗を作ったとする伝承の裏づけは未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/honbu-masa",
@@ -11720,7 +11684,8 @@
    "unknowns": [
     "埴輪複製の技法（型取り・焼成）の詳細は公的資料で確認できていない",
     "宮崎市等の公的資料による伝記の裏づけは未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hori-teiichiro",
@@ -11769,7 +11734,8 @@
    "wares": [],
    "unknowns": [
     "作陶の師事・拠点・作風など陶芸家としての活動の詳細は公的資料で確認できておらず、本レコードでは陶芸作品の制作が伝えられる範囲にとどめた"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hoshino-satoru",
@@ -11827,7 +11793,8 @@
    "unknowns": [
     "現在の制作拠点は公的資料で確認できていない",
     "代表的な作品シリーズの年代整理は今後の課題である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hosokawa-morihiro",
@@ -11889,7 +11856,8 @@
    "wares": [],
    "unknowns": [
     "不東庵の窯の形式など制作環境の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/hosokawa-morimitsu",
@@ -11951,7 +11919,8 @@
    ],
    "unknowns": [
     "熊本の窯の名称・窯形式は公表資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ichiemon",
@@ -12006,7 +11975,8 @@
    "unknowns": [
     "生年は不詳である",
     "朝鮮陶工の高弟だったとする説や駆け落ち伝説など、出自に関する諸説はいずれも伝承の域を出ない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ichikawa-toru",
@@ -12059,7 +12029,8 @@
    "unknowns": [
     "陶芸を志す以前の経歴は公表情報が乏しい",
     "独立後の工房移転の時期など活動拠点の変遷は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ichino-shigeyoshi",
@@ -12117,7 +12088,8 @@
    "unknowns": [
     "信水窯を営む市野家との関係は確認できていない",
     "作風・受賞歴の詳細を示す公的資料が乏しい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/iguchi-takayuki",
@@ -12183,7 +12155,8 @@
    ],
    "unknowns": [
     "阿弥陀窯の築窯年は資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/iidaya-hachiroemon",
@@ -12239,7 +12212,8 @@
    ],
    "unknowns": [
     "幼少期や絵付修業の経緯を示す資料は乏しい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imaizumi-taku",
@@ -12300,7 +12274,8 @@
    ],
    "unknowns": [
     "作風を特定の産地・様式に帰属させる公的資料は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imanari-seiichi",
@@ -12351,7 +12326,8 @@
    ],
    "unknowns": [
     "受賞歴の詳細は公的資料での確認が限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imanishi-hiroshi",
@@ -12418,7 +12394,8 @@
    "unknowns": [
     "公的機関による作家紹介が乏しく、経歴の多くはWikipediaに拠らざるを得ない",
     "作品の現存状況を体系的に示す資料は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/imanishi-masaya",
@@ -12484,7 +12461,8 @@
    "wares": [],
    "unknowns": [
     "黒染付の具体的な技法内容は本人サイトの記述の範囲に限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inaba-naohito",
@@ -12538,7 +12516,8 @@
    ],
    "unknowns": [
     "作風・受賞歴を示す公的資料が乏しく、経歴は主にWikipediaに拠る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inoue-keisuke",
@@ -12590,7 +12569,8 @@
    "wares": [],
    "unknowns": [
     "生年は資料により扱いが異なり、Wikipediaは生没年不詳とする"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inoue-ryosai",
@@ -12649,7 +12629,8 @@
    "wares": [],
    "unknowns": [
     "初代・二代良斎の事績を示す資料は限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inoue-shunpo",
@@ -12708,7 +12689,8 @@
    ],
    "unknowns": [
     "訓練校修了年など経歴の細部は、資料間で年次の表記に揺れがある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/inoue-yoshio",
@@ -12761,7 +12743,8 @@
    ],
    "unknowns": [
     "二本松焼（磁器）の現在の生産内容の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/isesaki-mitsuru",
@@ -12822,7 +12805,8 @@
    ],
    "unknowns": [
     "没した月日は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/isezaki-yozan",
@@ -12884,7 +12868,8 @@
    ],
    "unknowns": [
     "出典の乏しい記事に基づいており、経歴の細部は今後の資料確認を要する"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ishikawa-hajime",
@@ -12936,7 +12921,8 @@
    ],
    "unknowns": [
     "受賞歴など公的な記録の確認は限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ito-keiji",
@@ -13001,7 +12987,8 @@
    ],
    "unknowns": [
     "本名の読みは「よしじ」とされる（Wikipedia）が、活動名は「けいじ」で定着している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/itoi-tetsuo",
@@ -13055,7 +13042,8 @@
    ],
    "unknowns": [
     "陶芸作品そのものの作風・受賞歴の詳細を示す公的資料は乏しい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kachi-manabu",
@@ -13108,7 +13096,8 @@
    "wares": [],
    "unknowns": [
     "森岡成好のもとでの修業期間の詳細は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kaji-tsunekichi",
@@ -13159,7 +13148,8 @@
    "unknowns": [
     "七宝の製法を取得した年を1832年（天保3年）とする資料もある",
     "七宝焼は金属胎の工芸であり、本知識ベースの技法・産地レコードに対応項目はない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kamei-yoichiro",
@@ -13219,7 +13209,8 @@
    "wares": [],
    "unknowns": [
     "作品の所蔵先の全容は公的資料で体系的に確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kamimura-hakuo",
@@ -13282,7 +13273,8 @@
    ],
    "unknowns": [
     "還暦以前の作陶活動の実態は作品の年齢銘からの推測に拠る部分が大きい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kamoda-shoji",
@@ -13353,7 +13345,8 @@
    ],
    "unknowns": [
     "晩年に東京都東久留米市で制作した期間の詳細は展覧会資料の記述に限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kamoda-taro",
@@ -13410,7 +13403,8 @@
    ],
    "unknowns": [
     "作風・受賞歴を示す公的資料が乏しく、経歴は主にWikipediaに拠る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1934,
@@ -13467,7 +13461,8 @@
    "unknowns": [],
    "wares": [
     "ware/bizen"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1953,
@@ -13520,7 +13515,8 @@
    "unknowns": [],
    "wares": [
     "ware/hagi"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1796,
@@ -13579,7 +13575,8 @@
    ],
    "wares": [
     "ware/minpei"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1168,
@@ -13637,7 +13634,8 @@
    ],
    "wares": [
     "ware/seto"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1772,
@@ -13702,7 +13700,8 @@
    "wares": [
     "ware/seto",
     "ware/seto-sometsuke"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1897,
@@ -13760,7 +13759,8 @@
    "wares": [
     "ware/mino",
     "ware/seto"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1894,
@@ -13815,7 +13815,8 @@
    ],
    "wares": [
     "ware/mino"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1893,
@@ -13887,7 +13888,8 @@
    "unknowns": [],
    "wares": [
     "ware/mino"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1851,
@@ -13943,7 +13945,8 @@
    "unknowns": [],
    "wares": [
     "ware/seto"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": null,
@@ -13996,7 +13999,8 @@
    ],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1927,
@@ -14051,7 +14055,8 @@
    "unknowns": [],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1908,
@@ -14111,7 +14116,8 @@
    ],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1930,
@@ -14171,7 +14177,8 @@
    ],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1946,
@@ -14224,7 +14231,8 @@
    ],
    "wares": [
     "ware/mashiko"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1949,
@@ -14281,7 +14289,8 @@
    "unknowns": [
     "生年（1949）は母集団ファイルの記載に拠り、公的機関の作家データベースでは未確認である"
    ],
-   "wares": []
+   "wares": [],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1878,
@@ -14346,7 +14355,8 @@
    ],
    "type": "person",
    "unknowns": [],
-   "wares": []
+   "wares": [],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1890,
@@ -14402,7 +14412,8 @@
    "unknowns": [],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1942,
@@ -14453,7 +14464,8 @@
    "unknowns": [
     "没年・没日はWikipediaおよび画廊の遺作展案内による"
    ],
-   "wares": []
+   "wares": [],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1923,
@@ -14510,7 +14522,8 @@
    ],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1915,
@@ -14572,7 +14585,8 @@
    "unknowns": [],
    "wares": [
     "ware/mashiko"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1939,
@@ -14627,7 +14641,8 @@
    ],
    "wares": [
     "ware/mashiko"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1903,
@@ -14687,7 +14702,8 @@
    "unknowns": [],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1967,
@@ -14735,7 +14751,8 @@
    ],
    "type": "person",
    "unknowns": [],
-   "wares": []
+   "wares": [],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1566,
@@ -14791,7 +14808,8 @@
    "wares": [
     "ware/agano",
     "ware/takada"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1765,
@@ -14854,7 +14872,8 @@
    "wares": [
     "ware/ojiyama",
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1868,
@@ -14918,7 +14937,8 @@
    ],
    "wares": [
     "ware/kyo"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "birth": 1898,
@@ -14983,7 +15003,8 @@
    "unknowns": [],
    "wares": [
     "ware/kutani"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kiyomizu-kyubee",
@@ -15051,7 +15072,8 @@
    ],
    "unknowns": [
     "2006年の没月日は、本調査では公的出典で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kiyomizu-rokuwa",
@@ -15113,7 +15135,8 @@
    "wares": [
     "ware/kiyomizu"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kogure-tokuro",
@@ -15165,7 +15188,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴・活動の範囲でのみ記録している",
     "陶芸の修業経歴の詳細は、公的資料では確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koie-hoju",
@@ -15223,7 +15247,8 @@
    ],
    "unknowns": [
     "朱泥焼の発明を方寿に帰す資料もあるが、朱泥急須の完成は初代杉江寿門に帰す資料もあり、本レコードでは採用しなかった"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koie-ryoji",
@@ -15285,7 +15310,8 @@
    "wares": [
     "ware/tokoname"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kokuryo-hisato",
@@ -15362,7 +15388,8 @@
    "unknowns": [
     "経歴の詳細はWikipedia以外の公的資料で確認できておらず、各主張はE5水準である",
     "瑞穂窯の所在地は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/komagata-kuma",
@@ -15416,7 +15443,8 @@
    ],
    "unknowns": [
     "経歴はWikipedia以外の公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/komazawa-hiroshi",
@@ -15470,7 +15498,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "公的機関の資料による裏付けは限られ、経歴は作家公式サイトの略歴に基づく"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kon-chiharu",
@@ -15530,7 +15559,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴・受賞歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kondo-takahiro",
@@ -15596,7 +15626,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴・受賞歴・収蔵歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/konno-yasutake",
@@ -15647,7 +15678,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "経歴はWikipediaと地域資料のみで確認しており、公的機関の作家データベース等での裏付けは未了である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koshino-yumiko",
@@ -15700,7 +15732,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "陶芸についてはWikipediaの記述以外に公的資料が乏しく、作陶の経歴や拠点の詳細は未確認である（Wikipediaの記事自体に出典皆無の指摘がある）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koyama-fujio",
@@ -15749,7 +15782,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "tobunken-tsukamoto-x5"
+      "tobunken-tsukamoto"
      ]
     }
    ],
@@ -15763,7 +15796,8 @@
    "wares": [],
    "unknowns": [
     "作陶の拠点の変遷（京都・鎌倉・土岐など）の詳細は、本調査では確定していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koyama-kiyoko",
@@ -15832,7 +15866,8 @@
    "wares": [
     "ware/shigaraki"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/koyama-yasuhisa",
@@ -15892,7 +15927,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "経歴は画商サイト等の一般資料に基づいており、公的機関の資料での裏付けは未了である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kuniyoshi-seisho",
@@ -15960,7 +15996,8 @@
    "wares": [
     "ware/tsuboya"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kuriki-tatsusuke",
@@ -16028,7 +16065,8 @@
    "wares": [
     "ware/seto"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kuroda-taizo",
@@ -16084,7 +16122,8 @@
    "wares": [],
    "unknowns": [
     "帰国年は1980年とする資料（大阪市立東洋陶磁美術館）と1981年とする資料（画商の陶歴）があり、本レコードでは特定していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kuwada-takuro",
@@ -16134,7 +16173,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴・受賞歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/kuze-kyuho",
@@ -16201,7 +16241,8 @@
    "unknowns": [
     "四代の没年は2006年9月とする資料があるが、同じ資料内に平成16年（2004年）との表記もあり確定できないため、没年は未記入とした",
     "初代・二代の生没年を示す資料は乏しい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/maeda-masahiro",
@@ -16260,7 +16301,8 @@
    "wares": [],
    "unknowns": [
     "存命人物のため、公表された経歴・受賞歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/maki-kozan",
@@ -16312,7 +16354,8 @@
    "wares": [],
    "unknowns": [
     "経歴の多くは伊予市の資料に基づくWikipediaの記述に拠っており、専門資料での裏付けは未了である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/matsui-koyo",
@@ -16370,7 +16413,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/matsui-seizan",
@@ -16428,7 +16472,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "経歴はWikipedia等に拠り、公的機関の作家データでの裏付けは未了である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/matsumoto-yoichi",
@@ -16482,7 +16527,8 @@
    "unknowns": [
     "没年（2022年）は母集団データに基づくが、公的資料での確認は未了である",
     "経歴の出典は画商サイトとWikipediaに限られ、公的機関の資料での裏付けは未了である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/matsuo-katsuya",
@@ -16537,7 +16583,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mawatari-shinpei",
@@ -16589,7 +16636,8 @@
    "wares": [],
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mimura-hokudo",
@@ -16644,7 +16692,8 @@
    ],
    "unknowns": [
     "公的機関（益子町・栃木県等）の資料による経歴の裏付けは未取得"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mitsuke-masayasu",
@@ -16697,7 +16746,8 @@
    ],
    "unknowns": [
     "師事した作家名は公表資料では確認できない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miura-kenya",
@@ -16749,7 +16799,8 @@
    "unknowns": [
     "仙台の堤焼との関わりの具体的な経緯は未確認",
     "幕末期の作陶活動の詳細は資料が乏しい"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miura-tamotsu",
@@ -16795,7 +16846,8 @@
    "wares": [],
    "unknowns": [
     "陶板画の独自技法の具体的な内容は美術館資料の範囲では未詳"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyagi-mitsunari",
@@ -16852,7 +16904,8 @@
    "unknowns": [
     "公的機関の資料による受賞歴の裏付けは未取得",
     "工房名（宮陶房は母・須美子の工房名）は本人の窯名としては未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyanohara-ken",
@@ -16905,7 +16958,8 @@
    "wares": [],
    "unknowns": [
     "出身地は鹿児島だが、作陶の拠点は関東が中心で、薩摩焼の産地作家としての活動は確認できない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyata-kenichi",
@@ -16956,7 +17010,8 @@
    "wares": [],
    "unknowns": [
     "窯名は公表資料では確認できない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyata-yoshinori",
@@ -17009,7 +17064,8 @@
    ],
    "unknowns": [
     "修行先の窯元の名称は資料により確認が必要"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/miyazawa-kikuo",
@@ -17060,7 +17116,8 @@
    "unknowns": [
     "生没年は公的資料で確認できていない",
     "相道寺焼は産地レコードの実体としては未収載のため wares は空とした"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mizuno-tomoro",
@@ -17109,7 +17166,8 @@
    "unknowns": [
     "生年は公表資料で確認できていない",
     "工房の所在地・窯名は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mori-shigeo",
@@ -17167,7 +17225,8 @@
    ],
    "unknowns": [
     "作陶の具体的な技法・師事関係は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mori-togaku",
@@ -17222,7 +17281,8 @@
    ],
    "unknowns": [
     "大窯焼成の回数・最新の焼成状況は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/mori-yusetsu",
@@ -17274,7 +17334,8 @@
    ],
    "unknowns": [
     "有節の死後は三男・勘三郎が二代有節を継いだが、歴代の詳細な系譜は未整理"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/morino-kako",
@@ -17327,7 +17388,8 @@
    ],
    "unknowns": [
     "父・峰楽の経歴の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/morioka-shigeyoshi",
@@ -17392,7 +17454,8 @@
    "wares": [],
    "unknowns": [
     "公的機関の資料による経歴の裏付けは未取得"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/muraki-yuji",
@@ -17441,7 +17504,8 @@
    "wares": [],
    "unknowns": [
     "窯名・工房名は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/murasawa-toru",
@@ -17492,7 +17556,8 @@
    ],
    "unknowns": [
     "修業先・受賞歴の詳細は公的資料では未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/murata-gen",
@@ -17559,7 +17624,8 @@
    ],
    "unknowns": [
     "濱田庄司への入門年には資料間で相違がある（益子移住を1924年とする資料と、入門を1944年とする資料がある）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/murata-hiroshi",
@@ -17615,7 +17681,8 @@
    ],
    "unknowns": [
     "作風・主な技法の公的資料による裏付けは未取得"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/murata-toen",
@@ -17679,7 +17746,8 @@
    "unknowns": [
     "東山人形以外の器物作品の評価・系譜の詳細は未整理",
     "東山人形の低火度焼成は楽焼とは別の系譜であり、技法レコードとの対応は未確定のため techniques は空とした"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nagakura-suiko",
@@ -17735,7 +17803,8 @@
    ],
    "unknowns": [
     "師事関係の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nagasawa-yasushi",
@@ -17784,7 +17853,8 @@
    "unknowns": [
     "生年の確定には公的な作家名鑑等の確認が必要",
     "陶芸の修業経歴は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakagawa-isaku",
@@ -17837,7 +17907,8 @@
    ],
    "unknowns": [
     "1938年に南蛮焼コレクションを京都国立博物館に展示した経緯など、沖縄渡航以前の南蛮焼研究の詳細は未整理"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakagawa-takanori",
@@ -17888,7 +17959,8 @@
    ],
    "unknowns": [
     "工房名・現在の窯の所在地の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakamura-kinpei",
@@ -17942,7 +18014,8 @@
    "wares": [],
    "unknowns": [
     "父・二代中村梅山との関係など金沢での初期経歴の詳細は未整理"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakamura-rokuro",
@@ -18002,7 +18075,8 @@
    ],
    "unknowns": [
     "長男・中村真、孫・中村和樹も陶芸家だが、母集団の実体ではないため relations には含めていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakamura-suiko",
@@ -18073,7 +18147,8 @@
    "unknowns": [
     "河村蜻山のもとでの修業期間の詳細は未確認",
     "1970年の文部大臣賞受賞は市販資料のみの情報で、公的資料での裏付けは未取得"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakano-taku",
@@ -18134,7 +18209,8 @@
    "wares": [],
    "unknowns": [
     "美術館・自治体等の公的機関による作家紹介は確認できず、経歴の多くは公式サイトと一般資料に拠る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakao-tetsuaki",
@@ -18192,7 +18268,8 @@
    "unknowns": [
     "没日は未確認（窯の公式サイトは2025年3月の逝去と回顧展の開催を伝える）",
     "窯の系譜や所在地の詳細について、自治体等の公的資料による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakata-ryoko",
@@ -18264,7 +18341,8 @@
    ],
    "unknowns": [
     "現在の作陶活動の状況について、公的資料での確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakazato-shigetoshi",
@@ -18336,7 +18414,8 @@
    ],
    "unknowns": [
     "生没の月日は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakazato-takashi",
@@ -18410,7 +18489,8 @@
    ],
    "unknowns": [
     "近年の活動状況は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nakazato-taroemon-13",
@@ -18488,7 +18568,8 @@
    ],
    "unknowns": [
     "没月日は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nanaura-hiroshi",
@@ -18538,7 +18619,8 @@
    "unknowns": [
     "出典の乏しい人物であり、作陶の拠点・作風・技法の詳細は公的資料で確認できていない",
     "母・七浦貞子は母集団の実体ではないため関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nara-yuki",
@@ -18601,7 +18683,8 @@
    ],
    "unknowns": [
     "大樋長左衛門の襲名については、公表資料で確認していない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nariyoshi-hitoshi",
@@ -18679,7 +18762,8 @@
    ],
    "unknowns": [
     "記事の多くは地方紙と作家事典に基づく二次情報であり、美術館等の公的機関の作家紹介による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narui-fujio",
@@ -18758,7 +18842,8 @@
    ],
    "unknowns": [
     "資料は主に下野新聞社の書籍と近藤京嗣『益子の陶芸家』に基づいており、公的機関の作家紹介による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narui-seiji",
@@ -18833,7 +18918,8 @@
    ],
    "unknowns": [
     "現在の作陶活動の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narui-tappo",
@@ -18917,7 +19003,8 @@
    ],
    "unknowns": [
     "資料は主に近藤京嗣『益子の陶芸家』と下野新聞社の書籍に基づいており、公的機関の作家紹介による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narui-toshio",
@@ -18996,7 +19083,8 @@
    ],
    "unknowns": [
     "資料は主に近藤京嗣『益子の陶芸家』と下野新聞社の書籍に基づいており、公的機関の作家紹介による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narui-tsuneo",
@@ -19075,7 +19163,8 @@
    ],
    "unknowns": [
     "弟子に佐藤敬らがいるとされるが、母集団の実体ではないため関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/narumi-kaname",
@@ -19138,7 +19227,8 @@
    "unknowns": [
     "生没の月日は未確認",
     "津軽焼の産地伝統との関係は、弘前市の資料では明示されていないため産地リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nigo",
@@ -19203,7 +19293,8 @@
    "unknowns": [
     "本名等の個人情報は、このバッチで用いた出典では確認していないため記載していない",
     "作陶は本業のデザイン活動と並行するものであり、その位置づけは作陶家・愛好家である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nishi-takayuki",
@@ -19260,7 +19351,8 @@
    ],
    "unknowns": [
     "出身地は公式プロフィールで確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nishibu-isao",
@@ -19317,7 +19409,8 @@
    "unknowns": [
     "美術館・自治体等の公的機関による作家紹介は確認できず、経歴は一般資料に拠る",
     "桂窯の所在地の詳細は未確認（関市出身であることはWikipediaによる）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nishimoto-eisen",
@@ -19374,7 +19467,8 @@
     "生年は母集団データでは1928年とされ、2023年没・享年95とも整合するが、月日は未確認",
     "日本芸術院会員への就任の有無は、この追悼記事では確認できない",
     "縄文をモチーフとする作品の具体的な施文技法は未確認のため、技法リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/norimatsu-kinzo",
@@ -19428,7 +19522,8 @@
    "unknowns": [
     "Wikipediaの短い記事以外の公的・専門的資料を確認できておらず、志野・織部・黄瀬戸を手がける作風の裏づけを含め、経歴の詳細には未検証の部分が多い",
     "2015年時点では活動中とされるが、その後の活動状況は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/noro-keisuke",
@@ -19480,7 +19575,8 @@
    "unknowns": [
     "生年の確定には、本人公表資料の精査が必要である",
     "陶芸の師弟関係・作風・窯の所在地の詳細は、公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nukaga-akio",
@@ -19532,7 +19628,8 @@
    ],
    "unknowns": [
     "修業先の向山窯の主宰者は母集団の実体ではないため、関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/nunami-rozan",
@@ -19593,7 +19690,8 @@
    ],
    "unknowns": [
     "生没年は『四日市萬古焼史』等に基づく二次資料の記述による"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/odaka-hiroyuki",
@@ -19643,7 +19741,8 @@
    "unknowns": [
     "陶芸については「創作陶芸家」とされる以上の拠点・作風・師弟関係を、公的資料で確認できていない",
     "Wikipediaの記事には出典不足の指摘があり、経歴の裏づけは弱い"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ogami-jingobei",
@@ -19700,7 +19799,8 @@
    "unknowns": [
     "生没年（1775〜1839）は母集団データ（Wikipedia由来、E5水準）に基づき、長崎市の資料では確認していない",
     "亀山焼は本知識ベースの産地実体には含まれていないため、産地リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ogata-kamio",
@@ -19762,7 +19862,8 @@
    "wares": [],
    "unknowns": [
     "記事は専門誌『炎芸術』等に基づくが、美術館等の公的機関の作家紹介による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ogata-masaaki",
@@ -19828,7 +19929,8 @@
    "unknowns": [
     "出生地は未確認",
     "師事した百田信一・奥川忠右衛門は母集団の実体ではないため、関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ogata-toshiaki",
@@ -19875,7 +19977,8 @@
    "wares": [],
    "unknowns": [
     "Wikipediaの「日本の陶芸家」カテゴリに含まれるが、公表された公式略歴では彫刻家としての活動が中心であり、「建物彫刻」の素材が陶土であるかどうかは公式略歴では明記されていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ohi-chozaemon-1",
@@ -19933,7 +20036,8 @@
    ],
    "unknowns": [
     "大樋村における築窯の正確な年（1666年か1686年か）は資料により異なる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ohi-toshio",
@@ -19966,7 +20070,7 @@
      "status": "established",
      "sources": [
       "b8-onishi-ohi",
-      "b8-ohimuseum-kiln"
+      "ohimuseum"
      ]
     },
     {
@@ -19975,7 +20079,7 @@
      "status": "established",
      "sources": [
       "b8-onishi-ohi",
-      "b8-ohimuseum-kiln"
+      "ohimuseum"
      ]
     }
    ],
@@ -19992,7 +20096,8 @@
    "wares": [
     "ware/ohi"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okabe-mineo",
@@ -20051,7 +20156,8 @@
     "ware/seto",
     "ware/mino"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okada-teru",
@@ -20110,7 +20216,8 @@
    ],
    "unknowns": [
     "経歴の一次資料（大学・工芸会等の公的プロフィール）による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okada-yu",
@@ -20161,7 +20268,8 @@
    "wares": [
     "ware/hagi"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okamoto-taro",
@@ -20210,7 +20318,8 @@
    ],
    "unknowns": [
     "陶芸を本業とした作家ではなく、本レコードは縄文土器論と陶作品の制作を通じた陶芸との関わりを記録するものである"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okamoto-tetsumasa",
@@ -20246,7 +20355,7 @@
      "note": "作家公式サイトのプロフィールによる"
     },
     {
-     "text": "1993年に加茂川町（現・吉備中央町）の依頼を受けて加茂川焼を、1995年に旭町（現・美咲町）の依頼を受け、町木である桜の木を灰にして釉薬とし約1250度で焼き締める桜湖焼を生み出した",
+     "text": "1993年に加茂川町（現・吉備中央町）の依頼を受けて加茂川焼を、1995年に旭町（現・美咲町）の依頼を受け、町木である桜の木を灰にして釉薬とし約1250℃で焼き締める桜湖焼を生み出した",
      "level": "E4",
      "status": "established",
      "sources": [
@@ -20264,7 +20373,8 @@
    ],
    "unknowns": [
     "受賞歴・入選歴の詳細は公的資料での確認が未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okazaki-yuko",
@@ -20311,7 +20421,8 @@
     "tech/sometsuke"
    ],
    "wares": [],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okuda-eisen",
@@ -20335,7 +20446,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "b8-kyotocity-yaki"
+      "kyoto-city-kyoyaki"
      ]
     },
     {
@@ -20343,7 +20454,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "b8-kyotocity-yaki"
+      "kyoto-city-kyoyaki"
      ]
     },
     {
@@ -20351,7 +20462,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "b8-kyotocity-yaki"
+      "kyoto-city-kyoyaki"
      ]
     }
    ],
@@ -20373,7 +20484,8 @@
     "ware/kyo",
     "ware/kiyomizu"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/okuda-mokuhaku",
@@ -20428,7 +20540,8 @@
    "unknowns": [
     "奥田頴川との関係（同姓であるが師弟・親族関係を示す資料は未確認）",
     "作陶を学んだ師の名は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/omine-jissei",
@@ -20480,7 +20593,8 @@
    ],
    "unknowns": [
     "Wikipediaの記事自体に出典が乏しく、経歴の公的資料（大学・県）による裏づけが課題として残る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/omorimitsuhiko",
@@ -20525,7 +20639,8 @@
    "relations": [],
    "techniques": [],
    "wares": [],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ono-donna",
@@ -20579,7 +20694,8 @@
    "wares": [],
    "unknowns": [
     "経歴の詳細はWikipedia（E5）に拠っており、美術館等の公的資料による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/onomae-kihachiro",
@@ -20631,7 +20747,8 @@
    ],
    "unknowns": [
     "経歴の公的資料（県・工芸会）による裏づけは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/orita-tatsuya",
@@ -20682,7 +20799,8 @@
    "unknowns": [
     "師事した瀧田項一は本知識ベースの人物母集団に未収録",
     "出生地などの詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/oshio-masayoshi",
@@ -20739,7 +20857,8 @@
    ],
    "unknowns": [
     "赤膚焼での具体的な襲名・窯名などの詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ota-tetsuzo",
@@ -20795,7 +20914,8 @@
    ],
    "unknowns": [
     "生年は母集団ファイルでは1950年とされるが、窯元公式サイトのプロフィールでは生年の明記を確認できなかった"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/otagaki-rengetsu",
@@ -20850,7 +20970,8 @@
    ],
    "unknowns": [
     "出生については伊賀上野の藤堂氏の娘とも伝えられ、確実な出自は未確定"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/otsuka-kazuhiro",
@@ -20902,7 +21023,8 @@
    "wares": [
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/otsuka-keisaburo",
@@ -20955,7 +21077,8 @@
    ],
    "unknowns": [
     "出生地や修業の詳細な経緯は資料により記述が分かれる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/otsuka-masayoshi",
@@ -21002,7 +21125,8 @@
    "wares": [
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/otsuka-shigeo",
@@ -21052,7 +21176,8 @@
    "wares": [
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/oyabu-ryujiro",
@@ -21101,7 +21226,8 @@
     "tech/noyaki"
    ],
    "wares": [],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/raku-jokei",
@@ -21166,7 +21292,8 @@
    ],
    "unknowns": [
     "生年は不詳である（1561年説はWikidata由来で未検証）"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/rakukichizaemon-donyu",
@@ -21230,7 +21357,8 @@
    "wares": [
     "ware/raku"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/rantei-senzo",
@@ -21288,7 +21416,8 @@
    "unknowns": [
     "生年は不詳である",
     "伝世する作品は少なく、経歴の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/saigo-takafumi",
@@ -21348,7 +21477,8 @@
    ],
    "unknowns": [
     "有山長佑以外の師事関係は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakamoto-genbee",
@@ -21398,7 +21528,8 @@
    "unknowns": [
     "生年は不詳（母集団データにあった1805年は裏付けが取れなかった）",
     "七折窯と『愛媛県史』のいう坂本窯との関係"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakata-deika-13",
@@ -21469,7 +21600,8 @@
    ],
    "unknowns": [
     "経歴の詳細は主にWikipediaと作家陶歴に拠り、公的機関の作家資料での裏付けは今後の課題"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakuma-fujiya",
@@ -21532,7 +21664,8 @@
    ],
    "unknowns": [
     "修業先・師事関係の詳細は公表資料で未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakuma-kenji",
@@ -21589,7 +21722,8 @@
    ],
    "unknowns": [
     "作風・技法の詳細は公的資料での確認が取れなかった"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakuma-totaro",
@@ -21645,7 +21779,8 @@
    ],
    "unknowns": [
     "誕生日は8月10日（東文研）と8月13日（Wikipedia）で異なる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sakura-isshin",
@@ -21687,7 +21822,8 @@
    "unknowns": [
     "現在の工房所在地と師事した窯元は公表資料で未確認",
     "主張が2件にとどまるのは、確認できる公表プロフィールが限られるため"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sasaki-hiroaki",
@@ -21741,7 +21877,8 @@
    ],
    "unknowns": [
     "受賞歴・展覧会歴の詳細は公的資料で未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sato-katsuhiko",
@@ -21791,7 +21928,8 @@
    "unknowns": [
     "陶芸の修業経歴と制作に用いた窯は未確認",
     "一部の販売店資料に没年を2008年とする誤記が見られるが、画廊の追悼展案内とWikipediaにより2017年没を確認した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sato-mitsuo",
@@ -21844,7 +21982,8 @@
    "unknowns": [
     "Wikipedia記事自体に出典がほとんどなく、経歴の詳細は裏付けが取れていない",
     "現在は子の佐藤光春が繭窯を継いでいると徳島県の観光資料にあるが、代替わりの時期は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sato-norikatsu",
@@ -21892,7 +22031,8 @@
    "wares": [],
    "unknowns": [
     "工房「縒窯」の所在地の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sato-takashi",
@@ -21947,7 +22087,8 @@
    "wares": [
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sawada-chitojin",
@@ -22010,7 +22151,8 @@
    ],
    "unknowns": [
     "生地と日本画修業の詳細は資料が限られ確認が十分でない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/senoe-rinemon-yoshiaki",
@@ -22060,7 +22202,8 @@
    "unknowns": [
     "生年は不詳。没年1865年は母集団データ（Wikipedia由来）で、公的資料での確認は未了",
     "名の読みの一部（よしあき）の典拠は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shakunaga-yukio",
@@ -22122,7 +22265,8 @@
    "unknowns": [
     "受賞歴の詳細は未確認",
     "金重素山との師弟関係以外の修業歴は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shibata-sokyu",
@@ -22179,7 +22323,8 @@
     "ware/kasama",
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shima-takemi",
@@ -22254,7 +22399,8 @@
    "unknowns": [
     "公的機関による作家資料が少なく、経歴の多くはWikipediaの記述に拠る",
     "師事した小橋川永昌は人物母集団の実体に含まれないため関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shimaoka-kei",
@@ -22314,7 +22460,8 @@
    "wares": [
     "ware/mashiko"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shimaoka-ryuta",
@@ -22375,7 +22522,8 @@
    ],
    "unknowns": [
     "作風の詳細は公的資料での確認が十分でない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shinkai-kanzan",
@@ -22440,7 +22588,8 @@
    "unknowns": [
     "師事した清水六兵衛の代数について、五代（日本人名大辞典）とする資料と六代とする販売店資料があり、記述が異なる",
     "五代清水六兵衛は人物母集団の実体に含まれないため関係リンクは付けていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shinoda-giichi",
@@ -22507,7 +22656,8 @@
    "wares": [],
    "unknowns": [
     "経歴の多くはWikipediaの記述に拠り、東文研等の公的作家資料での裏付けは今後の課題"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shinozaki-takatsukasa",
@@ -22557,7 +22707,8 @@
    "wares": [],
    "unknowns": [
     "公的機関の作家資料が少なく、経歴はWikipediaの記述に拠る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shiono-hanjuro",
@@ -22608,7 +22759,8 @@
    "wares": [],
    "unknowns": [
     "陶芸家としての作品歴の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/shogoro",
@@ -22662,7 +22814,8 @@
    "wares": [],
    "unknowns": [
     "作風の技法的な特徴は公表資料で未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sono-ari",
@@ -22713,7 +22866,8 @@
    "unknowns": [
     "Wikipedia記事自体が出典不足を指摘されており、経歴の裏付けは今後の課題",
     "生年1937年は母集団データ（Wikidata由来）で、記事本文での確認は未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/sugimoto-sadamitsu",
@@ -22775,7 +22929,8 @@
     "ware/shigaraki",
     "ware/iga"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/susukida-koji",
@@ -22828,7 +22983,8 @@
    "unknowns": [
     "出身地は福島県三春町と伝える資料があるが、公的資料での確認は未了",
     "修業経歴は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suwa-sozan-1",
@@ -22895,7 +23051,8 @@
    "unknowns": [
     "生年は1851年と1852年の両説がある",
     "朝鮮李王家嘱託としての高麗古窯調査（1914年）と窯の再興（1915年）の詳細は専門資料での確認が未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-atsushi",
@@ -22946,7 +23103,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "陶芸作品の技法・作風の詳細は専門資料での確認が未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-hiroyumi",
@@ -23003,7 +23161,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "韓国での師匠や修行先の窯の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-kiyoshi",
@@ -23059,7 +23218,8 @@
    ],
    "unknowns": [
     "京都第二工業学校卒業後の初期の作陶経歴の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-minoru",
@@ -23111,7 +23271,8 @@
    "unknowns": [
     "生年（1962年）は母集団（Wikipedia由来）の情報で、公的・専門出典での確認は未了",
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-osamu-1926",
@@ -23174,7 +23335,8 @@
    "wares": [],
    "unknowns": [
     "人間国宝の鈴木藏（すずき おさむ）と同音の別人である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/suzuki-sansei",
@@ -23228,7 +23390,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "河村蜻山の工房での修行内容の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tabata-shion",
@@ -23283,7 +23446,8 @@
    "wares": [],
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tahara-tobee-12",
@@ -23335,7 +23499,8 @@
    ],
    "unknowns": [
     "山口県指定無形文化財の認定内容の詳細は山口県の公的資料での確認が未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/taiga-tateishi",
@@ -23385,7 +23550,8 @@
    "wares": [],
    "unknowns": [
     "陶彫作品の焼成地や窯についての詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takahara-goroshichi",
@@ -23435,7 +23601,8 @@
    "unknowns": [
     "生没年は不詳である",
     "経歴の詳細は伝承と発掘調査に基づく研究途上にあり、確定していない部分が多い"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takahashi-kazutomo",
@@ -23489,7 +23656,8 @@
    ],
    "unknowns": [
     "北海道工業試験場や木村産業研究所での窯業指導の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takahashi-tadao",
@@ -23541,7 +23709,8 @@
    "wares": [],
    "unknowns": [
     "陶芸作品の作風や窯についての詳細は未確認で、公的・専門出典での裏付けが未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takata-sanpei",
@@ -23592,7 +23761,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "経歴の公的・専門出典での裏付けは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takauchi-shugo",
@@ -23649,7 +23819,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "出身地は未確認で、経歴の公的出典での裏付けが未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takegoshi-kazunori",
@@ -23701,7 +23872,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴・受賞歴の範囲でのみ記録している",
     "日本芸術院賞の受賞年（第81回）は能美市の紹介に基づく"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takegoshi-toshiaki",
@@ -23762,7 +23934,8 @@
    "unknowns": [
     "没年（2021年）は母集団の情報で、公的出典での確認は未了",
     "武腰一憲との親族関係の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takenochi-ginshu",
@@ -23822,7 +23995,8 @@
    ],
    "unknowns": [
     "生年は1831年と1832年の両説がある"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takeshita-shikamaru",
@@ -23880,7 +24054,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "経歴の公的・専門出典での裏付けは未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takeshita-takaya",
@@ -23938,7 +24113,8 @@
    "unknowns": [
     "生年（1941年）は母集団（Wikipedia由来）の情報で、公的・専門出典での確認は未了",
     "陶芸作品の作風の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/taki-kazuo",
@@ -23987,7 +24163,8 @@
    "wares": [],
    "unknowns": [
     "佐賀での作陶拠点や窯の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takiguchi-kiheiji",
@@ -24048,7 +24225,8 @@
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している",
     "海外（米国）での作陶歴の詳細は未確認"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takii-yoshiji",
@@ -24103,7 +24281,8 @@
    "wares": [],
    "unknowns": [
     "Wikipediaの当該記事は出典が不十分とされており、生没年・経歴の公的出典での裏付けが未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takino-yoshihiro",
@@ -24156,7 +24335,8 @@
    "unknowns": [
     "生年（1965年）は母集団（Wikipedia由来）の情報で、公的出典での確認は未了",
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/takita-koichi",
@@ -24209,7 +24389,8 @@
    "unknowns": [
     "没年（2022年）は母集団の情報で、公的出典での確認は未了",
     "作風や主な技法の詳細は専門資料での確認が未了"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tamura-eiichiro",
@@ -24261,7 +24442,8 @@
    ],
    "unknowns": [
     "存命人物のため、公表された経歴の範囲でのみ記録している"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tanaka-sokei",
@@ -24283,7 +24465,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "raku-sokei"
+      "b8-raku-museum"
      ]
     },
     {
@@ -24291,7 +24473,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "raku-sokei"
+      "b8-raku-museum"
      ]
     },
     {
@@ -24299,7 +24481,7 @@
      "level": "E2",
      "status": "established",
      "sources": [
-      "raku-sokei"
+      "b8-raku-museum"
      ]
     }
    ],
@@ -24322,7 +24504,8 @@
    "unknowns": [
     "母集団では没年不詳であったため、樂美術館の歴代紹介（文禄4年・1595年、60歳）に基づき没年を補った",
     "伝世作品のうち無印のものもあり、宗慶作の確定は研究途上である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tenguji-tohakujin",
@@ -24376,7 +24559,8 @@
    "wares": [],
    "unknowns": [
     "受賞歴・入選歴の詳細は公的資料では確認できておらず、Wikipediaの記述に拠る"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/teraike-shizuto",
@@ -24429,7 +24613,8 @@
    ],
    "unknowns": [
     "近年の活動状況は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/teshigahara-hiroshi",
@@ -24490,7 +24675,8 @@
    "wares": [],
    "unknowns": [
     "草月陶房で制作した陶芸作品の技法・焼成の詳細や、越前焼との関係は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/todo-takanao",
@@ -24539,7 +24725,8 @@
    "wares": [],
    "unknowns": [
     "作陶の師事関係・窯の所在地など、陶芸面の詳細を示す公的資料は少なく未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/togo-jukatsu",
@@ -24589,7 +24776,8 @@
    ],
    "unknowns": [
     "作品の現存状況や具体的な作風は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuboi-asuka",
@@ -24655,7 +24843,8 @@
    "wares": [],
    "unknowns": [
     "没月日は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuda-tomoko",
@@ -24708,7 +24897,8 @@
    ],
    "unknowns": [
     "受賞歴は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuji-ichido",
@@ -24766,7 +24956,8 @@
    ],
    "unknowns": [
     "経歴を裏づける公的機関の資料が少なく、現時点ではWikipedia系資料に拠っている"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuji-kyo",
@@ -24829,7 +25020,8 @@
    "wares": [],
    "unknowns": [
     "陶芸面の経歴は画廊資料に主に拠っており、公的機関による網羅的な略歴は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuji-seimei",
@@ -24910,7 +25102,8 @@
    ],
    "unknowns": [
     "名誉都民の称号を受けた年次など、受賞・顕彰の全容は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuji-teruko",
@@ -24976,7 +25169,8 @@
    "wares": [],
    "unknowns": [
     "伊豆・宇佐美に築いたとされる孔雀窯（1970年）など後半生の拠点の詳細は、Wikipedia以外の公的資料では未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuji-toshihiko",
@@ -25045,7 +25239,8 @@
    ],
    "unknowns": [
     "佐賀県立有田窯業大学校非常勤講師を務めた期間以後の役職は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsujihitachi-14",
@@ -25099,7 +25294,8 @@
    ],
    "unknowns": [
     "十四代個人の受賞歴・公職は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsukigata-nahiko",
@@ -25158,7 +25354,8 @@
    "unknowns": [
     "経歴の多くはWikipedia等の二次資料に拠っており、美術館・自治体など公的機関による裏づけは限られる",
     "月形大陶坊美術館の創設年には1972年と1974年の表記があり未確定である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/tsuneoka-mitsuoki",
@@ -25209,7 +25406,8 @@
    ],
    "unknowns": [
     "作風の詳細や近況は公的資料では未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/uchida-koichi",
@@ -25268,7 +25466,8 @@
    ],
    "unknowns": [
     "日本陶磁協会賞の受賞年は、2018年とする資料と2019年とする資料があり未確定である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ueda-masanari",
@@ -25317,7 +25516,8 @@
    "wares": [],
    "unknowns": [
     "現在の拠点や作品の技法面の詳細は公的資料では未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ueda-tsuneji",
@@ -25392,7 +25592,8 @@
    ],
    "unknowns": [
     "没年の対立（1987年／1988年）は未解決である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/uemura-takuma",
@@ -25441,7 +25642,8 @@
    "wares": [],
    "unknowns": [
     "陶芸作品の作風・技法の詳細を示す公的資料は少なく未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/uemura-yodo",
@@ -25492,7 +25694,8 @@
    ],
    "unknowns": [
     "受賞歴など顕彰面の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/ueno-tsuyoshi",
@@ -25544,7 +25747,8 @@
    "wares": [],
    "unknowns": [
     "受賞歴は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/umezawa-sachiko",
@@ -25604,7 +25808,8 @@
    "wares": [],
    "unknowns": [
     "現在の制作拠点の所在地は公表資料では未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/wada-morihiro",
@@ -25665,7 +25870,8 @@
    ],
    "unknowns": [
     "師事関係の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/wada-yasuo",
@@ -25721,7 +25927,8 @@
    ],
    "unknowns": [
     "作風・技法の詳細は公的資料では未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/wakasugi-naomi",
@@ -25776,7 +25983,8 @@
    ],
    "unknowns": [
     "個人の受賞歴の詳細は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/wakita-munetaka",
@@ -25825,7 +26033,8 @@
    "wares": [],
    "unknowns": [
     "飛鳥赫窯の開窯年は、1965年の卒業直後とする記述と1970年の陶房設立とする記述があり、資料内で表記が揺れる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/wakui-kayoko",
@@ -25889,7 +26098,8 @@
    ],
    "unknowns": [
     "近年の活動状況は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/watanabe-eriko",
@@ -25944,7 +26154,8 @@
    "unknowns": [
     "作風・得意とする技法の詳細は、美術館・自治体等の公的資料では確認できていない",
     "現在の活動状況の公的な裏づけは限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yagi-kazuo",
@@ -26004,7 +26215,8 @@
    "wares": [],
    "unknowns": [
     "走泥社の同人との関係は個別の裏づけが限られ、ここでは鈴木治との関連のみ記録した"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yakuoji-taichi",
@@ -26067,7 +26279,8 @@
    "wares": [],
    "unknowns": [
     "個展・受賞歴の網羅的な公的記録は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamada-kazu",
@@ -26131,7 +26344,8 @@
    ],
    "unknowns": [
     "公募展での受賞歴の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamada-seiji",
@@ -26186,7 +26400,8 @@
    "unknowns": [
     "公的資料（美術館・自治体）による略歴の裏づけは得られていない",
     "父・山田九一は人物母集団の実体ではないため関係リンクは張っていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamada-tetsu",
@@ -26242,7 +26457,8 @@
    ],
    "unknowns": [
     "師事した陶芸家や窯の具体的な経歴は人名事典の記述の範囲を超えて確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamagishi-taisei",
@@ -26297,7 +26513,8 @@
    ],
    "unknowns": [
     "師事関係や窯の所在地の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamakuchi-michie",
@@ -26347,7 +26564,8 @@
    "wares": [],
    "unknowns": [
     "作品の技法・作風の具体像は、確認できる公的資料が乏しく未詳である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamamoto-hidekazu-hideichi",
@@ -26389,7 +26607,8 @@
    "unknowns": [
     "陶芸家の「山本秀一」が別に存在するかは未確認である",
     "母集団の収載根拠となったカテゴリ分類の再確認と、実体の削除または差し替えの判断が必要である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamanaka-chuzaemon",
@@ -26419,7 +26638,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "mie-u-banko",
+      "mie-u-fujita-banko",
       "mie-bunka-yamanaka"
      ]
     },
@@ -26428,7 +26647,7 @@
      "level": "E3",
      "status": "established",
      "sources": [
-      "mie-u-banko"
+      "mie-u-fujita-banko"
      ]
     }
    ],
@@ -26440,7 +26659,8 @@
    "unknowns": [
     "生没年（1821-1878）は母集団の値（Wikipedia由来）であり、三重県等の公的資料では裏づけが得られていない",
     "本人の作陶作品の現存状況は未確認である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamaoka-susumu",
@@ -26505,7 +26725,8 @@
    "unknowns": [
     "生年は不詳である",
     "作風の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamaoka-yuzuru",
@@ -26569,7 +26790,8 @@
    ],
    "unknowns": [
     "作風や受賞歴の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamaoka-toru",
@@ -26632,7 +26854,8 @@
    ],
    "unknowns": [
     "展覧会歴・受賞歴の公的な裏づけは限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yamato-yasuo",
@@ -26692,7 +26915,8 @@
    ],
    "unknowns": [
     "現在の作陶活動の状況は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yasuhara-yoshiaki",
@@ -26761,7 +26985,8 @@
     "tech/zogan"
    ],
    "wares": [],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yonaha-chotai",
@@ -26811,7 +27036,8 @@
    "wares": [],
    "unknowns": [
     "陶芸作品の技法・制作拠点（窯）の詳細は、確認できる公的資料が乏しく未詳である"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshida-masakazu",
@@ -26860,7 +27086,8 @@
    ],
    "unknowns": [
     "公募展での受賞歴や美術館収蔵の情報は確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshika-hatao",
@@ -26925,7 +27152,8 @@
    "wares": [
     "ware/hagi"
    ],
-   "unknowns": []
+   "unknowns": [],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshikawa-mizuki",
@@ -26997,7 +27225,8 @@
    ],
    "unknowns": [
     "美術館等の公的機関による作家紹介での裏づけは限られる"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yoshikawa-motomi",
@@ -27057,7 +27286,8 @@
    ],
    "unknowns": [
     "修業先や受賞歴の詳細は公的資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/yuki-mieko",
@@ -27108,7 +27338,8 @@
    "unknowns": [
     "生年（1943年）は母集団の値であり、作家公式サイトでは確認できていない",
     "修業歴や師事関係は公表資料で確認できていない"
-   ]
+   ],
+   "updated": "2026-11-12"
   },
   {
    "id": "person/zusho-ichiro",
@@ -27152,7 +27383,8 @@
    "unknowns": [
     "陶芸との関係（作陶・陶磁器研究等）は未確認である",
     "母集団の収載根拠となったカテゴリ分類の再確認と、実体の削除または差し替えの判断が必要である"
-   ]
+   ],
+   "updated": "2026-11-12"
   }
  ]
 }
