@@ -38,9 +38,9 @@ ol li{margin:.35rem 0}
 <main><div class="wrap">
 
 <div class="stats">
-<div class="card"><div class="stat">735</div>収載レコード</div>
-<div class="card"><div class="stat">2991</div>出典つきの主張</div>
-<div class="card"><div class="stat">1591</div>出典の総数</div>
+<div class="card"><div class="stat">924</div>収載レコード</div>
+<div class="card"><div class="stat">3855</div>出典つきの主張</div>
+<div class="card"><div class="stat">1960</div>出典の総数</div>
 <div class="card"><div class="stat">139</div>地図にピンのある産地</div>
 </div>
 
@@ -67,6 +67,15 @@ ol li{margin:.35rem 0}
 <div class="card"><h3><a href="people.html">陶芸家・保持団体の一覧</a></h3>
 <p class="small">人間国宝を中心とする制度的コア、Wikipediaカテゴリから実測した拡張層、技法の保持団体。師弟などの系譜関係と、技法・産地へのリンクつきです。</p>
 <p class="small">レコード 382 件／主張 1405 件<br><a href="data/people-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="kilns.html">窯・設備の一覧</a></h3>
+<p class="small">電気窯・ガス窯などの現行の窯の形式から、登り窯・窖窯などの歴史的窯、轆轤・土練機・窯道具・計測機器まで。メーカー仕様（E1）を中心に、実際に販売されている製品の価格帯も記録しています。</p>
+<p class="small">レコード 41 件／主張 186 件<br><a href="data/kiln-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="clays.html">土の一覧</a></h3>
+<p class="small">産地の土、販売されているブレンド土の種別、木節粘土・蛙目粘土・天草陶石などの原料。等級や荷姿、価格帯といった市場の事実も併記しています。</p>
+<p class="small">レコード 48 件／主張 235 件<br><a href="data/clay-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="glazes.html">釉薬の一覧</a></h3>
+<p class="small">市販・調合済みの釉の種別と釉原料。メーカーカタログと公的研究機関の資料に基づき、市販系列と価格帯、鉛・バリウムなどの安全情報も記録しています。</p>
+<p class="small">レコード 100 件／主張 443 件<br><a href="data/glaze-records.json">機械可読データ（JSON）</a></p></div>
 </div>
 </section>
 
@@ -75,7 +84,7 @@ ol li{margin:.35rem 0}
 <p>このサイトは、人間だけでなく AI に読ませることも想定して作られています。AI アシスタントにこのデータベースについて質問するときは、次の手順が確実です。</p>
 <ol>
 <li><strong>まずガイドを読ませる。</strong> <a href="docs/ai-guide.md">AI・機械向けガイド（docs/ai-guide.md）</a> に、レコードの形式・証拠レベル（E1〜E5、H）・主張の状態（確立／対立／類推／判定困難）の定義があります。最初にこの文書を読ませると、以降の回答の扱いが正確になります。</li>
-<li><strong>HTMLではなく JSON を読ませる。</strong> 質問の対象分野の機械可読データ（<a href="data/jomon-records.json">縄文</a>／<a href="data/wares-records.json">産地</a>／<a href="data/lineage-records.json">系譜</a>／<a href="data/technique-records.json">技法</a>／<a href="data/people-records.json">人物</a>）が、正本の構造化レコードから生成した機械可読形式です。ページの見た目ではなく、こちらを根拠に答えさせてください。</li>
+<li><strong>HTMLではなく JSON を読ませる。</strong> 質問の対象分野の機械可読データ（<a href="data/jomon-records.json">縄文</a>／<a href="data/wares-records.json">産地</a>／<a href="data/lineage-records.json">系譜</a>／<a href="data/technique-records.json">技法</a>／<a href="data/people-records.json">人物</a>／<a href="data/kiln-records.json">窯・設備</a>／<a href="data/clay-records.json">土</a>／<a href="data/glaze-records.json">釉薬</a>）が、正本の構造化レコードから生成した機械可読形式です。ページの見た目ではなく、こちらを根拠に答えさせてください。</li>
 <li><strong>主張の状態を確認させる。</strong> 状態が「対立」の主張は、どちらか一方ではなく両論を併記させること。「判定困難」「未確認」や、証拠レベル E5（出典不明の一般情報）・H（類推）を根拠に断定させないでください。</li>
 <li><strong>出典つきで答えさせる。</strong> 各主張の <code>sources</code> は出典キーで、JSON 内の <code>sources</code> 台帳に名称と URL があります。回答には出典名を添えるよう指示してください。</li>
 <li><strong>再現手順は前提とセットで使わせる。</strong> 技法の手順（<code>procedure</code>）と縄文の再現欄（<code>reproduction</code>）には、前提注記（<code>premise</code>）として「再構成である」旨が書かれています。前提を落として手順だけを引用させないでください。</li>
@@ -96,7 +105,7 @@ https://givemegohan.github.io/japanese-pottery-kb/data/technique-records.json �
 
 </div></main>
 <footer><div class="wrap">
-<p>日本の陶芸ナレッジベース — トップページ。<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="docs/ai-guide.md">AI・機械向けガイド</a>。このサイトとデータは基本的に AI が生成しています。</p>
+<p>日本の陶芸ナレッジベース — トップページ。<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／<a href="docs/ai-guide.md">AI・機械向けガイド</a>。このサイトとデータは基本的に AI が生成しています。</p>
 </div></footer>
 
 <script>
@@ -107,7 +116,10 @@ const FILES=[
  ["wares","産地・窯","wares.html","rec-","wares-records.json"],
  ["lineage","陶芸の系譜","history.html","ev-","lineage-records.json"],
  ["techniques","技法","techniques.html","rec-","technique-records.json"],
- ["people","陶芸家・保持団体","people.html","rec-","people-records.json"]];
+ ["people","陶芸家・保持団体","people.html","rec-","people-records.json"],
+ ["kilns","窯・設備","kilns.html","rec-","kiln-records.json"],
+ ["clays","土","clays.html","rec-","clay-records.json"],
+ ["glazes","釉薬","glazes.html","rec-","glaze-records.json"]];
 let INDEX=[];
 function addEntry(f,r,title,sub){
   const claims=(r.claims||[]).map(c=>c.text).join(" ");
@@ -123,6 +135,8 @@ Promise.all(FILES.map(f=>fetch("data/"+f[4]).then(r=>r.json()).then(j=>{
     else if(f[0]==="wares")sub=(r.layer==="core"?"制度的コア":"拡張層");
     else if(f[0]==="techniques")sub=r.stage||"";
     else if(f[0]==="people")sub=(r.id.indexOf("group/")===0?"保持団体":(r.layer==="core"?"制度的コア":"拡張層"));
+    else if(f[0]==="kilns"||f[0]==="clays")sub=r.kind||"";
+    else if(f[0]==="glazes")sub=(r.type==="material"?"釉原料":"釉の種別");
     addEntry(f,r,(r.title||(r.names&&r.names.ja)||r.id),sub);
   });
 }).catch(()=>{}))).then(()=>{
