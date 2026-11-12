@@ -17,6 +17,7 @@ main .wrap{padding-top:1.2rem;padding-bottom:2rem}
 .stat{font-size:1.5rem;font-weight:700;color:#7a4a21}
 .small{font-size:.85rem;color:#6b6259}
 .domains{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7rem}
+.grp{margin:1.4rem 0 .2rem;font-size:1.08rem;border-left:4px solid var(--acc);padding-left:.5rem}
 .domains .card{margin:0}
 .domains h3{margin:.1rem 0 .4rem}
 input[type=search]{width:100%;box-sizing:border-box;padding:.6rem .8rem;font-size:1rem;border:1px solid #c9c0b2;border-radius:8px}
@@ -68,6 +69,7 @@ ol li{margin:.35rem 0}
 </section>
 
 <section id="contents"><h2>内容の一覧</h2>
+<h3 class="grp">使う・買う・贈る</h3>
 <div class="domains">
 <div class="card"><h3><a href="basics.html">器の基礎と暮らし</a></h3>
 <p class="small">陶器と磁器の違い、電子レンジや食洗機の可否、安全な使い方、手入れと保管、贈り方、価格の仕組み。器を買う・使う人のための入門です。</p>
@@ -75,33 +77,27 @@ ol li{margin:.35rem 0}
 <div class="card"><h3><a href="buying.html">買う・選ぶ・贈る</a></h3>
 <p>作家ものや骨董を含む、器の買い方・選び方・贈り方。見方と真贋、買う場所ごとの違い、価格と価値、贈る応用、購入後と手放すときまで。</p>
 <p class="small">レコード 26 件／主張 166 件<br><a href="data/buying-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="biz.html">作り手の経営と制度</a></h3>
-<p>作り手のための、値付けと原価、販路、伝統的工芸品などの制度、産地組合、後継者と事業承継、輸出と各国の基準。</p>
-<p class="small">レコード 30 件／主張 206 件<br><a href="data/biz-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="works.html">作品・文化財</a>／<a href="visit.html">産地を訪ねる</a></h3>
-<p>国宝・重要文化財に指定された陶磁器の名品と、柿右衛門様式・古九谷様式などの様式。指定と所蔵は公式確認済みのものだけを収載。</p>
-<p class="small">レコード 63 件／主張 441 件<br><a href="data/works-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="visit.html">産地を訪ねる</a></h3>
-<p>陶芸体験・工房見学・陶器市など、産地を訪ねるための実務と、作り手と地域の関わり、観光のデータと歴史。</p>
-<p class="small">レコード 19 件／主張 127 件<br><a href="data/visit-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="world.html">世界の陶磁器</a></h3>
-<p>景徳鎮・高麗青磁・李朝白磁・マイセン・デルフト焼など、日本の陶芸と関わりの深い海外の陶磁器と、技術・様式の行き来の関係史。</p>
-<p class="small">レコード 8 件／主張 56 件<br><a href="data/world-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="jomon.html">縄文文様の分類</a></h3>
-<p class="small">縄文土器の「縄文」を、原体（撚りをかける道具）・施文方法・文様の3層で分類。同定キーで観察から分類へたどり着けます。</p>
-<p class="small">レコード 40 件／主張 75 件<br><a href="data/jomon-records.json">機械可読データ（JSON）</a></p></div>
+</div>
+<h3 class="grp">産地と作品を知る</h3>
+<div class="domains">
 <div class="card"><h3><a href="wares.html">産地・窯の一覧</a></h3>
 <p class="small">日本の陶磁器産地の一覧と地図。ピンは各産地の代表地点（公的施設・窯元・碑）で、色は六古窯／伝統的工芸品指定／拡張層の区別です。</p>
 <p class="small">レコード 162 件／主張 810 件<br><a href="data/wares-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="history.html">陶芸の系譜</a></h3>
-<p class="small">縄文土器から現代陶芸までの流れを「伝播イベント」として整理。土師器・須恵器の起こり、海外からの伝入と海外への影響、地方間の技術伝播を、学術論文を中心とする出典で記録します。</p>
-<p class="small">イベント 61 件／主張 262 件<br><a href="data/lineage-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="visit.html">産地を訪ねる</a></h3>
+<p>陶芸体験・工房見学・陶器市など、産地を訪ねるための実務と、作り手と地域の関わり、観光のデータと歴史。</p>
+<p class="small">レコード 19 件／主張 127 件<br><a href="data/visit-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="works.html">作品・文化財</a></h3>
+<p>国宝・重要文化財に指定された陶磁器の名品と、柿右衛門様式・古九谷様式などの様式。指定と所蔵は公式確認済みのものだけを収載。</p>
+<p class="small">レコード 63 件／主張 441 件<br><a href="data/works-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="world.html">世界の陶磁器</a></h3>
+<p>景徳鎮・高麗青磁・李朝白磁・マイセン・デルフト焼など、日本の陶芸と関わりの深い海外の陶磁器と、技術・様式の行き来の関係史。</p>
+<p class="small">レコード 8 件／主張 56 件<br><a href="data/world-records.json">機械可読データ（JSON）</a></p></div>
+</div>
+<h3 class="grp">作る・仕事にする</h3>
+<div class="domains">
 <div class="card"><h3><a href="techniques.html">技法の一覧</a></h3>
 <p class="small">原料から仕上げまでの工程段階別に技法を整理。各技法に定義と、前提注記つきの再構成手順、代表産地へのリンクがあります。</p>
 <p class="small">レコード 101 件／主張 512 件<br><a href="data/technique-records.json">機械可読データ（JSON）</a></p></div>
-<div class="card"><h3><a href="people.html">陶芸家・保持団体の一覧</a></h3>
-<p class="small">人間国宝を中心とする制度的コア、Wikipediaカテゴリから実測した拡張層、技法の保持団体。師弟などの系譜関係と、技法・産地へのリンクつきです。</p>
-<p class="small">レコード 382 件／主張 1405 件<br><a href="data/people-records.json">機械可読データ（JSON）</a></p></div>
 <div class="card"><h3><a href="kilns.html">窯・設備の一覧</a></h3>
 <p class="small">電気窯・ガス窯などの現行の窯の形式から、登り窯・窖窯などの歴史的窯、轆轤・土練機・窯道具・計測機器まで。メーカー仕様（E1）を中心に、実際に販売されている製品の価格帯も記録しています。</p>
 <p class="small">レコード 43 件／主張 206 件<br><a href="data/kiln-records.json">機械可読データ（JSON）</a></p></div>
@@ -111,6 +107,21 @@ ol li{margin:.35rem 0}
 <div class="card"><h3><a href="glazes.html">釉薬の一覧</a></h3>
 <p class="small">市販・調合済みの釉の種別と釉原料。メーカーカタログと公的研究機関の資料に基づき、市販系列と価格帯、鉛・バリウムなどの安全情報も記録しています。</p>
 <p class="small">レコード 100 件／主張 450 件<br><a href="data/glaze-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="biz.html">作り手の経営と制度</a></h3>
+<p>作り手のための、値付けと原価、販路、伝統的工芸品などの制度、産地組合、後継者と事業承継、輸出と各国の基準。</p>
+<p class="small">レコード 30 件／主張 206 件<br><a href="data/biz-records.json">機械可読データ（JSON）</a></p></div>
+</div>
+<h3 class="grp">人と歴史</h3>
+<div class="domains">
+<div class="card"><h3><a href="people.html">陶芸家・保持団体の一覧</a></h3>
+<p class="small">人間国宝を中心とする制度的コア、Wikipediaカテゴリから実測した拡張層、技法の保持団体。師弟などの系譜関係と、技法・産地へのリンクつきです。</p>
+<p class="small">レコード 382 件／主張 1405 件<br><a href="data/people-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="history.html">陶芸の系譜</a></h3>
+<p class="small">縄文土器から現代陶芸までの流れを「伝播イベント」として整理。土師器・須恵器の起こり、海外からの伝入と海外への影響、地方間の技術伝播を、学術論文を中心とする出典で記録します。</p>
+<p class="small">イベント 61 件／主張 262 件<br><a href="data/lineage-records.json">機械可読データ（JSON）</a></p></div>
+<div class="card"><h3><a href="jomon.html">縄文文様の分類</a></h3>
+<p class="small">縄文土器の「縄文」を、原体（撚りをかける道具）・施文方法・文様の3層で分類。同定キーで観察から分類へたどり着けます。</p>
+<p class="small">レコード 40 件／主張 75 件<br><a href="data/jomon-records.json">機械可読データ（JSON）</a></p></div>
 </div>
 </section>
 
