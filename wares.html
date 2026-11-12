@@ -129,14 +129,16 @@ renderList();
       el.style.outline='3px solid '+COLORS[3];el.style.outlineOffset='2px';
       setTimeout(()=>{el.style.outline='';},2600);}
   }
-  DATA.records.filter(r=>r.pin).forEach(r=>{
+  // Draw lower tiers first so the most important pins (六古窯) end up on top.
+  [3,2,1].forEach(t=>{DATA.records.filter(r=>r.pin&&r.tier===t).forEach(r=>{
     const m=L.circleMarker([r.pin.lat,r.pin.lng],{radius:RADII[r.tier]||6,color:'#fff',weight:1.2,fillColor:COLORS[r.tier]||'#666',fillOpacity:0.92}).addTo(map);
     m.bindPopup("<strong>"+r.names.ja+"</strong><br>"+r.pin.place+"（"+r.pin.kind+"）<br><a href='#' data-rec='"+r.id+"'>この産地の情報を見る</a>");
     m.on('click',()=>{setTimeout(()=>{
       const a=document.querySelector(".leaflet-popup-content a[data-rec]");
       if(a)a.addEventListener('click',e=>{e.preventDefault();selectRecord(r.id);});
     },50);});
-  });
+    if(r.tier===1)m.bringToFront();
+  });});
 })();
 </script>
 </body>
