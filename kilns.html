@@ -33,6 +33,14 @@ ul.claims li{margin:.25rem 0}
 .small{font-size:.85rem;color:#6b6259}
 a{color:#8a5a1e}
 footer{background:#efe9df;color:#5c554d;padding:1.2rem 1rem 2rem;font-size:.88rem}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:#7a4a21;font-size:.78rem;border:1px solid #d8cfc0;border-radius:999px;padding:.05rem .6rem;background:#efe7db}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:#6b6259;font-size:.88rem;margin-top:.15rem}
+.tgl{background:#efe7db;border:1px solid #d8cfc0;border-radius:999px;padding:.15rem .8rem;margin:.15rem;cursor:pointer;font-size:.88rem}
 </style>
     </head>
     <body>
@@ -42,16 +50,17 @@ footer{background:#efe9df;color:#5c554d;padding:1.2rem 1rem 2rem;font-size:.88re
     <p class="small" style="color:#d8cfc2">このページとデータは基本的に AI（Muse）が生成しています。</p>
     </div></header>
     <main><div class="wrap">
+    <input type="search" id="q" placeholder="名前・キーワードで検索">
+    <div class="chips" id="chips"></div>
+    <div><button class="tgl" id="openall">すべて開く</button> <button class="tgl" id="closeall">すべて閉じる</button></div>
+    <p class="small" id="cnt"></p>
+    <div id="list"></div>
     <div class="stats">
     <div class="stat"><b>41</b> レコード</div>
     <div class="stat"><b>186</b> 出典つきの主張</div>
     <div class="stat"><b>63</b> 出典</div>
     </div>
     <p class="small">証拠レベル：E1 一次資料（メーカー仕様・原論文など）／E2 公的機関・学術的な二次資料／E3 専門書・図録／E4 実務者・販売店の説明／E5 出典不明の一般情報／H 類推。状態が「対立」の主張は両論を併記しています。市場の事実と価格帯は2026年11月時点の確認です。</p>
-    <input type="search" id="q" placeholder="名前・キーワードで検索">
-    <div class="chips" id="chips"></div>
-    <p class="small" id="cnt"></p>
-    <div id="list"></div>
     </div></main>
     <footer><div class="wrap">
     <p>日本の陶芸ナレッジベース — 窯・設備の一覧。<a href="index.html">トップ</a>／<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>。機械可読データ：<a href="data/kiln-records.json">data/kiln-records.json</a>。このサイトとデータは基本的に AI が生成しています。</p>
@@ -86,26 +95,32 @@ if(curF!=="all"&&(r[FACET]||"")!==curF)return;
 const hay=(r.names.ja+" "+(r.names.reading||"")+" "+r.summary+" "+(r.claims||[]).map(c=>c.text).join(" ")).toLowerCase();
 if(q&&hay.indexOf(q)<0)return;
 n++;
-let h="<div class='card' id='rec-"+r.id+"'><h3>"+esc(r.names.ja)+" <span class='small'>"+esc(r.names.reading||"")+"</span></h3>";
-h+="<span class='chip'>"+esc(r.kind||r.type||"")+"</span><span class='chip "+(r.layer||"")+"'>"+(r.layer==="core"?"コア":"拡張層")+"</span>";
+let h="<details class='card' id='rec-"+r.id+"'><summary><strong>"+esc(r.names.ja)+"</strong> <span class='small'>"+esc(r.names.reading||"")+"</span>";
+h+=" <span class='chip'>"+esc(r.kind||r.type||"")+"</span><span class='chip "+(r.layer||"")+"'>"+(r.layer==="core"?"コア":"拡張層")+"</span>";
+if(r.summary)h+="<span class='sumline'>"+esc(r.summary.slice(0,90))+(r.summary.length>90?"…":"")+"</span>";
+h+="</summary><div class='body'>";
 h+="<p>"+esc(r.summary)+"</p><ul class='claims'>"+(r.claims||[]).map(claimHtml).join("")+"</ul>";
 if(r.market)h+="<div class='market'><strong>市場の事実</strong>（2026年11月時点）："+esc(r.market.text)+" <span class='src'>出典："+(r.market.sources||[]).map(srcLabel).join("、")+"</span></div>";
-if(r.safety)h+="<div class='safety'><strong>安全上の注意</strong>："+esc(r.safety)+"</div>";
+if(r.safety){const sf=(typeof r.safety==="string")?{text:r.safety,sources:[]}:(r.safety||{});
+h+="<div class='safety'><strong>安全上の注意</strong>："+esc(sf.text||"")+((sf.sources&&sf.sources.length)?" <span class='src'>出典："+sf.sources.map(srcLabel).join("、")+"</span>":"")+"</div>";}
 const links=[];
 (r.ware_links||[]).forEach(w=>links.push("<a href='wares.html#rec-"+w+"'>産地："+w.replace('ware/','')+"</a>"));
 (r.tech_links||[]).forEach(t=>links.push("<a href='techniques.html#rec-"+t+"'>技法："+t.replace('tech/','')+"</a>"));
 (r.relations||[]).forEach(rel=>{if(IDSET.has(rel.to))links.push("<a href='#rec-"+rel.to+"'>"+esc(rel.kind||'関連')+"："+rel.to.split('/').pop()+"</a>");});
 if(links.length)h+="<p class='small'>"+links.join("／")+"</p>";
 if(r.unknowns&&r.unknowns.length)h+="<p class='small'>未確認："+r.unknowns.map(esc).join("／")+"</p>";
-h+="</div>";
+h+="</div></details>";
 list.innerHTML+=h;
 });
 if(!n)list.innerHTML="<p class='small'>該当するレコードがありません。</p>";
+if(q)list.querySelectorAll('details.card').forEach(d=>{d.open=true;});
 document.getElementById('cnt').textContent=n+"件";
 }
 document.getElementById('q').addEventListener('input',render);
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=false;}));
 render();
-if(location.hash){const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el){el.classList.add('hl');el.scrollIntoView();}}
+if(location.hash){const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el){if(el.tagName==='DETAILS')el.open=true;el.classList.add('hl');el.scrollIntoView();}}
 
     </script>
     </body>

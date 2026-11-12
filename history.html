@@ -31,6 +31,14 @@ footer{border-top:1px solid var(--line);margin-top:2rem;padding:1.2rem 0 2rem;co
 a{color:var(--acc)}
 .small{font-size:.9rem;color:var(--mut)}
 sup.ref{color:var(--mut);font-size:.72rem}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem;color:inherit;font-size:1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:var(--acc);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;background:#fff}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:var(--mut);font-size:.88rem;margin-top:.1rem}
+.tgl{border:1px solid var(--line);background:#fff;border-radius:999px;padding:.25rem .8rem;cursor:pointer;margin:.2rem .2rem .2rem 0}
 </style>
 </head>
 <body>
@@ -40,6 +48,9 @@ sup.ref{color:var(--mut);font-size:.72rem}
 <p>縄文土器から現代の陶芸までの、大まかな流れと系譜です。土師器と須恵器の起こり、海外からもたらされた技術、海外へ与えた影響、地方から地方への技術の伝播、そして現代の産地とのつながりを、学術論文を中心とする出典つきの「イベント」の連なりとして整理しています。伝承は伝承として、学説の対立は対立のまま記録します。</p>
 </div></header>
 <main class="wrap">
+
+<div style="margin:.4rem 0"><button class="tgl" id="openall">すべてのイベントを開く</button> <button class="tgl" id="closeall">すべて閉じる</button></div>
+<div id="eras"></div>
 <section>
 <div class="grid">
 <div class="card"><div class="stat" id="st-events"></div>系譜イベント</div>
@@ -47,7 +58,6 @@ sup.ref{color:var(--mut);font-size:.72rem}
 <div class="card"><div class="stat" id="st-contested"></div>対立として併記した主張</div>
 </div>
 </section>
-<div id="eras"></div>
 </main>
 <footer><div class="wrap">
 <p>日本の陶芸ナレッジベース — 陶芸の系譜。<a href="index.html">トップ</a>／<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／機械可読データ：<a href="data/lineage-records.json">系譜・伝播レコード（JSON）</a>。このサイトとデータは基本的に AI が生成しています。誤りの指摘は GitHub リポジトリの Issue でお寄せください。</p>
@@ -72,15 +82,16 @@ function claimHTML(c){
   return h+"</div>";
 }
 function evHTML(e){
-  let h="<div class='card' id='ev-"+e.id+"'><div><span class='chip kind k-"+e.kind+"'>"+e.kind+"</span><span class='chip'>"+esc(e.period)+"</span></div>";
-  h+="<h3 style='margin:.4rem 0'>"+esc(e.title)+"</h3>";
+  let h="<details class='card' id='ev-"+e.id+"'><summary><span class='chip kind k-"+e.kind+"'>"+e.kind+"</span><span class='chip'>"+esc(e.period)+"</span> <strong>"+esc(e.title)+"</strong>";
+  if(e.from||e.to)h+="<span class='sumline'>"+esc(e.from||"")+" → "+esc(e.to||"")+"</span>";
+  h+="</summary><div class='body'>";
   if(e.from||e.to)h+="<div class='flow'>"+esc(e.from||"")+" → "+esc(e.to||"")+(e.what?"<br>伝わったもの："+esc(e.what):"")+"</div>";
   if(e.summary)h+="<p style='margin:.4rem 0'>"+esc(e.summary)+"</p>";
   (e.claims||[]).forEach(c=>{h+=claimHTML(c);});
   const wl=e.ware_links||[];
   if(wl.length)h+="<p class='small'>現在の産地とのつながり："+wl.map(w=>"<a href='wares.html#rec-"+w+"'>"+esc((e.ware_names||{})[w]||w)+"</a>").join("、")+"</p>";
   if(e.unknowns&&e.unknowns.length)h+="<p class='small'>未確認："+e.unknowns.map(esc).join("／")+"</p>";
-  return h+"</div>";
+  return h+"</div></details>";
 }
 const root=document.getElementById('eras');
 DATA.eras.forEach(er=>{
@@ -90,6 +101,9 @@ DATA.eras.forEach(er=>{
   sec.innerHTML=h;root.appendChild(sec);
   DATA.events.filter(e=>e.era===er.era).forEach(e=>{const d=document.createElement('div');d.innerHTML=evHTML(e);root.appendChild(d.firstChild);});
 });
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('details.card').forEach(d=>{d.open=false;}));
+if(location.hash){const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView();}}
 </script>
 </body>
 </html>

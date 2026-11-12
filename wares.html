@@ -31,6 +31,13 @@ input[type=search]{width:100%;padding:.6rem .8rem;border:1px solid var(--line);b
 footer{border-top:1px solid var(--line);margin-top:2rem;padding:1.2rem 0 2rem;color:var(--mut);font-size:.9rem}
 a{color:var(--acc)}
 .small{font-size:.9rem;color:var(--mut)}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem;color:inherit;font-size:1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:var(--acc);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;background:#fff}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:var(--mut);font-size:.88rem;margin-top:.1rem}
 </style>
 </head>
 <body>
@@ -40,14 +47,7 @@ a{color:var(--acc)}
 <p>日本の陶磁器産地161産地のレコードです。各産地について、所在・歴史の起点・素材（陶器／磁器）・特徴・制度（指定年など）を、出典と証拠レベルつきで記録しています。確認できなかった事項は「未確認」として残します。地図のピンは各産地の代表地点（公的な建物、窯元、碑など）を示し、ピンを選ぶとその産地の情報が表示されます。</p>
 </div></header>
 <main class="wrap">
-<section>
-<div class="grid">
-<div class="card"><div class="stat" id="st-records"></div>収載産地</div>
-<div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
-<div class="card"><div class="stat" id="st-pins"></div>地図ピン（代表地点）</div>
-</div>
-<p class="small">網羅の測り方：母集団は二層に分けて数えます。制度的コア36産地（伝統的工芸品の指定品目と日本六古窯）と、各地の小規模な産地を含む拡張層125産地で、計161産地すべてをレコード化しています。複合品目（伊万里・有田焼など）は産地ごとに分け、瀬戸焼は部分指定の産地（赤津焼・瀬戸染付焼）を束ねる傘として扱っています。ピンは、座標に出典が付けられた産地にのみ置いています。</p>
-</section>
+
 <section><h2>産地地図</h2>
 <div id="map" style="height:520px;border:1px solid var(--line);border-radius:10px"></div>
 <p class="small" style="margin-top:.5rem">
@@ -59,8 +59,18 @@ a{color:var(--acc)}
 <section><h2>産地ブラウザ</h2>
 <input type="search" id="q" placeholder="産地名・読み・キーワードで検索（例：備前、磁器、六古窯）">
 <div id="filters" style="margin:.6rem 0"></div>
+<div style="margin:.3rem 0"><button class="fbtn" id="openall">すべて開く</button> <button class="fbtn" id="closeall">すべて閉じる</button></div>
 <div id="list"></div>
 </section>
+<section><details class="card"><summary>網羅の測り方と収載数</summary><div class="body">
+<div class="grid">
+<div class="card"><div class="stat" id="st-records"></div>収載産地</div>
+<div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
+<div class="card"><div class="stat" id="st-pins"></div>地図ピン（代表地点）</div>
+</div>
+<p class="small">網羅の測り方：母集団は二層に分けて数えます。制度的コア36産地（伝統的工芸品の指定品目と日本六古窯）と、各地の小規模な産地を含む拡張層125産地で、計161産地すべてをレコード化しています。複合品目（伊万里・有田焼など）は産地ごとに分け、瀬戸焼は部分指定の産地（赤津焼・瀬戸染付焼）を束ねる傘として扱っています。ピンは、座標に出典が付けられた産地にのみ置いています。</p>
+
+</div></details></section>
 </main>
 <footer><div class="wrap">
 <p>日本の陶芸ナレッジベース — 産地・窯の一覧。<a href="index.html">トップ</a>／<a href="jomon.html">縄文文様の分類</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／機械可読データ：<a href="data/wares-records.json">産地・窯のレコード（JSON）</a>。このサイトとデータは基本的に AI が生成しています。誤りの指摘は GitHub リポジトリの Issue でお寄せください。</p>
@@ -90,16 +100,18 @@ function claimHTML(c){
   return h+"</div>";
 }
 function recHTML(r){
-  let h="<div class='card' id='rec-"+r.id+"'><h3 style='margin-top:0'>"+r.names.ja;
+  let h="<details class='card' id='rec-"+r.id+"'><summary><strong>"+r.names.ja+"</strong>";
   if(r.names.reading)h+=" <span class='small'>（"+r.names.reading+"）</span>";
-  h+="</h3>";
+  if(r.facets&&r.facets.prefecture)h+=" <span class='chip'>"+r.facets.prefecture+"</span>";
+  const c0=(r.claims||[])[0];
+  if(c0)h+="<span class='sumline'>"+c0.text.slice(0,90)+(c0.text.length>90?"…":"")+"</span>";
+  h+="</summary><div class='body'>";
   if(r.names.en)h+="<div class='small'>"+r.names.en+"</div>";
-  if(r.facets&&r.facets.prefecture)h+="<span class='chip'>"+r.facets.prefecture+"</span>";
   if(r.pin)h+="<p class='small' style='margin:.4rem 0 0'>代表地点："+r.pin.place+"（"+r.pin.kind+"）"+(r.pin.address?"<br>"+r.pin.address:"")+(r.pin.basis?"<br>選定理由："+r.pin.basis:"")+"</p>";
   (r.claims||[]).forEach(c=>{h+=claimHTML(c);});
   if(r.relations&&r.relations.length){h+="<p class='small'>関係："+r.relations.map(rel=>{const t=byId[rel.target];return rel.type+" → "+(t?t.names.ja:rel.target);}).join("／")+"</p>";}
   if(r.unknowns&&r.unknowns.length)h+="<p class='small'>未確認："+r.unknowns.join("／")+"</p>";
-  return h+"</div>";
+  return h+"</div></details>";
 }
 function renderList(){
   const q=(document.getElementById('q').value||"").trim();
@@ -107,9 +119,12 @@ function renderList(){
   DATA.records.filter(r=>curPref==="ALL"||(r.facets&&r.facets.prefecture===curPref)).filter(r=>{
     if(!q)return true;const hay=r.names.ja+" "+(r.names.reading||"")+" "+(r.names.en||"")+" "+(r.claims||[]).map(c=>c.text).join(" ");return hay.includes(q);})
   .forEach(r=>{const div=document.createElement('div');div.innerHTML=recHTML(r);list.appendChild(div.firstChild);});
+  if(q)list.querySelectorAll('details.card').forEach(d=>{d.open=true;});
   if(!list.children.length)list.innerHTML="<p class='small'>該当する産地がありません。</p>";
 }
 document.getElementById('q').addEventListener('input', renderList);
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=false;}));
 renderList();
 </script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -125,7 +140,7 @@ renderList();
     document.querySelectorAll('.fbtn').forEach((x,i)=>x.classList.toggle('on',i===0));
     renderList();
     const el=document.getElementById('rec-'+id);
-    if(el){el.scrollIntoView({behavior:'smooth',block:'start'});
+    if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView({behavior:'smooth',block:'start'});
       el.style.outline='3px solid '+COLORS[3];el.style.outlineOffset='2px';
       setTimeout(()=>{el.style.outline='';},2600);}
   }
@@ -140,7 +155,7 @@ renderList();
     if(r.tier===1)m.bringToFront();
   });});
 })();
-if(location.hash){const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el){el.scrollIntoView();el.style.outline='3px solid #5b7a99';el.style.outlineOffset='2px';setTimeout(()=>{el.style.outline='';},2600);}}
+if(location.hash){const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView();el.style.outline='3px solid #5b7a99';el.style.outlineOffset='2px';setTimeout(()=>{el.style.outline='';},2600);}}
 </script>
 </body>
 </html>

@@ -30,6 +30,13 @@ footer{border-top:1px solid var(--line);margin-top:2rem;padding:1.2rem 0 2rem;co
 a{color:var(--acc)}
 .small{font-size:.9rem;color:var(--mut)}
 .hl{outline:3px solid var(--acc)}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem;color:inherit;font-size:1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:var(--acc);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;background:#fff}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:var(--mut);font-size:.88rem;margin-top:.1rem}
 </style>
 </head>
 <body>
@@ -39,19 +46,22 @@ a{color:var(--acc)}
 <p>陶芸に関わる人物と、技法を保持する団体のレコードです。認定年や指定技法名は文化庁などの公的出典に基づいて記録し、師弟関係などの系譜、関わる技法と産地へリンクしています。存命の方については、公表された経歴・受賞・作品の範囲のみを扱っています。</p>
 </div></header>
 <main class="wrap">
-<section>
+
+<section id="browser">
+<input type="search" id="q" placeholder="名前・読み・キーワードで検索（例：備前、染付、リーチ）">
+<div id="filters" style="margin:.5rem 0"></div>
+<div style="margin:.3rem 0"><button class="btn" id="openall">すべて開く</button> <button class="btn" id="closeall">すべて閉じる</button></div>
+<div id="list"></div>
+</section>
+<section><details class="card"><summary>網羅の測り方と収載数</summary><div class="body">
 <div class="grid">
 <div class="card"><div class="stat" id="st-records"></div>収載人物・団体</div>
 <div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
 <div class="card"><div class="stat" id="st-contested"></div>対立として併記した主張</div>
 </div>
 <p class="small">網羅の測り方：母集団は二層で数えます。制度的コアは、重要無形文化財保持者（人間国宝）の陶芸分野の歴代全員と、文化勲章・文化功労者のうち陶芸関係で人間国宝でない方々の和集合（46名）です。拡張層は、歴史上の名工や日本の陶芸と関わる海外の陶芸家などへ順次広げていく層で、この一覧にはその種として14名を先行収載しています。保持団体（認定団体）は個人とは分けて3件を収載しています。</p>
-</section>
-<section id="browser">
-<input type="search" id="q" placeholder="名前・読み・キーワードで検索（例：備前、染付、リーチ）">
-<div id="filters" style="margin:.5rem 0"></div>
-<div id="list"></div>
-</section>
+
+</div></details></section>
 </main>
 <footer><div class="wrap">
 <p>日本の陶芸ナレッジベース — 陶芸家・保持団体の一覧。<a href="index.html">トップ</a>／<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／機械可読データ：<a href="data/people-records.json">人物レコード（JSON）</a>。このサイトとデータは基本的に AI が生成しています。誤りの指摘は GitHub リポジトリの Issue でお寄せください。</p>
@@ -83,12 +93,13 @@ function years(r){
 }
 function cardHTML(r){
   const n=r.names||{};
-  let h="<div class='card' id='rec-"+r.id+"'><h3 style='margin:.2rem 0'>"+esc(n.ja||r.id);
+  let h="<details class='card' id='rec-"+r.id+"'><summary><strong>"+esc(n.ja||r.id)+"</strong>";
   if(n.reading)h+="（"+esc(n.reading)+"）";
   if(n.en)h+=" <span class='small'>"+esc(n.en)+"</span>";
-  h+=years(r)+"</h3><div>";
-  h+="<span class='chip layer'>"+(r.type==='preservation_group'?"保持団体":(r.layer==='core'?"制度的コア":"拡張層"))+"</span>";
-  h+="</div>";
+  h+=years(r);
+  h+=" <span class='chip layer'>"+(r.type==='preservation_group'?"保持団体":(r.layer==='core'?"制度的コア":"拡張層"))+"</span>";
+  if(r.summary)h+="<span class='sumline'>"+esc(r.summary.slice(0,90))+(r.summary.length>90?"…":"")+"</span>";
+  h+="</summary><div class='body'>";
   if(r.summary)h+="<p style='margin:.5rem 0'>"+esc(r.summary)+"</p>";
   (r.claims||[]).forEach(c=>{h+=claimHTML(c);});
   const rels=r.relations||[];
@@ -98,7 +109,7 @@ function cardHTML(r){
   const wl=r.wares||[];
   if(wl.length)h+="<p class='small'>産地："+wl.map(w=>"<a href='wares.html#rec-"+w+"'>"+esc((r.ware_names||{})[w]||w)+"</a>").join("、")+"</p>";
   if(r.unknowns&&r.unknowns.length)h+="<p class='small'>未確認："+r.unknowns.map(esc).join("／")+"</p>";
-  return h+"</div>";
+  return h+"</div></details>";
 }
 let layerFilter="すべて";
 const fdiv=document.getElementById('filters');
@@ -117,13 +128,16 @@ function render(){
     if(q){const hay=JSON.stringify(r);if(hay.indexOf(q)<0)return;}
     const d=document.createElement('div');d.innerHTML=cardHTML(r);list.appendChild(d.firstChild);shown++;
   });
+  if(q)list.querySelectorAll('details.card').forEach(d=>{d.open=true;});
   if(!shown)list.innerHTML="<p class='small'>該当する人物・団体がありません。</p>";
 }
 document.getElementById('q').addEventListener('input',render);
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=false;}));
 render();
 if(location.hash){
   const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));
-  if(el){el.classList.add('hl');el.scrollIntoView();}
+  if(el){if(el.tagName==='DETAILS')el.open=true;el.classList.add('hl');el.scrollIntoView();}
 }
 </script>
 </body>

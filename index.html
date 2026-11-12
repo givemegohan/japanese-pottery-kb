@@ -44,13 +44,6 @@ ol li{margin:.35rem 0}
 </div></header>
 <main><div class="wrap">
 
-<div class="stats">
-<div class="card"><div class="stat">924</div>収載レコード</div>
-<div class="card"><div class="stat">3855</div>出典つきの主張</div>
-<div class="card"><div class="stat">1839</div>出典の総数</div>
-<div class="card"><div class="stat">139</div>地図にピンのある産地</div>
-</div>
-
 <section id="ask"><h2>AIに質問する</h2>
 <div class="card">
 <p style="margin-top:0">質問を書くと、このデータベースから関連するレコードを選び、出典つきで答えるための「質問文」を組み立てます。お使いのAIに渡して使ってください。</p>
@@ -105,7 +98,8 @@ ol li{margin:.35rem 0}
 
 <section id="ai"><h2>AIに読ませる場合のベストプラクティス</h2>
 <div class="card">
-<p>このサイトは、人間だけでなく AI に読ませることも想定して作られています。AI アシスタントにこのデータベースについて質問するときは、次の手順が確実です。</p>
+<p>このサイトは、人間だけでなく AI に読ませることも想定して作られています。上の「AIに質問する」を使うのが一番簡単です。自分の AI に直接データを読ませたい場合は、次の手順が確実です。</p>
+<details><summary style="cursor:pointer;color:#8a5a1e">ベストプラクティスを開く</summary>
 <ol>
 <li><strong>まずガイドを読ませる。</strong> <a href="docs/ai-guide.md">AI・機械向けガイド（docs/ai-guide.md）</a> に、レコードの形式・証拠レベル（E1〜E5、H）・主張の状態（確立／対立／類推／判定困難）の定義があります。最初にこの文書を読ませると、以降の回答の扱いが正確になります。</li>
 <li><strong>HTMLではなく JSON を読ませる。</strong> 質問の対象分野の機械可読データ（<a href="data/jomon-records.json">縄文</a>／<a href="data/wares-records.json">産地</a>／<a href="data/lineage-records.json">系譜</a>／<a href="data/technique-records.json">技法</a>／<a href="data/people-records.json">人物</a>／<a href="data/kiln-records.json">窯・設備</a>／<a href="data/clay-records.json">土</a>／<a href="data/glaze-records.json">釉薬</a>）が、正本の構造化レコードから生成した機械可読形式です。ページの見た目ではなく、こちらを根拠に答えさせてください。</li>
@@ -120,6 +114,7 @@ ol li{margin:.35rem 0}
 https://givemegohan.github.io/japanese-pottery-kb/data/technique-records.json から
 「志野」に関する主張を答えてください。状態が「対立」の主張は両論を併記し、
 各主張には出典名を添えてください。</pre>
+</details>
 </div>
 </section>
 
@@ -127,6 +122,12 @@ https://givemegohan.github.io/japanese-pottery-kb/data/technique-records.json �
 <p class="small">項目レコード（構造化データ）が正本で、このサイトと JSON はそこから自動生成した派生物です。主張は出典のあるものだけを載せ、出典が食い違う場合は一方に寄せず両論を記録します。まだ分かっていないことは「未確認」として各レコードに残してあります。誤りの指摘や追加の出典は、GitHub リポジトリの Issue でお寄せください。</p>
 </section>
 
+<div class="stats">
+<div class="card"><div class="stat">924</div>収載レコード</div>
+<div class="card"><div class="stat">3855</div>出典つきの主張</div>
+<div class="card"><div class="stat">1839</div>出典の総数</div>
+<div class="card"><div class="stat">139</div>地図にピンのある産地</div>
+</div>
 </div></main>
 <footer><div class="wrap">
 <p>日本の陶芸ナレッジベース — トップページ。<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="techniques.html">技法の一覧</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／<a href="docs/ai-guide.md">AI・機械向けガイド</a>。このサイトとデータは基本的に AI が生成しています。</p>
@@ -181,7 +182,10 @@ q.addEventListener('input',()=>{
   box.innerHTML=h;
 });
 const STJ={"established":"確立","contested":"対立","inferred":"類推","indeterminate":"判定困難","unknown":"未確認"};
-const RULES="あなたは日本の陶芸ナレッジベースのレコードに基づいて質問に答えるアシスタントです。次のルールを守ってください。\n・答えは、後に示すレコードの内容だけを根拠にしてください。レコードにないことは、その旨を述べてください。\n・各主張には出典名を添えてください。\n・状態が「対立」の主張は、どちらか一方ではなく両論を併記してください。「判定困難」「類推」、および証拠レベルE5（出典不明の一般情報）を断定の根拠にしないでください。\n・手順が含まれる場合は、前提（再構成である旨）も一緒に述べてください。\n・このデータベースの内容はAIが生成したもので、誤りが混ざることがあります。重要な数値は出典の原典で確認するよう、最後に注意を添えてください。";
+const RULES="あなたは日本の陶芸ナレッジベースのレコードに基づいて質問に答えるアシスタントです。次のルールを守ってください。\n・答えは、後に示すレコードの内容を主な根拠にしてください。情報が足りない場合は、末尾の「データベース全体の見方」に従って、公開されているデータへ自分でアクセスして補ってください。拾ってきた情報にも、以下のルールを同じように適用してください。それでも分からないことは、その旨を述べてください。\n・各主張には出典名を添えてください。\n・状態が「対立」の主張は、どちらか一方ではなく両論を併記してください。「判定困難」「類推」、および証拠レベルE5（出典不明の一般情報）を断定の根拠にしないでください。\n・手順が含まれる場合は、前提（再構成である旨）も一緒に述べてください。\n・このデータベースの内容はAIが生成したもので、誤りが混ざることがあります。重要な数値は出典の原典で確認するよう、最後に注意を添えてください。";
+const KBASE="https://givemegohan.github.io/japanese-pottery-kb/";
+const KBGUIDE_SHORT="【データベース全体の見方】\n形式と証拠レベル・状態の定義は "+KBASE+"docs/ai-guide.md にあります。機械可読データ（JSON）は分野別に "+KBASE+"data/ の下にあります（jomon-records.json＝縄文文様、wares-records.json＝産地・窯、lineage-records.json＝系譜、technique-records.json＝技法、people-records.json＝陶芸家・保持団体、kiln-records.json＝窯・設備、clay-records.json＝土、glaze-records.json＝釉薬）。各JSONは records（系譜は events）と sources（出典台帳）からなり、主張ごとに level・status・sources が付いています。";
+const KBGUIDE_FULL="【データベース全体の見方】\nこのデータベースは全体がWebで公開されています。根拠レコードに答えがないときは、次の方法で自分で情報を拾ってください。\n・まず、形式と証拠レベル（E1〜E5・H）・主張の状態（確立／対立／類推／判定困難）の定義を確認する： "+KBASE+"docs/ai-guide.md\n・分野別の機械可読データ（JSON）を取得して検索する： 縄文文様 "+KBASE+"data/jomon-records.json ／ 産地・窯 "+KBASE+"data/wares-records.json ／ 系譜 "+KBASE+"data/lineage-records.json ／ 技法 "+KBASE+"data/technique-records.json ／ 陶芸家・保持団体 "+KBASE+"data/people-records.json ／ 窯・設備 "+KBASE+"data/kiln-records.json ／ 土 "+KBASE+"data/clay-records.json ／ 釉薬 "+KBASE+"data/glaze-records.json\n各JSONは records（系譜は events）の配列と sources（出典キー→出典名・URLの台帳）からなります。各主張には level（証拠レベル）・status（状態）・sources（出典キー）が付いています。人間向けのトップページは "+KBASE+" です。";
 function qaSelect(question,max){
   const nq=norm(question);
   const bg=new Set();for(let i=0;i<nq.length-1;i++)bg.add(nq.slice(i,i+2));
@@ -212,11 +216,12 @@ function recBlock(e,maxClaims,claimLen,withUrl){
 function qaPackage(question,short){
   let sel=qaSelect(question,short?2:5);
   const head=RULES+"\n\n質問："+question+"\n";
-  if(!sel.length)return {text:head+"\n（このデータベースに関連レコードは見つかりませんでした。一般知識で答える場合は、その旨を明示してください。）",sel:sel};
+  if(!sel.length)return {text:head+"\n（関連レコードは自動では見つかりませんでした。下記の方法でデータベース全体から探してください。）\n\n"+(short?KBGUIDE_SHORT:KBGUIDE_FULL),sel:sel};
   const build=()=>sel.map(e=>recBlock(e,short?3:6,short?110:1000,!short)).join("\n\n");
   let text=head+"\n根拠レコード：\n"+build();
   if(short){while(encodeURIComponent(text).length>19000&&sel.length>1){sel=sel.slice(0,sel.length-1);text=head+"\n根拠レコード：\n"+build();}}
   else{while(text.length>14000&&sel.length>1){sel=sel.slice(0,sel.length-1);text=head+"\n根拠レコード：\n"+build();}}
+  text+="\n\n"+(short?KBGUIDE_SHORT:KBGUIDE_FULL);
   return {text:text,sel:sel};
 }
 function qaShowRecs(sel){

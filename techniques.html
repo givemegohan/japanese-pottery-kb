@@ -32,6 +32,13 @@ footer{border-top:1px solid var(--line);margin-top:2rem;padding:1.2rem 0 2rem;co
 a{color:var(--acc)}
 .small{font-size:.9rem;color:var(--mut)}
 .hl{outline:3px solid var(--acc)}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem;color:inherit;font-size:1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:var(--acc);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;background:#fff}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:var(--mut);font-size:.88rem;margin-top:.1rem}
 </style>
 </head>
 <body>
@@ -41,19 +48,22 @@ a{color:var(--acc)}
 <p>原料から仕上げまでの陶芸技法のレコードです。各技法について、定義、手順、出典つきの主張、代表的な産地を記録しています。手順は一般的な工程の再構成であり、土・窯・作家ごとに異なります。具体的な配合比や温度などの数値は、出典がある場合にのみ載せています。</p>
 </div></header>
 <main class="wrap">
-<section>
+
+<section id="browser">
+<input type="search" id="q" placeholder="技法名・読み・キーワードで検索（例：粉引、還元、象嵌）">
+<div id="filters" style="margin:.5rem 0"></div>
+<div style="margin:.3rem 0"><button class="btn" id="openall">すべて開く</button> <button class="btn" id="closeall">すべて閉じる</button></div>
+<div id="list"></div>
+</section>
+<section><details class="card"><summary>網羅の測り方と収載数</summary><div class="body">
 <div class="grid">
 <div class="card"><div class="stat" id="st-records"></div>収載技法</div>
 <div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
 <div class="card"><div class="stat" id="st-contested"></div>対立として併記した主張</div>
 </div>
 <p class="small">網羅の測り方：母集団は二層で数えます。一次母集団は『陶工房』特集「やきもの技法事典」の43の基本技法と日本工芸会「陶芸ガイド」の技法・釉項目の和集合、拡張層は用語事典・専門辞典からの抽出で順次広げます。この一覧の91件は一次母集団を中心とする現在の収載分です。名称のレベル（手法／釉／様式を兼ねる名など）を各レコードに明示しています。</p>
-</section>
-<section id="browser">
-<input type="search" id="q" placeholder="技法名・読み・キーワードで検索（例：粉引、還元、象嵌）">
-<div id="filters" style="margin:.5rem 0"></div>
-<div id="list"></div>
-</section>
+
+</div></details></section>
 </main>
 <footer><div class="wrap">
 <p>日本の陶芸ナレッジベース — 技法の一覧。<a href="index.html">トップ</a>／<a href="jomon.html">縄文文様の分類</a>／<a href="wares.html">産地・窯の一覧</a>／<a href="history.html">陶芸の系譜</a>／<a href="people.html">陶芸家・保持団体の一覧</a>／<a href="kilns.html">窯・設備の一覧</a>／<a href="clays.html">土の一覧</a>／<a href="glazes.html">釉薬の一覧</a>／機械可読データ：<a href="data/technique-records.json">技法レコード（JSON）</a>。このサイトとデータは基本的に AI が生成しています。誤りの指摘は GitHub リポジトリの Issue でお寄せください。</p>
@@ -83,12 +93,13 @@ function relLink(r,t){
 }
 function cardHTML(r){
   const n=r.names||{};
-  let h="<div class='card' id='rec-"+r.id+"'><h3 style='margin:.2rem 0'>"+esc(n.ja||r.id);
+  let h="<details class='card' id='rec-"+r.id+"'><summary><strong>"+esc(n.ja||r.id)+"</strong>";
   if(n.reading)h+="（"+esc(n.reading)+"）";
   if(n.en)h+=" <span class='small'>"+esc(n.en)+"</span>";
-  h+="</h3><div><span class='chip stage'>"+esc(r.stage)+"</span><span class='chip'>"+esc(r.name_level||"")+"</span>";
+  h+=" <span class='chip stage'>"+esc(r.stage)+"</span><span class='chip'>"+esc(r.name_level||"")+"</span>";
   if(r.axis)h+="<span class='chip'>"+esc(r.axis)+"</span>";
-  h+="</div>";
+  if(r.summary)h+="<span class='sumline'>"+esc(r.summary.slice(0,90))+(r.summary.length>90?"…":"")+"</span>";
+  h+="</summary><div class='body'>";
   if(r.summary)h+="<p style='margin:.5rem 0'>"+esc(r.summary)+"</p>";
   const p=r.procedure;
   if(p&&p.steps&&p.steps.length){
@@ -100,7 +111,7 @@ function cardHTML(r){
   const wl=r.wares||[];
   if(wl.length)h+="<p class='small'>代表的な産地："+wl.map(w=>"<a href='wares.html#rec-"+w+"'>"+esc((r.ware_names||{})[w]||w)+"</a>").join("、")+"</p>";
   if(r.unknowns&&r.unknowns.length)h+="<p class='small'>未確認："+r.unknowns.map(esc).join("／")+"</p>";
-  return h+"</div>";
+  return h+"</div></details>";
 }
 let stageFilter="すべて";
 const fdiv=document.getElementById('filters');
@@ -118,13 +129,16 @@ function render(){
     if(q){const hay=JSON.stringify(r);if(hay.indexOf(q)<0)return;}
     const d=document.createElement('div');d.innerHTML=cardHTML(r);list.appendChild(d.firstChild);shown++;
   });
+  if(q)list.querySelectorAll('details.card').forEach(d=>{d.open=true;});
   if(!shown)list.innerHTML="<p class='small'>該当する技法がありません。</p>";
 }
 document.getElementById('q').addEventListener('input',render);
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=false;}));
 render();
 if(location.hash){
   const el=document.getElementById(decodeURIComponent(location.hash.slice(1)));
-  if(el){el.classList.add('hl');el.scrollIntoView();}
+  if(el){if(el.tagName==='DETAILS')el.open=true;el.classList.add('hl');el.scrollIntoView();}
 }
 </script>
 </body>

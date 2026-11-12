@@ -34,6 +34,13 @@ input[type=search]{width:100%;padding:.6rem .8rem;border:1px solid var(--line);b
 .claim:first-of-type{border-top:none}
 .src{color:var(--mut);font-size:.82rem}
 details{margin:.3rem 0}summary{cursor:pointer;color:var(--acc);font-size:.92rem}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:.75rem 1.1rem;color:inherit;font-size:1rem}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"＋ 開く";float:right;color:var(--acc);font-size:.78rem;border:1px solid var(--line);border-radius:999px;padding:.05rem .6rem;background:#fff}
+details.card[open]>summary::after{content:"− 閉じる"}
+details.card .body{padding:0 1.1rem 1rem}
+.sumline{display:block;color:var(--mut);font-size:.88rem;margin-top:.1rem}
 .hl{outline:3px solid var(--acc);transition:outline .3s}
 footer{border-top:1px solid var(--line);margin-top:2rem;padding:1.2rem 0 2rem;color:var(--mut);font-size:.9rem}
 a{color:var(--acc)}
@@ -53,11 +60,6 @@ table{border-collapse:collapse}td,th{border:1px solid var(--line);padding:.3rem 
 <main class="wrap">
 
 <section id="about"><h2>この分類について</h2>
-<div class="grid">
-<div class="card"><div class="stat" id="st-records"></div>分類項目</div>
-<div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
-<div class="card"><div class="stat" id="st-contested"></div>資料間で対立する主張（併記）</div>
-</div>
 <p>分類は5つの軸で整理します。<strong>軸A 原体の構造</strong>（段と撚りの組み合わせ）、<strong>軸B 原体の部分的変化</strong>（附加条・結束・結節など）、<strong>軸C 施文方法</strong>（回転・押圧・方向）、<strong>軸D 構成と仕上げ</strong>（羽状・充填・磨消）、<strong>軸E 体系の中の位置</strong>（縄以外の原体との対照）。</p>
 <p class="small">注意：日常の名称はレベルが混ざっています。「羽状縄文」は構成法の名、「磨消縄文」は仕上げ操作の名、「単節縄文」は原体構造の名です。各項目には「名称のレベル」を明示し、同定のときに混同しないようにしています。</p>
 <h3>証拠レベルと主張の状態</h3>
@@ -72,6 +74,7 @@ table{border-collapse:collapse}td,th{border:1px solid var(--line);padding:.3rem 
 <section id="items"><h2>項目ブラウザ</h2>
 <input type="search" id="q" placeholder="項目名・読み・キーワードで検索（例：磨消、LR、羽状）">
 <div id="filters" style="margin:.6rem 0"></div>
+<div style="margin:.3rem 0"><button class="fbtn" id="openall">すべて開く</button> <button class="fbtn" id="closeall">すべて閉じる</button></div>
 <div id="list"></div>
 </section>
 
@@ -85,6 +88,13 @@ table{border-collapse:collapse}td,th{border:1px solid var(--line);padding:.3rem 
 <li>単軸絡条体の類別体系を提示した原典</li>
 </ul>
 <p class="small">原体の実物は1点も出土していないため、再現手順はすべて「圧痕と復元実験からの再構成」です。各項目の再現欄には、その前提を明記しています。</p>
+</div>
+</section>
+<section><h2>収載数</h2>
+<div class="grid">
+<div class="card"><div class="stat" id="st-records"></div>分類項目</div>
+<div class="card"><div class="stat" id="st-claims"></div>出典つきの主張</div>
+<div class="card"><div class="stat" id="st-contested"></div>資料間で対立する主張（併記）</div>
 </div>
 </section>
 </main>
@@ -136,7 +146,7 @@ const KEY = {
 };
 const keybox = document.getElementById('keybox');
 function recName(id){const r=DATA.records.find(r=>r.id===id);return r?r.names.ja:id;}
-function gotoRec(id){const el=document.getElementById('rec-'+CSS.escape(id));if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('hl');setTimeout(()=>el.classList.remove('hl'),2200);}}
+function gotoRec(id){const el=document.getElementById('rec-'+CSS.escape(id));if(el){if(el.tagName==='DETAILS')el.open=true;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('hl');setTimeout(()=>el.classList.remove('hl'),2200);}}
 function renderKey(step, carried){
   const node = KEY[step];
   keybox.innerHTML = "";
@@ -177,19 +187,21 @@ function claimHTML(c){
   return h+"</div>";
 }
 function recHTML(r){
-  let h="<div class='card' id='rec-"+r.id+"'><h3 style='margin-top:0'>"+r.names.ja;
+  let h="<details class='card' id='rec-"+r.id+"'><summary><strong>"+r.names.ja+"</strong>";
   if(r.names.reading)h+=" <span class='small'>（"+r.names.reading+"）</span>";
-  h+="</h3>";
+  if(r.name_level)h+=" <span class='chip'>名称のレベル："+r.name_level+"</span>";
+  const c0=(r.claims||[])[0];
+  if(c0)h+="<span class='sumline'>"+c0.text.slice(0,90)+(c0.text.length>90?"…":"")+"</span>";
+  h+="</summary><div class='body'>";
   if(r.names.en)h+="<div class='small'>"+r.names.en+"</div>";
   if(r.names.aliases&&r.names.aliases.length)h+="<div class='small'>別名："+r.names.aliases.join("、")+"</div>";
-  if(r.name_level)h+="<span class='chip'>名称のレベル："+r.name_level+"</span>";
   (r.claims||[]).forEach(c=>{h+=claimHTML(c);});
   if(r.identification)h+="<details><summary>同定の手順</summary><p class='small'>"+r.identification+"</p></details>";
   if(r.identification_pitfalls)h+="<details><summary>同定で混同しやすい点</summary><p class='small'>"+r.identification_pitfalls+"</p></details>";
   if(r.reproduction)h+="<details><summary>再現の前提と手順</summary><p class='small'>前提："+(r.reproduction.premise||"")+"<br>"+(r.reproduction.summary||"")+"</p></details>";
   if(r.relations&&r.relations.length){h+="<p class='small'>関係："+r.relations.map(rel=>{const t=byId[rel.target];return (REL[rel.type]||rel.type)+" → "+(t?t.names.ja:rel.target)+(rel.note?"（"+rel.note+"）":"");}).join("／")+"</p>";}
   if(r.unknowns&&r.unknowns.length)h+="<p class='small'>未確認："+r.unknowns.join("／")+"</p>";
-  return h+"</div>";
+  return h+"</div></details>";
 }
 function renderList(){
   const q=(document.getElementById('q').value||"").trim();
@@ -202,9 +214,12 @@ function renderList(){
     const h=document.createElement('h3');h.textContent=label;list.appendChild(h);
     rs.forEach(r=>{const div=document.createElement('div');div.innerHTML=recHTML(r);list.appendChild(div.firstChild);});
   });
+  if(q)list.querySelectorAll('details.card').forEach(d=>{d.open=true;});
   if(!list.children.length)list.innerHTML="<p class='small'>該当する項目がありません。</p>";
 }
 document.getElementById('q').addEventListener('input', renderList);
+document.getElementById('openall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=true;}));
+document.getElementById('closeall').addEventListener('click',()=>document.querySelectorAll('#list details.card').forEach(d=>{d.open=false;}));
 renderList();
 if(location.hash&&location.hash.indexOf('#rec-')===0){gotoRec(decodeURIComponent(location.hash.slice(5)));}
 </script>
