@@ -153,7 +153,13 @@
      "target": "related/yoriito"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄目の模様",
+    "ひもを押しつけた模様",
+    "縄文土器の模様",
+    "縄の跡の模様"
+   ]
   },
   {
    "id": "concept/gentai",
@@ -204,7 +210,12 @@
    "unknowns": [
     "素材（繊維の種類）の特定は原体ごとには一般に困難"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "模様をつけた縄そのもの",
+    "縄文の道具になったひも",
+    "模様のもとの縄"
+   ]
   },
   {
    "id": "term/hyoki",
@@ -278,7 +289,12 @@
    "unknowns": [
     "読み順の明文定義の有無（山内1979の確認事項）"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄のねじれを書く記号",
+    "RとかLとかの書き方",
+    "撚りの向きの表し方"
+   ]
   },
   {
    "id": "cord-tool/dan-0",
@@ -321,7 +337,12 @@
      "target": "concept/gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "よっただけの糸",
+    "縄の一番もとの状態",
+    "撚りをかけた繊維"
+   ]
   },
   {
    "id": "cord-tool/musetsu",
@@ -380,7 +401,12 @@
      "target": "modification/kessoku"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "粒のない縄目の模様のもと",
+    "筋だけが見える縄",
+    "一段だけよった縄"
+   ]
   },
   {
    "id": "cord-tool/tansetsu",
@@ -438,7 +464,12 @@
      "target": "cord-tool/tansetsu-rl"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "粒々のある縄目の縄",
+    "二段によった縄",
+    "単純な粒の模様の縄"
+   ]
   },
   {
    "id": "cord-tool/tansetsu-lr",
@@ -447,7 +478,9 @@
    "names": {
     "ja": "単節縄文原体 LR",
     "en": null,
-    "aliases": []
+    "aliases": [
+     "LR"
+    ]
    },
    "name_level": "原体構造",
    "summary": "単節原体のうち、1段目が R、2段目が L のもの",
@@ -487,7 +520,12 @@
      "target": "method/betsu-gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "右と左によった縄",
+    "LRと書く縄",
+    "粒の模様の縄の一種"
+   ]
   },
   {
    "id": "cord-tool/tansetsu-rl",
@@ -496,7 +534,9 @@
    "names": {
     "ja": "単節縄文原体 RL",
     "en": null,
-    "aliases": []
+    "aliases": [
+     "RL"
+    ]
    },
    "name_level": "原体構造",
    "summary": "単節原体のうち、1段目が L、2段目が R のもの",
@@ -547,7 +587,12 @@
      "target": "method/betsu-gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "左と右によった縄",
+    "RLと書く縄",
+    "粒の模様の縄の一種"
+   ]
   },
   {
    "id": "cord-tool/fukusetsu",
@@ -593,7 +638,12 @@
      "target": "concept/gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "大きい粒の中に小さい粒がある縄",
+    "三段によった縄",
+    "複雑な粒模様の縄"
+   ]
   },
   {
    "id": "cord-tool/fukufukusetsu",
@@ -631,7 +681,12 @@
      "target": "concept/gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "粒が四つに分かれて見える縄",
+    "四段によった縄",
+    "めずらしい縄文の縄"
+   ]
   },
   {
    "id": "cord-tool/hanyori",
@@ -681,7 +736,12 @@
      "target": "cord-tool/tansetsu"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "撚りがほどける縄",
+    "逆向きに合わせた縄",
+    "ゆるくよった縄"
+   ]
   },
   {
    "id": "cord-tool/goyori",
@@ -731,7 +791,12 @@
      "target": "pattern/isetsu"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "逆向きの糸を合わせた縄",
+    "違う模様が混ざる縄",
+    "組み合わせた縄"
+   ]
   },
   {
    "id": "cord-tool/tajo",
@@ -799,7 +864,12 @@
    "unknowns": [
     "「前段多条」という語の定義・用例"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "何本も束ねた縄",
+    "太い縄文の縄",
+    "本数を増やした縄"
+   ]
   },
   {
    "id": "modification/fukajo",
@@ -848,7 +918,12 @@
      "target": "cord-tool/tajo"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "溝にもう一本巻いた縄",
+    "縄に縄を巻きつけたもの",
+    "飾りのついた縄"
+   ]
   },
   {
    "id": "modification/kessoku",
@@ -901,7 +976,12 @@
      "target": "modification/kessetsu"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "二本の縄を交差させたもの",
+    "羽みたいな模様のもとの縄",
+    "折り返してよった縄"
+   ]
   },
   {
    "id": "modification/kessetsu",
@@ -953,7 +1033,12 @@
    "unknowns": [
     "結び目の種類による細分類の体系"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄の結び目",
+    "ほどけないように結んだ縄",
+    "端っこの結び目"
+   ]
   },
   {
    "id": "modification/loop",
@@ -986,7 +1071,12 @@
      "target": "concept/gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "輪っかの模様",
+    "縄が作った丸い跡",
+    "環状の押し跡"
+   ]
   },
   {
    "id": "modification/kumihimo",
@@ -1020,7 +1110,12 @@
      "target": "method/kaiten"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "編んだひもの模様",
+    "組紐でつけた模様",
+    "よってないひもの跡"
+   ]
   },
   {
    "id": "related/yoriito",
@@ -1077,7 +1172,12 @@
    "unknowns": [
     "単軸絡条体の類別体系の原典と分類者"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "棒に巻いた紐を転がした模様",
+    "縄文と似た模様",
+    "巻きつけた糸の跡"
+   ]
   },
   {
    "id": "related/rakujotai-atsukon",
@@ -1111,7 +1211,12 @@
      "target": "method/ouatsu"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "転がさず押しつけた模様",
+    "巻いた紐の押し跡",
+    "スタンプみたいに押した模様"
+   ]
   },
   {
    "id": "related/gijomon",
@@ -1142,7 +1247,12 @@
      "target": "term/jomon-pattern"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "貝でつけた縄文そっくりの模様",
+    "縄じゃないもので作った縄目",
+    "縄文に似せた模様"
+   ]
   },
   {
    "id": "method/kaiten",
@@ -1202,7 +1312,12 @@
      "target": "concept/gentai"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄を転がして模様をつける",
+    "コロコロ転がす付け方",
+    "縄文の基本の付け方"
+   ]
   },
   {
    "id": "method/ouatsu",
@@ -1246,7 +1361,12 @@
      "target": "method/kaiten"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄を押しつける付け方",
+    "転がさないで押す模様",
+    "スタンプみたいに押す方法"
+   ]
   },
   {
    "id": "method/sokumen",
@@ -1282,7 +1402,12 @@
      "target": "method/kaiten"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄の側面を押しつけた跡",
+    "縄の裏側の模様",
+    "向きのある押し跡"
+   ]
   },
   {
    "id": "method/houkou",
@@ -1328,7 +1453,12 @@
      "target": "pattern/sha-jomon"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "転がす向き",
+    "横とか縦とかの向き",
+    "模様の方向"
+   ]
   },
   {
    "id": "method/kessoku-gentai",
@@ -1369,7 +1499,12 @@
      "target": "composition/hajo"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "羽模様の作り方その一",
+    "二本を組み合わせた縄で作る羽模様",
+    "交差させた縄の転がし方"
+   ]
   },
   {
    "id": "method/betsu-gentai",
@@ -1413,7 +1548,12 @@
      "target": "composition/hajo"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "羽模様の作り方その二",
+    "二種類の縄を並べる方法",
+    "左右対称の羽模様の付け方"
+   ]
   },
   {
    "id": "method/kaiten-chokko",
@@ -1454,7 +1594,12 @@
      "target": "composition/hajo"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "羽模様の作り方その三",
+    "向きを変えて転がして作る羽模様",
+    "同じ縄で羽模様を作る方法"
+   ]
   },
   {
    "id": "composition/hajo",
@@ -1511,7 +1656,12 @@
      "target": "term/jomon-pattern"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "羽みたいな模様",
+    "左右対称の杉の葉模様",
+    "矢羽みたいな縄文"
+   ]
   },
   {
    "id": "composition/juten",
@@ -1558,7 +1708,12 @@
      "target": "finishing/surikeshi"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "線で区切って中だけ縄文",
+    "枠の中に縄を転がした模様",
+    "区画ごとに向きが違う縄文"
+   ]
   },
   {
    "id": "finishing/surikeshi",
@@ -1633,7 +1788,12 @@
     "縄文を消す道具の特定（公的・学術資料では動作の記述のみ）",
     "工程モデルの資料内での併記（内側を消す型と周りを削り込む型）"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄文を消した模様",
+    "模様のある所とない所の対比",
+    "なで消した縄文"
+   ]
   },
   {
    "id": "composition/jimon",
@@ -1666,7 +1826,12 @@
      "target": "term/jomon-pattern"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "下地の縄文",
+    "上に線を描くための縄目",
+    "背景の縄文模様"
+   ]
   },
   {
    "id": "term/monyotai",
@@ -1696,7 +1861,12 @@
      "target": "composition/jimon"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "帯状の模様の部分",
+    "土器の模様の帯",
+    "縁や胴の模様の区画"
+   ]
   },
   {
    "id": "pattern/ijo",
@@ -1734,7 +1904,12 @@
      "target": "cord-tool/goyori"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "隣と違う筋の縄文",
+    "筋の形がバラバラな縄文",
+    "混ざった縄目模様"
+   ]
   },
   {
    "id": "pattern/isetsu",
@@ -1764,7 +1939,12 @@
      "target": "cord-tool/goyori"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "粒の形が違う縄文",
+    "対の粒がそろわない縄文",
+    "混ざった粒模様"
+   ]
   },
   {
    "id": "pattern/sha-jomon",
@@ -1794,7 +1974,12 @@
      "target": "method/houkou"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "斜めにつけた縄文",
+    "ななめの縄目模様",
+    "土器全体の斜めの縄文"
+   ]
   },
   {
    "id": "term/jo",
@@ -1831,7 +2016,12 @@
    "unknowns": [
     "英語の定訳"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄目の筋",
+    "斜めの線の模様",
+    "縄文のすじ"
+   ]
   },
   {
    "id": "term/setsu",
@@ -1876,7 +2066,12 @@
    "unknowns": [
     "英語の定訳"
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "縄目の粒々",
+    "模様の粒",
+    "縄文を見分ける粒"
+   ]
   },
   {
    "id": "term/dojunten",
@@ -1916,7 +2111,12 @@
      "target": "method/kaiten"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "繰り返し出る同じ点",
+    "縄の太さを測る目印",
+    "模様の間隔の手がかり"
+   ]
   },
   {
    "id": "term/chokuzen-dan",
@@ -1950,7 +2150,12 @@
      "target": "cord-tool/tajo"
     }
    ],
-   "updated": "2026-11-12"
+   "updated": "2026-11-12",
+   "user_terms": [
+    "最後の手前でよった段",
+    "縄の作り方の区別の基準",
+    "仕上げの一つ前の撚り"
+   ]
   }
  ]
 }
