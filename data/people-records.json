@@ -3408,6 +3408,12 @@
     "reading": "とみもと けんきち",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "京焼の陶芸家",
+    "色絵の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1886,
    "death": 1963,
    "living": false,
@@ -3495,8 +3501,16 @@
     "ja": "濱田庄司",
     "reading": "はまだ しょうじ",
     "en": "Hamada Shoji",
-    "aliases": []
+    "aliases": [
+     "浜田庄司"
+    ]
    },
+   "user_terms": [
+    "益子焼の人間国宝",
+    "益子焼の陶芸家",
+    "塩釉の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1894,
    "death": 1978,
    "living": false,
@@ -3589,6 +3603,12 @@
     "en": "Arakawa Toyozo",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "志野釉の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1894,
    "death": 1985,
    "living": false,
@@ -3685,6 +3705,12 @@
     "reading": "いしぐろ むねまろ",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "曜変天目を再現した人",
+    "京焼の陶芸家",
+    "鉄釉の作家"
+   ],
    "birth": 1893,
    "death": 1968,
    "living": false,
@@ -3764,6 +3790,12 @@
     "reading": "かねしげ とうよう",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼を復興した人",
+    "備前焼中興の祖と呼ばれる人",
+    "備前焼の陶芸家"
+   ],
    "birth": 1896,
    "death": 1967,
    "living": false,
@@ -3856,6 +3888,11 @@
     "en": "Kato Hajime",
     "aliases": []
    },
+   "user_terms": [
+    "瀬戸焼の人間国宝",
+    "瀬戸焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1900,
    "death": 1968,
    "living": false,
@@ -3942,6 +3979,11 @@
      "十代三輪休雪"
     ]
    },
+   "user_terms": [
+    "萩焼の人間国宝",
+    "萩焼の陶芸家",
+    "白萩釉の作家"
+   ],
    "birth": 1895,
    "death": 1981,
    "living": false,
@@ -4032,6 +4074,11 @@
     "en": "Fujiwara Kei",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1899,
    "death": 1983,
    "living": false,
@@ -4123,6 +4170,11 @@
      "十二代中里太郎右衛門"
     ]
    },
+   "user_terms": [
+    "唐津焼の人間国宝",
+    "唐津焼の陶芸家",
+    "鉄絵の作家"
+   ],
    "birth": 1895,
    "death": 1985,
    "living": false,
@@ -4200,6 +4252,11 @@
     "reading": "こんどう ゆうぞう",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1902,
    "death": 1985,
    "living": false,
@@ -4289,9 +4346,16 @@
     "reading": "みわ じゅせつ",
     "aliases": [
      "十一代三輪休雪",
-     "休"
+     "休",
+     "三輪寿雪",
+     "壽雪"
     ]
    },
+   "user_terms": [
+    "萩焼の人間国宝",
+    "萩焼の陶芸家",
+    "白萩釉の作家"
+   ],
    "birth": 1910,
    "death": 2012,
    "living": false,
@@ -4379,6 +4443,11 @@
      "塚本快児"
     ]
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "青白磁釉の作家"
+   ],
    "birth": 1912,
    "death": 1990,
    "living": false,
@@ -4457,6 +4526,11 @@
     "reading": "きんじょう じろう",
     "aliases": []
    },
+   "user_terms": [
+    "壺屋焼の人間国宝",
+    "壺屋焼の陶芸家",
+    "彫文の作家"
+   ],
    "birth": 1912,
    "death": 2004,
    "living": false,
@@ -4535,6 +4609,11 @@
      "清水保孝"
     ]
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "京焼の陶芸家",
+    "鉄釉の作家"
+   ],
    "birth": 1926,
    "death": 2004,
    "living": false,
@@ -4618,6 +4697,10 @@
     "reading": "ふじもと よしみち",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1919,
    "death": 1992,
    "living": false,
@@ -4701,6 +4784,10 @@
     "reading": "たむら こういち",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "鉄絵の作家"
+   ],
    "birth": 1918,
    "death": 1987,
    "living": false,
@@ -4784,6 +4871,11 @@
      "山本政雄"
     ]
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1906,
    "death": 1994,
    "living": false,
@@ -4861,6 +4953,11 @@
      "今泉善詔"
     ]
    },
+   "user_terms": [
+    "有田焼の人間国宝",
+    "有田焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1926,
    "death": 2001,
    "living": false,
@@ -4941,6 +5038,11 @@
      "宮城美明"
     ]
    },
+   "user_terms": [
+    "笠間焼の人間国宝",
+    "笠間焼の陶芸家",
+    "練上の作家"
+   ],
    "birth": 1927,
    "death": 2003,
    "living": false,
@@ -5028,6 +5130,11 @@
     "en": "Osamu Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "志野釉の作家"
+   ],
    "birth": 1934,
    "death": null,
    "living": true,
@@ -5114,6 +5221,10 @@
      "白磁の萬二"
     ]
    },
+   "user_terms": [
+    "有田焼の人間国宝",
+    "有田焼の陶芸家"
+   ],
    "birth": 1929,
    "death": 2025,
    "living": false,
@@ -5201,6 +5312,10 @@
      "加藤幸兵衛（六代）"
     ]
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家"
+   ],
    "birth": 1917,
    "death": 2005,
    "living": false,
@@ -5270,6 +5385,11 @@
     "reading": "しまおか たつぞう",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の人間国宝",
+    "益子焼の陶芸家",
+    "象嵌の作家"
+   ],
    "birth": 1919,
    "death": 2007,
    "living": false,
@@ -5362,6 +5482,11 @@
     "reading": "ふじわら ゆう",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1932,
    "death": 2001,
    "living": false,
@@ -5438,6 +5563,12 @@
      "徳田正彦"
     ]
    },
+   "user_terms": [
+    "九谷焼の人間国宝",
+    "耀彩を確立した人",
+    "九谷焼の陶芸家",
+    "彩釉の作家"
+   ],
    "birth": 1933,
    "death": 2009,
    "living": false,
@@ -5509,6 +5640,11 @@
     "reading": "みうら こへいじ",
     "aliases": []
    },
+   "user_terms": [
+    "佐渡無名異焼の人間国宝",
+    "佐渡無名異焼の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1933,
    "death": 2006,
    "living": false,
@@ -5588,6 +5724,10 @@
      "小常山"
     ]
    },
+   "user_terms": [
+    "常滑焼の人間国宝",
+    "常滑焼の陶芸家"
+   ],
    "birth": 1924,
    "death": 2005,
    "living": false,
@@ -5666,6 +5806,11 @@
      "酒井田正"
     ]
    },
+   "user_terms": [
+    "有田焼の人間国宝",
+    "有田焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1934,
    "death": 2013,
    "living": false,
@@ -5747,6 +5892,11 @@
      "吉田稔"
     ]
    },
+   "user_terms": [
+    "九谷焼の人間国宝",
+    "九谷焼の陶芸家",
+    "釉裏金彩の作家"
+   ],
    "birth": 1932,
    "death": null,
    "living": true,
@@ -5837,6 +5987,11 @@
      "五代赤水"
     ]
    },
+   "user_terms": [
+    "佐渡無名異焼の人間国宝",
+    "佐渡無名異焼の陶芸家",
+    "練上の作家"
+   ],
    "birth": 1941,
    "death": null,
    "living": true,
@@ -5907,9 +6062,15 @@
     "reading": "いせさき じゅん",
     "en": "Isezaki Jun",
     "aliases": [
-     "伊勢﨑惇"
+     "伊勢﨑惇",
+     "伊勢崎淳"
     ]
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1936,
    "death": 2026,
    "living": false,
@@ -5989,6 +6150,10 @@
     "reading": "はら きよし",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "鉄釉の作家"
+   ],
    "birth": 1936,
    "death": null,
    "living": true,
@@ -6066,6 +6231,10 @@
     "en": "Nakashima Hiroshi",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1941,
    "death": 2018,
    "living": false,
@@ -6145,6 +6314,11 @@
     "en": "Kato Kozo",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "瀬戸黒の作家"
+   ],
    "birth": 1935,
    "death": 2023,
    "living": false,
@@ -6232,6 +6406,9 @@
     "reading": "まえた あきひろ",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家"
+   ],
    "birth": 1954,
    "death": null,
    "living": true,
@@ -6301,6 +6478,11 @@
      "今泉今右衛門"
     ]
    },
+   "user_terms": [
+    "有田焼の人間国宝",
+    "有田焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1962,
    "death": null,
    "living": true,
@@ -6380,6 +6562,12 @@
      "福嶋善三"
     ]
    },
+   "user_terms": [
+    "小石原焼の人間国宝",
+    "中野月白瓷を確立した人",
+    "小石原焼の陶芸家",
+    "飛びカンナの作家"
+   ],
    "birth": 1959,
    "death": null,
    "living": true,
@@ -6456,6 +6644,11 @@
      "板谷嘉七（本名）"
     ]
    },
+   "user_terms": [
+    "葆光彩磁を確立した人",
+    "彩磁の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1872,
    "death": 1963,
    "living": false,
@@ -6536,6 +6729,10 @@
      "楠部彌一（旧名・本名）"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1897,
    "death": 1984,
    "living": false,
@@ -6620,6 +6817,11 @@
      "与作（本名）"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1913,
    "death": 1998,
    "living": false,
@@ -6701,6 +6903,11 @@
      "青木久重（本名）"
     ]
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "天目釉の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1926,
    "death": 2008,
    "living": false,
@@ -6776,6 +6983,11 @@
      "奈良年郎（本名）"
     ]
    },
+   "user_terms": [
+    "大樋焼の陶芸家",
+    "楽焼の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1927,
    "death": 2023,
    "living": false,
@@ -6856,6 +7068,11 @@
     "reading": "いまい まさゆき",
     "aliases": []
    },
+   "user_terms": [
+    "面象嵌を確立した人",
+    "象嵌の作家",
+    "文化勲章を受けた陶芸家"
+   ],
    "birth": 1930,
    "death": 2023,
    "living": false,
@@ -6943,6 +7160,10 @@
      "清水正太郎（本名）"
     ]
    },
+   "user_terms": [
+    "清水焼の陶芸家",
+    "金彩の作家"
+   ],
    "birth": 1901,
    "death": 1980,
    "living": false,
@@ -7023,6 +7244,10 @@
      "吉賀寿男（本名）"
     ]
    },
+   "user_terms": [
+    "萩焼の陶芸家",
+    "象嵌の作家"
+   ],
    "birth": 1915,
    "death": 1991,
    "living": false,
@@ -7109,6 +7334,9 @@
      "森野泰明（もりの たいめい、号の読み）"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1934,
    "death": null,
    "living": true,
@@ -7195,6 +7423,10 @@
     "en": "Chojiro",
     "aliases": []
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": null,
    "death": 1589,
    "living": false,
@@ -7283,6 +7515,10 @@
     "en": "Nonomura Ninsei",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -7372,6 +7608,10 @@
      "権平"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1663,
    "death": 1743,
    "living": false,
@@ -7461,6 +7701,10 @@
      "法螺山人"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1783,
    "death": 1855,
    "living": false,
@@ -7557,6 +7801,10 @@
      "木村佐兵衛"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1767,
    "death": 1833,
    "living": false,
@@ -7640,6 +7888,10 @@
      "永樂善五郎（十一代）"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "金襴手の作家"
+   ],
    "birth": 1795,
    "death": 1854,
    "living": false,
@@ -7718,6 +7970,10 @@
      "金ヶ江三兵衛"
     ]
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "下絵付けの作家"
+   ],
    "birth": null,
    "death": 1655,
    "living": false,
@@ -7795,6 +8051,10 @@
      "徳友斎"
     ]
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1558,
    "death": 1637,
    "living": false,
@@ -7883,6 +8143,9 @@
      "眞葛香山"
     ]
    },
+   "user_terms": [
+    "下絵付けの作家"
+   ],
    "birth": 1842,
    "death": 1916,
    "living": false,
@@ -7971,6 +8234,9 @@
      "北大路房次郎"
     ]
    },
+   "user_terms": [
+    "織部釉の作家"
+   ],
    "birth": 1883,
    "death": 1959,
    "living": false,
@@ -8050,6 +8316,11 @@
     "en": "Kawai Kanjiro",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "京焼の陶芸家",
+    "泥彩の作家"
+   ],
    "birth": 1890,
    "death": 1966,
    "living": false,
@@ -8141,6 +8412,9 @@
     "en": "Bernard Leach",
     "aliases": []
    },
+   "user_terms": [
+    "スリップウェアの作家"
+   ],
    "birth": 1887,
    "death": 1979,
    "living": false,
@@ -8235,6 +8509,9 @@
      "ルーシー・ゴンペルツ"
     ]
    },
+   "user_terms": [
+    "掻き落としの作家"
+   ],
    "birth": 1902,
    "death": 1995,
    "living": false,
@@ -8323,6 +8600,10 @@
     "en": "Hans Coper",
     "aliases": []
    },
+   "user_terms": [
+    "ルーシー・リーの工房で始めた陶芸家",
+    "スタジオ・ポタリーの作家"
+   ],
    "birth": 1920,
    "death": 1981,
    "living": false,
@@ -8404,6 +8685,10 @@
     "ja": "柿右衛門製陶技術保存会",
     "reading": "かきえもんせいとうぎじゅつほぞんかい"
    },
+   "user_terms": [
+    "柿右衛門の技術を守る団体",
+    "濁手の保持団体"
+   ],
    "summary": "重要無形文化財「柿右衛門（濁手）」の保持団体。有田の柿右衛門窯の技術者を中心に構成され、乳白色の濁手素地と色絵磁器の伝統技術を、工程ごとの分業による集団体制で保持・継承する。",
    "claims": [
     {
@@ -8469,6 +8754,10 @@
     "ja": "色鍋島今右衛門技術保存会",
     "reading": "いろなべしまいまえもんぎじゅつほぞんかい"
    },
+   "user_terms": [
+    "色鍋島の技術を守る団体",
+    "色鍋島の保持団体"
+   ],
    "summary": "重要無形文化財「色鍋島」の保持団体。有田の今泉今右衛門家を中心に構成され、鍋島藩窯以来の色絵磁器「色鍋島」の技術を、分業体制のもとで保持・継承する。",
    "claims": [
     {
@@ -8541,6 +8830,11 @@
     "ja": "小鹿田焼技術保存会",
     "reading": "おんたやきぎじゅつほぞんかい"
    },
+   "user_terms": [
+    "小鹿田焼の技術を守る団体",
+    "小鹿田焼の保持団体",
+    "集落ぐるみで技法を守る団体"
+   ],
    "summary": "重要無形文化財「小鹿田焼」の保持団体。大分県日田市・小鹿田皿山の窯元全戸で構成され、個人ではなく集落ぐるみで伝統技法を保持する点に特色がある。",
    "claims": [
     {
@@ -8603,6 +8897,10 @@
      "渡邉昭一"
     ]
    },
+   "user_terms": [
+    "彩色備前を確立した人",
+    "備前焼の陶芸家"
+   ],
    "birth": 1938,
    "death": null,
    "living": true,
@@ -8662,6 +8960,9 @@
     "reading": "あがの かじえもん",
     "aliases": []
    },
+   "user_terms": [
+    "高田焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -8716,6 +9017,9 @@
     "en": "Yusuke Aida",
     "aliases": []
    },
+   "user_terms": [
+    "練込の作家"
+   ],
    "birth": 1931,
    "death": 2015,
    "living": false,
@@ -8777,6 +9081,9 @@
     "reading": "あかいし いちへい",
     "aliases": []
    },
+   "user_terms": [
+    "舞子焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -8830,6 +9137,9 @@
      "赤津三郎右衛門"
     ]
    },
+   "user_terms": [
+    "赤津焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -8884,6 +9194,9 @@
     "reading": "あかざわ ろせき",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": true,
@@ -8950,6 +9263,9 @@
      "二代赤沢露石"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1897,
    "death": 1976,
    "living": false,
@@ -9019,6 +9335,9 @@
      "五代赤沢露石"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1971,
    "death": null,
    "living": true,
@@ -9082,6 +9401,9 @@
     "reading": "あくつ ただお",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1950,
    "death": null,
    "living": true,
@@ -9152,6 +9474,10 @@
      "源右衛門"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1845,
    "death": 1906,
    "living": false,
@@ -9210,6 +9536,10 @@
     "en": "Kiyotaka Aoki",
     "aliases": []
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1957,
    "death": 2015,
    "living": false,
@@ -9280,6 +9610,9 @@
     "en": "Ryota Aoki",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家"
+   ],
    "birth": 1978,
    "death": null,
    "living": true,
@@ -9341,6 +9674,9 @@
      "東郊"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家"
+   ],
    "birth": 1789,
    "death": null,
    "living": false,
@@ -9399,6 +9735,9 @@
     "reading": "あらかわ ともゆき",
     "aliases": []
    },
+   "user_terms": [
+    "穴窯の築窯を指導する陶芸家"
+   ],
    "birth": 1952,
    "death": null,
    "living": true,
@@ -9450,6 +9789,9 @@
     "reading": "あさひな ためのじょう",
     "aliases": []
    },
+   "user_terms": [
+    "旭焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -9504,6 +9846,10 @@
      "相鮮亭"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1836,
    "death": 1916,
    "living": false,
@@ -9577,6 +9923,10 @@
      "浅見柳三"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "象嵌の作家"
+   ],
    "birth": 1904,
    "death": 1987,
    "living": false,
@@ -9640,6 +9990,10 @@
      "上田喜三郎"
     ]
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1871,
    "death": 1948,
    "living": false,
@@ -9697,6 +10051,9 @@
     "reading": "でまちみつのり",
     "aliases": []
    },
+   "user_terms": [
+    "映画学校出身の陶芸家"
+   ],
    "birth": 1968,
    "death": null,
    "living": true,
@@ -9752,6 +10109,9 @@
      "十代西村善五郎"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1770,
    "death": 1841,
    "living": false,
@@ -9821,6 +10181,10 @@
      "仙太郎"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1823,
    "death": 1896,
    "living": false,
@@ -9885,9 +10249,13 @@
     "ja": "永樂妙全",
     "reading": "えいらくみょうぜん",
     "aliases": [
-     "悠"
+     "悠",
+     "妙全"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1852,
    "death": 1927,
    "living": false,
@@ -9947,6 +10315,9 @@
     "en": "Euan Craig",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1964,
    "death": null,
    "living": true,
@@ -10005,6 +10376,11 @@
      "藤井正"
     ]
    },
+   "user_terms": [
+    "有田焼の人間国宝",
+    "有田焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1976,
    "death": null,
    "living": true,
@@ -10067,6 +10443,9 @@
      "山口幸子"
     ]
    },
+   "user_terms": [
+    "濱田庄司に師事した陶芸家"
+   ],
    "birth": 1924,
    "death": 2015,
    "living": false,
@@ -10122,6 +10501,10 @@
      "藤原恭助"
     ]
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家"
+   ],
    "birth": 1939,
    "death": null,
    "living": true,
@@ -10186,6 +10569,10 @@
      "三代藤原楽山"
     ]
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家"
+   ],
    "birth": 1943,
    "death": null,
    "living": true,
@@ -10242,6 +10629,9 @@
      "狸庵"
     ]
    },
+   "user_terms": [
+    "信楽焼の陶芸家"
+   ],
    "birth": 1876,
    "death": 1966,
    "living": false,
@@ -10297,6 +10687,9 @@
     "en": "Fukumori Masatake",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家"
+   ],
    "birth": 1944,
    "death": null,
    "living": true,
@@ -10365,6 +10758,9 @@
     "en": "Fukumori Michiho",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家"
+   ],
    "birth": 1975,
    "death": null,
    "living": true,
@@ -10423,6 +10819,10 @@
     "en": "Fukushima Buzan",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1944,
    "death": null,
    "living": true,
@@ -10485,6 +10885,9 @@
     "en": "Fukushima Haruo",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1949,
    "death": null,
    "living": true,
@@ -10539,6 +10942,10 @@
     "en": "Funaki Michitada",
     "aliases": []
    },
+   "user_terms": [
+    "布志名焼の人間国宝",
+    "布志名焼の陶芸家"
+   ],
    "birth": 1900,
    "death": 1963,
    "living": false,
@@ -10593,6 +11000,10 @@
     "en": "Funakoshi Hiroshi",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "スリップウェアの作家"
+   ],
    "birth": 1958,
    "death": null,
    "living": true,
@@ -10653,6 +11064,9 @@
     "en": "Furukawa Takahisa",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1940,
    "death": null,
    "living": false,
@@ -10712,6 +11126,10 @@
     "en": "Furutani Michio",
     "aliases": []
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1946,
    "death": 2000,
    "living": false,
@@ -10769,6 +11187,9 @@
      "ごうどう"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1910,
    "death": 2000,
    "living": false,
@@ -10834,6 +11255,10 @@
     "en": "Goto Shigeo",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "飴釉の作家"
+   ],
    "birth": 1950,
    "death": null,
    "living": true,
@@ -10892,6 +11317,9 @@
     "en": "Gunji Toshio",
     "aliases": []
    },
+   "user_terms": [
+    "足尾焼の陶芸家"
+   ],
    "birth": 1915,
    "death": 1991,
    "living": false,
@@ -10944,6 +11372,10 @@
     "en": "Hagiwara Yoshinori",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "飴釉の作家"
+   ],
    "birth": 1974,
    "death": null,
    "living": true,
@@ -10996,8 +11428,13 @@
     "ja": "濱田篤哉",
     "reading": "はまだ あつや",
     "en": "Hamada Atsuya",
-    "aliases": []
+    "aliases": [
+     "浜田篤哉"
+    ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1931,
    "death": 1986,
    "living": false,
@@ -11058,8 +11495,13 @@
     "ja": "濱田晋作",
     "reading": "はまだ しんさく",
     "en": "Hamada Shinsaku",
-    "aliases": []
+    "aliases": [
+     "浜田晋作"
+    ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1929,
    "death": 2023,
    "living": false,
@@ -11115,8 +11557,14 @@
     "ja": "濱田友緒",
     "reading": "はまだ ともお",
     "en": "Hamada Tomoo",
-    "aliases": []
+    "aliases": [
+     "浜田友緒"
+    ]
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "塩釉の作家"
+   ],
    "birth": 1967,
    "death": null,
    "living": true,
@@ -11181,6 +11629,9 @@
     "en": "Hataoka Hiromitsu",
     "aliases": []
    },
+   "user_terms": [
+    "詩人になった元陶芸家"
+   ],
    "birth": 1961,
    "death": null,
    "living": true,
@@ -11232,6 +11683,10 @@
     "en": "Hayama Yuki",
     "aliases": []
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1961,
    "death": null,
    "living": true,
@@ -11296,6 +11751,9 @@
     "en": "Hayashi Kaku",
     "aliases": []
    },
+   "user_terms": [
+    "陶壁の作家"
+   ],
    "birth": 1953,
    "death": null,
    "living": true,
@@ -11354,6 +11812,10 @@
      "三彩亭"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1895,
    "death": 1977,
    "living": false,
@@ -11408,6 +11870,10 @@
     "en": "Hibata Koken",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1920,
    "death": 2002,
    "living": false,
@@ -11462,9 +11928,14 @@
     "reading": "ひろさき ゆうや",
     "en": "Hirosaki Yuya",
     "aliases": [
-     "ゆうさい"
+     "ゆうさい",
+     "広崎裕哉"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "青白磁釉の作家"
+   ],
    "birth": 1933,
    "death": 2012,
    "living": false,
@@ -11529,6 +12000,9 @@
     "en": "Hisada Kichinosuke",
     "aliases": []
    },
+   "user_terms": [
+    "常滑焼の陶芸家"
+   ],
    "birth": 1877,
    "death": 1918,
    "living": false,
@@ -11584,6 +12058,10 @@
      "空中斎"
     ]
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1601,
    "death": 1682,
    "living": false,
@@ -11644,6 +12122,10 @@
     "en": "Honbu Masa",
     "aliases": []
    },
+   "user_terms": [
+    "はにわ製作の先駆者と呼ばれる人",
+    "埴輪の複製を作った人"
+   ],
    "birth": 1907,
    "death": 1991,
    "living": false,
@@ -11696,6 +12178,9 @@
     "en": "Hori Teiichiro",
     "aliases": []
    },
+   "user_terms": [
+    "レジャー産業の編集者として知られる陶芸家"
+   ],
    "birth": 1929,
    "death": 2014,
    "living": false,
@@ -11746,6 +12231,9 @@
     "en": "Hoshino Satoru",
     "aliases": []
    },
+   "user_terms": [
+    "走泥社の会員だった陶芸家"
+   ],
    "birth": 1945,
    "death": null,
    "living": true,
@@ -11807,6 +12295,9 @@
      "不東"
     ]
    },
+   "user_terms": [
+    "楽焼の作家"
+   ],
    "birth": 1938,
    "death": null,
    "living": true,
@@ -11868,6 +12359,10 @@
     "en": "Morimitsu Hosokawa",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家",
+    "粉引の作家"
+   ],
    "birth": 1972,
    "death": null,
    "living": true,
@@ -11931,6 +12426,10 @@
     "en": "Ichiemon",
     "aliases": []
    },
+   "user_terms": [
+    "姫谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": null,
    "death": 1670,
    "living": false,
@@ -11987,6 +12486,10 @@
     "en": "Toru Ichikawa",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1973,
    "death": null,
    "living": true,
@@ -12041,6 +12544,9 @@
     "en": "Shigeyoshi Ichino",
     "aliases": []
    },
+   "user_terms": [
+    "丹波立杭焼の陶芸家"
+   ],
    "birth": 1941,
    "death": null,
    "living": true,
@@ -12100,6 +12606,11 @@
     "en": "Takayuki Iguchi",
     "aliases": []
    },
+   "user_terms": [
+    "大多喜焼を復興した人",
+    "大多喜焼の陶芸家",
+    "織部釉の作家"
+   ],
    "birth": 1956,
    "death": null,
    "living": true,
@@ -12167,6 +12678,10 @@
     "en": "Hachiroemon Iidaya",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": null,
    "death": 1852,
    "living": false,
@@ -12224,6 +12739,9 @@
     "en": "Taku Imaizumi",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1966,
    "death": null,
    "living": true,
@@ -12286,6 +12804,10 @@
     "en": "Seiichi Imanari",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1950,
    "death": null,
    "living": true,
@@ -12340,6 +12862,9 @@
      "今西末太郎"
     ]
    },
+   "user_terms": [
+    "富本憲吉に教えを受けた陶芸家"
+   ],
    "birth": 1897,
    "death": 1957,
    "living": false,
@@ -12406,6 +12931,10 @@
     "en": "Masaya Imanishi",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1947,
    "death": null,
    "living": true,
@@ -12473,6 +13002,10 @@
     "en": "Naohito Inaba",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1960,
    "death": null,
    "living": true,
@@ -12530,6 +13063,9 @@
      "井上惠介"
     ]
    },
+   "user_terms": [
+    "「樹皮文」の器で知られる陶芸家"
+   ],
    "birth": 1964,
    "death": null,
    "living": true,
@@ -12584,6 +13120,9 @@
      "井上良太郎"
     ]
    },
+   "user_terms": [
+    "掻き落としの作家"
+   ],
    "birth": 1888,
    "death": 1971,
    "living": false,
@@ -12644,6 +13183,10 @@
      "在心"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1950,
    "death": null,
    "living": true,
@@ -12701,6 +13244,9 @@
     "en": "Yoshio Inoue",
     "aliases": []
    },
+   "user_terms": [
+    "二本松萬古焼の陶芸家"
+   ],
    "birth": 1949,
    "death": null,
    "living": true,
@@ -12753,8 +13299,14 @@
     "ja": "伊勢﨑満",
     "reading": "いせさき みつる",
     "en": "Mitsuru Isezaki",
-    "aliases": []
+    "aliases": [
+     "伊勢崎満"
+    ]
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1934,
    "death": 2011,
    "living": false,
@@ -12817,6 +13369,10 @@
     "en": "Yozan Isezaki",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家"
+   ],
    "birth": 1902,
    "death": 1961,
    "living": false,
@@ -12880,6 +13436,10 @@
     "en": "Hajime Ishikawa",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "粉引の作家"
+   ],
    "birth": 1957,
    "death": null,
    "living": true,
@@ -12933,6 +13493,9 @@
     "en": "Keiji Ito",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家"
+   ],
    "birth": 1935,
    "death": null,
    "living": true,
@@ -12999,6 +13562,9 @@
     "en": "Tetsuo Itoi",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1933,
    "death": null,
    "living": true,
@@ -13054,6 +13620,9 @@
     "en": "Manabu Kachi",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1967,
    "death": null,
    "living": true,
@@ -13110,6 +13679,9 @@
      "加治常吉"
     ]
    },
+   "user_terms": [
+    "近代七宝の祖と呼ばれる人"
+   ],
    "birth": 1803,
    "death": 1883,
    "living": false,
@@ -13160,6 +13732,9 @@
     "en": "Yoichiro Kamei",
     "aliases": []
    },
+   "user_terms": [
+    "鋳込み成形で格子の磁器を作る作家"
+   ],
    "birth": 1974,
    "death": null,
    "living": true,
@@ -13223,6 +13798,10 @@
      "上村白鷗"
     ]
    },
+   "user_terms": [
+    "常滑焼の陶芸家",
+    "自然釉の作家"
+   ],
    "birth": 1754,
    "death": 1832,
    "living": false,
@@ -13285,6 +13864,10 @@
     "en": "Shoji Kamoda",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "灰釉の作家"
+   ],
    "birth": 1933,
    "death": 1983,
    "living": false,
@@ -13357,6 +13940,9 @@
     "en": "Taro Kamoda",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1963,
    "death": null,
    "living": true,
@@ -13446,6 +14032,11 @@
     "ja": "金重道明",
     "reading": "かねしげ みちあき"
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "relations": [
     {
      "to": "person/kaneshige-toyo",
@@ -13505,6 +14096,10 @@
     "ja": "兼田昌尚",
     "reading": "かねた まさなお"
    },
+   "user_terms": [
+    "萩焼の陶芸家",
+    "白萩釉の作家"
+   ],
    "relations": [],
    "summary": "萩焼の窯元・天寵山窯の八代当主。大学院で彫塑を学んだのち帰郷して父に師事し、土塊を叩き締めて内側を刳り貫く「刳貫」の量塊的な造形と白釉・窯変によって、萩焼に新風を吹き込んだ陶芸家。",
    "techniques": [
@@ -13562,6 +14157,10 @@
     "ja": "賀集珉平",
     "reading": "かしゅう みんぺい"
    },
+   "user_terms": [
+    "珉平焼の陶芸家",
+    "色絵の作家"
+   ],
    "relations": [],
    "summary": "淡路島の豪商の家に生まれ、京都で陶芸を学んだのち故郷に京焼の技術を導入して珉平焼（淡路焼）を創始した陶芸家・事業家。京焼写しから中国陶磁・漆器の写しまで多様な製品を生み、藩の御用窯にまで発展させた。",
    "techniques": [
@@ -13622,6 +14221,10 @@
     "ja": "加藤景正",
     "reading": "かとう かげまさ"
    },
+   "user_terms": [
+    "瀬戸焼の陶芸家",
+    "灰釉の作家"
+   ],
    "relations": [],
    "summary": "瀬戸で「陶祖」として伝承される伝説的な陶工。道元に従って宋に渡り施釉技法を持ち帰って瀬戸に窯を開いたと陶祖伝記に伝えられるが、伝記の成立は江戸時代以降であり、実在を含めて学術的な裏づけはない。",
    "techniques": [
@@ -13688,6 +14291,10 @@
     "ja": "加藤民吉",
     "reading": "かとう たみきち"
    },
+   "user_terms": [
+    "瀬戸焼の陶芸家",
+    "染付の作家"
+   ],
    "relations": [],
    "summary": "江戸後期の瀬戸の陶工。家を継げない次男として熱田で染付磁器の試作に取り組み、九州への修業で肥前の磁器技法を習得して帰郷し、瀬戸の磁器生産の礎を築いた。没後は「磁祖」として窯神神社に祀られた。",
    "techniques": [
@@ -13743,6 +14350,11 @@
     "ja": "加藤唐九郎",
     "reading": "かとう とうくろう"
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "黄瀬戸の作家"
+   ],
    "relations": [
     {
      "to": "person/okabe-mineo",
@@ -13803,6 +14415,11 @@
     "ja": "加藤十右衛門",
     "reading": "かとう じゅうえもん"
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "黄瀬戸の作家"
+   ],
    "relations": [],
    "summary": "美濃の陶芸家。加藤景豊の流れを汲み、可児市久々利大萱に八坂窯を開いた。美濃桃山陶の古作写しに優れた名工として知られ、岐阜県無形文化財保持者に認定された。",
    "techniques": [
@@ -13870,6 +14487,10 @@
     "ja": "五代加藤幸兵衛",
     "reading": "かとう こうべえ"
    },
+   "user_terms": [
+    "美濃焼の陶芸家",
+    "青磁の作家"
+   ],
    "relations": [
     {
      "to": "person/kato-takuo",
@@ -13934,6 +14555,10 @@
     "ja": "加藤友太郎",
     "reading": "かとう ともたろう"
    },
+   "user_terms": [
+    "瀬戸焼の陶芸家",
+    "染付の作家"
+   ],
    "relations": [],
    "summary": "瀬戸出身で明治期に東京で活躍した陶芸家。ワグネルに窯業技術を学び、東京・牛込に友玉園を開いてワグネル式窯を設けた。下絵付の赤色顔料「陶寿紅」の開発や、共進会での一等賞受賞で知られる。",
    "techniques": [
@@ -13989,6 +14614,9 @@
     "ja": "河合磊三",
     "reading": "かわい らいぞう"
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "relations": [],
    "summary": "大正から昭和初期に京都・五条坂を本拠とした京焼の陶工。自ら窯を持たないフリーの工芸陶工として知られ、高槻市古曽部では明治末に途絶えた古曽部焼の復興を指導し、「磊三古曽部」と呼ばれる作品群を残した。",
    "techniques": [],
@@ -14040,6 +14668,10 @@
     "ja": "河合誓徳",
     "reading": "かわい せいとく"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "青白磁釉の作家"
+   ],
    "relations": [
     {
      "to": "person/shimizu-rokubei-6",
@@ -14097,6 +14729,10 @@
     "ja": "河井武一",
     "reading": "かわい たけいち"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "辰砂釉の作家"
+   ],
    "relations": [
     {
      "to": "person/kawai-kanjiro",
@@ -14161,6 +14797,10 @@
     "ja": "川尻一寛",
     "reading": "かわじり いっかん"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "relations": [
     {
      "to": "person/shimizu-rokubei-6",
@@ -14222,6 +14862,9 @@
     "ja": "川尻浩史",
     "reading": "かわじり ひろし"
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "relations": [],
    "summary": "北海道出身で益子焼の陶芸家。南米で陶芸指導に携わった経験を持ち、先住民陶器の幾何学模様に影響を受けた作風で知られる。風窯を名乗り、登り窯による作陶を続ける。",
    "techniques": [],
@@ -14275,6 +14918,9 @@
     "ja": "川野恭和",
     "reading": "かわの みちかず"
    },
+   "user_terms": [
+    "青白磁釉の作家"
+   ],
    "relations": [
     {
      "to": "person/takita-koichi",
@@ -14338,6 +14984,9 @@
     "ja": "川喜田半泥子",
     "reading": "かわきた はんでいし"
    },
+   "user_terms": [
+    "粉引の作家"
+   ],
    "relations": [
     {
      "to": "person/arakawa-toyozo",
@@ -14399,6 +15048,10 @@
     "ja": "河村蜻山",
     "reading": "かわむら せいざん"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "relations": [],
    "summary": "京都・粟田焼の家に生まれた陶芸家。京都市立陶磁器試験場を修了して家業を継ぎ、染付・青磁・白磁・三島手など多方面の作風で近代京焼を代表する作家の一人となった。帝展・日展の審査員を務め、芸術院恩賜賞を受賞した。",
    "techniques": [
@@ -14455,6 +15108,9 @@
     "ja": "川崎毅",
     "reading": "かわさき つよし"
    },
+   "user_terms": [
+    "染付の作家"
+   ],
    "relations": [],
    "summary": "宮崎県出身の陶芸家。東京芸術大学大学院を修了し多摩市に築窯した。街並みを幾何学的に構成した陶のオブジェ「街」シリーズで知られ、白磁に絵付けした器も制作した。",
    "techniques": [
@@ -14509,6 +15165,10 @@
     "ja": "川瀬竹春",
     "reading": "かわせ ちくしゅん"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "relations": [],
    "summary": "初代川瀬竹春（竹翁）の長男で、二代川瀬竹春。京都に生まれ、父と共に神奈川県大磯へ移り、祥瑞染付・赤絵を継承しながら金襴手・釉裏紅など中国風の華やかな技法で独自の作品を発表した。",
    "techniques": [
@@ -14565,6 +15225,10 @@
     "ja": "木村一郎",
     "reading": "きむら いちろう"
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "鉄絵の作家"
+   ],
    "relations": [
     {
      "to": "person/hamada-shoji",
@@ -14627,6 +15291,9 @@
     "ja": "木村充",
     "reading": "きむら みつる"
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "relations": [
     {
      "to": "person/kimura-ichiro",
@@ -14687,6 +15354,10 @@
     "ja": "木村二瓶子",
     "reading": "きむら にへいし"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "三島手の作家"
+   ],
    "relations": [
     {
      "to": "person/kawamura-seizan",
@@ -14744,6 +15415,9 @@
     "ja": "きむらとしろうじんじん",
     "reading": "きむらとしろうじんじん"
    },
+   "user_terms": [
+    "楽焼の作家"
+   ],
    "relations": [],
    "summary": "陶芸家・美術家。京都市立芸術大学大学院で陶芸を学び、1995年から移動式の陶芸お抹茶屋台「野点」を全国各地で展開する。参加者が絵付けした茶碗をその場で楽焼で焼き上げ、自作の器で茶を楽しむ参加型のアート・プロジェクトで知られる。",
    "techniques": [
@@ -14796,6 +15470,10 @@
     "ja": "金尊楷",
     "reading": "きん そんかい"
    },
+   "user_terms": [
+    "上野焼の陶芸家",
+    "青磁の作家"
+   ],
    "relations": [],
    "summary": "文禄の役で来日したとされる朝鮮陶工。細川忠興に招かれて豊前・上野に窯を開いて上野焼の基礎を築き、のち肥後・高田に移って高田焼を創始したとされる。",
    "techniques": [
@@ -14854,6 +15532,10 @@
     "ja": "欽古堂亀祐",
     "reading": "きんこどう かめすけ"
    },
+   "user_terms": [
+    "王地山焼の陶芸家",
+    "青磁の作家"
+   ],
    "relations": [
     {
      "to": "person/okuda-eisen",
@@ -14924,6 +15606,10 @@
     "ja": "錦光山宗兵衛",
     "reading": "きんこうざん そうべい"
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "relations": [],
    "summary": "京都・粟田口の窯元「錦光山」の七代当主。明治・大正期の企業家として、精緻な色絵金襴手の「京薩摩」や陶胎七宝を「錦光山」のブランドで世界に輸出し、京都の製陶業の振興に貢献した。",
    "techniques": [
@@ -14984,6 +15670,10 @@
     "ja": "北出塔次郎",
     "reading": "きたで とうじろう"
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "relations": [
     {
      "to": "person/itaya-hazan",
@@ -15019,6 +15709,9 @@
      "塚本廣"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1922,
    "death": 2006,
    "living": false,
@@ -15086,6 +15779,9 @@
      "五代清水六兵衛"
     ]
    },
+   "user_terms": [
+    "清水焼の陶芸家"
+   ],
    "birth": 1875,
    "death": 1959,
    "living": false,
@@ -15149,6 +15845,9 @@
      "木暮宏明"
     ]
    },
+   "user_terms": [
+    "伊香保焼の陶芸家"
+   ],
    "birth": 1961,
    "death": null,
    "living": true,
@@ -15200,6 +15899,9 @@
     "en": "Koie Hoju",
     "aliases": []
    },
+   "user_terms": [
+    "常滑焼の陶芸家"
+   ],
    "birth": 1821,
    "death": 1901,
    "living": false,
@@ -15259,6 +15961,9 @@
     "en": "Koie Ryoji",
     "aliases": []
    },
+   "user_terms": [
+    "常滑焼の陶芸家"
+   ],
    "birth": 1938,
    "death": 2020,
    "living": false,
@@ -15324,6 +16029,9 @@
      "東齋"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1939,
    "death": 2020,
    "living": false,
@@ -15400,6 +16108,10 @@
     "en": "Komagata Kuma",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1944,
    "death": 2019,
    "living": false,
@@ -15453,8 +16165,13 @@
     "ja": "駒澤博司",
     "reading": "こまざわ ひろし",
     "en": "Komazawa Hiroshi",
-    "aliases": []
+    "aliases": [
+     "駒沢博司"
+    ]
    },
+   "user_terms": [
+    "笠間焼の陶芸家"
+   ],
    "birth": 1951,
    "death": null,
    "living": true,
@@ -15510,6 +16227,10 @@
     "en": "Kon Chiharu",
     "aliases": []
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1951,
    "death": null,
    "living": true,
@@ -15571,6 +16292,11 @@
     "en": "Kondo Takahiro",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の人間国宝",
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1958,
    "death": null,
    "living": true,
@@ -15638,6 +16364,10 @@
     "en": "Konno Yasutake",
     "aliases": []
    },
+   "user_terms": [
+    "白い器の陶芸家",
+    "中川自然坊に師事した陶芸家"
+   ],
    "birth": 1971,
    "death": null,
    "living": true,
@@ -15692,6 +16422,10 @@
      "越野優見子"
     ]
    },
+   "user_terms": [
+    "俳人としても知られる陶芸家",
+    "ネコの陶作品の作家"
+   ],
    "birth": 1951,
    "death": null,
    "living": true,
@@ -15747,6 +16481,9 @@
      "岑一"
     ]
    },
+   "user_terms": [
+    "人間国宝の陶芸家"
+   ],
    "birth": 1900,
    "death": 1975,
    "living": false,
@@ -15808,6 +16545,10 @@
     "en": "Koyama Kiyoko",
     "aliases": []
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "自然釉の作家"
+   ],
    "birth": 1936,
    "death": 2023,
    "living": false,
@@ -15878,6 +16619,10 @@
     "en": "Koyama Yasuhisa",
     "aliases": []
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "自然釉の作家"
+   ],
    "birth": 1936,
    "death": null,
    "living": true,
@@ -15941,6 +16686,10 @@
      "国吉清尚"
     ]
    },
+   "user_terms": [
+    "壺屋焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1943,
    "death": 1999,
    "living": false,
@@ -16008,6 +16757,9 @@
     "en": "Kuriki Tatsusuke",
     "aliases": []
    },
+   "user_terms": [
+    "瀬戸焼の陶芸家"
+   ],
    "birth": 1943,
    "death": 2013,
    "living": false,
@@ -16077,6 +16829,9 @@
     "en": "Kuroda Taizo",
     "aliases": []
    },
+   "user_terms": [
+    "白磁の陶芸家"
+   ],
    "birth": 1946,
    "death": 2021,
    "living": false,
@@ -16134,6 +16889,9 @@
     "en": "Kuwada Takuro",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家"
+   ],
    "birth": 1981,
    "death": null,
    "living": true,
@@ -16187,6 +16945,10 @@
      "四代久世久宝"
     ]
    },
+   "user_terms": [
+    "清水焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1925,
    "death": null,
    "living": false,
@@ -16253,6 +17015,9 @@
     "en": "Maeda Masahiro",
     "aliases": []
    },
+   "user_terms": [
+    "色絵の作家"
+   ],
    "birth": 1948,
    "death": null,
    "living": true,
@@ -16315,6 +17080,9 @@
      "槇鹿蔵"
     ]
    },
+   "user_terms": [
+    "江山焼の陶芸家"
+   ],
    "birth": 1860,
    "death": 1936,
    "living": false,
@@ -16366,6 +17134,11 @@
     "en": "Matsui Koyo",
     "aliases": []
    },
+   "user_terms": [
+    "笠間焼の人間国宝",
+    "笠間焼の陶芸家",
+    "練上の作家"
+   ],
    "birth": 1962,
    "death": null,
    "living": true,
@@ -16427,6 +17200,10 @@
      "松井冨士雄"
     ]
    },
+   "user_terms": [
+    "森山焼の陶芸家",
+    "辰砂釉の作家"
+   ],
    "birth": 1932,
    "death": null,
    "living": true,
@@ -16484,6 +17261,9 @@
     "en": "Matsumoto Yoichi",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1954,
    "death": 2022,
    "living": false,
@@ -16539,6 +17319,9 @@
     "en": "Matsuo Katsuya",
     "aliases": []
    },
+   "user_terms": [
+    "有田焼の陶芸家"
+   ],
    "birth": 1964,
    "death": null,
    "living": true,
@@ -16595,6 +17378,9 @@
     "en": "Mawatari Shinpei",
     "aliases": []
    },
+   "user_terms": [
+    "粉引の作家"
+   ],
    "birth": 1976,
    "death": null,
    "living": true,
@@ -16649,6 +17435,9 @@
      "三村孝夫（本名）"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1919,
    "death": 2003,
    "living": false,
@@ -16704,6 +17493,10 @@
     "en": "MITSUKE Masayasu",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1975,
    "death": null,
    "living": true,
@@ -16759,6 +17552,9 @@
      "天禄堂（号）"
     ]
    },
+   "user_terms": [
+    "「乾也」の作品で伝わる陶工"
+   ],
    "birth": 1821,
    "death": 1889,
    "living": false,
@@ -16810,6 +17606,10 @@
     "reading": "みうら たもつ",
     "aliases": []
    },
+   "user_terms": [
+    "三浦工業を創業した陶芸家",
+    "陶板画の作家"
+   ],
    "birth": 1928,
    "death": 1996,
    "living": false,
@@ -16857,6 +17657,10 @@
     "reading": "みやぎ みつなり",
     "aliases": []
    },
+   "user_terms": [
+    "琉球焼の人間国宝",
+    "琉球焼の陶芸家"
+   ],
    "birth": 1968,
    "death": null,
    "living": true,
@@ -16915,6 +17719,9 @@
     "reading": "みやのはら けん",
     "aliases": []
    },
+   "user_terms": [
+    "象嵌の作家"
+   ],
    "birth": 1898,
    "death": 1977,
    "living": false,
@@ -16969,6 +17776,9 @@
     "reading": "みやた けんいち",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1957,
    "death": null,
    "living": true,
@@ -17021,6 +17831,10 @@
     "reading": "みやた よしのり",
     "aliases": []
    },
+   "user_terms": [
+    "萩焼の陶芸家",
+    "灰釉の作家"
+   ],
    "birth": 1960,
    "death": null,
    "living": true,
@@ -17073,8 +17887,13 @@
    "names": {
     "ja": "宮澤菊男",
     "reading": "みやざわ きくお",
-    "aliases": []
+    "aliases": [
+     "宮沢菊男"
+    ]
    },
+   "user_terms": [
+    "灰釉の作家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -17127,6 +17946,9 @@
     "reading": "みずの ともろ",
     "aliases": []
    },
+   "user_terms": [
+    "練込の作家"
+   ],
    "birth": null,
    "death": null,
    "living": true,
@@ -17179,6 +18001,9 @@
      "森翠峰（号）"
     ]
    },
+   "user_terms": [
+    "四日市萬古焼の陶芸家"
+   ],
    "birth": 1865,
    "death": 1929,
    "living": false,
@@ -17239,6 +18064,11 @@
      "森才蔵（本名）"
     ]
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1937,
    "death": null,
    "living": true,
@@ -17294,6 +18124,9 @@
      "森与五左衛門（本名）"
     ]
    },
+   "user_terms": [
+    "四日市萬古焼の陶芸家"
+   ],
    "birth": 1808,
    "death": 1882,
    "living": false,
@@ -17347,6 +18180,10 @@
      "森野嘉一郎（本名）"
     ]
    },
+   "user_terms": [
+    "清水焼の陶芸家",
+    "塩釉の作家"
+   ],
    "birth": 1899,
    "death": 1987,
    "living": false,
@@ -17399,6 +18236,9 @@
     "reading": "もりおか しげよし",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1948,
    "death": null,
    "living": true,
@@ -17465,6 +18305,9 @@
     "reading": "むらき ゆうじ",
     "aliases": []
    },
+   "user_terms": [
+    "粉引の作家"
+   ],
    "birth": 1953,
    "death": null,
    "living": true,
@@ -17513,8 +18356,13 @@
    "names": {
     "ja": "村澤亨",
     "reading": "むらさわ とおる",
-    "aliases": []
+    "aliases": [
+     "村沢亨"
+    ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1979,
    "death": null,
    "living": true,
@@ -17567,6 +18415,9 @@
     "reading": "むらた げん",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1904,
    "death": 1988,
    "living": false,
@@ -17635,6 +18486,9 @@
     "reading": "むらた ひろし",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1943,
    "death": null,
    "living": true,
@@ -17695,6 +18549,9 @@
      "八塔亭二寧（号）"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1905,
    "death": 2002,
    "living": false,
@@ -17760,6 +18617,9 @@
      "長倉和子（本名）"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1937,
    "death": 2016,
    "living": false,
@@ -17812,8 +18672,13 @@
    "names": {
     "ja": "長澤靖",
     "reading": "ながさわ やすし",
-    "aliases": []
+    "aliases": [
+     "長沢靖"
+    ]
    },
+   "user_terms": [
+    "絵本『まっ黒なおべんとう』の挿絵で知られる陶芸家"
+   ],
    "birth": 1959,
    "death": null,
    "living": true,
@@ -17864,6 +18729,10 @@
     "reading": "なかがわ いさく",
     "aliases": []
    },
+   "user_terms": [
+    "琉球焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1899,
    "death": 2000,
    "living": false,
@@ -17918,6 +18787,9 @@
     "reading": "なかがわ たかのり",
     "aliases": []
    },
+   "user_terms": [
+    "常滑焼の陶芸家"
+   ],
    "birth": 1981,
    "death": null,
    "living": true,
@@ -17970,6 +18842,9 @@
     "reading": "なかむら きんぺい",
     "aliases": []
    },
+   "user_terms": [
+    "東京焼の陶芸家"
+   ],
    "birth": 1935,
    "death": null,
    "living": true,
@@ -18025,6 +18900,10 @@
     "reading": "なかむら ろくろう",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1914,
    "death": 2004,
    "living": false,
@@ -18089,6 +18968,10 @@
      "中村恒（本名）"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1903,
    "death": 1985,
    "living": false,
@@ -18159,6 +19042,9 @@
     "en": "Taku Nakano",
     "aliases": []
    },
+   "user_terms": [
+    "泥彩の作家"
+   ],
    "birth": 1967,
    "death": null,
    "living": true,
@@ -18221,6 +19107,9 @@
     "en": "Tetsuaki Nakao",
     "aliases": []
    },
+   "user_terms": [
+    "結晶釉の作家"
+   ],
    "birth": 1952,
    "death": 2025,
    "living": false,
@@ -18282,6 +19171,10 @@
      "橋本良子"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "布目の作家"
+   ],
    "birth": 1948,
    "death": null,
    "living": true,
@@ -18352,6 +19245,9 @@
     "reading": "なかざと しげとし",
     "aliases": []
    },
+   "user_terms": [
+    "唐津焼の陶芸家"
+   ],
    "birth": 1930,
    "death": 2015,
    "living": false,
@@ -18425,6 +19321,9 @@
     "reading": "なかざと たかし",
     "aliases": []
    },
+   "user_terms": [
+    "唐津焼の陶芸家"
+   ],
    "birth": 1937,
    "death": null,
    "living": true,
@@ -18503,6 +19402,10 @@
      "逢庵"
     ]
    },
+   "user_terms": [
+    "唐津焼の陶芸家",
+    "辰砂釉の作家"
+   ],
    "birth": 1923,
    "death": 2009,
    "living": false,
@@ -18579,6 +19482,9 @@
     "reading": "ななうら ひろし",
     "aliases": []
    },
+   "user_terms": [
+    "産業医の陶芸家"
+   ],
    "birth": 1964,
    "death": null,
    "living": true,
@@ -18631,6 +19537,9 @@
     "en": "Yuki Nara",
     "aliases": []
    },
+   "user_terms": [
+    "大樋焼の陶芸家"
+   ],
    "birth": 1989,
    "death": null,
    "living": true,
@@ -18696,6 +19605,10 @@
      "南田是也"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1942,
    "death": 2012,
    "living": false,
@@ -18773,6 +19686,10 @@
     "reading": "なるい ふじお",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1930,
    "death": 1991,
    "living": false,
@@ -18853,6 +19770,10 @@
     "reading": "なるい せいじ",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "黒釉の作家"
+   ],
    "birth": 1941,
    "death": null,
    "living": true,
@@ -18929,6 +19850,10 @@
     "reading": "なるい たっぽ",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1925,
    "death": 2010,
    "living": false,
@@ -19014,6 +19939,10 @@
     "reading": "なるい としお",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "灰釉の作家"
+   ],
    "birth": 1960,
    "death": 2011,
    "living": false,
@@ -19094,6 +20023,9 @@
     "reading": "なるい つねお",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1939,
    "death": 2012,
    "living": false,
@@ -19174,6 +20106,10 @@
     "reading": "なるみ かなめ",
     "aliases": []
    },
+   "user_terms": [
+    "人間国宝の陶芸家",
+    "灰釉の作家"
+   ],
    "birth": 1920,
    "death": 2004,
    "living": false,
@@ -19239,6 +20175,9 @@
     "en": "NIGO",
     "aliases": []
    },
+   "user_terms": [
+    "刷毛目の作家"
+   ],
    "birth": 1970,
    "death": null,
    "living": true,
@@ -19305,6 +20244,9 @@
     "en": "Takayuki Nishi",
     "aliases": []
    },
+   "user_terms": [
+    "有田焼の陶芸家"
+   ],
    "birth": 1984,
    "death": null,
    "living": true,
@@ -19363,6 +20305,10 @@
     "en": "Isao Nishibu",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家",
+    "練込の作家"
+   ],
    "birth": 1948,
    "death": null,
    "living": true,
@@ -19420,6 +20366,9 @@
     "reading": "にしもと えいせん",
     "aliases": []
    },
+   "user_terms": [
+    "芸州焼の陶芸家"
+   ],
    "birth": 1928,
    "death": 2023,
    "living": false,
@@ -19478,6 +20427,9 @@
     "reading": "のりまつ きんぞう",
     "aliases": []
    },
+   "user_terms": [
+    "志野釉の作家"
+   ],
    "birth": 1946,
    "death": null,
    "living": true,
@@ -19535,6 +20487,9 @@
      "板元義典"
     ]
    },
+   "user_terms": [
+    "『元祖どっきりカメラ』で知られる元俳優の陶芸家"
+   ],
    "birth": 1933,
    "death": null,
    "living": true,
@@ -19587,6 +20542,10 @@
     "en": "Akio Nukaga",
     "aliases": []
    },
+   "user_terms": [
+    "笠間焼の陶芸家",
+    "しのぎ（鎬）の作家"
+   ],
    "birth": 1963,
    "death": null,
    "living": true,
@@ -19641,6 +20600,10 @@
      "沼波五左衛門弄山"
     ]
    },
+   "user_terms": [
+    "四日市萬古焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "birth": 1718,
    "death": 1777,
    "living": false,
@@ -19701,6 +20664,9 @@
     "reading": "おだか ひろゆき",
     "aliases": []
    },
+   "user_terms": [
+    "創作陶芸も手がける画家・彫刻家"
+   ],
    "birth": 1938,
    "death": null,
    "living": true,
@@ -19752,6 +20718,9 @@
     "reading": "おおがみ じんごべい",
     "aliases": []
    },
+   "user_terms": [
+    "染付の作家"
+   ],
    "birth": 1775,
    "death": 1839,
    "living": false,
@@ -19810,6 +20779,9 @@
     "reading": "おがた かみお",
     "aliases": []
    },
+   "user_terms": [
+    "練上の作家"
+   ],
    "birth": 1949,
    "death": 2022,
    "living": false,
@@ -19875,6 +20847,10 @@
      "緒方松右衛門"
     ]
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1922,
    "death": 1986,
    "living": false,
@@ -19941,6 +20917,9 @@
     "en": "Toshiaki Ogata",
     "aliases": []
    },
+   "user_terms": [
+    "建物彫刻で知られる作家"
+   ],
    "birth": 1957,
    "death": null,
    "living": true,
@@ -19992,6 +20971,10 @@
      "芳土庵"
     ]
    },
+   "user_terms": [
+    "大樋焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1631,
    "death": 1712,
    "living": false,
@@ -20050,6 +21033,10 @@
      "十一代大樋長左衛門"
     ]
    },
+   "user_terms": [
+    "大樋焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1958,
    "death": null,
    "living": true,
@@ -20110,6 +21097,10 @@
      "加藤嶺男"
     ]
    },
+   "user_terms": [
+    "瀬戸焼の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1919,
    "death": 1990,
    "living": false,
@@ -20168,6 +21159,11 @@
     "en": "Teru Okada",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の人間国宝",
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1947,
    "death": null,
    "living": true,
@@ -20228,6 +21224,11 @@
     "en": "Yu Okada",
     "aliases": []
    },
+   "user_terms": [
+    "萩焼の人間国宝",
+    "萩焼の陶芸家",
+    "白萩釉の作家"
+   ],
    "birth": 1946,
    "death": null,
    "living": true,
@@ -20280,6 +21281,9 @@
     "en": "Taro Okamoto",
     "aliases": []
    },
+   "user_terms": [
+    "常滑焼の陶芸家"
+   ],
    "birth": 1911,
    "death": 1996,
    "living": false,
@@ -20330,6 +21334,10 @@
     "en": "Tetsumasa Okamoto",
     "aliases": []
    },
+   "user_terms": [
+    "備前焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1944,
    "death": null,
    "living": true,
@@ -20385,6 +21393,9 @@
     "en": "Yuko Okazaki",
     "aliases": []
    },
+   "user_terms": [
+    "染付の作家"
+   ],
    "birth": 1976,
    "death": null,
    "living": true,
@@ -20435,6 +21446,10 @@
      "頴川庸徳"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1753,
    "death": 1811,
    "living": false,
@@ -20496,9 +21511,14 @@
     "en": "Mokuhaku Okuda",
     "aliases": [
      "木々斉",
-     "五行庵"
+     "五行庵",
+     "木白"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1800,
    "death": 1871,
    "living": false,
@@ -20552,6 +21572,9 @@
     "en": "Jissei Omine",
     "aliases": []
    },
+   "user_terms": [
+    "琉球焼の陶芸家"
+   ],
    "birth": 1933,
    "death": null,
    "living": true,
@@ -20605,6 +21628,10 @@
     "en": "Mitsuhiko Omori",
     "aliases": []
    },
+   "user_terms": [
+    "陶芸の啓蒙書を著した陶芸家",
+    "東陶会を興した陶芸家"
+   ],
    "birth": 1892,
    "death": 1954,
    "living": false,
@@ -20653,6 +21680,9 @@
      "大野準一"
     ]
    },
+   "user_terms": [
+    "楽焼の作家"
+   ],
    "birth": 1885,
    "death": 1951,
    "living": false,
@@ -20706,6 +21736,9 @@
     "en": "Kihachiro Onomae",
     "aliases": []
    },
+   "user_terms": [
+    "薩摩焼の陶芸家"
+   ],
    "birth": 1938,
    "death": null,
    "living": true,
@@ -20759,6 +21792,10 @@
     "en": "Tatsuya Orita",
     "aliases": []
    },
+   "user_terms": [
+    "白磁の器の陶芸家",
+    "瀧田項一に師事した陶芸家"
+   ],
    "birth": 1964,
    "death": null,
    "living": true,
@@ -20811,6 +21848,9 @@
     "en": "Masayoshi Oshio",
     "aliases": []
    },
+   "user_terms": [
+    "赤膚焼の陶芸家"
+   ],
    "birth": 1933,
    "death": 2022,
    "living": false,
@@ -20869,6 +21909,10 @@
     "en": "Tetsuzo Ota",
     "aliases": []
    },
+   "user_terms": [
+    "小石原焼の陶芸家",
+    "飛びカンナの作家"
+   ],
    "birth": 1950,
    "death": null,
    "living": true,
@@ -20929,6 +21973,10 @@
      "誠"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "彫文の作家"
+   ],
    "birth": 1791,
    "death": 1875,
    "living": false,
@@ -20982,6 +22030,10 @@
     "en": "Kazuhiro Otsuka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "黒釉の作家"
+   ],
    "birth": 1966,
    "death": null,
    "living": true,
@@ -21035,6 +22087,9 @@
     "en": "Keisaburo Otsuka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1828,
    "death": 1876,
    "living": false,
@@ -21089,6 +22144,9 @@
     "en": "Masayoshi Otsuka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1976,
    "death": null,
    "living": true,
@@ -21137,6 +22195,9 @@
     "en": "Shigeo Otsuka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1948,
    "death": 2020,
    "living": false,
@@ -21188,6 +22249,9 @@
     "en": "Ryujiro Oyabu",
     "aliases": []
    },
+   "user_terms": [
+    "野焼の陶芸家"
+   ],
    "birth": 1971,
    "death": null,
    "living": true,
@@ -21241,6 +22305,10 @@
      "常慶"
     ]
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": null,
    "death": 1635,
    "living": false,
@@ -21308,6 +22376,10 @@
      "吉兵衛"
     ]
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1599,
    "death": 1656,
    "living": false,
@@ -21372,6 +22444,10 @@
      "髙橋仙蔵"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": null,
    "death": 1871,
    "living": false,
@@ -21428,6 +22504,10 @@
     "en": "Takafumi Saigo",
     "aliases": []
    },
+   "user_terms": [
+    "薩摩焼の陶芸家",
+    "鉄釉の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1947,
@@ -21488,6 +22568,9 @@
     "reading": "さかもと げんべえ",
     "aliases": []
    },
+   "user_terms": [
+    "砥部焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": null,
@@ -21543,6 +22626,10 @@
      "坂田泥珠"
     ]
    },
+   "user_terms": [
+    "萩焼の陶芸家",
+    "白萩釉の作家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1915,
@@ -21612,6 +22699,9 @@
     "en": "Fujiya Sakuma",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1963,
@@ -21676,6 +22766,9 @@
     "en": "Kenji Sakuma",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1936,
@@ -21734,6 +22827,9 @@
     "en": "Totaro Sakuma",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1900,
@@ -21791,6 +22887,9 @@
     "en": "Isshin Sakura",
     "aliases": []
    },
+   "user_terms": [
+    "茶に救われた体験から陶芸を始めた人"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1980,
@@ -21834,6 +22933,10 @@
     "en": "Hiroaki Sasaki",
     "aliases": []
    },
+   "user_terms": [
+    "飯能焼の陶芸家",
+    "天目釉の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1956,
@@ -21889,6 +22992,9 @@
     "en": "Katsuhiko Sato",
     "aliases": []
    },
+   "user_terms": [
+    "書画で知られる陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1940,
@@ -21940,6 +23046,9 @@
     "en": "Mitsuo Sato",
     "aliases": []
    },
+   "user_terms": [
+    "灰釉の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1950,
@@ -21994,6 +23103,9 @@
     "en": "Norikatsu Sato",
     "aliases": []
    },
+   "user_terms": [
+    "「縒」シリーズの陶芸家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1974,
@@ -22043,6 +23155,9 @@
     "en": "Takashi Sato",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1976,
@@ -22098,9 +23213,14 @@
     "reading": "さわだ ちとうじん",
     "en": "Chitojin Sawada",
     "aliases": [
-     "澤田米三"
+     "澤田米三",
+     "沢田痴陶人"
     ]
    },
+   "user_terms": [
+    "伊万里焼の陶芸家",
+    "上絵付けの作家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1902,
@@ -22162,6 +23282,9 @@
     "reading": "せのうえ りんえもん よしあき",
     "aliases": []
    },
+   "user_terms": [
+    "小代焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": null,
@@ -22214,6 +23337,10 @@
     "en": "Yukio Shakunaga",
     "aliases": []
    },
+   "user_terms": [
+    "越中瀬戸焼の陶芸家",
+    "緑釉の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1954,
@@ -22277,6 +23404,11 @@
     "en": "Sokyu Shibata",
     "aliases": []
    },
+   "user_terms": [
+    "笠間焼の人間国宝",
+    "笠間焼の陶芸家",
+    "練上の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1949,
@@ -22335,6 +23467,10 @@
     "en": "Takemi Shima",
     "aliases": []
    },
+   "user_terms": [
+    "壺屋焼の陶芸家",
+    "焼締めの作家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1943,
@@ -22411,6 +23547,11 @@
     "en": "Kei Shimaoka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の人間国宝",
+    "益子焼の陶芸家",
+    "象嵌の作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1978,
@@ -22472,6 +23613,10 @@
     "en": "Ryuta Shimaoka",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の人間国宝",
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1952,
@@ -22536,6 +23681,10 @@
      "新開邦太郎"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "象嵌の作家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1912,
@@ -22600,6 +23749,9 @@
     "en": "Giichi Shinoda",
     "aliases": []
    },
+   "user_terms": [
+    "金彩の作家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1924,
@@ -22668,6 +23820,9 @@
     "en": "Takatsukasa Shinozaki",
     "aliases": []
    },
+   "user_terms": [
+    "陶製楽器「水留音」の制作者"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1951,
@@ -22719,6 +23874,9 @@
     "en": "Hanjuro Shiono",
     "aliases": []
    },
+   "user_terms": [
+    "縄文式野焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1898,
@@ -22774,6 +23932,10 @@
      "庄五郎"
     ]
    },
+   "user_terms": [
+    "イタリアでも活動する陶芸家",
+    "五郎窯の陶芸家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1966,
@@ -22826,6 +23988,9 @@
     "en": "Ari Sono",
     "aliases": []
    },
+   "user_terms": [
+    "公共建築の陶壁を作る作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1937,
@@ -22878,6 +24043,10 @@
     "en": "Sadamitsu Sugimoto",
     "aliases": []
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "焼締めの作家"
+   ],
    "layer": "extended",
    "living": true,
    "birth": 1935,
@@ -22941,6 +24110,9 @@
     "en": "Koji Susukida",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "layer": "extended",
    "living": false,
    "birth": 1945,
@@ -22999,6 +24171,10 @@
      "賀山"
     ]
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "青磁の作家"
+   ],
    "birth": 1851,
    "death": 1922,
    "living": false,
@@ -23063,6 +24239,9 @@
     "en": "Atsushi Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "彫刻家出身の陶芸家"
+   ],
    "birth": 1959,
    "death": null,
    "living": true,
@@ -23115,6 +24294,10 @@
     "en": "Hiroyumi Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家",
+    "粉引の作家"
+   ],
    "birth": 1981,
    "death": null,
    "living": true,
@@ -23173,6 +24356,10 @@
     "en": "Kiyoshi Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "鉄絵の作家"
+   ],
    "birth": 1903,
    "death": 1967,
    "living": false,
@@ -23230,6 +24417,9 @@
     "en": "Minoru Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1962,
    "death": null,
    "living": true,
@@ -23283,6 +24473,9 @@
     "en": "Osamu Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1926,
    "death": 2001,
    "living": false,
@@ -23347,6 +24540,9 @@
     "en": "Sansei Suzuki",
     "aliases": []
    },
+   "user_terms": [
+    "青磁の作家"
+   ],
    "birth": 1936,
    "death": null,
    "living": true,
@@ -23402,6 +24598,9 @@
     "en": "Shion Tabata",
     "aliases": []
    },
+   "user_terms": [
+    "色絵の作家"
+   ],
    "birth": 1947,
    "death": null,
    "living": true,
@@ -23461,6 +24660,9 @@
      "源次郎（本名）"
     ]
    },
+   "user_terms": [
+    "萩焼の陶芸家"
+   ],
    "birth": 1925,
    "death": 1991,
    "living": false,
@@ -23514,6 +24716,9 @@
      "立石大河亞"
     ]
    },
+   "user_terms": [
+    "ポップ・アートの先駆けとされる美術家"
+   ],
    "birth": 1941,
    "death": 1998,
    "living": false,
@@ -23562,6 +24767,9 @@
     "en": "Goroshichi Takahara",
     "aliases": []
    },
+   "user_terms": [
+    "高取焼の陶芸家"
+   ],
    "birth": null,
    "death": null,
    "living": false,
@@ -23613,6 +24821,9 @@
     "en": "Kazutomo Takahashi",
     "aliases": []
    },
+   "user_terms": [
+    "津軽焼の陶芸家"
+   ],
    "birth": 1904,
    "death": 1983,
    "living": false,
@@ -23670,6 +24881,9 @@
      "髙橋忠雄"
     ]
    },
+   "user_terms": [
+    "素材を横断する造形作家"
+   ],
    "birth": 1932,
    "death": 2012,
    "living": false,
@@ -23721,6 +24935,9 @@
     "en": "Sanpei Takata",
     "aliases": []
    },
+   "user_terms": [
+    "作品がフィラデルフィア美術館に収蔵されている陶芸家"
+   ],
    "birth": 1956,
    "death": null,
    "living": true,
@@ -23773,6 +24990,10 @@
     "en": "Shugo Takauchi",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "織部釉の作家"
+   ],
    "birth": 1937,
    "death": null,
    "living": true,
@@ -23831,6 +25052,10 @@
     "en": "Kazunori Takegoshi",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1956,
    "death": null,
    "living": true,
@@ -23884,6 +25109,9 @@
     "en": "Toshiaki Takegoshi",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家"
+   ],
    "birth": 1940,
    "death": 2021,
    "living": false,
@@ -23946,6 +25174,10 @@
     "en": "Ginshu Takenouchi",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1831,
    "death": 1913,
    "living": false,
@@ -24007,6 +25239,9 @@
     "en": "Shikamaru Takeshita",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1977,
    "death": null,
    "living": true,
@@ -24066,6 +25301,9 @@
     "en": "Takaya Takeshita",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1941,
    "death": null,
    "living": true,
@@ -24125,6 +25363,9 @@
     "en": "Kazuo Taki",
     "aliases": []
    },
+   "user_terms": [
+    "緑釉の作家"
+   ],
    "birth": 1910,
    "death": 1971,
    "living": false,
@@ -24175,6 +25416,11 @@
     "en": "Kiheiji Takiguchi",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の人間国宝",
+    "美濃焼の陶芸家",
+    "織部釉の作家"
+   ],
    "birth": 1937,
    "death": null,
    "living": true,
@@ -24237,6 +25483,10 @@
     "en": "Yoshiji Takii",
     "aliases": []
    },
+   "user_terms": [
+    "清水六兵衛に師事した陶芸家",
+    "白磁の陶芸家"
+   ],
    "birth": 1914,
    "death": 2011,
    "living": false,
@@ -24293,6 +25543,9 @@
     "en": "Yoshihiro Takino",
     "aliases": []
    },
+   "user_terms": [
+    "大谷焼の陶芸家"
+   ],
    "birth": 1965,
    "death": null,
    "living": true,
@@ -24347,6 +25600,9 @@
     "en": "Koichi Takita",
     "aliases": []
    },
+   "user_terms": [
+    "沖縄県立芸術大学教授を務めた陶芸家"
+   ],
    "birth": 1927,
    "death": 2022,
    "living": false,
@@ -24401,6 +25657,9 @@
     "en": "Eiichiro Tamura",
     "aliases": []
    },
+   "user_terms": [
+    "大谷焼の陶芸家"
+   ],
    "birth": 1979,
    "death": null,
    "living": true,
@@ -24454,6 +25713,10 @@
     "en": "Sokei Tanaka",
     "aliases": []
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1535,
    "death": 1595,
    "living": false,
@@ -24518,6 +25781,9 @@
      "寺元進（本名）"
     ]
    },
+   "user_terms": [
+    "粉引の作家"
+   ],
    "birth": 1951,
    "death": 2020,
    "living": false,
@@ -24570,6 +25836,9 @@
     "reading": "てらいけ しずと",
     "aliases": []
    },
+   "user_terms": [
+    "清水焼の陶芸家"
+   ],
    "birth": 1933,
    "death": null,
    "living": true,
@@ -24625,6 +25894,10 @@
     "en": "Hiroshi Teshigahara",
     "aliases": []
    },
+   "user_terms": [
+    "いけばな草月流家元の陶芸家",
+    "映画監督としても知られる陶芸家"
+   ],
    "birth": 1927,
    "death": 2001,
    "living": false,
@@ -24686,6 +25959,9 @@
     "reading": "とうどう たかなお",
     "aliases": []
    },
+   "user_terms": [
+    "茶盌を専門とする建築家の陶芸家"
+   ],
    "birth": 1983,
    "death": null,
    "living": true,
@@ -24738,6 +26014,9 @@
      "朴寿勝（本名）"
     ]
    },
+   "user_terms": [
+    "薩摩焼の陶芸家"
+   ],
    "birth": 1855,
    "death": 1936,
    "living": false,
@@ -24788,6 +26067,9 @@
     "en": "Tsuboi Asuka",
     "aliases": []
    },
+   "user_terms": [
+    "釉彩の作家"
+   ],
    "birth": 1932,
    "death": 2022,
    "living": false,
@@ -24855,6 +26137,10 @@
     "en": "Tomoko Tsuda",
     "aliases": []
    },
+   "user_terms": [
+    "楽焼の陶芸家",
+    "楽焼の作家"
+   ],
    "birth": 1975,
    "death": null,
    "living": true,
@@ -24910,6 +26196,9 @@
      "辻貞男（本名）"
     ]
    },
+   "user_terms": [
+    "有田焼の陶芸家"
+   ],
    "birth": 1911,
    "death": 1983,
    "living": false,
@@ -24969,6 +26258,9 @@
      "辻協子（本名）"
     ]
    },
+   "user_terms": [
+    "粉引の作家"
+   ],
    "birth": 1930,
    "death": 2008,
    "living": false,
@@ -25034,6 +26326,10 @@
      "辻清春（本名の読み：つじ きよはる）"
     ]
    },
+   "user_terms": [
+    "信楽焼の陶芸家",
+    "焼締めの作家"
+   ],
    "birth": 1927,
    "death": 2008,
    "living": false,
@@ -25114,6 +26410,10 @@
     "en": "Teruko Tsuji",
     "aliases": []
    },
+   "user_terms": [
+    "女性陶芸家の草分けとされる人",
+    "「彩陶」の陶芸家"
+   ],
    "birth": 1920,
    "death": 2017,
    "living": false,
@@ -25181,6 +26481,10 @@
     "en": "Toshihiko Tsuji",
     "aliases": []
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "彫文の作家"
+   ],
    "birth": 1965,
    "death": null,
    "living": true,
@@ -25252,6 +26556,10 @@
      "辻常喜（本名）"
     ]
    },
+   "user_terms": [
+    "有田焼の陶芸家",
+    "染付の作家"
+   ],
    "birth": 1909,
    "death": 2007,
    "living": false,
@@ -25305,6 +26613,10 @@
     "reading": "つきがた なひこ",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家",
+    "志野釉の作家"
+   ],
    "birth": 1923,
    "death": 2006,
    "living": false,
@@ -25365,6 +26677,9 @@
     "reading": "つねおか みつおき",
     "aliases": []
    },
+   "user_terms": [
+    "伊賀焼の陶芸家"
+   ],
    "birth": 1939,
    "death": null,
    "living": true,
@@ -25418,6 +26733,9 @@
     "en": "Koichi Uchida",
     "aliases": []
    },
+   "user_terms": [
+    "四日市萬古焼の陶芸家"
+   ],
    "birth": 1969,
    "death": null,
    "living": true,
@@ -25477,6 +26795,9 @@
     "reading": "うえだ まさなり",
     "aliases": []
    },
+   "user_terms": [
+    "前衛陶芸の作家"
+   ],
    "birth": 1972,
    "death": null,
    "living": true,
@@ -25528,6 +26849,10 @@
     "en": "Ueda Tsuneji",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家",
+    "練上の作家"
+   ],
    "birth": 1914,
    "death": 1987,
    "living": false,
@@ -25603,6 +26928,9 @@
     "reading": "うえむら たくま",
     "aliases": []
    },
+   "user_terms": [
+    "舞台俳優の陶芸家"
+   ],
    "birth": 1978,
    "death": null,
    "living": true,
@@ -25653,6 +26981,9 @@
     "reading": "うえむら ようどう",
     "aliases": []
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1947,
    "death": null,
    "living": true,
@@ -25705,6 +27036,9 @@
     "reading": "うえの つよし",
     "aliases": []
    },
+   "user_terms": [
+    "灰釉の作家"
+   ],
    "birth": 1969,
    "death": null,
    "living": true,
@@ -25756,8 +27090,13 @@
    "names": {
     "ja": "梅澤幸子",
     "reading": "うめざわ さちこ",
-    "aliases": []
+    "aliases": [
+     "梅沢幸子"
+    ]
    },
+   "user_terms": [
+    "練上の作家"
+   ],
    "birth": 1972,
    "death": null,
    "living": true,
@@ -25819,6 +27158,10 @@
     "reading": "わだ もりひろ",
     "aliases": []
    },
+   "user_terms": [
+    "笠間焼の陶芸家",
+    "練上の作家"
+   ],
    "birth": 1944,
    "death": 2008,
    "living": false,
@@ -25881,6 +27224,9 @@
     "reading": "わだ やすお",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家"
+   ],
    "birth": 1942,
    "death": 2018,
    "living": false,
@@ -25940,6 +27286,10 @@
      "鵜野直美（出生名）"
     ]
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "練込の作家"
+   ],
    "birth": 1948,
    "death": 2011,
    "living": false,
@@ -25994,6 +27344,9 @@
     "reading": "わきた むねたか",
     "aliases": []
    },
+   "user_terms": [
+    "古代陶芸の復元で知られる陶芸家"
+   ],
    "birth": 1942,
    "death": null,
    "living": true,
@@ -26044,6 +27397,10 @@
     "reading": "わくい かよこ",
     "aliases": []
    },
+   "user_terms": [
+    "新庄東山焼の陶芸家",
+    "鉄釉の作家"
+   ],
    "birth": 1956,
    "death": null,
    "living": true,
@@ -26112,6 +27469,9 @@
      "山田英里子"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1978,
    "death": null,
    "living": true,
@@ -26166,6 +27526,10 @@
     "en": "Kazuo Yagi",
     "aliases": []
    },
+   "user_terms": [
+    "走泥社を結成した陶芸家",
+    "オブジェ焼を開拓した陶芸家"
+   ],
    "birth": 1918,
    "death": 1979,
    "living": false,
@@ -26227,6 +27591,9 @@
     "en": "Taichi Yakuoji",
     "aliases": []
    },
+   "user_terms": [
+    "焼締めの作家"
+   ],
    "birth": 1975,
    "death": null,
    "living": true,
@@ -26291,6 +27658,10 @@
     "en": "Kazu Yamada",
     "aliases": []
    },
+   "user_terms": [
+    "越前焼の陶芸家",
+    "志野釉の作家"
+   ],
    "birth": 1954,
    "death": null,
    "living": true,
@@ -26356,6 +27727,10 @@
     "en": "Seiji Yamada",
     "aliases": []
    },
+   "user_terms": [
+    "美濃焼の陶芸家",
+    "志野釉の作家"
+   ],
    "birth": 1932,
    "death": 2013,
    "living": false,
@@ -26414,6 +27789,9 @@
      "山田徹秀"
     ]
    },
+   "user_terms": [
+    "京焼の陶芸家"
+   ],
    "birth": 1898,
    "death": 1971,
    "living": false,
@@ -26469,6 +27847,10 @@
     "en": "Taisei Yamagishi",
     "aliases": []
    },
+   "user_terms": [
+    "九谷焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1956,
    "death": null,
    "living": true,
@@ -26525,6 +27907,9 @@
     "en": "Michie Yamaguchi",
     "aliases": []
    },
+   "user_terms": [
+    "京都造形芸術大学で教えた陶芸家"
+   ],
    "birth": 1950,
    "death": 2008,
    "living": false,
@@ -26619,6 +28004,9 @@
     "en": "Chuzaemon Yamanaka",
     "aliases": []
    },
+   "user_terms": [
+    "四日市萬古焼の陶芸家"
+   ],
    "birth": 1821,
    "death": 1878,
    "living": false,
@@ -26673,6 +28061,9 @@
      "初代山岡徹山"
     ]
    },
+   "user_terms": [
+    "上野焼の陶芸家"
+   ],
    "birth": null,
    "death": 1982,
    "living": false,
@@ -26739,6 +28130,9 @@
      "二代山岡徹山"
     ]
    },
+   "user_terms": [
+    "上野焼の陶芸家"
+   ],
    "birth": 1933,
    "death": 2009,
    "living": false,
@@ -26804,6 +28198,9 @@
      "三代山岡徹山"
     ]
    },
+   "user_terms": [
+    "上野焼の陶芸家"
+   ],
    "birth": 1959,
    "death": null,
    "living": true,
@@ -26866,6 +28263,10 @@
     "en": "Yasuo Yamato",
     "aliases": []
    },
+   "user_terms": [
+    "萩焼の人間国宝",
+    "萩焼の陶芸家"
+   ],
    "birth": 1933,
    "death": null,
    "living": true,
@@ -26929,6 +28330,9 @@
      "喜明"
     ]
    },
+   "user_terms": [
+    "透かし彫りの作家"
+   ],
    "birth": 1906,
    "death": 1980,
    "living": false,
@@ -26997,6 +28401,9 @@
     "en": "Chotai Yonaha",
     "aliases": []
    },
+   "user_terms": [
+    "絵画で知られる沖縄の美術家"
+   ],
    "birth": 1933,
    "death": 2008,
    "living": false,
@@ -27048,6 +28455,9 @@
     "en": "Masakazu Yoshida",
     "aliases": []
    },
+   "user_terms": [
+    "朝日焼の陶芸家"
+   ],
    "birth": 1973,
    "death": null,
    "living": true,
@@ -27100,6 +28510,9 @@
      "吉賀將夫"
     ]
    },
+   "user_terms": [
+    "萩焼の陶芸家"
+   ],
    "birth": 1943,
    "death": null,
    "living": true,
@@ -27164,6 +28577,10 @@
     "en": "Mizuki Yoshikawa",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "色絵の作家"
+   ],
    "birth": 1941,
    "death": 2017,
    "living": false,
@@ -27237,6 +28654,10 @@
     "en": "Motomi Yoshikawa",
     "aliases": []
    },
+   "user_terms": [
+    "益子焼の陶芸家",
+    "化粧掛けの作家"
+   ],
    "birth": 1947,
    "death": null,
    "living": true,
@@ -27298,6 +28719,9 @@
     "en": "Mieko Yuki",
     "aliases": []
    },
+   "user_terms": [
+    "陶人形の作家"
+   ],
    "birth": 1943,
    "death": null,
    "living": true,
